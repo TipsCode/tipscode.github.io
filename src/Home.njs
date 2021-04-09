@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
 //import './Home.scss';
 
-import Navigation from './components/menu/Navigation'
+import Header from './components/header/Header'
 //import "tailwindcss/tailwind.css"
 //import Logo from 'nullstack/logo';
 
@@ -28,7 +28,7 @@ class Home extends Nullstack {
 
   render({ project }) {
     return (   
-      <Navigation />
+      <Header />
     )
   }
 
