@@ -18,8 +18,6 @@ class Application extends Nullstack {
     return (
       <head>
         <link 
-          href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet" />
-        <link 
           href="https://fonts.gstatic.com" rel="preconnect" />
         <link 
           href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
