@@ -73,8 +73,9 @@ class Application extends Nullstack {
     return (
       <head>
         <link href="https://fonts.gstatic.com" rel="preconnect" />
+        
         <link
-          href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
           rel="stylesheet"
         />
       </head>
