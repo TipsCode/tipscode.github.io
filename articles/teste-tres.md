@@ -1,8 +1,8 @@
 ---
-title: Vínculo Bidirecional
+title: Artigo Tres
 description: O atributo bind reduz drasticamente a quantidade de "glue code" que você precisa digitar em sua aplicação.
 readingTime: 3 minutos
-createdAt: "2021-04-10T18:31:34.117Z"
+createdAt: "2021-04-10T20:31:34.117Z"
 ---
 
 Grandes pedaços de código em uma `Progressive Web Application (PWA)` são dedicados a reagir as entradas do usuário.

@@ -56,11 +56,12 @@ class Application extends Nullstack {
     context.articles = articles.map((name) => {
       const markdown = readFileSync(`articles/${name}`, 'utf-8');
       const [slug] = name.split('.')
+      const content = md.render(markdown);
       const { createdAt, ...meta} = md.meta;
       const date = new Date(createdAt);
       return {
         slug,
-        content: md.render(markdown),
+        content,
         date,
         ...meta
       }
