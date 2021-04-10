@@ -19,7 +19,7 @@ class Articles extends Nullstack {
 
   render() {
     return (
-      <div>
+      <div class="container mx-auto px-4">
         <h1> {this.title} </h1>
         <article html={this.content} />
       </div>

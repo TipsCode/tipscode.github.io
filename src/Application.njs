@@ -1,4 +1,4 @@
-//import './Application.scss';
+import './Application.scss';
 import Nullstack from "nullstack";
 import Menu from "./layout/Menu";
 import Footer from "./layout/Footer";
@@ -11,6 +11,7 @@ import {Remarkable} from 'remarkable';
 import meta from 'remarkable-meta';
 
 class Application extends Nullstack {
+
   static async start(context) {
     await this.startProject(context);
     await this.startArticles(context);
@@ -93,6 +94,7 @@ class Application extends Nullstack {
       </main>
     );
   }
+  
 }
 
 export default Application;
