@@ -12,7 +12,9 @@
     "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
   },
   "dependencies": {
+    "prismjs": "^1.23.0",
     "remarkable": "^2.0.1",
+    "remarkable-meta": "^1.0.1",
     "tailwindcss": "^2.1.1"
   }
 }

@@ -1,7 +1,9 @@
 import Nullstack from "nullstack";
 import Hero from "./Hero";
+import Articles from "./Articles";
 
 class Home extends Nullstack {
+  
   prepare({ project, page }) {
     page.title = `${project.name} - Nulla-chan te dá as boas vindas!`;
     page.description = `${project.name} foi feito com Nullstack`;
@@ -18,8 +20,14 @@ class Home extends Nullstack {
   }
 
   render() {
-    return <Hero />;
+    return (
+      <div>
+        <Hero />
+        <Articles />
+      </div>
+    )
   }
+
 }
 
 export default Home;

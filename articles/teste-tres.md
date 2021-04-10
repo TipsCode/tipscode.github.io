@@ -1,7 +1,7 @@
 ---
 title: Vínculo Bidirecional
 description: O atributo bind reduz drasticamente a quantidade de "glue code" que você precisa digitar em sua aplicação.
-readingTime: 1 minutos
+readingTime: 3 minutos
 createdAt: "2021-04-10T18:31:34.117Z"
 ---
 

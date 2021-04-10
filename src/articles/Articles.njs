@@ -1,34 +1,28 @@
 import Nullstack from "nullstack";
-import { readFileSync, existsSync } from "fs";
-import { Remarkable } from "remarkable";
-
+import ArticleGrid from '../layout/ArticleGrid';
 class Articles extends Nullstack {
-  static async getArticleContent({ slug }) {
-    const path = `articles/${slug}.md`;
-    if (existsSync(path)) {
-      const markdown = readFileSync(path, "utf-8");
-      const md = new Remarkable();
-      return md.render(markdown);
-    } else {
-      return "";
-    }
+
+  static async getArticlesList({ articles, page }) {
+    const perPage = 20;
+    const start = (page -1) * perPage;
+    const end = start + perPage
+    return articles.slice(start, end);
   }
 
-  async initiate({ page, params }) {
-    this.content = await this.getArticleContent({ slug: params.slug });
-    if (!this.content) {
-      page.status = 404;
-    }
+  async initiate({ params }) {
+    this.articles = await this.getArticlesList({
+      page: params.page || 1
+    });
   }
 
-  render({ params }) {
+  render() {
     return (
       <div>
-        Articles: {params.slug}
-        <article html={this.content} />
+        <ArticleGrid articles={this.articles} />
       </div>
     );
   }
+  
 }
 
 export default Articles;
