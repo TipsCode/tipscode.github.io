@@ -31,31 +31,19 @@ class Application extends Nullstack {
         return result;
       };
     });
-    md.use((md) => {
-      md.renderer.rules.heading_open = function (tokens, i) {
-        const {content} = tokens[i+1];
-        const {hLevel} = tokens[i];
-        const id = content.toLowerCase().split(/[^a-z]/).join('-');
-        return `<h${hLevel} id="${id}"><a href="#${id}">`;
-      }
-      md.renderer.rules.heading_close = function (tokens, i) {
-        const {hLevel} = tokens[i];
-        return `</a></h${hLevel}>`;
-      }
-    });
     context.articles = articles.map((name) => {
       const markdown = readFileSync(`articles/${name}`, 'utf-8');
       const [slug] = name.split('.')
       const content = md.render(markdown);
-      const { createdAt, ...meta} = md.meta;
-      const date = new Date(createdAt);
+      const { date, ...meta} = md.meta;
+      const createdAt = new Date(date);
       return {
         slug,
         content,
         date,
         ...meta
       }
-    }).sort((a, b) => b.date - a.date)
+    }).sort((a, b) => b.createdAt - a.createdAt)
   }
 
   prepare({ page }) {

@@ -1,7 +1,7 @@
 import Nullstack from "nullstack";
 import ArticleGrid from '../layout/ArticleGrid';
 
-const ARTICLES_PER_PAGE = 2
+const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
 
   page({ params }) {
