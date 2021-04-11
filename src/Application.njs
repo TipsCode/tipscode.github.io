@@ -13,17 +13,6 @@ import meta from 'remarkable-meta';
 class Application extends Nullstack {
 
   static async start(context) {
-    await this.startProject(context);
-    await this.startArticles(context);
-  }
-
-  static async startProject({ project }) {
-    project.name = "Tipscode Blog";
-    project.domain = "localhost";
-    project.color = "#D22365";
-  }
-
-  static async startArticles(context) {
     await import('prismjs/components/prism-jsx.min');
     const articles = readdirSync('articles');
     const md = new Remarkable({
@@ -67,6 +56,10 @@ class Application extends Nullstack {
         ...meta
       }
     }).sort((a, b) => b.date - a.date)
+  }
+
+  prepare({ page }) {
+    page.locale = "pt-BR";
   }
 
   renderHead() {
