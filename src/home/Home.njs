@@ -2,6 +2,8 @@ import Nullstack from "nullstack";
 import Hero from "./Hero";
 import Articles from "./Articles";
 
+import Categories from './Categories'
+
 class Home extends Nullstack {
   
   prepare({ project, page }) {
@@ -23,6 +25,7 @@ class Home extends Nullstack {
     return (
       <div>
         <Hero />
+        <Categories />
         <Articles />
       </div>
     )
