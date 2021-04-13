@@ -9,9 +9,13 @@
   },
   "scripts": {
     "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
-    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
+    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production",
+    "tailwind": "npx tailwindcss-cli build -o src/tailwind.css",
+    "ssg": "npx create-nullstatic-app docs"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "poisonicon": "^0.1.2",
     "prismjs": "^1.23.0",
     "remarkable": "^2.0.1",
     "remarkable-meta": "^1.0.1",

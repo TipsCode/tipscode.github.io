@@ -1,4 +1,4 @@
-import "tailwindcss/dist/tailwind.css"
+import "./src/tailwind.css"
 import Nullstack from 'nullstack';
 import Application from './src/Application';
 

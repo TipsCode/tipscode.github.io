@@ -1,56 +1,68 @@
 import Nullstack from "nullstack";
+import Bars from "poisonicon/bars/stroke";
+import Ex from "poisonicon/ex/stroke";
 
 class Navigation extends Nullstack {
-  renderLink({ children, href, router }) {
-    const active = router.url === href;
+
+  expanded = false;
+
+  renderLink({ children, href }) {
     return (
-      <li class={`${active ? "font-bold" : ""} md:ml-4`}>
-        <a
-          class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0"
-          href={href}
-        >
-          {children}
-        </a>
-      </li>
+      <a
+        href={href}
+        class="w-full sm:w-auto border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-green-600 items-center flex"
+      >
+        {children}
+      </a>
     );
   }
-
-  renderIdentity() {
-    return (
-      <div class="flex items-center justify-between mb-4 md:mb-0">
-        <a class="no-underline text-grey-darkest hover:text-black" href="#">
-          <figure>
-            <img src="/tipscode-logo-1.svg" />
-          </figure>
-        </a>
-
-        <a class="text-black hover:text-orange md:hidden" href="#">
-          <i class="fa fa-2x fa-bars"></i>
-        </a>
-      </div>
-    );
-  }
-
+  
   render() {
     return (
       <>
-        <div class="fixed w-full top-0 left-0 p-4 pb-0 shadow-lg md:pb-4 h-24 bg-white">
-          <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center">
-            <Identity />
-            <nav>
-              <ul class="list-reset md:flex md:items-center">
-                <Link href="/"> Home </Link>
-                <Link href="/artigos"> Blog </Link>
-                <Link href="/sobre"> Sobre </Link>
-                <Link href="/contato"> Contato </Link>
-                <Link href="/ebook"> E-book </Link>
-              </ul>
+        <header class="fixed w-full bg-white shadow top-0 left-0">
+          <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center flex-wrap py-4">
+            <div class="w-full sm:w-auto justify-between sm:justify-self-start sm:px-0 items-center flex">
+              <a href="/">
+                <img src="/tipscode-logo-1.svg" alt="TipsCode" />
+              </a>
+              <span
+                onclick={{ expanded: !this.expanded }}
+                class="flex items-center sm:hidden"
+              >
+                <element
+                  tag={this.expanded ? Ex : Bars}
+                  height={20}
+                  class="text-gray-900"
+                />
+              </span>
+            </div>
+            <nav
+              class={`flex items-center flex-wrap sm:px-0 mt-2 sm:mt-0 ${
+                !this.expanded && "hidden sm:flex"
+              }`}
+            >
+              <Link href="/"> Home </Link>
+              <Link href="/artigos"> Blog </Link>
+              <Link href="/sobre"> Sobre </Link>
+              <Link href="/contato"> Contato </Link>
+              <Link href="/ebook"> E-book </Link>
             </nav>
-            <a href="/curso" class="button-color p-4 rounded-lg bg-green-300">
-              FullStack Turbo
-            </a>
+            <div
+              class={`flex w-full sm:w-auto mt-4 sm:mt-0 ${
+                !this.expanded && "hidden sm:flex"
+              }`}
+            >
+              <a
+                href="/curso"
+                onclick={{ expanded: false }}
+                class="bg-green-600 text-white px-4 py-2 border border-green-600 hover:bg-white hover:text-green-600 w-full sm:w-auto"
+              >
+                Full-Stack Turbo
+              </a>
+            </div>
           </div>
-        </div>
+        </header>
         <div class="h-24"></div>
       </>
     );
