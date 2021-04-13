@@ -14,7 +14,7 @@ function ArticleCard({ title, readingTime, slug }) {
 
 export default function ArticleGrid({ articles }) {
   return (
-    <div class="grid sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <div class="grid sm:grid-cols-3 md:grid-cols-3 gap-4">
       {articles?.map((article) => <ArticleCard {...article} />)}
     </div>
   )

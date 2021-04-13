@@ -41,9 +41,6 @@ class Categories extends Nullstack {
                     </ul>
                 </div>
             </div>
-
-
-
         </section>
     )
   }

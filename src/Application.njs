@@ -65,7 +65,7 @@ class Application extends Nullstack {
 
   render() {
     return (
-      <main>
+      <main class="bg-blue-50">
         <Head />
         <Menu />
         <Home route="/" />
