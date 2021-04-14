@@ -5,6 +5,9 @@ import Footer from "./layout/Footer";
 import Home from "./home/Home";
 import Articles from "./articles/Articles";
 import Article from "./article/Article";
+
+import Course from './course/Course';
+
 import { readdirSync, readFileSync } from 'fs';
 import prismjs from 'prismjs';
 import {Remarkable} from 'remarkable';
@@ -63,14 +66,15 @@ class Application extends Nullstack {
     );
   }
 
-  render() {
+  render({ router }) {
     return (
       <main class="bg-blue-50">
         <Head />
-        <Menu />
+        {router .path !== "/curso" && <Menu />} 
         <Home route="/" />
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
+        <Course route="/curso" />
         <Article route="/:slug" />
         <Footer />
       </main>
