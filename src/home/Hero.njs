@@ -24,7 +24,7 @@ class Header extends Nullstack {
         </div>
 
         <figure class="flex justify-end">
-          <img src="/hero.svg" />
+          <img src="/img-hero-blue.png" />
         </figure>
       </section>
     );

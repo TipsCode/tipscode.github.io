@@ -1,6 +1,9 @@
 function ArticleCard({ title, readingTime, slug }) {
   return (
     <div class="bg-white shadow rounded">
+      <figure>
+        <img class="w-full" src="/img-blog.png" />
+      </figure>
       <div class="p-4">
         <h3 class="text-gray-800 font-bold text-3xl"> {title} </h3>
         <div class="flex justify-between items-center">
