@@ -14,9 +14,9 @@ class Mais extends Nullstack {
                         <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 relative ">
                             
                             <div
-                                class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4 z-50">
+                                class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-indigo-300 bg-opacity-50 mt-4 z-50">
                                 <div
-                                    class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden px-4">
+                                    class="flex-1 bg-indigo-200 bg-opacity-25 text-white rounded-t rounded-b-none overflow-hidden px-4">
 
                                     <div class="w-full">
                                         <img class="mx-auto" src="./Webpack-bubble.svg"></img>
