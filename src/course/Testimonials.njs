@@ -45,7 +45,7 @@ class Testimonials extends Nullstack {
 
    render() {
     return (
-        <section class="py-32 bg-gray-800">
+        <section class="py-32 bg-tips-dark">
 
             <div class="container mx-auto">
 
@@ -112,7 +112,7 @@ class Testimonials extends Nullstack {
                                 
                     </Carousel>
 
-                    <Label backwards control="control-1" nameFor="carousel-3" />
+                    <Label backwards control="control-1" nameFor="carousel-2" />
                     <Label control="control-1" nameFor="carousel-2" />
 
                         <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
