@@ -5,27 +5,31 @@ class Header extends Nullstack {
     return (
       <section class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
         <div class="flex-col sm:justify-self-center sm:justify-self-end">
-          <h1 class="text-6xl text-blue-700 text-center sm:text-left">
-            Bem vindo á TipsCode  <br />
-            <span class="text-black text-4xl">A sua escola de <br /> programação online</span>
+          <h1 class="text-5xl text-tips-dark text-opacity-80 font-bold text-center sm:text-left mb-4">
+            Bem vindo à TipsCode 
           </h1>
+          <h2 class="text-tips-dark text-opacity-60 text-2xl font-semibold md:pr-52">Essa é a sua nova escola de programação online</h2>
 
-          <p class="mt-3 text-center sm:text-left">
-            Feliz o homem que acha sabedoria, e o homem que  <br /> adquire conhecimento:
-            porque melhor é o luco que ela dá do que a da prata,  <br />
-            e melhor a sua renda do que o ouro mais fino. <br />
-            <strong>Provérbios 3:13-14</strong>
-          </p>
-
+          
+          
           <div class="mt-5 text-center sm:text-left">
-            <a class="block sm:inline-block button-color p-4 rounded-lg bg-blue-400">Já sou aluno</a>
-            <a class="block sm:inline-block mt-2 sm:ml-2 button-color p-4 rounded-lg bg-green-300">
-              Quero ser FullStack
-            </a>
+            
+            <div class="block sm:inline-block pr-4">
+              <button
+                class="mx-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Já sou aluno
+              </button>
+            </div>
+            <div class="block sm:inline-block mt-2 sm:ml-2">
+              <button
+                class="mx-auto lg:mx-0 bg-white text-tips-blue font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Quero ser FullSatack
+              </button>
+            </div>
           </div>
         </div>
 
-        <figure class="flex-row mt-10 sm:flex justify-center sm:justify-end">
+        <figure class="flex-row mt-8 sm:flex justify-center sm:justify-end">
           <img src="/img-hero-blue.png" />
         </figure>
       </section>

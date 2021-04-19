@@ -4,6 +4,7 @@ import Articles from "./Articles";
 
 import Inspiration from './Inspiration'
 import Categories from './Categories'
+import Proverbios from './Proverbios'
 import Promotion from './Promotion'
 import Testimonials from './Testimonials'
 
@@ -31,6 +32,7 @@ class Home extends Nullstack {
         <Inspiration />
         <Categories />
         <Articles />
+        <Proverbios />
         <Promotion />
         <Testimonials />
       </div>

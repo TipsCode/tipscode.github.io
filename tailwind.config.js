@@ -2,6 +2,7 @@ module.exports = {
   purge: ["./src/**/*.njs"],
   darkMode: "class",
   theme: {
+
     extend: {
       backgroundImage: theme => ({
         'categories': "url('/bubble-bacground-radial.svg')"
@@ -12,7 +13,10 @@ module.exports = {
         'tips-blue': '#798FFE',
         'tips-green': '#6FD1C5',
         'tips-gray-dark': '#4E4C6A' 
-      }
+      },
+      fontFamily: {
+        'sans': ['Poppins'],
+      },
     },
   },
   variants: {

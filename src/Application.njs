@@ -59,7 +59,7 @@ class Application extends Nullstack {
         <link href="https://fonts.gstatic.com" rel="preconnect" />
         
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
@@ -68,7 +68,7 @@ class Application extends Nullstack {
 
   render({ router }) {
     return (
-      <main class="bg-blue-50">
+      <main class="bg-tips-light">
         <Head />
         {router .path !== "/curso" && <Menu />} 
         <Home route="/" />

@@ -10,7 +10,7 @@ class Navigation extends Nullstack {
     return (
       <a
         href={href}
-        class="w-full sm:w-auto border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-green-600 items-center flex"
+        class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
       >
         {children}
       </a>
@@ -20,7 +20,7 @@ class Navigation extends Nullstack {
   render() {
     return (
       <>
-        <header class="fixed w-full bg-white shadow top-0 left-0">
+        <header class="fixed w-full bg-tips-light top-0 left-0">
           <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center flex-wrap py-4">
             <div class="w-full sm:w-auto justify-between sm:justify-self-start sm:px-0 items-center flex">
               <a href="/">
@@ -33,7 +33,7 @@ class Navigation extends Nullstack {
                 <element
                   tag={this.expanded ? Ex : Bars}
                   height={20}
-                  class="text-gray-900"
+                  class="text-tips-gray-dark text-opacity-60"
                 />
               </span>
             </div>
@@ -56,7 +56,7 @@ class Navigation extends Nullstack {
               <a
                 href="/curso"
                 onclick={{ expanded: false }}
-                class="bg-green-600 text-white px-4 py-2 border border-green-600 hover:bg-white hover:text-green-600 w-full sm:w-auto"
+                class="bg-tips-blue text-white px-3 py-2 border border-tips-blue rounded hover:bg-white hover:text-tips-blue w-full sm:w-auto"
               >
                 Full-Stack Turbo
               </a>
