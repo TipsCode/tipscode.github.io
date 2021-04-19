@@ -13,7 +13,7 @@ class Course extends Nullstack {
   
   render() {
     return (
-      <div> 
+      <div class="bg-tips-dark"> 
         <Hero />
         <Initial />
         <WhatLearn />

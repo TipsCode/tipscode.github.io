@@ -3,7 +3,7 @@ import Nullstack from 'nullstack';
 class Hero extends Nullstack {
     render() {
         return (
-            <div class="leading-normal tracking-normal text-white gradient bg-purple-900">
+            <div class="leading-normal tracking-normal text-white gradient bg-tips-blue">
                 
                 <nav id="header" class="w-full z-30 top-0 text-white">
                     <div
@@ -38,7 +38,7 @@ class Hero extends Nullstack {
                             </ul>
                             <button
                                 id="navAction"
-                                class="mx-auto lg:mx-0 bg-green-400 text-white font-bold rounded-md mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                 Entrar
                             </button>
                         </div>
@@ -67,7 +67,7 @@ class Hero extends Nullstack {
                         </div>
                         <div class="flex  items-center w-full mx-auto justify-center">
                             <button
-                                class="mx-auto z-50 self-center lg:mx-0 bg-green-400 text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                class="mx-auto z-50 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                 Quero ser fullstack
                             </button>
                         </div>

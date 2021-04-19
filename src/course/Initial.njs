@@ -4,57 +4,53 @@ class Initial extends Nullstack {
     render() {
         return (
             <div>
-                <section class="bg-gray-800 py-12">
+                <section class="bg-tips-dark py-12">
                     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
                         <h2
-                            class="w-full my-2 text-4xl font-bold leading-tight text-center text-white">
-                            Mais do que um curso, uma experiência de aprendizado
+                            class="w-full my-2 text-4xl font-bold leading-tight text-center text-white mb-24">
+                            Mais do que um curso, uma experiência de <br /> aprendizado
                         </h2>
                         
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./play-circle.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Mais de 700 <br /> aulas
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./monitor.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Mais de 30 <br /> projetos
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./clock.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Mais de 120 <br /> horas
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./unlock.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Acesso <br /> vitalício
                                     </p>
                                 </div>
                             
@@ -63,49 +59,45 @@ class Initial extends Nullstack {
                     <div class="container mx-auto flex flex-wrap">
                         
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                            <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./navigation.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Suporte <br /> personalizado
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./star.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Mais de 20 <br /> tecnologias
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./zap.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Aulas 100% <br /> atualizadas
                                     </p>
                                 </div>
                             
                         </div>
                         <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
-                                <div class="flex-1 bg-gray-800 overflow-hidden">
-                                    <div class="w-full font-bold text-xl items-center px-6">
-                                        <img class="self-center" src="./clock.svg"></img>
+                                <div class="flex-1 overflow-hidden text-center">
+                                    <div class="w-full font-bold text-xl items-center px-6 mb-6">
+                                        <img class="mx-auto " src="./users.svg"></img>
                                     </div>
-                                    <p class="text-white text-base px-6 mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu
-                                        nunc commodo posuere et sit amet ligula.
+                                    <p class="text-white text-lg px-6 mb-5">
+                                        Uma incrpível <br /> comunidade
                                     </p>
                                 </div>
                             

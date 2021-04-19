@@ -4,10 +4,10 @@ import "./Faq.scss"
 class Faq extends Nullstack {
     render() {
         return (
-            <div class="bg-gray-800">
-                <div class="container">
+            <div class="bg-tips-dark">
+                <div class="container mx-auto">
                     <div class="w-full md:w-3/5 mx-auto p-8">
-                        <h1 class="text-center text-5xl font-bold text-white">Perguntas frequentes</h1>
+                        <h1 class="text-center text-5xl font-bold text-white my-16">Perguntas frequentes</h1>
                         <div class="shadow-md">
                             <div class="tab w-full overflow-hidden border-t">
                                 <input

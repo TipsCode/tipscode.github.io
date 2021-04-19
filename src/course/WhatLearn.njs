@@ -4,7 +4,7 @@ class WhatLearn extends Nullstack {
     render() {
         return (
             <div>
-                <section class="bg-gray-800 py-8">
+                <section class="bg-tips-dark py-8">
                     <div class="container max-w-5xl mx-auto m-8">
                         <h1
                             class="w-full my-24 text-5xl font-bold leading-tight text-center text-white ">
