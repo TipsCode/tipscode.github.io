@@ -4,18 +4,18 @@ class Inspiration extends Nullstack {
   render() {
     return (
       <section class="mt-5 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 sm:flex sm:items-center sm:justify-between">
-        <figure class="flex justify-start">
-          <img class="flex justify-start" src="/man-tipscode.png" />
+        <figure class="flex justify-start sm:justify-center">
+          <img src="/man-tipscode.png" />
         </figure>
 
-        <div class="text-center sm:text-left">
+        <div class="text-center justify-center sm:text-left sm:justify-end">
 			<h3 class="text-6xl text-blue-700 text-opacity-80 font-bold">
 				Programação <br /> muda vidas, <br /> veja nossos alunos
 			</h3>
 
 			<p class="mt-3">
 				Nosso conteúdo é planejado e organizado para que você,
-				tenha a melhor experiência de aprender a aprender.
+				tenha a melhor experiência de aprender a aprender
 			</p>
 
 			<div class="block sm:inline-block mt-2 sm:ml-2">
@@ -23,7 +23,7 @@ class Inspiration extends Nullstack {
 				{" "}
 				Conhece
 				</button>
-          </div>
+          	</div>
         </div>
       </section>
     );

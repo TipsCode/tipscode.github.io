@@ -20,7 +20,7 @@ class Navigation extends Nullstack {
   render() {
     return (
       <>
-        <header class="fixed w-full bg-tips-light top-0 left-0">
+        <header class="fixed w-full bg-white top-0 left-0">
           <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center flex-wrap py-4">
             <div class="w-full sm:w-auto justify-between sm:justify-self-start sm:px-0 items-center flex">
               <a href="/">

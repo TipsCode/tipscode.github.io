@@ -3,7 +3,7 @@ import Nullstack from 'nullstack';
 class Proverios extends Nullstack {
     render() {
         return (
-            <section class="justify-center mt-32">
+            <section class="justify-center mb-20">
                 <div class="container mx-auto max-w-screen-xl p-12 bg-white bg-opacity-60 rounded-lg shadow-md">
                     <div class="w-full">
                         <p class="mt-3 sm:text-left md:text-center text-xl text-tips-dark text-opacity-60 font-medium">

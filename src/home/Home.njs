@@ -29,10 +29,10 @@ class Home extends Nullstack {
     return (
       <div>
         <Hero />
+        <Proverbios />
         <Inspiration />
         <Categories />
         <Articles />
-        <Proverbios />
         <Promotion />
         <Testimonials />
       </div>
