@@ -8,10 +8,10 @@ class Header extends Nullstack {
           <h1 class="text-5xl text-tips-dark text-opacity-80 font-bold text-center sm:text-left mb-4">
             Bem vindo à TipsCode 
           </h1>
-          <h2 class="text-tips-dark text-opacity-60 text-2xl font-semibold md:pr-52">Essa é a sua nova escola de programação online</h2>
-
-          
-          
+          <h2 class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl font-semibold md:pr-52">
+            Essa é a sua nova escola de programação online
+          </h2>
+  
           <div class="mt-5 text-center sm:text-left">
             
             <div class="block sm:inline-block pr-4">
