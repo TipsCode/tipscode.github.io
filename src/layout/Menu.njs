@@ -6,11 +6,12 @@ class Navigation extends Nullstack {
 
   expanded = false;
 
+  
   renderLink({ children, href }) {
     return (
       <a
-        href={href}
-        class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
+      href={href}
+      class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
       >
         {children}
       </a>
