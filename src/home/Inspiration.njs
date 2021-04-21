@@ -3,7 +3,7 @@ import Nullstack from "nullstack";
 class Inspiration extends Nullstack {
   render() {
     return (
-      <section class="mt-5 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 sm:flex sm:items-center sm:justify-between">
+      <section class="mt-5 overflow-hidden sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 sm:flex sm:items-center sm:justify-between">
         <figure class="flex justify-start sm:justify-center">
           <img src="/man-tipscode.png" />
         </figure>
