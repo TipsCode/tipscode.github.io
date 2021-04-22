@@ -1,6 +1,6 @@
 import Nullstack from "nullstack";
 
-import YouTube from '../../icons/YouTube'
+import YouTube from '../../icons/Youtube'
 import Twitter from '../../icons/Twitter'
 
 class Footer extends Nullstack {

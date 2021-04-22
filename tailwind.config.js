@@ -5,7 +5,8 @@ module.exports = {
 
     extend: {
       backgroundImage: theme => ({
-        'categories': "url('/bubble-bacground-radial.svg')"
+        'categories': "url('/bubble-bacground-radial.svg')",
+        'gradient-radial': 'radial-gradient(#6FD1C5, #798FFE)'
       }), 
       colors: {
         'tips-dark': '#2B293F',

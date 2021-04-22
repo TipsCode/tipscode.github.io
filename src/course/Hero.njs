@@ -3,7 +3,7 @@ import Nullstack from 'nullstack';
 class Hero extends Nullstack {
     render() {
         return (
-            <div class="leading-normal tracking-normal text-white gradient bg-tips-blue">
+            <div class="leading-normal tracking-normal text-white bg-gradient-radial">
                 
                 <nav id="header" class="w-full z-30 top-0 text-white">
                     <div
