@@ -31,10 +31,10 @@ class Home extends Nullstack {
         <Hero />
         <Proverbios />
         <Inspiration />
-        <Categories />
         <Articles />
         <Promotion />
-        <Testimonials />
+        {/* <Testimonials /> */}
+        <Categories />
       </div>
     )
   }

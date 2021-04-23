@@ -12,7 +12,7 @@ class Footer extends Nullstack {
           title={title}
           target="_blank"
           rel="noopener"
-          class="text-pink-600 hover:text-white inline-block"
+          class="text-green-600 hover:text-white inline-block"
         >
           <Icon size={45} />
         </a>
