@@ -53,7 +53,7 @@ class Hero extends Nullstack {
                         <div
                             class="text-center px-3 lg:px-0">
                             
-                            <h1 class="my-3 text-6xl font-bold leading-tight">
+                            <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">
                                 FullSatack Turbo
                             </h1>
                             <p class="leading-normal sm:text-lg md:text-2xl mb-8">
