@@ -4,36 +4,36 @@ class Bonus extends Nullstack {
     render() {
         return (
             <div>
-                <section class="bg-tips-dark py-8 traking-wide">
+                <section class="bg-tips-dark md:py-8 traking-wide">
                     <div class="container max-w-5xl mx-auto m-8">
                         <h1
-                            class="w-full my-24 text-5xl font-bold leading-tight text-center text-white ">
+                            class="w-full md:my-24 text-2xl lg:text-5xl font-bold leading-tight text-center text-white ">
                             Mais 7 super bônus
                         </h1>
                         
-                        <div class="flex flex-wrap lg:flex-nowrap ">
-                            <div class="w-5/6 sm:w-1/2 p-6 mx-3">
+                        <div class="flex flex-wrap md:flex-nowrap text-center">
+                            <div class="w-full sm:w-1/2 p-6 mx-3">
                                 <span class="bg-tips-gray-dark bg-opacity-90 text-white p-2 px-4 rounded-full font-bold text-xl">1</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./Coding_Monochromatic-1.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl  text-gray-100 font-bold leading mb-8">
                                         Egenharia de software
                                     </h3>
-                                    <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
+                                    <p class="text-gray-200 mb-8 text-lg tracking-wide">
                                          Não basta só programar, é preciso saber o que está fazendo.
         
                                     </p>
                                 </div>
                             </div>
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                            <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">2</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./Coach_Monochromatic-1.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         Acompanhamento
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -45,14 +45,14 @@ class Bonus extends Nullstack {
 
                         </div>
                         
-                        <div class="flex flex-wrap lg:flex-nowrap pt-6">
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                        <div class="flex flex-wrap md:flex-nowrap pt-6">
+                            <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">3</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./Data_Arranging_Monochromatic-1.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         Estrutura de dados
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -61,13 +61,13 @@ class Bonus extends Nullstack {
                                     </p>
                                 </div>
                             </div>
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                            <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">4</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./Money-motivation_Monochromatic.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         Vendas
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -79,14 +79,14 @@ class Bonus extends Nullstack {
 
                         </div>
 
-                        <div class="flex flex-wrap lg:flex-nowrap pt-6">
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                        <div class="flex flex-wrap md:flex-nowrap pt-6">
+                            <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">5</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./coding-linux.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         Dominando Linux
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -95,13 +95,13 @@ class Bonus extends Nullstack {
                                     </p>
                                 </div>
                             </div>
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                            <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">4</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./webdesign-advanced.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         HTML e CSS Avançado
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -112,14 +112,14 @@ class Bonus extends Nullstack {
 
                         </div>
 
-                        <div class="flex flex-wrap lg:flex-nowrap pt-6">
-                            <div class="w-5/6 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
+                        <div class="flex flex-wrap md:flex-nowrap pt-6">
+                            <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
                                 <span class="font-bold text-2xl">3</span>
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     <div class="w-full p-6">
                                         <img class="mx-auto w-64" src="./dev-entrevistas.svg" alt="web design"></img>
                                     </div>
-                                    <h3 class="text-3xl text-center text-gray-100 font-bold leading-none mb-8">
+                                    <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
                                         Entrevistas com Devs
                                     </h3>
                                     <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
@@ -127,11 +127,11 @@ class Bonus extends Nullstack {
                                     </p>
                                 </div>
                             </div>
-                            <div class="w-5/6 sm:w-1/2 py-8">
+                            <div class="w-full sm:w-1/2 py-8 px-4 text-center justify-center md:text-left md:justify-start">
                                 
-                                <div class="p-14">
+                                <div class="lg:p-14">
                                     
-                                    <h3 class="text-5xl text-gray-100 font-bold leading-none mb-6">
+                                    <h3 class="text-3xl lg:text-5xl text-gray-100 font-bold leading-none mb-6">
                                         Não perca  mais tempo 
                                     </h3>
                                     <p class="text-gray-200 mb-6 text-xl tracking-wide">

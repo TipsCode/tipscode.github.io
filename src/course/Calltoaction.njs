@@ -7,7 +7,7 @@ class Calltoaction extends Nullstack {
 
                 <section class="container mx-auto text-center py-6">
 
-                    <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+                    <h1 class="w-full my-2 text-2xl md:text-4xl md:my-24 font-bold leading-tight text-center text-white">
                         Você está a poucos passos de se tornar um profissional disputado no mercado
                     </h1>
 
@@ -29,7 +29,7 @@ class Calltoaction extends Nullstack {
                     </h3>
 
                     <button
-                        class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                         Quero ser um programador
                     </button>
 
