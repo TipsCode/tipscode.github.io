@@ -7,7 +7,7 @@ class WhatLearn extends Nullstack {
                 <section class="bg-tips-dark py-8">
                     <div class="container max-w-5xl mx-auto m-8">
                         <h1
-                            class="w-full my-24 text-5xl font-bold leading-tight text-center text-white ">
+                            class="w-full text-2xl my-12 md:my-24 md:text-5xl font-bold leading-tight text-center text-white ">
                             O que você irá aprender
                         </h1>
                         
@@ -16,7 +16,7 @@ class WhatLearn extends Nullstack {
                                 <h5 class="text-gray-400 font-bold leading-none mb-3">
                                     WEB DESIGN
                                 </h5>
-                                <h3 class="text-3xl text-gray-100 font-bold leading-none mb-3">
+                                <h3 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
                                     Do início. Vamos do básico a lógica de programação.
                                 </h3>
                                 <p class="text-gray-200 mb-8">
@@ -36,7 +36,7 @@ class WhatLearn extends Nullstack {
                                 <h5 class="text-gray-400 font-bold leading-none mb-3">
                                     FRONT-END   
                                 </h5>
-                                <h3 class="text-3xl text-gray-100 font-bold leading-none mb-3">
+                                <h3 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
                                     Aprenda a criar aplicações estáticas em poucos passos
                                 </h3>
                                 <p class="text-gray-200 mb-8">
@@ -49,7 +49,7 @@ class WhatLearn extends Nullstack {
                                 <h5 class="text-gray-400 font-bold leading-none mb-3">
                                     BACK-END
                                 </h5>
-                                <h3 class="text-3xl text-gray-100 font-bold leading-none mb-3">
+                                <h3 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
                                     Você vai criar APIs do zero com Node js e Express. 
                                 </h3>
                                 <p class="text-gray-200 mb-8">
@@ -69,7 +69,7 @@ class WhatLearn extends Nullstack {
                                 <h5 class="text-gray-400 font-bold leading-none mb-3">
                                     SQL   
                                 </h5>
-                                <h3 class="text-3xl text-gray-100 font-bold leading-none mb-3">
+                                <h3 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
                                     Tudo que você precisa saber sobre banco de dados SQL e NoSQL.
                                 </h3>
                                 <p class="text-gray-200 mb-8">
@@ -82,7 +82,7 @@ class WhatLearn extends Nullstack {
                                 <h5 class="text-gray-400 font-bold leading-none mb-3">
                                     LINUX E GIT 
                                 </h5>
-                                <h3 class="text-3xl text-gray-100 font-bold leading-none mb-3">
+                                <h3 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
                                     Essa ferramanta é essencial para qualquer dev. 
                                 </h3>
                                 <p class="text-gray-200 mb-8">

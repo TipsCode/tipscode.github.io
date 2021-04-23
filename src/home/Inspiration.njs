@@ -9,7 +9,7 @@ class Inspiration extends Nullstack {
         </figure>
 
         <div class="text-center justify-center sm:text-left sm:justify-end">
-			<h3 class="text-6xl text-blue-700 text-opacity-80 font-bold">
+			<h3 class="text-5xl text-blue-700 text-opacity-80 font-bold">
 				Programação <br /> muda vidas, <br /> veja nossos alunos
 			</h3>
 

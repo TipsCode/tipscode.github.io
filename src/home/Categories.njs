@@ -20,8 +20,8 @@ class Categories extends Nullstack {
                 
                 <h3 class="text-center text-5xl text-blue-700 text-opacity-80 font-bold">Conteúdos gratuitos no <br /> nosso canal</h3>
 
-                <div class="container mx-auto px-4 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 sm:flex sm:items-center justify-center sm:justify-around">
-                    <div>
+                <div class="container mx-auto px-4 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 flex flex-wrap sm:flex-nowrap sm:items-center justify-center sm:justify-around">
+                    <div class="mt-10 sm:mt-none order-2 sm:order-1">
                         <ul>
                             <Link href="/"> Vanila js </Link>
                             <Link href="/"> Lógica </Link>
@@ -30,11 +30,11 @@ class Categories extends Nullstack {
                         </ul>
                     </div>
 
-                    <div class="mt-10 sm:mt-none">
+                    <div class="mt-10 sm:mt-none order-1 sm:order-2">
                         <img src="/video.svg" />
                     </div>
 
-                    <div>
+                    <div class="sm:mt-10 sm:mt-none order-3">
                         <ul>
                             <Link href="/"> HTML 5</Link>
                             <Link href="/"> CSS 3 </Link>

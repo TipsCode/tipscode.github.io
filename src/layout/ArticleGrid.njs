@@ -1,14 +1,17 @@
 function ArticleCard({ title, readingTime, slug }) {
   return (
-    <div class="bg-white shadow rounded">
+    <div class="bg-white shadow rounded relative">
       <figure>
         <img class="w-full" src="/img-blog.png" />
       </figure>
-      <div class="p-4">
-        <h3 class="text-gray-800 font-bold text-3xl"> {title} </h3>
-        <div class="flex justify-between items-center">
-          <span> {readingTime} </span>
-          <a href={`/${slug}`} class="bg-green-500 px-4 py-2 text-white shadow-sm rounded-sm"> Ler Mais </a>
+      <div class="p-4 flex flex-col justify-between">
+        <h3 class="text-gray-800 font-semibold text-3xl mb-8"> 
+          <a href={`/${slug}`} class="block w-full font-normal">
+            {title} 
+          </a>
+        </h3>
+        <div class="flex justify-between text-gray-600 absolute bottom-0 left-0 pl-4 pb-4">
+           {readingTime} minutos
         </div>
       </div>
     </div>

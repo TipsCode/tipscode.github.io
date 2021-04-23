@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
 
-class Proverios extends Nullstack {
+class Proverbs extends Nullstack {
     render() {
         return (
             <section class="justify-center mb-20">
@@ -23,4 +23,4 @@ class Proverios extends Nullstack {
     }
 }
 
-export default Proverios;
+export default Proverbs;

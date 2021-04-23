@@ -4,10 +4,10 @@ class Initial extends Nullstack {
     render() {
         return (
             <div>
-                <section class="bg-tips-dark py-12">
-                    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+                <section class="bg-tips-dark md:py-12">
+                    <div class="container mx-auto flex flex-wrap pt-4 lmd:pb-12">
                         <h2
-                            class="w-full my-2 text-4xl font-bold leading-tight text-center text-white mb-24">
+                            class="w-full my-2 text-2xl md:text-5xl font-bold leading-tight text-center text-white lg:mb-24">
                             Mais do que um curso, uma experiência de <br /> aprendizado
                         </h2>
                         

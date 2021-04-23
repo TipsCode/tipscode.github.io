@@ -16,9 +16,9 @@ class Header extends Nullstack {
               Garanta seu lugar em um mercado altamente competivo.
             </p>
           </div>
-          <div class="block sm:inline-block pr-4">
+          <div class="block sm:inline-block">
             <a href="/curso-fullstack-turbo"
-              class="inline-block lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               Quero ser FullSatack
             </a>
           </div>

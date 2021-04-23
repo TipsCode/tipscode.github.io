@@ -44,6 +44,7 @@ class Application extends Nullstack {
         slug,
         content,
         date,
+        readingTime: (content.length / 100),
         ...meta
       }
     }).sort((a, b) => b.createdAt - a.createdAt)
@@ -60,8 +61,9 @@ class Application extends Nullstack {
         
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+          rel="stylesheet"/>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
       </head>
     );
   }
