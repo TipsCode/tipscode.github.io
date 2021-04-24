@@ -26,12 +26,13 @@ class Articles extends Nullstack {
     const nextPage = this.page() + 1;
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
     return (
-      <div class="max-w-screen-xl mx-auto px-4 py-16">
+      <section class="max-w-screen-xl mx-auto px-4 py-16">
+        <p>oi</p>
         <ArticleGrid articles={this.articles} />
         {numberOfPages >= nextPage && (
           <a href={`/artigos/${nextPage}`}> Ver mais artigos </a>
         )}
-      </div>
+      </section>
     );
   }
 }
