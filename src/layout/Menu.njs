@@ -45,8 +45,6 @@ class Navigation extends Nullstack {
             >
               <Link href="/"> Home </Link>
               <Link href="/artigos"> Blog </Link>
-              <Link href="/sobre"> Sobre </Link>
-              <Link href="/contato"> Contato </Link>
               <Link href="/ebook"> E-book </Link>
             </nav>
             <div

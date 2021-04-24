@@ -5,6 +5,7 @@ import Footer from "./layout/Footer";
 import Home from "./home/Home";
 import Articles from "./articles/Articles";
 import Article from "./article/Article";
+import Promotion from './layout/Promotion';
 
 import Course from './course/Course';
 
@@ -72,13 +73,14 @@ class Application extends Nullstack {
     return (
       <main class="bg-tips-light">
         <Head />
-        {router .path !== "/curso" && <Menu />} 
+        {router .path !== "/curso-fullstack-turbo" && <Menu />} 
         <Home route="/" />
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
-        <Course route="/curso" />
+        <Course route="/curso-fullstack-turbo" />
         <Article route="/:slug" />
-        <Footer />
+        {router.path !== "/curso-fullstack-turbo" && <Promotion />}
+        {router.path !== "/curso-fullstack-turbo" && <Footer />}
       </main>
     );
   }
