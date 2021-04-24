@@ -29,7 +29,7 @@ class Header extends Nullstack {
           </div>
 
           <figure class="flex-row mt-8 sm:flex justify-center sm:justify-end">
-            <img src="/img-hero-blue.png" />
+            <img src="/ebook-html.webp" />
           </figure>
         </div>
       </section>

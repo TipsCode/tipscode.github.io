@@ -23,13 +23,13 @@ class Footer extends Nullstack {
           <a href="/">
             <img src="/tipscode-logo-1.svg" alt="TipsCode" />
           </a>
+          <p class="sm:text-center w-full">
+            Todos os direitos reservados - TipsCode
+            <strong class="text-center sm:text-left w-full block">CNPJ:41.562.138/0001-61</strong>
+          </p>
         </figure>
 
         <div class="flex flex-wrap justify-center my-8 sm:my-0">
-          <p class="text-center w-full mb-4">
-            Todos os direitos reservados - TipsCode
-            <strong class="w-full block">CNPJ:41.562.138/0001-61</strong>
-          </p>
           <div>
             <a href="https://nullstack.app" target="_blank" rel="noopener noreferrer" class="flex justify-center flex-wrap" title="Desenvolvido com Nullstack">
               <span class="w-full block text-center"> Desenvolvido com </span>
