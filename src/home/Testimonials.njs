@@ -6,7 +6,6 @@ class Testimonials extends Nullstack {
 
 
   renderOl({ children }) {
-
     return (
       <ol class="carousel-indicators">
         <li class="inline-block mr-3">
@@ -23,7 +22,6 @@ class Testimonials extends Nullstack {
   }
 
   renderCite({ children }) {
-
     return (
       <div class="mt-5">
         <cite> { children } </cite>
@@ -32,7 +30,6 @@ class Testimonials extends Nullstack {
   }
 
   renderLabel({ backwards, control, nameFor }) {
-
     const text = backwards ? '<' : '>';
 
     return (
@@ -47,7 +44,6 @@ class Testimonials extends Nullstack {
   }
 
   renderCarousel({ children }) {
-
     return (
       <div class="carousel-item absolute opacity-0" style="height:50vh;">
         <div class="block h-full w-full">

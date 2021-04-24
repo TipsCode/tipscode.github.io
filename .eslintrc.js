@@ -64,6 +64,7 @@ module.exports = {
     'react/no-unknown-property': [0],
     'react/button-has-type': [0],
     'react/jsx-no-undef': [0],
+    'react/style-prop-object': [0],
   },
   settings: {
     'import/resolver': {
