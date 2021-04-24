@@ -1,7 +1,8 @@
-import Nullstack from "nullstack";
-import ArticleGrid from "../layout/ArticleGrid";
+import Nullstack from 'nullstack';
+import ArticleGrid from '../layout/ArticleGrid';
 
 class Articles extends Nullstack {
+
   static async getLatestArticles({ articles }) {
     return articles.slice(0, 9);
   }
@@ -18,6 +19,7 @@ class Articles extends Nullstack {
       </section>
     );
   }
+
 }
 
 export default Articles;

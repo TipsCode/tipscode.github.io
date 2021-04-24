@@ -1,8 +1,9 @@
-import Nullstack from "nullstack";
-import ArticleGrid from "../layout/ArticleGrid";
+import Nullstack from 'nullstack';
+import ArticleGrid from '../layout/ArticleGrid';
 
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
+
   page({ params }) {
     return +params.page || 1;
   }
@@ -26,7 +27,7 @@ class Articles extends Nullstack {
     const nextPage = this.page() + 1;
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
     return (
-      <div class="max-w-screen-xl mx-auto px-4 py-16">
+      <div className="max-w-screen-xl mx-auto px-4 py-16">
         <ArticleGrid articles={this.articles} />
         {numberOfPages >= nextPage && (
           <a href={`/artigos/${nextPage}`}> Ver mais artigos </a>
@@ -34,6 +35,7 @@ class Articles extends Nullstack {
       </div>
     );
   }
+
 }
 
 export default Articles;

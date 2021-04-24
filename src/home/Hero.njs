@@ -1,12 +1,13 @@
-import Nullstack from "nullstack";
+import Nullstack from 'nullstack';
 
 class Header extends Nullstack {
+
   render() {
     return (
       <section class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
-        <div class="flex-col sm:justify-self-center sm:justify-self-end grid gap-8">
+        <div class="flex-col sm:justify-self-center grid gap-8">
           <h1 class="text-5xl text-tips-dark text-opacity-80 font-bold text-center sm:text-left mb-0">
-            Bem vindo à TipsCode 
+            Bem vindo à TipsCode
           </h1>
           <div>
             <h2 class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl">
@@ -17,8 +18,10 @@ class Header extends Nullstack {
             </p>
           </div>
           <div class="block sm:inline-block">
-            <a href="/curso-fullstack-turbo"
-              class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <a
+              href="/curso-fullstack-turbo"
+              class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            >
               Quero ser FullSatack
             </a>
           </div>
@@ -30,6 +33,7 @@ class Header extends Nullstack {
       </section>
     );
   }
+
 }
 
 export default Header;

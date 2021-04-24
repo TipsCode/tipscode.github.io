@@ -1,23 +1,23 @@
-import Nullstack from "nullstack";
-import Bars from "poisonicon/bars/stroke";
-import Ex from "poisonicon/ex/stroke";
+import Nullstack from 'nullstack';
+import Bars from 'poisonicon/bars/stroke';
+import Ex from 'poisonicon/ex/stroke';
 
 class Navigation extends Nullstack {
 
   expanded = false;
 
-  
+
   renderLink({ children, href }) {
     return (
       <a
-      href={href}
-      class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
+        href={href}
+        class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
       >
         {children}
       </a>
     );
   }
-  
+
   render() {
     return (
       <>
@@ -40,7 +40,7 @@ class Navigation extends Nullstack {
             </div>
             <nav
               class={`flex items-center flex-wrap sm:px-0 mt-2 sm:mt-0 ${
-                !this.expanded && "hidden sm:flex"
+                !this.expanded && 'hidden sm:flex'
               }`}
             >
               <Link href="/"> Home </Link>
@@ -49,7 +49,7 @@ class Navigation extends Nullstack {
             </nav>
             <div
               class={`flex w-full sm:w-auto mt-4 sm:mt-0 ${
-                !this.expanded && "hidden sm:flex"
+                !this.expanded && 'hidden sm:flex'
               }`}
             >
               <a
@@ -62,10 +62,11 @@ class Navigation extends Nullstack {
             </div>
           </div>
         </header>
-        <div class="h-24"></div>
+        <div class="h-24" />
       </>
     );
   }
+
 }
 
 export default Navigation;

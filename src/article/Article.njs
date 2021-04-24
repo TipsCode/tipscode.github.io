@@ -1,4 +1,4 @@
-import Nullstack from "nullstack";
+import Nullstack from 'nullstack';
 
 class Articles extends Nullstack {
 

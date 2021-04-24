@@ -4,9 +4,6 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nullstack": "~0.10.0"
-  },
   "scripts": {
     "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
     "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production",
@@ -14,12 +11,19 @@
     "ssg": "npx create-nullstatic-app docs"
   },
   "dependencies": {
+    "nullstack": "~0.10.0",
     "@tailwindcss/typography": "^0.4.0",
     "dotenv": "^8.2.0",
     "poisonicon": "^0.1.2",
     "prismjs": "^1.23.0",
     "remarkable": "^2.0.1",
     "remarkable-meta": "^1.0.1",
-    "tailwindcss": "^2.1.1"
+    "tailwindcss": "^2.1.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0"
   }
 }
