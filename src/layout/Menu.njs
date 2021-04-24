@@ -21,7 +21,7 @@ class Navigation extends Nullstack {
   render() {
     return (
       <>
-        <header class="fixed w-full bg-white top-0 left-0 z-50">
+        <header class="fixed w-full bg-white top-0 left-0 z-50 h-20">
           <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center flex-wrap py-4">
             <div class="w-full sm:w-auto justify-between sm:justify-self-start sm:px-0 items-center flex">
               <a href="/">
@@ -45,8 +45,8 @@ class Navigation extends Nullstack {
             >
               <Link href="/"> Home </Link>
               <Link href="/artigos"> Blog </Link>
-              <Link href="#about">Sobre</Link>
-              <Link href="/ebook"> E-book </Link>
+              <Link href="/ebook-gratuito"> E-book Gratuito </Link>
+              <Link href="/mini-curso-gratuito"> Mini-Curso Gratuito </Link>
             </nav>
             <div
               class={`flex w-full sm:w-auto mt-4 sm:mt-0 ${
@@ -54,7 +54,7 @@ class Navigation extends Nullstack {
               }`}
             >
               <a
-                href="/curso"
+                href="/curso-fullstack-turbo"
                 onclick={{ expanded: false }}
                 class="bg-tips-blue text-white px-3 py-2 border border-tips-blue rounded hover:bg-white hover:text-tips-blue w-full sm:w-auto"
               >
@@ -63,7 +63,7 @@ class Navigation extends Nullstack {
             </div>
           </div>
         </header>
-        <div class="h-24" />
+        <div class="h-20" />
       </>
     );
   }

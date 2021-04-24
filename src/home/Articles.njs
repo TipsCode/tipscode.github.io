@@ -14,7 +14,7 @@ class Articles extends Nullstack {
   render() {
     return (
       <section class="max-w-screen-xl mx-auto px-4">
-        <h3 class="mb-10 text-center text-5xl text-blue-700">Últimas do Blogs</h3>
+        <h3 class="mb-10 text-center text-5xl text-tips-blue">Últimas do Blogs</h3>
         <ArticleGrid articles={this.articles} />
       </section>
     );

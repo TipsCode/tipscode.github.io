@@ -10,9 +10,9 @@ import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
 import Promotion from './layout/Promotion';
-
 import Course from './course/Course';
-
+import Ebook from './ebook/Ebook';
+import Mini from './mini/Mini';
 
 class Application extends Nullstack {
 
@@ -79,6 +79,8 @@ class Application extends Nullstack {
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
         <Course route="/curso-fullstack-turbo" />
+        <Ebook route="/ebook-gratuito" />
+        <Mini route="/mini-curso-gratuito" />
         <Article route="/:slug" />
         {router.path !== '/curso-fullstack-turbo' && <Promotion />}
         {router.path !== '/curso-fullstack-turbo' && <Footer />}

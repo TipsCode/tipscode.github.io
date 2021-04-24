@@ -4,6 +4,10 @@ import ArticleGrid from '../layout/ArticleGrid';
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
 
+  prepare({ page }) {
+    page.title = 'Tips code blog';
+  }
+
   page({ params }) {
     return +params.page || 1;
   }
@@ -23,16 +27,28 @@ class Articles extends Nullstack {
     Object.assign(this, data);
   }
 
-  render() {
+  render({ page }) {
     const nextPage = this.page() + 1;
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
     return (
-      <section className="max-w-screen-xl mx-auto px-4 py-16">
-        <ArticleGrid articles={this.articles} />
-        {numberOfPages >= nextPage && (
-          <a href={`/artigos/${nextPage}`}> Ver mais artigos </a>
-        )}
-      </section>
+      <>
+        <header class="flex flex-wrap text-center shadow w-full bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 p-8">
+          <h1 class="text-center text-white text-2xl w-full"> {page.title} </h1>
+        </header>
+        <section class="max-w-screen-xl mx-auto px-4 mt-12">
+          <ArticleGrid articles={this.articles} />
+          {numberOfPages >= nextPage && (
+            <div class="flex w-full mt-8 justify-end">
+              <a
+                href={`/artigos/${nextPage}`}
+                class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+              >
+                Ver mais artigos
+              </a>
+            </div>
+          )}
+        </section>
+      </>
     );
   }
 
