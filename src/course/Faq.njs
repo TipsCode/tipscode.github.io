@@ -55,11 +55,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-four"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">AS GRAVAÇÕES ESTÃO FINALIZADAS?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-four">AS GRAVAÇÕES ESTÃO FINALIZADAS?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
@@ -69,11 +69,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-five"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">O CURSO TEM UMA DURAÇÃO LIMITE?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-five">O CURSO TEM UMA DURAÇÃO LIMITE?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
@@ -83,11 +83,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-six"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">PARA QUAL FAIXA ETÁRIA É O CURSO?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-six">PARA QUAL FAIXA ETÁRIA É O CURSO?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
@@ -97,11 +97,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-seven"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">E SE EU TIVER DÚVIDAS?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-seven">E SE EU TIVER DÚVIDAS?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
@@ -111,11 +111,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-eight"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">COMO RECEBO AS ATUALIZAÇÕES DO CURSO?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-eight">COMO RECEBO AS ATUALIZAÇÕES DO CURSO?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
@@ -125,11 +125,11 @@ class Faq extends Nullstack {
               <div class="tab w-full overflow-hidden">
                 <input
                   class="absolute opacity-0"
-                  id="tab-multi-three"
+                  id="tab-multi-nine"
                   type="checkbox"
                   name="tabs"
                 />
-                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-three">O CURSO POSSUI CERTIFICADO?</label>
+                <label class="block p-5 leading-normal cursor-pointer text-white" for="tab-multi-nine">O CURSO POSSUI CERTIFICADO?</label>
                 <div
                   class="tab-content overflow-hidden border-l-2 bg-tips-dark border-indigo-500 leading-normal"
                 >
