@@ -13,7 +13,9 @@ module.exports = {
         'tips-light': '#F5F5FF',
         'tips-blue': '#798FFE',
         'tips-green': '#6FD1C5',
-        'tips-gray-dark': '#4E4C6A' 
+        'tips-gray-dark': '#4E4C6A',
+        'isca-green': '#4FD284',
+        'isca-red': '#FF7E7E' 
       },
       fontFamily: {
         'sans': ['Poppins'],

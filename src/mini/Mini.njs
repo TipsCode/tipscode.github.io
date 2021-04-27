@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
-import CallToAction from './CallToAction';
 import Content from './Content';
 import Hero from './Hero';
+import Calltoaction from './Calltoaction';
 
 class Mini extends Nullstack {
 
@@ -10,8 +10,8 @@ class Mini extends Nullstack {
       <div>
         <Hero />
         <Content />
-        <CallToAction />
-      </div>
+        <Calltoaction />
+      </div>  
     );
   }
 

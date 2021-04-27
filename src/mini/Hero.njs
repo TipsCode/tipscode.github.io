@@ -1,35 +1,34 @@
 import Nullstack from 'nullstack';
 
-class Header extends Nullstack {
+class Hero extends Nullstack {
 
   render() {
     return (
-      <section class="leading-normal tracking-normal bg-gradient-radial">
-        <div class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
-          <div class="flex-col sm:justify-self-center grid gap-8 w-6/12">
-            <h1 class="text-5xl text-tips-dark text-opacity-80 font-bold text-center sm:text-left mb-0">
-              Constrindo seu jogo com javascript
+      <section class="bg-white text-center md:text-left">
+        <div class="w-full">
+          <img src="/tipscode-logo-1.svg" class="mx-auto md-w-40"></img>
+        </div>
+        
+        <div class="px-4 py-10 sm:py-20 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
+          <div class="flex-col sm:justify-self-center grid gap-8 lg:w-5/12">
+            <h1 class="text-lg md:text-2xl text-isca-green font-semibold -mb-6 tracking-wide">Curso Gratuito</h1>
+            <h1 class="text-2xl md:text-4xl leading-relaxed tracking-wide text-tips-dark font-bold mb-0">
+              Aprenda JavaScript <br /> criando um jogo do <br />zero
             </h1>
             <div>
-              <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl">
-                Neste mini-curso vomos construir do ZERO um game usando HTML5, CSS3 e JavaScript. O jogo que vamos criar se chama Flappy Bird.
-              </p>
-              <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl">
-                O mini-curso é composto por 6 aulas, todas elas direto ao ponto sem enrolação, são elas
+              <p class="leading-relaxed text-tips-dark text-opacity-60 text-lg">
+                Neste super Treinamento vou te ensinar JavaScript desenvolvendo um Jogo, tudo passo a passo, linha a linha.
               </p>
             </div>
-            <div class="block sm:inline-block">
-              <a
-                href="/curso-fullstack-turbo"
-                class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-green text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-              >
-                Inscreva-se agora
-              </a>
-            </div>
+            
+            <form class="mt-4">
+              <input type="text" placeholder="Dgite seu melhor e-mail" class="p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6"></input>
+              <button type="submit" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-green text-white rounded-md shadow-md border w-full lg:w-5/6">Inscrever-se</button>
+            </form>
           </div>
 
-          <figure class="flex-row mt-8 sm:flex justify-center sm:justify-end">
-            <img src="/flappy-bird.gif" />
+          <figure class="lg:w-6/12 flex-row mt-8 sm:flex justify-center">
+            <img src="/laptop-flappu-2.gif" class="w-full"/>
           </figure>
         </div>
       </section>
@@ -38,4 +37,4 @@ class Header extends Nullstack {
 
 }
 
-export default Header;
+export default Hero;
