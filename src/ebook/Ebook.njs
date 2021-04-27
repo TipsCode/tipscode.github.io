@@ -1,16 +1,15 @@
 import Nullstack from 'nullstack';
-import CallToAction from './CallToAction';
-import Content from './Content';
+
 import Hero from './Hero';
+import Footer from './Footer'
 
 class Ebook extends Nullstack {
 
   render() {
     return (
-      <div>
+      <div class="bg-tips-dark">
         <Hero />
-        <Content />
-        <CallToAction />
+        <Footer />
       </div>
     );
   }
