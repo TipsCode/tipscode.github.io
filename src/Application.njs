@@ -15,6 +15,7 @@ import Ebook from './ebook/Ebook';
 import Mini from './mini/Mini';
 import ThanksEbook from './thanks-ebook/ThanksEbook';
 import DeliveryEbook from './delivery-ebook/DeliveryEbook';
+import ThanksMini from './thanks-mini/ThanksMini';
 
 class Application extends Nullstack {
 
@@ -85,6 +86,7 @@ class Application extends Nullstack {
         <ThanksEbook route="/ebook-obrigado" />
         <DeliveryEbook route="/ebook-delivery" />
         <Mini route="/mini-curso-gratuito" />
+        <ThanksMini route="/minicurso-obrigado" />
         <Article route="/:slug" />
         {router.path !== '/curso-fullstack-turbo' && <Promotion />}
         {router.path !== '/curso-fullstack-turbo' && <Footer />}

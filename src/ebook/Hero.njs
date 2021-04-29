@@ -32,7 +32,7 @@ class Header extends Nullstack {
             </ul>
             
             <form class="mt-4">
-              <input type="text" placeholder="Dgite seu melhor e-mail" class="p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6"></input>
+              <input type="text" placeholder="Dgite seu melhor e-mail" class="p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6" required></input>
               <button type="submit" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full lg:w-5/6">Baixar e-book grátis</button>
             </form>
           </div>
