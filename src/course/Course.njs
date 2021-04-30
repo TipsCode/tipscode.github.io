@@ -8,7 +8,7 @@ import Bonus from './Bonus';
 import Testimonials from './Testimonials';
 import Calltoaction from './Calltoaction';
 import Faq from './Faq';
-import Footer from './Footer'
+import Footer from './Footer';
 
 class Course extends Nullstack {
 

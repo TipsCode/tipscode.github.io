@@ -1,20 +1,13 @@
-import Nullstack from 'nullstack';
 import Content from './Content';
 import Hero from './Hero';
-import Calltoaction from './Calltoaction';
+import CallToAction from './CallToAction';
 
-class Mini extends Nullstack {
-
-  render() {
-    return (
-      <div>
-        <Hero />
-        <Content />
-        <Calltoaction />
-      </div>  
-    );
-  }
-
+export default function Mini() {
+  return (
+    <div>
+      <Hero />
+      <Content />
+      <CallToAction />
+    </div>
+  );
 }
-
-export default Mini;

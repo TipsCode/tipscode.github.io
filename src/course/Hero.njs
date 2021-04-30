@@ -1,6 +1,13 @@
 import Nullstack from 'nullstack';
+import Modal from '../layout/Modal';
 
 class Hero extends Nullstack {
+
+  modalVisible = false;
+
+  toggleModal() {
+    this.modalVisible = !this.modalVisible;
+  }
 
   render() {
     return (
@@ -71,8 +78,9 @@ class Hero extends Nullstack {
 
             </div>
 
-            <div class="flex  items-center w-full mx-auto">
+            <div class="flex  items-center w-full mx-auto" onclick={this.toggleModal}>
               <img class="w-full z-50 cursor-pointer" src="./Image-hero.svg" />
+              {this.modalVisible && <Modal onclose={this.toggleModal} />}
             </div>
             <div class="flex  items-center w-full mx-auto justify-center">
               <button

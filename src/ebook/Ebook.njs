@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
 
 import Hero from './Hero';
-import Footer from './Footer'
+import Footer from './Footer';
 
 class Ebook extends Nullstack {
 

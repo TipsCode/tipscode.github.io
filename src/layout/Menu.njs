@@ -6,7 +6,6 @@ class Navigation extends Nullstack {
 
   expanded = false;
 
-
   renderLink({ children, href }) {
     return (
       <a

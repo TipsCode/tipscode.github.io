@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
+import Menu from '../layout/Menu';
 import Hero from './Hero';
 import Articles from './Articles';
-
 import Inspiration from './Inspiration';
 import Categories from './Categories';
 import Proverbs from './Proverbs';
@@ -26,6 +26,7 @@ class Home extends Nullstack {
   render() {
     return (
       <div>
+        <Menu />
         <Hero />
         <Proverbs />
         <Inspiration />

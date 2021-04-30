@@ -78,7 +78,6 @@ class Application extends Nullstack {
     return (
       <main class="bg-tips-light">
         <Head />
-        {router.path !== '/curso-fullstack-turbo' && <Menu />}
         <Home route="/" />
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
