@@ -1,5 +1,8 @@
 import Nullstack from 'nullstack';
 import ArticleGrid from '../layout/ArticleGrid';
+import Menu from '../layout/Menu';
+import Promotion from '../layout/Promotion';
+import Footer from '../layout/Footer';
 
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
@@ -32,6 +35,7 @@ class Articles extends Nullstack {
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
     return (
       <>
+       <Menu />
         <header class="flex flex-wrap text-center sm:justify-center shadow w-full bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 p-8">
           <h1 class="text-center text-white text-2xl w-full">Receba agora mesmo nossos conteúdos<br /> premium no seu e-mail</h1>
 
@@ -59,6 +63,8 @@ class Articles extends Nullstack {
             </div>
           )}
         </section>
+        <Promotion />
+        <Footer />
       </>
     );
   }

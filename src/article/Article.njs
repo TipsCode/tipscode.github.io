@@ -1,4 +1,8 @@
 import Nullstack from 'nullstack';
+import Menu from '../layout/Menu';
+import Promotion from '../layout/Promotion';
+
+import Footer from '../layout/Footer';
 
 class Articles extends Nullstack {
 
@@ -20,12 +24,17 @@ class Articles extends Nullstack {
 
   render() {
     return (
-      <div class="max-w-screen-xl mx-auto px-4 py-16">
-        <article>
-          <h1 class="font-bold text-4xl"> {this.title} </h1>
-        </article>
-        <div html={this.content} class="prose max-w-none" />
-      </div>
+      <>
+      <Menu />
+        <div class="max-w-screen-xl mx-auto px-4 py-16">
+          <article>
+            <h1 class="font-bold text-4xl"> {this.title} </h1>
+          </article>
+          <div html={this.content} class="prose max-w-none" />
+        </div>
+        <Promotion />
+        <Footer />
+      </>
     );
   }
 

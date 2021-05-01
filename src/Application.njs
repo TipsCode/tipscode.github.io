@@ -89,8 +89,7 @@ class Application extends Nullstack {
         <ThanksMini route="/minicurso-obrigado" />
         <MiniCurso route="/criando-um-game" />
         <Article route="/:slug" />
-        {router.path !== '/curso-fullstack-turbo' && <Promotion />}
-        {router.path !== '/curso-fullstack-turbo' && <Footer />}
+
       </main>
     );
   }
