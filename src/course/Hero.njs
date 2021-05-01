@@ -11,6 +11,12 @@ class Hero extends Nullstack {
 
   render() {
     return (
+      <>
+       <span>
+        {this.modalVisible && <Modal onclose={this.toggleModal} />}
+
+      </span>
+
       <div class="leading-normal tracking-normal text-white bg-gradient-radial">
 
         <nav id="header" class="w-full z-30 top-0 text-white">
@@ -78,13 +84,12 @@ class Hero extends Nullstack {
 
             </div>
 
-            <div class="flex  items-center w-full mx-auto" onclick={this.toggleModal}>
-              <img class="w-full z-50 cursor-pointer" src="./Image-hero.svg" />
-              {this.modalVisible && <Modal onclose={this.toggleModal} />}
+            <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
+              <img class="w-full z-40 cursor-pointer" src="./Image-hero.svg" />
             </div>
-            <div class="flex  items-center w-full mx-auto justify-center">
+            <div class="flex items-center w-full mx-auto justify-center">
               <button
-                class="mx-auto z-50 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               >
                 Quero ser fullstack
               </button>
@@ -96,9 +101,8 @@ class Hero extends Nullstack {
         <div class="relative m-0 p-0 w-full">
           <img class="w-full block absolute bottom-0" src="./Waves.svg" alt="waves" />
         </div>
-
-
       </div>
+      </>
     );
   }
 
