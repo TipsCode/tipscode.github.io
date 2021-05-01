@@ -1,6 +1,7 @@
 import Content from './Content';
 import Hero from './Hero';
 import CallToAction from './CallToAction';
+import Footer from '../layout/Footer';
 
 export default function Mini() {
   return (
@@ -8,6 +9,7 @@ export default function Mini() {
       <Hero />
       <Content />
       <CallToAction />
+      <Footer />
     </div>
   );
 }

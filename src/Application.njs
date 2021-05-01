@@ -4,19 +4,15 @@ import { readdirSync, readFileSync } from 'fs';
 import prismjs from 'prismjs';
 import { Remarkable } from 'remarkable';
 import meta from 'remarkable-meta';
-import Menu from './layout/Menu';
-import Footer from './layout/Footer';
 import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
-import Promotion from './layout/Promotion';
 import Course from './course/Course';
 import Ebook from './ebook/Ebook';
 import Mini from './mini/Mini';
 import ThanksEbook from './thanks-ebook/ThanksEbook';
 import DeliveryEbook from './delivery-ebook/DeliveryEbook';
 import ThanksMini from './thanks-mini/ThanksMini';
-import MiniCurso from './mini-curso/MiniCurso';
 
 class Application extends Nullstack {
 
@@ -87,7 +83,6 @@ class Application extends Nullstack {
         <DeliveryEbook route="/ebook-delivery" />
         <Mini route="/mini-curso-gratuito" />
         <ThanksMini route="/minicurso-obrigado" />
-        <MiniCurso route="/criando-um-game" />
         <Article route="/:slug" />
 
       </main>

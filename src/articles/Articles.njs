@@ -7,9 +7,12 @@ import Footer from '../layout/Footer';
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
 
-  prepare({ page }) {
-    page.title = 'Tips code blog';
+   prepare({ project, page }) {
+    page.title = `${project.name} - TipsCode`;
+    page.description = `${project.name} Descomplicando a Tecnologia`;
+    page.locale = 'pt-BR';
   }
+
 
   page({ params }) {
     return +params.page || 1;

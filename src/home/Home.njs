@@ -9,8 +9,8 @@ import Proverbs from './Proverbs';
 class Home extends Nullstack {
 
   prepare({ project, page }) {
-    page.title = `${project.name} - Nulla-chan te dá as boas vindas!`;
-    page.description = `${project.name} foi feito com Nullstack`;
+    page.title = `${project.name} - TipsCode`;
+    page.description = `${project.name} Descomplicando a Tecnologia`;
     page.locale = 'pt-BR';
   }
 

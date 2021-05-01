@@ -6,6 +6,13 @@ import Footer from '../layout/Footer';
 
 class Articles extends Nullstack {
 
+   prepare({ project, page }) {
+    page.title = `${project.name} - TipsCode`;
+    page.description = `${project.name} Descomplicando a Tecnologia`;
+    page.locale = 'pt-BR';
+  }
+
+
   static async getArticleBySlug({ articles, slug }) {
     const article = articles.find((article) => article.slug === slug);
     return article;
