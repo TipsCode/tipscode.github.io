@@ -2,6 +2,8 @@
 title: "Create-React-App: Crie Aplicações React Rapidamente"
 date: "2020-12-16"
 description: Iniciar um novo projeto React não é tão simples. Em vez de mergulhar diretamente no código e dar vida a sua aplicação, você precisa gastar tempo configurando as ferramentas de construção certas para configurar um ambiente de desenvolvimento local, teste de unidade e produção. Felizmente, existi uma forma com 0 configuração que é através da ferramenta create-react-app.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Iniciar um novo projeto React não é tão simples. Em vez de mergulhar diretamente no código e dar vida a sua aplicação, você precisa gastar tempo configurando as ferramentas de construção certas para configurar um ambiente de desenvolvimento local, teste de unidade e produção. Felizmente, existi uma forma com 0 configuração que é através da ferramenta create-react-app.

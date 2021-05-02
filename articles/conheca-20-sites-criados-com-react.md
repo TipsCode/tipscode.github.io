@@ -16,6 +16,8 @@ tags:
   - "sites-com-react"
   - "tipscode"
 description: O React é uma biblioteca JavaScript para criar interfaces de usuário, aplicativos baseados na Web e sites responsivos - é de longe a biblioteca front-end mais popular do mercado (e continua a crescendo), por isso não é uma surpresa que muitas empresas (incluindo empresas bem-sucedidas) estão aprendendo a criar experiências digitais incríveis.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O React é uma biblioteca JavaScript para criar interfaces de usuário, aplicativos baseados na Web e sites responsivos - é de longe a biblioteca front-end mais popular do mercado (e continua a crescendo), por isso não é uma surpresa que muitas empresas (incluindo empresas bem-sucedidas) estão aprendendo a criar experiências digitais incríveis.

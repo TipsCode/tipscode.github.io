@@ -17,6 +17,8 @@ tags:
   - "nosql"
   - "tipscode"
 description: Eeste artigo é para iniciantes, vou demonstrar como instalar o Mongodb e começar a usá-lo para armazenar e consultar dados. Também mostro como interagir com um banco de dados Mongo de dentro de um programa Node e também destacarei algumas das diferenças entre o Mongo e um banco de dados relacional tradicional (como o MySQL) ao longo do artigo.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Eeste artigo é para **iniciantes**, vou demonstrar como instalar o _**Mongodb**_ e começar a usá-lo para armazenar e consultar dados. Também mostro como interagir com um banco de dados Mongo de dentro de um programa Node e também destacarei algumas das diferenças entre o Mongo e um banco de dados relacional tradicional (como o **_MySQL_**) ao longo do artigo.

@@ -14,6 +14,8 @@ tags:
   - "trabalho-remoto"
   - "web-design"
 description: O home office ou trabalho remoto está em ascensão e continuará por muito tempo depois que o COVID-19 terminar. Se você está pensando em abandonar o escritório, mas não sabe ao certo como, aprender um (ou mais!) Das seguintes habilidades tem tem uma alta procurar no mercado de trabalho que vão aumentar suas chances de conseguir um emprego que possa ser realizado em home office, aqui vai algumas dicas para você. sobre as 4 habilidades mais requisitada no momento.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O **home office** ou trabalho remoto está em ascensão e continuará por muito tempo depois que o COVID-19 terminar. Se você está pensando em abandonar o escritório, mas não sabe ao certo como, aprender um (ou mais!) Das seguintes habilidades tem tem uma alta procurar no mercado de trabalho que vão aumentar suas chances de conseguir um emprego que possa ser realizado em home office, aqui vai algumas dicas para você. sobre as 4 habilidades mais requisitada no momento.

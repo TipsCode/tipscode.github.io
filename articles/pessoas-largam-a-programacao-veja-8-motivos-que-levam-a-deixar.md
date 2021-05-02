@@ -4,6 +4,8 @@ date: "2020-09-16"
 categories: 
   - "programacao"
 description: Vou falar um pouco sobre como eu passei por cada um dos principais motivos pelo qual as pessoas largam a programação e trazer algumas alternativas para superar essas dificuldades.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 **_Vou falar um pouco sobre como eu passei por cada um dos principais motivos pelo qual as pessoas largam a programação e trazer algumas alternativas para superar essas dificuldades._**

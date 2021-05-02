@@ -12,6 +12,8 @@ tags:
   - "responsive-css-grid"
   - "tipscode"
 description: CSS Grid acabou sendo a evolução mais emocionante do CSS por um bom tempo. É uma ferramenta CSS específica para criar qualquer layout da Web que você possa imaginar, do mais simples ao mais complexo. Hoje, o CSS Grid é amplamente suportado por todos os principais navegadores, e é claro que os dias sombrios dos layouts de hackers usando carros alegóricos desapareceram para sempre.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 CSS Grid acabou sendo a evolução mais emocionante do CSS por um bom tempo. É uma ferramenta CSS específica para criar qualquer layout da Web que você possa imaginar, do mais simples ao mais complexo. Hoje, o CSS Grid é amplamente suportado por todos os principais navegadores, e é claro que os dias sombrios dos layouts de hackers usando carros alegóricos desapareceram para sempre.

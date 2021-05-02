@@ -2,6 +2,8 @@
 title: "10 Principais Ferramentas e Bibliotecas do VueJS"
 date: "2020-03-24"
 description: Ferramentas e Bibliotecas do VueJS. A popularidade do Vue continua crescendo cada dia mais e está sendo adotado rapidamente por muitos desenvolvedores, e as ferramentas do Vue.js estão surgindo em todos os lugares. Isso não é sem razão a curva de aprendizado superficial do Vue, a estrutura clara orientada por funcionalidade e a excelente documentação facilitam a busca por iniciantes e os desenvolvedores mais experientes trocam de outros frameworks, como React ou Angular.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Ferramentas e Bibliotecas do VueJS. A popularidade do Vue continua crescendo cada dia mais e está sendo adotado rapidamente por muitos desenvolvedores, e as ferramentas do Vue.js estão surgindo em todos os lugares. Isso não é sem razão: a curva de aprendizado superficial do Vue, a estrutura clara orientada por funcionalidade e a excelente documentação facilitam a busca por iniciantes e os desenvolvedores mais experientes trocam de outros frameworks, como React ou Angular.

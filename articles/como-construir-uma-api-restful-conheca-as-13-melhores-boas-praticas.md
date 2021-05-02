@@ -10,6 +10,8 @@ tags:
   - "nodejs"
   - "o-que-e-api-restfull"
 description: Como construir uma API RESTful, neste artigo você vai descobrir quais são ás 13 melhores práticas para criar uma API RESTFull. Facebook, GitHub, Google e muitas outras gigantes precisam de uma forma de servir e consumir dados. A API RESTful ainda é uma das melhores opções atualmente no cenário de desenvolvimento para servir e consumir dados.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 _****Como construir uma API RESTful**,** **neste artigo você vai descobrir quais são ás 13 melhores práticas para criar uma API RESTFull. Facebook, GitHub, Google e muitas outras gigantes precisam de uma forma de servir e consumir dados. A API RESTful ainda é uma das melhores opções atualmente no cenário de desenvolvimento para servir e consumir dados.**_

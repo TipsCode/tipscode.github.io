@@ -25,6 +25,8 @@ tags:
   - "html5-creando-un-formulario"
   - "tutorial"
 description: Opa dev tudo bem com você? Neste artigo iremos da inicio nossos estudos sobre HTML5 e aprender como Criar Formulário bem feitos e com a semântica certa do HTML5.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Opa dev tudo bem com você? Neste artigo iremos da inicio nossos estudos sobre HTML5 e aprender como **Criar Formulário** bem feitos e com a semântica certa do HTML5.

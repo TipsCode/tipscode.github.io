@@ -10,6 +10,8 @@ tags:
   - "framework-reativos"
   - "react"
 description: O [React.js](https//www.tipscode.com.br/9-ferramentas-uteis-para-trabalhar-com-react/) é uma estrutura JavaScript específica que os desenvolvedores da Web usam para tornar o processo de criação de elementos interativos mais simplificado. É uma ferramenta importante para a criação de sites e aplicativos móveis, portanto, entender como usar o React.js pode ajudar a dar uma vantagem no mundo da programação.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O [React.js](/9-ferramentas-uteis-para-trabalhar-com-react/) é uma estrutura JavaScript específica que os desenvolvedores da Web usam para tornar o processo de criação de elementos interativos mais simplificado. É uma ferramenta importante para a criação de sites e aplicativos móveis, portanto, entender como usar o React.js pode ajudar a dar uma vantagem no mundo da programação.

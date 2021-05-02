@@ -4,6 +4,8 @@ date: "2020-11-09"
 categories: 
   - "react"
 description: 19 Ferramentas essenciais para o React. O ecossistema React evoluiu para uma lista crescente de ferramentas e bibliotecas de desenvolvimento. A abundância de ferramentas é um verdadeiro testemunho da popularidade do React.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 **_19 Ferramentas essenciais para o React. O ecossistema React evoluiu para uma lista crescente de ferramentas e bibliotecas de desenvolvimento. A abundância de ferramentas é um verdadeiro testemunho da popularidade do React._**

@@ -10,6 +10,8 @@ tags:
   - "html"
   - "javascript"
 description: JavaScript é a tecnologia que está em nosso coração quando se trata de construção de aplicações web. Existem incontáveis bibliotecas e frameworks javascript para desenvolvimento de diversas aplicações de média a alta complexidade.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 JavaScript é a tecnologia que está em nosso coração quando se trata de construção de aplicações web. Existem incontáveis bibliotecas e frameworks javascript para desenvolvimento de diversas aplicações de média a alta complexidade.

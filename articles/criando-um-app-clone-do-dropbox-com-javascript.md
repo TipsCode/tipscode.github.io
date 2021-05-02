@@ -7,6 +7,8 @@ tags:
   - "javascript"
   - "nodejs"
 description: Neste super treinamento composto por 15 aulas completas você vai aprender muito JavaScript, de fato vai aprender a organização de código criando uma aplicação inspirada no serviço da Microsoft DropBox. Esse super treinamento está sendo disponibilizado através do [canal do YouTube TipsCode](https//www.youtube.com/tipscode)
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Neste super treinamento composto por 15 aulas completas você vai aprender muito JavaScript, de fato vai aprender a organização de código criando uma aplicação inspirada no serviço da Microsoft DropBox. Esse super treinamento está sendo disponibilizado através do [canal do YouTube TipsCode](https://www.youtube.com/tipscode)

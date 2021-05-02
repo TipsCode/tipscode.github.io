@@ -1,7 +1,9 @@
 ---
 title: "CSS Grid - Tudo o que você não aprendeu | Parte 3"
 date: "2020-02-02"
-description: Neste artigo iremos aborda a última parte da série de artigos sobre CSS Grid, vamos aprender novas formas de organizar os elementos do layout sem a necessidade de fazer os posicionamentos estudados no artigo [parte 1](https//www.tipscode.com.br/css-grid-tudo-que-voce-nao-aprendeu-parte-1/) e [parte 2](https//www.tipscode.com.br/css-grid-o-que-voce-nao-aprendeu-parte-2/) que era colunas e linhas onde colocávamos a coluna 1 até a 3 ou coisa do tipo. Neste vamos aborda uma alternativa bem mais simples para você organiza dentro da Grid ocupando os espaços a partir de um determinado elemento. Vamos ao nosso código base
+description: Neste artigo iremos aborda a última parte da série de artigos sobre CSS Grid, vamos aprender novas formas de organizar os elementos do layout sem a necessidade de fazer os posicionamentos estudados no artigo [parte 1](https//www.tipscode.com.br/css-grid-tudo-que-voce-nao-aprendeu-parte-1/) e [parte 2](https//www.tipscode.com.br/css-grid-o-que-voce-nao-aprendeu-parte-2/) que era colunas e linhas onde colocávamos a coluna 1 até a 3 ou coisa do tipo. Neste vamos aborda uma alternativa bem mais simples para você organiza dentro da Grid ocupando os espaços a partir de um determinado elemento. Vamos ao nosso código base.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Neste artigo iremos aborda a última parte da série de artigos sobre CSS Grid, vamos aprender novas formas de organizar os elementos do layout sem a necessidade de fazer os posicionamentos estudados no artigo [parte 1](/css-grid-tudo-que-voce-nao-aprendeu-parte-1/) e [parte 2](/css-grid-o-que-voce-nao-aprendeu-parte-2/) que era colunas e linhas onde colocávamos a coluna 1 até a 3 ou coisa do tipo. Neste vamos aborda uma alternativa bem mais simples para você organiza dentro da Grid ocupando os espaços a partir de um determinado elemento. Vamos ao nosso código base

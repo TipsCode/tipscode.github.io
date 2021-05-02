@@ -16,6 +16,8 @@ tags:
   - "web"
   - "web-accesibility"
 description: Compare isso com a perspectiva que muitos de nós adotamos na criação de aplicações a acessibilidade Web é tratada como uma reflexão tardia, uma coleção confusa de regras que a equipe pode procurar pela internet ou não. Se isso lhe parece familiar (e você é desenvolvedor, designer ou gerente de produto), este artigo é para você.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Compare isso com a perspectiva que muitos de nós adotamos na criação de aplicações: a acessibilidade Web é tratada como uma reflexão tardia, uma coleção confusa de regras que a equipe pode procurar pela internet ou não. Se isso lhe parece familiar (e você é desenvolvedor, designer ou gerente de produto), este artigo é para você.

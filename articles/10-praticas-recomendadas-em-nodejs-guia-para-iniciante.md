@@ -4,6 +4,8 @@ date: "2020-10-26"
 categories: 
   - "nodejs"
 description: Conheça ás 10 práticas recomendadas em NodeJS, estas práticas são bem vistas por toda a comunidade de back-end e são de extrema importância você como estudando do Node conheça-las, foi por esse motivo da publicação desse artigo aqui no TipsCode, vejo poucos matérias nesse sentido em nossa comunidade.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Conheça ás 10 **_práticas recomendadas em NodeJS_**, estas práticas são bem vistas por toda a comunidade de back-end e são de extrema importância você como estudando do Node conheça-las, foi por esse motivo da publicação desse artigo aqui no TipsCode, vejo poucos matérias nesse sentido em nossa comunidade.

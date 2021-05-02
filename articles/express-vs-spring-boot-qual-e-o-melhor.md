@@ -2,6 +2,8 @@
 title: "Express Vs Spring Boot - Qual é o melhor?"
 date: "2020-02-12"
 description: O objetivo deste artigo é uma comparação não tão técnica. do Express Vs Spring Boot Vamos apenas descrever como é o desenvolvimento de aplicativos usando o Node.js (Temos um artigo sobre o Nodejs caso você não conheça nada sobre, [clique aqui](https//www.tipscode.com.br/conhecendo-nodejs/)) e usando o Spring Boot. Então lembre-se, este artigo não tem como objetivo afirmar que X ou Y é melhor, apenas comparar as duas tecnologia e deixar você escolhe qual delas se encaixa melhor em seu projeto.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O objetivo deste artigo é uma comparação não tão técnica. do Express Vs Spring Boot Vamos apenas descrever como é o desenvolvimento de aplicativos usando o Node.js (Temos um artigo sobre o Nodejs caso você não conheça nada sobre, [clique aqui](/conhecendo-nodejs/)) e usando o Spring Boot. Então lembre-se, este artigo não tem como objetivo afirmar que X ou Y é melhor, apenas comparar as duas tecnologia e deixar você escolhe qual delas se encaixa melhor em seu projeto.

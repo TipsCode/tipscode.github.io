@@ -23,6 +23,8 @@ tags:
   - "tipscode"
   - "top-5-ferramentas"
 description: O código-fonte das aplicações escritas em JavaScript é tradicionalmente “difícil de entender”, devido ao código ser espalhado pelos arquivos JavaScript, HTML e CSS, além de eventos e dados que fluem por vários caminhos não intuitivos. Como todos os softwares, o ambiente de desenvolvimento JavaScript inclui empacotadores, gerenciadores de pacotes, sistemas de controle de versão e ferramentas de teste. Cada um destes requer alguma curva de aprendizado.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O código-fonte das aplicações escritas em JavaScript é tradicionalmente “difícil de entender”, devido ao código ser espalhado pelos arquivos JavaScript, HTML e CSS, além de eventos e dados que fluem por vários caminhos não intuitivos. Como todos os softwares, o ambiente de desenvolvimento JavaScript inclui empacotadores, gerenciadores de pacotes, sistemas de controle de versão e ferramentas de teste. Cada um destes requer alguma curva de aprendizado.

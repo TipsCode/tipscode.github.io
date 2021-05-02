@@ -16,6 +16,8 @@ tags:
   - "tecnicas-do-git"
   - "tecnicas-operacionais"
 description: Neste artigo vamos falar sobre as técnicas básicas do Git com as quais você deve estar familiarizado para trabalhar com versionamento em seu projeto. Listei em uma ordem que você seguiria logicamente para contribuir com um repositório, pois a importância de cada etapa é fundamental. Vamos agora a lista.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Neste artigo vamos falar sobre as técnicas básicas do Git com as quais você deve estar familiarizado para trabalhar com versionamento em seu projeto. Listei em uma ordem que você seguiria logicamente para contribuir com um repositório, pois a importância de cada etapa é fundamental. Vamos agora a lista.

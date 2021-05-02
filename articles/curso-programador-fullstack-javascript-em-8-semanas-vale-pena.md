@@ -5,6 +5,8 @@ tags:
   - "backend"
   - "programador-fullstack"
 description: O [curso programador fullstack javascript em 8 semanas](https//www.tipscode.com.br/compra-agora-treinamento-javascript) vale mesmo a penas recebo muitas perguntas sobre esse tema, por isso resolvi criar esse artigo para dá uma boa e sincera resposta a você. Minha resposta é DEPENDE, se você está procurando aprender JavaScript (Back-end e Front-end) usando [NodeJS](https//youtu.be/t4y9AFY9mmI) (Express) + MongoDB como banco de dados, React, Lógica de programação, HTML5, CSS, Bulma, Git e GitHub e muito mais, vale apena sim, o curso está 100% atualizado com vários exercícios de fixação, tem bônus que vão lhe ajudar a encontrar jobs o suporte é um dos melhores que já vi.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O [curso programador fullstack javascript em 8 semanas](/compra-agora-treinamento-javascript) vale mesmo a penas recebo muitas perguntas sobre esse tema, por isso resolvi criar esse artigo para dá uma boa e sincera resposta a você. Minha resposta é **_DEPENDE_**, se você está procurando aprender JavaScript (Back-end e Front-end) usando [NodeJS](https://youtu.be/t4y9AFY9mmI) (Express) + MongoDB como banco de dados, React, Lógica de programação, HTML5, CSS, Bulma, Git e GitHub e muito mais, vale apena sim, o curso está 100% atualizado com vários exercícios de fixação, tem bônus que vão lhe ajudar a encontrar jobs o suporte é um dos melhores que já vi.

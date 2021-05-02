@@ -6,6 +6,8 @@ tags:
   - "manjaro"
   - "nodejs"
 description: O artigo de hoje, vou está ensinando como instalar o NodeJS e o gerenciador de pacotes Yarn na distribuição Manjaro Linux, sou usuário dessa distro há mais de quatro anos e sou apaixonado por ela, esse artigo foi um pedido de um membro da nossa comunidade oficial do manjaro no telegram, caso queira participar clique aqui.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O artigo de hoje, vou está ensinando como instalar o NodeJS e o gerenciador de pacotes Yarn na distribuição **Manjaro Linux**, sou usuário dessa distro há mais de quatro anos e sou apaixonado por ela, esse artigo foi um pedido de um membro da nossa comunidade oficial do manjaro no telegram, caso queira participar clique aqui.

@@ -12,6 +12,8 @@ tags:
   - "nodejs"
   - "tipscode"
 description: Esta é uma tentativa de listar as Melhores práticas em NodeJS e as mais importantes para desenvolver e implantar em um ambiente de produção.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Esta é uma tentativa de listar as Melhores práticas em NodeJS e as mais importantes para desenvolver e implantar em um ambiente de produção.

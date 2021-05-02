@@ -2,6 +2,8 @@
 title: "3 Atualizações JavaScript que você precisa conhecer para mudar de nível"
 date: "2020-03-10"
 description: Vou lhe mostrar 3 atualizações do JavaScript. Essas atualizações vão lhe ajuda como criar um código melhor. Se você desconhece ou não usa esses 3 novos recursos, você estará codificado na idade da pedra.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Vou lhe mostrar **3 atualizações do JavaScript.** Essas atualizações vão lhe ajuda como criar um código melhor. Se você desconhece ou não usa esses 3 novos recursos, você estará codificado na idade da pedra.

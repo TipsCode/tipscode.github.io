@@ -2,6 +2,8 @@
 title: "15 Componentes Incríveis do React"
 date: "2020-05-14"
 description: React é uma das bibliotecas JavaScript front-end mais populares. Desenvolvido pelo Facebook, permite dividir até as interfaces de usuário mais complexas em componentes simples e reutilizáveis. Em vez de criar tudo por conta própria, você pode instalar e usar componentes externos para adicionar rapidamente novos recursos e funcionalidades.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 React é uma das bibliotecas JavaScript front-end mais populares. Desenvolvido pelo Facebook, permite dividir até as interfaces de usuário mais complexas em componentes simples e reutilizáveis. Em vez de criar tudo por conta própria, você pode instalar e usar componentes externos para adicionar rapidamente novos recursos e funcionalidades.

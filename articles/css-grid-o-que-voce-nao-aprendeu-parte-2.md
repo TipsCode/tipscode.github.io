@@ -15,6 +15,8 @@ tags:
   - "programacao"
   - "web"
 description: Vamos da continuidade ao nosso estudo sobre CSS Grid, caso você seja novo aqui no site saiba que esse artigo faz parte de uma série de trés artigos, caso você não leu ainda a parte 1 [CLIQUE AQUI](https//www.tipscode.com.br/css-grid-tudo-que-voce-nao-aprendeu-parte-1/)
+imgArticle: (/thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png)
+imgHome: (/thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png)
 ---
 
 Vamos da continuidade ao nosso estudo sobre CSS Grid, caso você seja novo aqui no site saiba que esse artigo faz parte de uma série de trés artigos, caso você não leu ainda a parte 1 [CLIQUE AQUI](/css-grid-tudo-que-voce-nao-aprendeu-parte-1/)

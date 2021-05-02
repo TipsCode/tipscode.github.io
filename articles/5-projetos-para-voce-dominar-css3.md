@@ -9,6 +9,8 @@ tags:
   - "javascript"
   - "tipscode"
 description: Muitos afirmam que o CSS não é uma linguagem de programação. Eu concordo - é mais difícil . O domínio do CSS requer habilidades em design, determinação, inventividade, experiência e codificação (especialmente ao usar pré-processadores como o Sass ).
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 Muitos afirmam que o CSS não é uma linguagem de programação. Eu concordo - é mais difícil . O domínio do CSS requer habilidades em design, determinação, inventividade, experiência e codificação (especialmente ao usar pré-processadores como o Sass ).

@@ -9,6 +9,8 @@ tags:
   - "html"
   - "html5"
 description: É com muito prazer que estou lançando o ebook [Guia Completo HTML Descubra o Poder do HTML](https//www.tipscode.com.br/guia-completo-descubra-o-poder-do-html/), passei vários dias escrevendo esse livro digital com o objetivo de lhe mostrar todo o poder da linguagem de marcação HTML e sua versão 5 e 5.2, esse livro tem mais de 110 páginas de puro conteúdo focado em HTML, esse ebook vai lhe servir tanto para aprender como para referencia e consultas posteriores.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 É com muito prazer que estou lançando o ebook [Guia Completo HTML: Descubra o Poder do HTML](/guia-completo-descubra-o-poder-do-html/), passei vários dias escrevendo esse livro digital com o objetivo de lhe mostrar todo o poder da linguagem de marcação HTML e sua versão 5 e 5.2, esse livro tem mais de 110 páginas de puro conteúdo focado em HTML, esse ebook vai lhe servir tanto para aprender como para referencia e consultas posteriores.

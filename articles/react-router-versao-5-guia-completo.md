@@ -14,6 +14,8 @@ tags:
   - "router"
   - "tipscode"
 description: O [React Router](https//reacttraining.com/react-router/) é a biblioteca de roteamento padrão do React. Quando você precisar navegar por uma aplicação React com várias visualizações, precisará de um roteador para gerenciar suas URLs. O React Router cuida disso, mantendo a interface do usuário da aplicação e a URL sincronizadas.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 O [React Router](https://reacttraining.com/react-router/) é a biblioteca de roteamento padrão do React. Quando você precisar navegar por uma aplicação React com várias visualizações, precisará de um roteador para gerenciar suas URLs. O React Router cuida disso, mantendo a interface do usuário da aplicação e a URL sincronizadas.

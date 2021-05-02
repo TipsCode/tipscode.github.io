@@ -2,6 +2,9 @@
 title: "10 Habilidades para conseguir seu primeiro emprego como programador"
 date: "2020-10-14"
 description: Como conseguir seu primeiro emprego como programador, essa pergunta é muito recorrente em nosso meio, e por esse motivo trouxe esse artigo com 10 habilidade e ideias de projetos para acelerar sua contratação. A quantidade de coisas que se espera que você saiba pode ser muito intimidante a primeiro momento HTML, CSS, JavaScript, controle de versão, ferramentas de construção, frameworks, Linux/Terminal. A lista continua …
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+
 ---
 
 Como conseguir seu primeiro emprego como programador, essa pergunta é muito recorrente em nosso meio, e por esse motivo trouxe esse artigo com 10 habilidade e ideias de projetos para acelerar sua contratação. A quantidade de coisas que se espera que você saiba pode ser muito intimidante a primeiro momento: HTML, CSS, JavaScript, controle de versão, ferramentas de construção, frameworks, Linux/Terminal. A lista continua …

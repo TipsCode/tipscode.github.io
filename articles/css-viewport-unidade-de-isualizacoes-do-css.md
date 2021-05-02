@@ -14,6 +14,8 @@ tags:
   - "unidades-do-css"
   - "viewport"
 description: As unidades de viewport foram introduzidas no CSS faz algum tempo. Eles são realmente "unidades de comprimento responsivo", no sentido de que seu valor muda toda vez que o navegador é redimensionado. Se você já ouviu falar sobre essas unidades antes, mas nunca aprendeu sobre elas em detalhes, este artigo pode ajudá-lo.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 As unidades de **viewport** foram introduzidas no **CSS** faz algum tempo. Eles são realmente "unidades de comprimento responsivo", no sentido de que seu valor muda toda vez que o navegador é redimensionado. Se você já ouviu falar sobre essas unidades antes, mas nunca aprendeu sobre elas em detalhes, este artigo pode ajudá-lo.

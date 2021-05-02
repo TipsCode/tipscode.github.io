@@ -23,6 +23,8 @@ tags:
   - "javascript-functions"
   - "js-arrow-functions"
 description: As arrow functions foram introduzidas no ES6 como uma nova sintaxe para escrever funções JavaScript. Esse recurso economiza tempo dos desenvolvedores e simplificam o escopo das funções.
+imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
 ---
 
 As arrow functions foram introduzidas no ES6 como uma nova sintaxe para escrever funções JavaScript. Esse recurso economiza tempo dos desenvolvedores e simplificam o escopo das funções.

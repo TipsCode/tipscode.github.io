@@ -1,8 +1,8 @@
-function ArticleCard({ title, readingTime, slug }) {
+function ArticleCard({ title, readingTime, imgHome ,slug }) {
   return (
     <div class="bg-white shadow rounded relative">
       <figure>
-        <img class="w-full" src="/img-blog.png" />
+        <img class="w-full" src={imgHome} />
       </figure>
       <div class="p-4 flex flex-col justify-between">
         <h3 class="text-gray-800 font-semibold text-3xl mb-8">
