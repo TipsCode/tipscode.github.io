@@ -17,8 +17,8 @@ tags:
   - "tipscode"
   - "vue"
 description: À medida que as funcionalidades das aplicações Web ficam cada vez mais sofisticadas e complexas, o desenvolvedor front-end precisa de ferramentas flexíveis para acompanhar o mercado que está em constante evolução. A boa notícia é que o ecossistema de desenvolvimento front-en e web no geral nos oferece muitas opções, com empresas bem estabelecidas e a comunidade de código aberto competindo para criar bibliotecas, frameworks e aplicações mais poderosas para ajudar os desenvolvedores a fazerem seu trabalho e aumentar sua produtividade e a eficiência.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/30-ferramnenta-para-dev-front-end.png
+imgHome: /thumbnail-home/30-ferramnenta-para-dev-front-end.png
 ---
 
 À medida que as funcionalidades das aplicações Web ficam cada vez mais sofisticadas e complexas, o desenvolvedor front-end precisa de ferramentas flexíveis para acompanhar o mercado que está em constante evolução. A boa notícia é que o ecossistema de desenvolvimento front-en e web no geral nos oferece muitas opções, com empresas bem estabelecidas e a comunidade de código aberto competindo para criar bibliotecas, frameworks e aplicações mais poderosas para ajudar os desenvolvedores a fazerem seu trabalho e aumentar sua produtividade e a eficiência.

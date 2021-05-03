@@ -4,8 +4,8 @@ date: "2020-10-08"
 categories: 
   - "desenvolvimento-web"
 description: Ao olhar para trás, quando estava começando no desenvolvimento web nesse mundo da programação, há algumas coisas que gostaria alguém tive-se me falado. E é por isso que o TipsCode está aqui para ser essa pessoa que vai dizer sempre as verdades. Hábitos que poderiam ter me ajudado a crescer mais rápido e de forma mais focada. Estas são as 7 dicas que eu ma daria no inicio da carreira, que acaba de conseguir seu primeiro emprego profissional em engenharia de software.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/7-dicas-para-quem-esta-comecando-no-desenvolvimento-web.png
+imgHome: /thumbnail-home/7-dicas-para-quem-esta-comecando-no-desenvolvimento-web.png
 ---
 
 **Ao olhar para trás, quando estava _começando no desenvolvimento web_** **nesse mundo da programação, há algumas coisas que gostaria alguém tive-se me falado. E é por isso que o TipsCode está aqui para ser essa pessoa que vai dizer sempre as verdades. Hábitos que poderiam ter me ajudado a crescer mais rápido e de forma mais focada. Estas são as 7 dicas que eu ma daria no inicio da carreira, que acaba de conseguir seu primeiro emprego profissional em engenharia de software.**

@@ -18,8 +18,8 @@ tags:
   - "tipscode"
   - "web"
 description: Todos na comunidade JavaScript adoram novas APIs, atualizações de sintaxe e recursos - eles fornecem maneiras melhores, mais inteligentes e mais eficientes de realizar tarefas importantes. O ECMAScript6 veio com um enorme quantidade de novas funcionalidades e navegadores trabalharam para implementar todas elas. Embora essa atualização trouxe grandes melhorias na linguagem, mas algumas mudou completamento e deixo tudo mais fácil e menos complicado para nos desenvolvedores da linguagem. Neste artigo vou lhe apresenta os 6 recursos que fez a linguagem mudar completamente o nível. Vamos agora mesmo a elas.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/6-recursos-do-es6.png
+imgHome: /thumbnail-home/6-recursos-do-es6.png
 ---
 
 Todos na comunidade JavaScript adoram novas APIs, atualizações de sintaxe e recursos - eles fornecem maneiras melhores, mais inteligentes e mais eficientes de realizar tarefas importantes. O **ECMAScript6** veio com um enorme quantidade de novas funcionalidades e navegadores trabalharam para implementar todas elas. Embora essa atualização trouxe grandes melhorias na linguagem, mas algumas mudou completamento e deixo tudo mais fácil e menos complicado para nos desenvolvedores da linguagem. Neste artigo vou lhe apresenta os 6 recursos que fez a linguagem mudar completamente o nível. Vamos agora mesmo a elas:

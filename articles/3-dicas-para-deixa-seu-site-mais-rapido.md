@@ -8,8 +8,8 @@ tags:
   - "seu-site-mais-rapido"
   - "site"
 description: A otimização de sites é um conjunto de técnicas, tanto do lado do servidor quanto do lado do cliente, que visam acelerar o tempo de carregamento dos sites e renderizar no navegador para uma melhor experiência do usuário.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/3-dicas-para-deixar-seu-site-mais-rapido.png
+imgHome: /thumbnail-home/3-dicas-para-deixar-seu-site-mais-rapido.png
 ---
 
 A otimização de sites é um conjunto de técnicas, tanto do lado do servidor quanto do lado do cliente, que visam acelerar o tempo de carregamento dos sites e renderizar no navegador para uma melhor experiência do usuário.
