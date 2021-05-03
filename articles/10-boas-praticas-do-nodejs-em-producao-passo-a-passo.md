@@ -2,8 +2,8 @@
 title: "10 Boas Práticas do NodeJS em Produção Tudo passo a passo"
 date: "2020-09-30"
 description: Neste artigo, veremos 10 boas práticas do Nodejs que devemos fazer com os nosso projetos que estão indo ou já está em produção.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/10-boas-praticas-em-node-js-em-producao passo-a-passo.png
+imgHome: /thumbnail-home/10-boas-praticas-em-node-js-em-producao passo-a-passo.png
 ---
 
 Neste artigo, veremos **10 boas práticas do Nodejs** que devemos fazer com os nosso projetos que estão indo ou já está em produção.
