@@ -12,8 +12,8 @@ tags:
   - "formulario"
   - "site-para-criar-formularios"
 description: Fala dev, neste artigo iremos da continuidade a série Criar Formulário HTML, nessa parte 2 vamos criar um pequeno servidor usando a tecnologia NodeJS para fazermos a comunicação entre front-end e back-end na prática, iremos enviar os dados preenchido no formulário para o nosso servidor em Node. Veja onde paramos, caso você não tenha lido a parte 1 [clique aqui](https//www.tipscode.com.br/criar-formulario-html5-parte-1/). Vamos ao código base.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/formulario-html-parte-2.png
+imgHome: /thumbnail-home/formulario-html-parte-2.png
 ---
 
 Fala dev, neste artigo iremos da continuidade a série **Criar Formulário** HTML, nessa parte 2 vamos criar um pequeno servidor usando a tecnologia NodeJS para fazermos a comunicação entre front-end e back-end na prática, iremos enviar os dados preenchido no formulário para o nosso servidor em Node. Veja onde paramos, caso você não tenha lido a parte 1 [clique aqui](/criar-formulario-html5-parte-1/). Vamos ao código base.

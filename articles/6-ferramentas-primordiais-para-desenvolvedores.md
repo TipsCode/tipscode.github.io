@@ -19,8 +19,8 @@ tags:
   - "ferramentas-life-coaching"
   - "ferramentas-seo"
 description: Vamos explorar neste artigo 6 ferramentas primordiais para um desenvolvedor, caso você desconheça algumas dessas ferramentas recomendo muito forte que preste atenção em cada uma delas, pois elas vão lhe ajudar a aumentar sua produtividade na hora de escrever seu código.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/6-ferramentas-primordiais-dev.png
+imgHome: /thumbnail-home/6-ferramentas-primordiais-dev.png
 ---
 
 Vamos explorar neste artigo 6 ferramentas primordiais para um desenvolvedor, caso você desconheça algumas dessas ferramentas recomendo muito forte que preste atenção em cada uma delas, pois elas vão lhe ajudar a aumentar sua produtividade na hora de escrever seu código.

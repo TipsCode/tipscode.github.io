@@ -12,8 +12,8 @@ tags:
   - "site"
   - "tipscode"
 description: Na web de hoje, o tempo de carregamento da página é uma das métricas mais importantes do site. Mesmo milissegundos podem ter um enorme impacto nos seus resultados financeiros, e o carregamento lento da página pode sabotar facilmente suas taxas de conversão. Existem muitas ferramentas e técnicas que você pode adotar para acelerar seu site. Neste artigo, lhe mostro 7 dicas para você fazer a otimização de CSS que você pode usar para melhorar o desempenho do front-end do seu projeto.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/otimizacao-do-css.png
+imgHome: /thumbnail-home/otimizacao-do-css.png
 ---
 
 Na web de hoje, o tempo de carregamento da página é uma das métricas mais importantes do site. Mesmo milissegundos podem ter um enorme impacto nos seus resultados financeiros, e o carregamento lento da página pode sabotar facilmente suas taxas de conversão. Existem muitas ferramentas e técnicas que você pode adotar para acelerar seu site. Neste artigo, lhe mostro 7 dicas para você fazer a otimização de CSS que você pode usar para melhorar o desempenho do front-end do seu projeto.

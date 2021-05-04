@@ -10,8 +10,8 @@ tags:
   - "desenvolvimento"
   - "frontend"
 description: Neste artigo vamos estudar CSS Grid, esse recurso maravilhoso do CSS3, tenho certeza que irá lhe ajuda bastante em criar seus próprios Layouts. Vamos a prática, bora coda!
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/css-grid-parte-1.png
+imgHome: /thumbnail-home/css-grid-parte-1.png
 ---
 
 Neste artigo vamos estudar **_CSS Grid_**, esse recurso maravilhoso do _CSS3_, tenho certeza que irá lhe ajuda bastante em criar seus próprios Layouts. Vamos a prática, bora coda!

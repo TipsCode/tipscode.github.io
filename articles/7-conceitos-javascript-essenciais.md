@@ -2,8 +2,8 @@
 title: "7 Conceitos JavaScript essenciais"
 date: "2020-04-15"
 description: No mundo do desenvolvimento, os tópicos mais avançados geralmente estão fora de alcance e muitas vezes desencorajam os novos desenvolvedores. Em parte, é porque parece que nada parece fazer muito sentido, e a forma como é ensinado acaba dificultando ainda mais. As letras e palavras podem parecer familiares, mas nada disso faz sentido.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/7-conceitos-javascript.png
+imgHome: /thumbnail-home/7-conceitos-javascript.png
 ---
 
 No mundo do desenvolvimento, os tópicos mais avançados geralmente estão fora de alcance e muitas vezes desencorajam os novos desenvolvedores. Em parte, é porque parece que nada parece fazer muito sentido, e a forma como é ensinado acaba dificultando ainda mais. As letras e palavras podem parecer familiares, mas nada disso faz sentido.

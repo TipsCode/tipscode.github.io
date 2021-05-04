@@ -18,8 +18,8 @@ tags:
   - "navegador-google-chrome"
   - "vidiq-extensao-do-google"
 description: Como desenvolvedores da Web, trabalhamos em um setor de ritmo muito acelerado e permanecer no topo das coisas às vezes pode ser um desafio. É por isso que acredito que devemos aproveitar ao máximo todas as ferramentas que temos à nossa disposição para ajudar a manter a nossa produtividade. Hoje, apresentarei as 10 principais extensões do Google Chrome voltadas para a otimização do fluxo de trabalho de desenvolvimento da web, o que tornará você um pouco mais produtivo.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/melhores-extensoes-chrome.png
+imgHome: /thumbnail-home/melhores-extensoes-chrome.png
 ---
 
 Como desenvolvedores da Web, trabalhamos em um setor de ritmo muito acelerado e permanecer no topo das coisas às vezes pode ser um desafio. É por isso que acredito que devemos aproveitar ao máximo todas as ferramentas que temos à nossa disposição para ajudar a manter a nossa produtividade. Hoje, apresentarei as 10 principais extensões do Google Chrome voltadas para a otimização do fluxo de trabalho de desenvolvimento da web, o que tornará você um pouco mais produtivo.

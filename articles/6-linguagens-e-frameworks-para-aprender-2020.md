@@ -21,8 +21,8 @@ tags:
   - "qual-linguagem-de-programacao-usar"
   - "top-linguagens-de-programacao"
 description: A escolha das linguagens ou frameworks de programação para a criação das suas aplicações afeta não apenas a velocidade e o cronograma do desenvolvimento, mas também influencia sua capacidade de escalar no futuro.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/linguagens-e-framework-para-aprender.png
+imgHome: /thumbnail-home/linguagens-e-framework-para-aprender.png
 ---
 
 A escolha das linguagens ou frameworks de programação para a criação das suas aplicações afeta não apenas a velocidade e o cronograma do desenvolvimento, mas também influencia sua capacidade de escalar no futuro.

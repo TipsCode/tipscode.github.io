@@ -4,8 +4,8 @@ date: "2020-09-27"
 categories: 
   - "react"
 description: Começar com uma nova tecnologia pode ser bastante difícil. Você geralmente se encontra em um mar de tutoriais e artigos, seguidos por milhões de opiniões pessoais. E cada um afirma que encontrou o “caminho certo e perfeito”. Não é diferente para aqueles que estão começando com React.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/começando-com-react-6-licoes-importantes-que-vao-deixar-voce-a-frente.png
+imgHome: /thumbnail-home/começando-com-react-6-licoes-importantes-que-vao-deixar-voce-a-frente.png
 ---
 
 **_Começar com uma nova tecnologia pode ser bastante difícil. Você geralmente se encontra em um mar de tutoriais e artigos, seguidos por milhões de opiniões pessoais. E cada um afirma que encontrou o “caminho certo e perfeito”. Não é diferente para aqueles que estão começando com React._**

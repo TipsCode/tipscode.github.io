@@ -15,8 +15,8 @@ tags:
   - "tipscode"
   - "vaga-de-emprego"
 description: Descobra como é uma Entrevista de Emprego Perguntas e Respostas na vida real de um programador em NodeJS.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/vaga-de-nodejs-21-respostas-para-se-dar-bem-na-entrevista.png
+imgHome: /thumbnail-home/vaga-de-nodejs-21-respostas-para-se-dar-bem-na-entrevista.png
 ---
 
 Descobra como é uma Entrevista de Emprego Perguntas e Respostas na vida real de um programador em NodeJS.
