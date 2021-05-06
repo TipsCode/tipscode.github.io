@@ -4,8 +4,8 @@ date: "2020-10-11"
 categories: 
   - "react"
 description: Como você usa state e props no React, e o que cada um deles é?
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/state-props.png
+imgHome: /thumbnail-home/state-props.png
 ---
 
 **_Como você usa state e props no React, e o que cada um deles é_**?

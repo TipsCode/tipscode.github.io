@@ -11,8 +11,8 @@ tags:
   - "programar-do-zero"
   - "web"
 description: Sendo bem direto e honesto com você, você pode começar sua jornada de desenvolvimento Web com tutoriais do YouTube (no [canal do tipscode](https//www.youtube.com/tipscode) tem muito material legal), artigos de blogs ou fóruns com o Stack Overflow, mas por onde começar a entender todo o material e as informações disponíveis? Qual é o caminho para se tornar um desenvolvedor web profissional?
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/desenvolvimento-web-onde-comecar.png
+imgHome: /thumbnail-home/desenvolvimento-web-onde-comecar.png
 ---
 
 Sendo bem direto e honesto com você, você pode começar sua jornada de desenvolvimento Web com tutoriais do YouTube (no [canal do tipscode](https://www.youtube.com/tipscode) tem muito material legal), artigos de blogs ou fóruns com o Stack Overflow, mas por onde começar a entender todo o material e as informações disponíveis? Qual é o caminho para se tornar um desenvolvedor web profissional?

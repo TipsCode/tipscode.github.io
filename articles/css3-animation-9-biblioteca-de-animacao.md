@@ -14,8 +14,8 @@ tags:
   - "lib"
   - "libs"
 description: O design web front-end passou por uma revolução na última década. No final dos anos noventa, a maioria de nós ainda estava projetando layouts de revistas estáticas. Atualmente, estamos construindo "máquinas digitais" com milhares de peças móveis, redimensionadas e coordenadas.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/css-animation.png
+imgHome: /thumbnail-home/css-animation.png
 ---
 
 O design web front-end passou por uma revolução na última década. No final dos anos noventa, a maioria de nós ainda estava projetando layouts de revistas estáticas. Atualmente, estamos construindo "máquinas digitais" com milhares de peças móveis, redimensionadas e coordenadas.

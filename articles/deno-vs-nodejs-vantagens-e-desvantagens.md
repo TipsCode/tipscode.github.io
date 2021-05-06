@@ -16,8 +16,8 @@ tags:
   - "seguranca"
   - "vantagens"
 description: Quando o [Deno](https//youtu.be/Z-mGgOz5NEA) foi anunciado gerou bastante interesse na comunidade JavaScript, fiz até um vídeo lá no meu canal do Youtube explicando o que era esse tal de [Deno](https//youtu.be/Z-mGgOz5NEA). Existe muitas semelhanças entre as duas plataformas. No entanto, também existem diferenças importantes, o que significa que você não pode simplesmente substituir um pelo outro.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/deno-vs-nodejs.png
+imgHome: /thumbnail-home/deno-vs-nodejs.png
 ---
 
 Quando o [Deno](https://youtu.be/Z-mGgOz5NEA) foi anunciado gerou bastante interesse na comunidade JavaScript, fiz até um vídeo lá no meu canal do Youtube explicando o que era esse tal de [Deno](https://youtu.be/Z-mGgOz5NEA). Existe muitas semelhanças entre as duas plataformas. No entanto, também existem diferenças **importantes**, o que significa que você não pode simplesmente substituir um pelo outro.
