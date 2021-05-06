@@ -4,8 +4,8 @@ date: "2020-10-04"
 categories: 
   - "programacao"
 description: Neste artigo vou lhe mostrar 8 dicas de como ser mais produtivo e organizado em suas atividades, seja ela qual for. O ano de 2020 mostrou uma nova realidade para as empresas e também para as pessoas, não é mais preciso perder horas e horas em trânsitos ou em reuniões onde mais da metade do tempo é jogado fora com conversas paralelas.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/8-dicas-para-ser-mais-produto.png
+imgHome: /thumbnail-home/8-dicas-para-ser-mais-produto.png
 ---
 
 **_Neste artigo vou lhe mostrar 8 dicas de como ser mais produtivo e organizado em suas atividades, seja ela qual for. O ano de 2020 mostrou uma nova realidade para as empresas e também para as pessoas, não é mais preciso perder horas e horas em trânsitos ou em reuniões onde mais da metade do tempo é jogado fora com conversas paralelas._**

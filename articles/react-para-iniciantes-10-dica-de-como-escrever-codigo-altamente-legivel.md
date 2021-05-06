@@ -4,8 +4,8 @@ date: "2020-09-20"
 categories: 
   - "react"
 description: O React para iniciantes a primeira vista pode parece muito confuso, pois a tecnologia quebra alguns conceitos pregado desde sempre no mundo da programação, portanto esse artigo tem o objetivo de trazer 10 dicas de como escrever um bom e legível usando o React.
-imgArticle: /thumbnail-article/
-imgHome: /thumbnail-home/
+imgArticle: /thumbnail-article/10-dicas-react-iniciante.png
+imgHome: /thumbnail-home/10-dicas-react-iniciante.png
 ---
 
 **_O React para iniciantes a primeira vista pode parece muito confuso, pois a tecnologia quebra alguns conceitos pregado desde sempre no mundo da programação, portanto esse artigo tem o objetivo de trazer 10 dicas de como escrever um bom e legível usando o React._**

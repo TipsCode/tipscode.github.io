@@ -8,8 +8,8 @@ tags:
   - "react-vs-angular"
   - "tipscode"
 description: Qual desses dois escolher React ou Angular? Cada framework tem muito a oferecer e não é fácil escolher entre os dois. Seja você um iniciante tentando descobrir por onde começar, um freelancer escolhendo um framework para o seu próximo projeto ou um arquiteto de nível empresarial planejando uma visão estratégica para sua empresa, provavelmente se beneficiará de ter uma visão instruída sobre neste artigo.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/react-vs-angular.png
+imgHome: /thumbnail-home/react-vs-angular.png
 ---
 
 Qual desses dois escolher React ou Angular? Cada framework tem muito a oferecer e não é fácil escolher entre os dois. Seja você um iniciante tentando descobrir por onde começar, um freelancer escolhendo um framework para o seu próximo projeto ou um arquiteto de nível empresarial planejando uma visão estratégica para sua empresa, provavelmente se beneficiará de ter uma visão instruída sobre neste artigo.

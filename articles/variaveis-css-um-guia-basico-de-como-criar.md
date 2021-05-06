@@ -8,8 +8,8 @@ tags:
   - "css"
   - "variaveis"
 description: Durante anos, as variáveis ​​foram um dos recursos do CSS mais comumente solicitados. As variáveis ​​facilitam o gerenciamento de cores, fontes, tamanho e valores de animação e garantem sua consistência em uma base de código.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/variaveis-css.png
+imgHome: /thumbnail-home/variaveis-css.png
 ---
 
 Durante anos, as variáveis ​​foram um dos recursos do CSS mais comumente solicitados. As variáveis ​​facilitam o gerenciamento de cores, fontes, tamanho e valores de animação e garantem sua consistência em uma base de código.
