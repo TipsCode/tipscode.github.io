@@ -7,8 +7,8 @@ tags:
   - "aplicacao-em-node"
   - "nodejs"
 description: Fala dev, tudo bem? Neste artigo vamos criar nossa primeira aplicação em Nodejs, então sem mais conversa bora coda?
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/criando-app-nodejs.png
+imgHome: /thumbnail-home/criando-app-nodejs.png
 ---
 
 Fala dev, tudo bem? Neste artigo vamos criar nossa primeira **aplicação em Nodejs,** então sem mais conversa bora coda?

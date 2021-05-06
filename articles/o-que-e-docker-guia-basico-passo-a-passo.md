@@ -7,8 +7,8 @@ tags:
   - "docker"
   - "o-que-e-docker"
 description: Para aquelas situações em que os contêineres brilham, você pode estar se perguntando como essa tecnologia é implementada na prática. Então, vamos ver como o Docker cumpre todas essas promessas.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/o-que-e-docker-um-guia-para-iniciante.png
+imgHome: /thumbnail-home/o-que-e-docker-um-guia-para-iniciante.png
 ---
 
 Para aquelas situações em que os contêineres brilham, você pode estar se perguntando como essa tecnologia é implementada na prática. Então, vamos ver como o Docker cumpre todas essas promessas.

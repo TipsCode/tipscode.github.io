@@ -10,8 +10,8 @@ tags:
   - "portfolio-5-dicas-para-voce-se-destacar"
   - "programacao"
 description: Nem sempre é fácil encontrar e obter novos clientes como desenvolvedor web. Primeiro, há o obstáculo de como traduzir o que você faz em um idioma que os clientes entenderão. Se você começar a falar sobre coisas como BackEnd, APIs e wireframes, os olhos de seus clientes em potencial irão brilhar. Eles querem ver por seus próprios olhos o que você pode fazer.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/portfolio.png
+imgHome: /thumbnail-home/portfolio.png
 ---
 
 Nem sempre é fácil encontrar e obter novos clientes como desenvolvedor web. Primeiro, há o obstáculo de como traduzir o que você faz em um idioma que os clientes entenderão. Se você começar a falar sobre coisas como BackEnd, APIs e wireframes, os olhos de seus clientes em potencial irão brilhar. Eles querem ver por seus próprios olhos o que você pode fazer.

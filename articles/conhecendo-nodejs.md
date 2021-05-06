@@ -4,8 +4,8 @@ date: "2020-01-01"
 categories: 
   - "artigos"
 description: Neste artigo vamos conhece e saber com mais detalhes sobre essa plataforma de desenvolvimento que vem evolucionando o mercado web. NodeJS, a final de contas o que é? Por que ele está dominando o mercado? Quais são suas características? Quais são os benefícios? Todas essas perguntas esse artigo se propõe a responde-las, então sem mais delongas vamos la !!
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/conhecendo-nodejs.png
+imgHome: /thumbnail-home/conhecendo-nodejs.png
 ---
 
 Neste artigo vamos conhece e saber com mais detalhes sobre essa plataforma de desenvolvimento que vem evolucionando o mercado web. NodeJS, a final de contas o que é? Por que ele está dominando o mercado? Quais são suas características? Quais são os benefícios? Todas essas perguntas esse artigo se propõe a responde-las, então sem mais delongas vamos la !!

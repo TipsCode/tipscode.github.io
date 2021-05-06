@@ -9,8 +9,8 @@ tags:
   - "react"
   - "react-native"
 description: Você fez toda a instalação necessária para rodar o android studio emulator e não está funcionando? Está com dando tela preta? Não inicia? Sua placa mãe não suporta emuladores? Então você está no artigo certo, vou lhe mostra uma solução alternativa e com ZERO configurações. Esse artigo vai lhe ensinar a preparar o ambiente de desenvolvimento para criar suas aplicação com React Native.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/android-studio-esta-dificil-instalar-o-emulator.png
+imgHome: /thumbnail-home/android-studio-esta-dificil-instalar-o-emulator.png
 ---
 
 Você fez toda a instalação necessária para rodar o **android studio emulator** e não está funcionando? Está com dando tela preta? Não inicia? Sua placa mãe não suporta **emuladores**? Então você está no artigo certo, vou lhe mostra uma solução **alternativa** e com ZERO configurações. Esse artigo vai lhe ensinar a preparar o ambiente de desenvolvimento para criar suas aplicação com React Native.

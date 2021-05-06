@@ -12,8 +12,8 @@ tags:
   - "projeto-html"
   - "tipscode"
 description: À medida em que você aprende HTML e adiciona novas técnicas à sua caixa de ferramentas, é provável que você queira criar um modelo básico a partir do qual possa iniciar todos os seus projetos baseados em HTML. Eu lhe encorajo a fazer isso, e você também pode considerar usar uma das muitas fontes on-line que fornecem um ponto de partida básico do HTML5 para você.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/html-um-modelo-para-comecar.png
+imgHome: /thumbnail-home/html-um-modelo-para-comecar.png
 ---
 
 À medida em que você aprende **HTML** e adiciona novas técnicas à sua caixa de ferramentas, é provável que você queira criar um modelo básico a partir do qual possa iniciar todos os seus projetos baseados em HTML. Eu lhe encorajo a fazer isso, e você também pode considerar usar uma das muitas fontes on-line que fornecem um ponto de partida básico do HTML5 para você.

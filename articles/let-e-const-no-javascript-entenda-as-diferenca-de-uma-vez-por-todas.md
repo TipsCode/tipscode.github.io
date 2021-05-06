@@ -2,8 +2,8 @@
 title: "Let e Const no JavaScript: Entenda as Diferença de uma vez por Todas"
 date: "2020-11-01"
 description: Neste artigo, vou lhe mostrar alguns pontos sobre as diferenças entre let e const no javascript, duas novas palavras-chave adicionadas ao JavaScript com a chegada da versão ES6 ([caso você queira entender mais sobre esse tal ES6 tem um vídeo no canal sobre isso](https//youtu.be/PlFlKxZbVqs)), essa mesma que mudou muito o jeito que alguns via a linguagem. Essa versão trouce muitas que aprimoraram.
-imgArticle: /thumbnail-article/let-e-const-no-javascript-entenda-as-diferencas-de-uma-vez-por-todas.png
-imgHome: /thumbnail-home/let-e-const-no-javascript-entenda-as-diferencas-de-uma-vez-por-todas.png
+imgArticle: /thumbnail-article/let-e-const.png
+imgHome: /thumbnail-home/let-e-const.png
 ---
 
 Neste artigo, vou lhe mostrar alguns pontos sobre as diferenças entre **let e const no javascript**, duas novas palavras-chave adicionadas ao JavaScript com a chegada da versão ES6 ([caso você queira entender mais sobre esse tal ES6 tem um vídeo no canal sobre isso](https://youtu.be/PlFlKxZbVqs)), essa mesma que mudou muito o jeito que alguns via a linguagem. Essa versão trouce muitas que aprimoraram.

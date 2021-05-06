@@ -21,8 +21,8 @@ tags:
   - "regular-expressions"
   - "regulares"
 description: Mais cedo ou mais tarde, você encontrará uma expressão regular. Com sua sintaxe enigmática, documentação confusa e curva de aprendizado maciça, a maioria dos desenvolvedores resolve copiá-los e colá-los no StackOverflow e torcer para que eles funcionem. Mas e se você pudesse decodificar expressões regulares e aproveitar seu poder? Neste artigo, mostrarei por que você deve examinar novamente as expressões regulares e como usá-las no mundo real.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/expressoes-regulares-para-iniciantes.png
+imgHome: /thumbnail-home/expressoes-regulares-para-iniciantes.png
 ---
 
 Mais cedo ou mais tarde, você encontrará uma expressão regular. Com sua sintaxe enigmática, documentação confusa e curva de aprendizado maciça, a maioria dos desenvolvedores resolve copiá-los e colá-los no StackOverflow e torcer para que eles funcionem. Mas e se você pudesse decodificar expressões regulares e aproveitar seu poder? Neste artigo, mostrarei por que você deve examinar novamente as expressões regulares e como usá-las no mundo real.

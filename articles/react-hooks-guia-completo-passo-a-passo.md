@@ -10,8 +10,8 @@ tags:
   - "react-hook-guia-completo"
   - "tipscode"
 description: Neste artigo, você aprenderá e entenderá o que são os Hooks do React, os hooks básicos do React disponíveis e também exemplos de como escrevê-los para suas aplicações em React. No processo, você também conhecerá alguns hooks adicionais que foram enviados para a versão 16.8 e também como escrever seus próprios hooks no React.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/api-react-hooks-passo-a-passo.png
+imgHome: /thumbnail-home/api-react-hooks-passo-a-passo.png
 ---
 
 Neste artigo, você aprenderá e entenderá o que são os Hooks do React, os hooks básicos do React disponíveis e também exemplos de como escrevê-los para suas aplicações em React. No processo, você também conhecerá alguns hooks adicionais que foram enviados para a versão 16.8 e também como escrever seus próprios hooks no React.

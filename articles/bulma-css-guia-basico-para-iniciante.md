@@ -9,8 +9,8 @@ tags:
   - "desenvolvedor-front-end"
   - "framework-css"
 description: A linguagem de estilo Cascading Style Sheets (CSS) fornece aos desenvolvedores Web um nível mais preciso de controle sobre o layout, a tipografia e a estética visual geral de uma página Web. O CSS tornou-se tão predominante no design de sites.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/bulma-css.png
+imgHome: /thumbnail-home/bulma-css.png
 ---
 
 A linguagem de estilo **Cascading Style Sheets** (CSS) fornece aos desenvolvedores Web um nível mais preciso de controle sobre o layout, a tipografia e a estética visual geral de uma página Web. O CSS tornou-se tão predominante no design de sites.

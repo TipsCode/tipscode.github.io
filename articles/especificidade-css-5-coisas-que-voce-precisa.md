@@ -2,8 +2,8 @@
 title: "Especificidade CSS - 5 coisas que você deve saber"
 date: "2020-02-15"
 description: Especificidade CSS é um tipo de “poder de escolha”, que ajuda os navegadores a decidir qual valor da propriedade CSS terá precedência e será aplicado aos elementos. Geralmente, a especificidade é o culpado por você bater cabeça quando pensa que o valor das propriedades CSS deve se aplicar a um elemento, mas não. A razão é que em algum lugar você esqueceu a Especificidade CSS.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/especificidade-css.png
+imgHome: /thumbnail-home/especificidade-css.png
 ---
 
 **Especificidade CSS** é um tipo de “poder de escolha”, que ajuda os navegadores a decidir qual valor da propriedade CSS terá precedência e será aplicado aos elementos. Geralmente, a especificidade é o culpado por você bater cabeça quando pensa que o valor das propriedades CSS deve se aplicar a um elemento, mas não. A razão é que em algum lugar você esqueceu a Especificidade CSS.

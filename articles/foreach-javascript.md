@@ -2,8 +2,8 @@
 title: "Como usar o Foreach JavaScript"
 date: "2020-01-11"
 description: Fala dev, vamos a mais um artigo, neste vamos abordar um tema bastante importante e que vai lhe trazer bastante produtividade na hora de escrever seus códigos em JavaScript, estudaremos neste artigo o foreach JavaScript.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/como-usar-foreach.png
+imgHome: /thumbnail-home/como-usar-foreach.png
 ---
 
 Fala dev, vamos a mais um artigo, neste vamos abordar um tema bastante importante e que vai lhe trazer bastante produtividade na hora de escrever seus códigos em JavaScript, estudaremos neste artigo o _foreach JavaScript._

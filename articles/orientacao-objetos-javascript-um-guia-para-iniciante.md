@@ -2,8 +2,8 @@
 title: "Orientação Objetos JavaScript Um guia para Iniciante"
 date: "2020-09-23"
 description: Orientação Objetos JavaScript, neste artigo vou lhe dá uma introdução a esse paradigma tão importante no mundo da programação no geral, neste artigo irei foca na linguagem JavaScript, vou me esforça para lhe explicar tudo passo a passo.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/orientacao-a-objetos-javascript-um-guia-para-iniciantes.png
+imgHome: /thumbnail-home/orientacao-a-objetos-javascript-um-guia-para-iniciantes.png
 ---
 
 **_Orientação Objetos JavaScript, neste artigo vou lhe dá uma introdução a esse paradigma tão importante no mundo da programação no geral, neste artigo irei foca na linguagem JavaScript, vou me esforça para lhe explicar tudo passo a passo._**

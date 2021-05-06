@@ -9,8 +9,8 @@ tags:
   - "css"
   - "html"
 description: O TipsCode está lançando mais uma nova série lá no canal do Youtube, nesta nova playlist de aulas vamos desenvolver do zero um site de notícia, então se você está querendo aprender HTML e CSS é essa sua chance, e o melhor de tudo isso é que é 100% gratuito.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/mini-curso de-HTML5-Construindo-um-site-de-noticias.png
+imgHome: /thumbnail-home/mini-curso de-HTML5-Construindo-um-site-de-noticias.png
 ---
 
 O TipsCode está lançando mais uma nova série lá no canal do Youtube, nesta nova playlist de aulas vamos desenvolver do zero um site de notícia, então se você está querendo aprender HTML e CSS é essa sua chance, e o melhor de tudo isso é que é 100% gratuito.

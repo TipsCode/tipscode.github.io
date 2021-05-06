@@ -7,8 +7,8 @@ tags:
   - "javascrip"
   - "jogo"
 description: Neste projeto que está sendo disponibilizado lá no [canal do youtube TipsCode](http//www.youtube.com/tipscode), vamos desenvolver um jogo do zero usando HTML5, CSS3 e JavaScript.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/criando-um-jogo-mata-covid.png
+imgHome: /thumbnail-home/criando-um-jogo-mata-covid.png
 ---
 
 Neste projeto que está sendo disponibilizado lá no [canal do youtube TipsCode](http://www.youtube.com/tipscode), vamos desenvolver um jogo do zero usando HTML5, CSS3 e JavaScript.

@@ -4,8 +4,8 @@ date: "2020-10-18"
 categories: 
   - "desenvolvimento-web"
 description: A final de contas, o que é um programador full stack? O que ele faz no seu dia a dia? Esse artigo se propõe a responde todas essas perguntas de uma forma bem objetiva e simples.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/programador-fullstack-backend-frontend.png
+imgHome: /thumbnail-home/programador-fullstack-backend-frontend.png
 ---
 
 A final de contas, o que é um **programador full stack**? **O que ele faz no seu dia a dia**? Esse artigo se propõe a responde todas essas perguntas de uma forma bem objetiva e simples.

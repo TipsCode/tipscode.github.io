@@ -2,8 +2,8 @@
 title: "Criando um jogo em Javascript, HTML5 e CSS3"
 date: "2020-04-11"
 description: É com muito orgulho que apresento a você o meu Mini-Curso Construindo Jogo em JavaScript totalmente GRATUÍTO onde vamos desenvolver juntos passo a passo, linha a linha um jogo chamado Flappy Bird.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/criando-jogo-com-javascript.png
+imgHome: /thumbnail-home/criando-jogo-com-javascript.png
 ---
 
 É com muito orgulho que apresento a você o meu Mini-Curso Construindo Jogo em JavaScript totalmente GRATUÍTO onde vamos desenvolver juntos passo a passo, linha a linha um jogo chamado Flappy Bird.

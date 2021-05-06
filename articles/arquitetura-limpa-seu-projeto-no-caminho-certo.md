@@ -13,8 +13,8 @@ tags:
   - "sustentabilidade"
   - "wm-arquitetura"
 description: Fala dev, neste artigo irei aborda um tema meio “polemico” entre nós desenvolvedores, mas quais benefícios essa tal de arquitetura limpa me proporcionará, o que é, com funciona? Esse artigo tem como objetivo responde essas perguntas, então vem comigo aprender um pouco mais sobre arquitetura limpa.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/arquitetura-limpa.png
+imgHome: /thumbnail-home/arquitetura-limpa.png
 ---
 
 Fala dev, neste artigo irei aborda um tema meio “polemico” entre nós desenvolvedores, mas quais benefícios essa tal de arquitetura limpa me proporcionará, o que é, com funciona? Esse artigo tem como objetivo responde essas perguntas, então vem comigo aprender um pouco mais sobre arquitetura limpa.

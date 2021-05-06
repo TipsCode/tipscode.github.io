@@ -12,8 +12,8 @@ tags:
   - "visual-studio-code"
   - "vs-code"
 description: O React é uma coleção de ferramentas e bibliotecas independentes entre si. As muitas ferramentas garantem muita liberdade, porque você pode procurar as melhores para o trabalho em questão. No React, existem muitas maneiras de resolver um problema, portanto, conhecer mais do que algumas ferramentas é uma boa ideia. Existem ferramentas que são melhores em certos problemas do que em outros, tudo depende do contexto. Abaixo está uma lista de ferramentas que considero úteis em um projeto React, algumas são mais recentes que outras e algumas resolvem um problema específico ao trabalhar com o React - mas todas são muito úteis.
-imgArticle: /thumbnail-article/19-ferramentas-para-react-que-voce-precisa-conhecer.png
-imgHome: /thumbnail-home/19-ferramentas-para-react-que-voce-precisa-conhecer.png
+imgArticle: /thumbnail-article/19-ferramentas-react.png
+imgHome: /thumbnail-home/19-ferramentas-react.png
 ---
 
 O React é uma coleção de ferramentas e bibliotecas independentes entre si. As muitas ferramentas garantem muita liberdade, porque você pode procurar as melhores para o trabalho em questão. No React, existem muitas maneiras de resolver um problema, portanto, conhecer mais do que algumas ferramentas é uma boa ideia. Existem ferramentas que são melhores em certos problemas do que em outros, tudo depende do contexto. Abaixo está uma lista de ferramentas que considero úteis em um projeto React, algumas são mais recentes que outras e algumas resolvem um problema específico ao trabalhar com o React - mas todas são muito úteis.

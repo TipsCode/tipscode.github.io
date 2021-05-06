@@ -13,8 +13,8 @@ tags:
   - "react-teste"
   - "tipscode"
 description: Neste artigo, apresentarei uma ferramenta de teste do React chamada Jest, juntamente com a popular biblioteca Enzyme, projetada para testar os componentes do React. Apresentarei as técnicas de teste do Jest, incluindo execução de testes, teste de componentes do React, entre outros. Se você é novo no no mundo dos teste e quer saber como começar, este artigo lhe será muito útil porque começaremos com uma introdução ao teste. No final, você estará entendendo um pouco mais e testando aplicações escritas com React usando Jest e Enzyme.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/react-para-iniciantes.png
+imgHome: /thumbnail-home/react-para-iniciantes.png
 ---
 
 Neste artigo, apresentarei uma ferramenta de teste do React chamada **_Jest_**, juntamente com a popular biblioteca _**Enzyme**_, projetada para testar os componentes do React. Apresentarei as técnicas de teste do Jest, incluindo: execução de testes, teste de componentes do React, entre outros. Se você é novo no no mundo dos teste e quer saber como começar, este artigo lhe será muito útil porque começaremos com uma introdução ao teste. No final, você estará entendendo um pouco mais e testando aplicações escritas com React usando Jest e Enzyme.

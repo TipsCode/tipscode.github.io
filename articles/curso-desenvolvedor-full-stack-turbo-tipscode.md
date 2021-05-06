@@ -2,8 +2,8 @@
 title: "Curso Desenvolvedor Full Stack Turbo TipsCode"
 date: "2020-11-27"
 description: Opa Alisson aqui, bom há pouco mais de 11 meses comecei o TipsCode com o objetivo de compartilha o pouco do meu conhecimento sobre programação web. E o TipsCode foi ganhando forma e o pessoal que via meus vídeos que lia meus artigos começaram a gosta do meu jeito simples de explicar e ensinar. Por esse motivo criei o curso curso desenvolvedor full stack turbo.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/full-stack-turbo.png
+imgHome: /thumbnail-home/full-stack-turbo.png
 ---
 
 Opa Alisson aqui, bom há pouco mais de 11 meses comecei o TipsCode com o objetivo de compartilha o pouco do meu conhecimento sobre programação web. E o TipsCode foi ganhando forma e o pessoal que via meus vídeos que lia meus artigos começaram a gosta do meu jeito simples de explicar e ensinar. Por esse motivo criei o curso curso desenvolvedor full stack turbo

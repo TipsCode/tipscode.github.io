@@ -14,8 +14,8 @@ tags:
   - "promises-in-javascript"
   - "tipscode"
 description: Embora o código síncrono seja mais fácil de seguir e depurar, o assíncrono geralmente é melhor para desempenho e flexibilidade. Por que "interromper o programa" quando você pode acionar vários pedidos de uma só vez e depois lidar com eles quando cada um está pronto? As promessas estão se tornando uma grande parte do mundo do JavaScript, com muitas novas APIs sendo implementadas com a filosofia da promessa. Vamos dar uma olhada nas promessas, a API, como é usada!
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/promise.png
+imgHome: /thumbnail-home/promise.png
 ---
 
 Embora o código síncrono seja mais fácil de seguir e depurar, o assíncrono geralmente é melhor para desempenho e flexibilidade. Por que "interromper o programa" quando você pode acionar vários pedidos de uma só vez e depois lidar com eles quando cada um está pronto? As promessas estão se tornando uma grande parte do mundo do JavaScript, com muitas novas APIs sendo implementadas com a filosofia da promessa. Vamos dar uma olhada nas promessas, a API, como é usada!

@@ -8,8 +8,8 @@ tags:
   - "javascript"
   - "nodejs"
 description: A assincronia em qualquer linguagem de programação é difícil e o event loop vem pra resolver isso. Conceitos como simultaneidade, paralelismo e deadlocks fazem tremer até os engenheiros mais experientes. O código executado de forma assíncrona é imprevisível e difícil de rastrear quando há bugs. O problema é inevitável porque a computação moderna possui vários núcleos. Há um limite térmico em cada núcleo da CPU, e nada está ficando mais rápido. Isso pressiona o desenvolvedor a escrever um código eficiente que aproveite as vantagens do hardware.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/event-loop-nodejs.png
+imgHome: /thumbnail-home/event-loop-nodejs.png
 ---
 
 A assincronia em qualquer linguagem de programação é difícil e o **event loop** vem pra resolver isso. Conceitos como simultaneidade, paralelismo e deadlocks fazem tremer até os engenheiros mais experientes. O código executado de forma assíncrona é imprevisível e difícil de rastrear quando há bugs. O problema é inevitável porque a computação moderna possui vários núcleos. Há um limite térmico em cada núcleo da CPU, e nada está ficando mais rápido. Isso pressiona o desenvolvedor a escrever um código eficiente que aproveite as vantagens do hardware.

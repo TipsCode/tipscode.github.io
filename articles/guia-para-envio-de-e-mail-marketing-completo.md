@@ -13,8 +13,8 @@ tags:
   - "programador"
   - "tipscode"
 description: Email em HTML duas palavras que, quando combinadas, trazem um pouco de preocupação para um desenvolvedor. Se você é um desenvolvedor web, é inevitável que em algum momento da sua carreira essa tarefa de codifica um e-mail vai cair no seu colo. A codificação de email em HTML é antiga. Vem lá de 1999, quando nos eramos chamados de “webmasters” e usamos Frontpage, editores e tabelas WYSIWYG para marcar nossos sites.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/guia-para-envio-de-email-marketing.png
+imgHome: /thumbnail-home/guia-para-envio-de-email-marketing.png
 ---
 
 Email em HTML: duas palavras que, quando combinadas, trazem um pouco de preocupação para um desenvolvedor. Se você é um desenvolvedor web, é inevitável que em algum momento da sua carreira essa tarefa de codifica um e-mail vai cair no seu colo. A codificação de email em HTML é antiga. Vem lá de 1999, quando nos eramos chamados de “webmasters” e usamos Frontpage, editores e tabelas WYSIWYG para marcar nossos sites.

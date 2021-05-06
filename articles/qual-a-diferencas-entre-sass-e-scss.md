@@ -4,8 +4,8 @@ date: "2020-05-12"
 tags: 
   - "diferencas-entre-sass-e-scss"
 description: Quando falamos sobre Sass , geralmente nos referimos ao pré-processador e à linguagem como um todo. Diremos, por exemplo, "estamos usando o Sass" ou "aqui está um mix do Sass". Enquanto isso, o Sass (o pré-processador) permite duas sintaxes diferentes.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/qual-a-diferenca-de-sass-para-scss.png
+imgHome: /thumbnail-home/qual-a-diferenca-de-sass-para-scss.png
 ---
 
 Quando falamos sobre Sass , geralmente nos referimos ao pré-processador e à linguagem como um todo. Diremos, por exemplo, "estamos usando o Sass" ou "aqui está um mix do Sass". Enquanto isso, o Sass (o pré-processador) permite duas sintaxes diferentes:

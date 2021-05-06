@@ -7,8 +7,8 @@ tags:
   - "css"
   - "flexbox"
 description: O Flexbox é um módulo do CSS que ajuda a posicionar elementos HTML na tela. A centralização horizontal e vertical é uma delas. A centralização do Flexbox resolve problemas comuns de alinhamento que você pode encontrar ao trabalhar com o modelo de CSS box tradicional. Ele permite centralizar itens em seu contêiner horizontal e verticalmente com apenas algumas linhas de código CSS.
-imgArticle: /thumbnail-article/como-conseguir-seu-primeiro-emprego-como-programador.png
-imgHome: /thumbnail-home/como-conseguir-seu-primeiro-emprego-como-programador.png
+imgArticle: /thumbnail-article/css-flexbox.png
+imgHome: /thumbnail-home/css-flexbox.png
 ---
 
 O Flexbox é um módulo do CSS que ajuda a posicionar elementos HTML na tela. A centralização horizontal e vertical é uma delas. A centralização do Flexbox resolve problemas comuns de alinhamento que você pode encontrar ao trabalhar com o modelo de CSS box tradicional. Ele permite centralizar itens em seu contêiner horizontal e verticalmente com apenas algumas linhas de código CSS.
