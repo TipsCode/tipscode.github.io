@@ -45,7 +45,7 @@ class Application extends Nullstack {
         slug,
         content,
         date,
-        readingTime: (content.length / 100),
+        readingTime: ~~(content.split(' ').length / 200),
         ...meta,
       };
     }).sort((a, b) => b.createdAt - a.createdAt);
@@ -59,18 +59,16 @@ class Application extends Nullstack {
     return (
       <head>
         <link href="https://fonts.gstatic.com" rel="preconnect" />
-
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
       </head>
     );
   }
 
-  render({ router }) {
+  render() {
     return (
       <main class="bg-tips-light">
         <Head />
@@ -84,7 +82,6 @@ class Application extends Nullstack {
         <Mini route="/mini-curso-gratuito" />
         <ThanksMini route="/minicurso-obrigado" />
         <Article route="/:slug" />
-
       </main>
     );
   }

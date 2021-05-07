@@ -1,4 +1,4 @@
-function ArticleCard({ title, readingTime, imgHome ,slug }) {
+function ArticleCard({ title, readingTime, imgHome, slug }) {
   return (
     <div class="bg-white shadow rounded relative">
       <figure>

@@ -4,7 +4,6 @@ import Nullstack from 'nullstack';
 
 class Testimonials extends Nullstack {
 
-
   renderOl({ children }) {
     return (
       <ol class="carousel-indicators">

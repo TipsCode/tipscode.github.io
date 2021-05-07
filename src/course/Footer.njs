@@ -5,7 +5,6 @@ import NullstackLogo from 'nullstack/logo';
 class Footer extends Nullstack {
 
   renderLink({ nameClass, url }) {
-
     return (
       <li class="inline-block ml-4">
         <a href={url} target="_blank" class="text-tips-blue hover:text-tips-green" rel="noreferrer">
@@ -48,7 +47,6 @@ class Footer extends Nullstack {
         </ul>
 
       </footer>
-
     );
 
   }

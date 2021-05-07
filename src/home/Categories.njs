@@ -4,7 +4,6 @@ import Promotion from '../layout/Promotion';
 
 class Categories extends Nullstack {
 
-
   renderLink({ children }) {
     return (
       <li class="mt-9 py-3 px-16 shadow rounded-lg bg-gray-50 font-bold border focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
