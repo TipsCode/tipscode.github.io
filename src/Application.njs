@@ -41,13 +41,8 @@ class Application extends Nullstack {
       const [slug] = name.split('.');
       const content = md.render(markdown);
       const { date, ...meta } = md.meta;
-      return {
-        slug,
-        content,
-        date,
-        readingTime: ~~(content.split(' ').length / 200),
-        ...meta,
-      };
+      const readingTime = ~~(content.split(' ').length / 200);
+      return { slug, content, date, readingTime, ...meta };
     }).sort((a, b) => b.createdAt - a.createdAt);
   }
 
