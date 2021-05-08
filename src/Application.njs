@@ -7,7 +7,7 @@ import meta from 'remarkable-meta';
 import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
-import Course from './course/Course';
+import SalesPage from './course-fullstack-turbo/SalesPage';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
 import ThanksEbook from './thanks-ebook/ThanksEbook';
@@ -69,7 +69,7 @@ class Application extends Nullstack {
         <Home route="/" />
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
-        <Course route="/curso-fullstack-turbo" />
+        <SalesPage route="/curso-fullstack-turbo" />
         <Ebook route="/ebook-gratuito" />
         <ThanksEbook route="/ebook-obrigado" />
         <MiniCourse route="/mini-curso-gratuito" />

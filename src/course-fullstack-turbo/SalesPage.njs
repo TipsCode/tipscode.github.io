@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
 
 import Hero from './Hero';
-import Initial from './Initial';
+import CourseDetails from './CourseDetails';
 import WhatLearn from './WhatLearn';
 import Mais from './Mais';
 import Bonus from './Bonus';
@@ -10,7 +10,7 @@ import Calltoaction from './Calltoaction';
 import Faq from './Faq';
 import Footer from './Footer';
 
-class Course extends Nullstack {
+class SalesPage extends Nullstack {
 
   prepare({ project, page }) {
     page.title = `${project.name} - TipsCode`;
@@ -23,7 +23,7 @@ class Course extends Nullstack {
     return (
       <div class="bg-tips-dark">
         <Hero />
-        <Initial />
+        <CourseDetails />
         <WhatLearn />
         <Mais />
         <Bonus />
@@ -37,4 +37,4 @@ class Course extends Nullstack {
 
 }
 
-export default Course;
+export default SalesPage;
