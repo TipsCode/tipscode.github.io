@@ -3,7 +3,7 @@ import Hero from './Hero';
 import CallToAction from './CallToAction';
 import Footer from '../layout/Footer';
 
-export default function Mini() {
+export default function MiniCourse() {
   return (
     <div>
       <Hero />

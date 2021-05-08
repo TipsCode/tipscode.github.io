@@ -1,3 +1,11 @@
+import LeadForm from '../layout/LeadForm';
+
+const leadlover = {
+  id: '414881',
+  mid: '414881',
+  pid: '15204812',
+  list: '414881',
+};
 
 export default function Hero() {
   return (
@@ -17,11 +25,13 @@ export default function Hero() {
               Neste super Treinamento vou te ensinar JavaScript desenvolvendo um Jogo, tudo passo a passo, linha a linha.
             </p>
           </div>
-
-          <form class="mt-4">
-            <input type="text" placeholder="Dgite seu melhor e-mail" class="p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6" />
-            <button type="submit" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-green text-white rounded-md shadow-md border w-full lg:w-5/6">Inscrever-se</button>
-          </form>
+          <LeadForm
+            config={leadlover}
+            class={{
+              input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6',
+              button: 'py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-green text-white rounded-md shadow-md border w-full lg:w-5/6',
+            }}
+          />
         </div>
 
         <figure class="lg:w-6/12 flex-row mt-8 sm:flex justify-center">

@@ -1,18 +1,24 @@
 import Nullstack from 'nullstack';
 import Menu from '../layout/Menu';
 import Promotion from '../layout/Promotion';
-
 import Footer from '../layout/Footer';
 import ArticleImage from './ArticleImage';
 
+const routes = {
+  '/teste': 'https://nullstack.app',
+};
 class Articles extends Nullstack {
 
-  prepare({ project, page }) {
-    page.title = `${project.name} - TipsCode`;
-    page.description = `${project.name} Descomplicando a Tecnologia`;
-    page.locale = 'pt-BR';
+  prepare({ project, page, router }) {
+    const target = routes[router.path];
+    if (target) {
+      router.url = target;
+    } else {
+      page.title = `${project.name} - TipsCode`;
+      page.description = `${project.name} Descomplicando a Tecnologia`;
+      page.locale = 'pt-BR';
+    }
   }
-
 
   static async getArticleBySlug({ articles, slug }) {
     const article = articles.find((article) => article.slug === slug);

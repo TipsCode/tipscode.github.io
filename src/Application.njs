@@ -9,10 +9,9 @@ import Articles from './articles/Articles';
 import Article from './article/Article';
 import Course from './course/Course';
 import Ebook from './ebook/Ebook';
-import Mini from './mini/Mini';
+import MiniCourse from './mini-course/MiniCourse';
 import ThanksEbook from './thanks-ebook/ThanksEbook';
-import DeliveryEbook from './delivery-ebook/DeliveryEbook';
-import ThanksMini from './thanks-mini/ThanksMini';
+import ThanksMiniCourse from './thanks-mini-course/ThanksMiniCourse';
 
 class Application extends Nullstack {
 
@@ -73,9 +72,8 @@ class Application extends Nullstack {
         <Course route="/curso-fullstack-turbo" />
         <Ebook route="/ebook-gratuito" />
         <ThanksEbook route="/ebook-obrigado" />
-        <DeliveryEbook route="/ebook-delivery" />
-        <Mini route="/mini-curso-gratuito" />
-        <ThanksMini route="/minicurso-obrigado" />
+        <MiniCourse route="/mini-curso-gratuito" />
+        <ThanksMiniCourse route="/minicurso-obrigado" />
         <Article route="/:slug" />
       </main>
     );
