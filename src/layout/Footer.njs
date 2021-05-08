@@ -1,10 +1,12 @@
 import NullstackLogo from 'nullstack/logo';
 
-function Link({ nameClass, url }) {
+function Link({ class: className, url }) {
+  const paths = url.split('/');
+  const title = paths[paths.length - 1];
   return (
     <li class="inline-block ml-4">
-      <a href={url} target="_blank" class="text-tips-blue hover:text-tips-green" rel="noreferrer">
-        <span class={nameClass} />
+      <a href={url} target="_blank" class="text-tips-blue hover:text-tips-green" rel="noreferrer" title={title}>
+        <span class={className} />
       </a>
     </li>
   );
@@ -16,7 +18,7 @@ export default function Footer() {
 
       <figure>
         <a href="/">
-          <img src="/tipscode-logo-1.svg" alt="TipsCode" />
+          <img src="/tipscode-logo-1.svg" alt="TipsCode" width="155" height="44" />
         </a>
         <p class="sm:text-center w-full">
           Todos os direitos reservados - TipsCode
@@ -34,12 +36,12 @@ export default function Footer() {
       </div>
 
       <ul>
-        <Link nameClass="fab fa-facebook fa-2x" url="https://web.facebook.com/tipscodeoficial" />
-        <Link nameClass="fab fa-youtube fa-2x" url="https://www.youtube.com/tipscode" />
-        <Link nameClass="fab fa-instagram fa-2x" url="https://www.instagram.com/tipscodeoficial/" />
-        <Link nameClass="fab fa-github fa-2x" url="https://github.com/alissonsuassuna/" />
-        <Link nameClass="fab fa-linkedin fa-2x" url="https://www.linkedin.com/in/alisson-suassuna-5967a8b2/" />
-        <Link nameClass="fab fa-twitter fa-2x" url="https://twitter.com/home" />
+        <Link class="fab fa-facebook fa-2x" url="https://web.facebook.com/tipscodeoficial" />
+        <Link class="fab fa-youtube fa-2x" url="https://www.youtube.com/tipscode" />
+        <Link class="fab fa-instagram fa-2x" url="https://www.instagram.com/tipscodeoficial" />
+        <Link class="fab fa-github fa-2x" url="https://github.com/alissonsuassuna" />
+        <Link class="fab fa-linkedin fa-2x" url="https://www.linkedin.com/in/alisson-suassuna-5967a8b2" />
+        <Link class="fab fa-twitter fa-2x" url="https://twitter.com/tipscodeoficial" />
       </ul>
 
     </footer>

@@ -10,7 +10,7 @@ class Header extends Nullstack {
             Bem vindo à TipsCode
           </h1>
           <div>
-            
+
             <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl tracking-wide leading-relaxed">
               Essa é a sua nova escola de programação online<br />
               Garanta seu lugar em um mercado altamente competivo.
@@ -27,7 +27,7 @@ class Header extends Nullstack {
         </div>
 
         <figure class="flex-row mt-8 sm:flex justify-center sm:justify-end">
-          <img src="/img-hero-blue.png" />
+          <img src="/img-hero-blue.png" alt="Vem vindo à TipsCode" width="328" height="346" />
         </figure>
       </section>
     );

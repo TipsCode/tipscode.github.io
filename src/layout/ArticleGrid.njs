@@ -2,7 +2,7 @@ function ArticleCard({ title, readingTime, imgHome, slug }) {
   return (
     <div class="bg-white shadow rounded relative">
       <figure>
-        <img class="w-full" src={imgHome} />
+        <img class="w-full" src={imgHome} alt={title} height="330" loading="lazy" />
       </figure>
       <div class="p-4 flex flex-col justify-between">
         <h3 class="text-tips-gray-dark text-opacity-80 font-bold text-2xl traking-wide leading-relaxed mb-8">

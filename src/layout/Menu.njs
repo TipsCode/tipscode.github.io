@@ -24,7 +24,7 @@ class Navigation extends Nullstack {
           <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center flex-wrap py-4">
             <div class="w-full sm:w-auto justify-between sm:justify-self-start sm:px-0 items-center flex">
               <a href="/">
-                <img src="/tipscode-logo-1.svg" alt="TipsCode" />
+                <img src="/tipscode-logo-1.svg" alt="TipsCode" width="155" height="44" />
               </a>
               <span
                 onclick={{ expanded: !this.expanded }}

@@ -5,6 +5,8 @@ import Articles from './Articles';
 import Inspiration from './Inspiration';
 import Categories from './Categories';
 import Proverbs from './Proverbs';
+import Footer from '../layout/Footer';
+import Promotion from '../layout/Promotion';
 
 class Home extends Nullstack {
 
@@ -32,6 +34,8 @@ class Home extends Nullstack {
         <Inspiration />
         <Articles />
         <Categories />
+        <Promotion />
+        <Footer />
       </div>
     );
   }
