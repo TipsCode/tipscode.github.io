@@ -3,7 +3,7 @@ import Nullstack from 'nullstack';
 import Hero from './Hero';
 import CourseDetails from './CourseDetails';
 import WhatLearn from './WhatLearn';
-import Mais from './Mais';
+import MoreDetails from './MoreDetails';
 import Bonus from './Bonus';
 import Testimonials from './Testimonials';
 import Calltoaction from './Calltoaction';
@@ -25,7 +25,7 @@ class SalesPage extends Nullstack {
         <Hero />
         <CourseDetails />
         <WhatLearn />
-        <Mais />
+        <MoreDetails />
         <Bonus />
         <Testimonials />
         <Calltoaction />
