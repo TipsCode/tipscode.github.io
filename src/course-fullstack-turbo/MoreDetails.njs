@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
 
-class Mais extends Nullstack {
+class MoreDetails extends Nullstack {
 
   render() {
     return (
@@ -98,4 +98,4 @@ class Mais extends Nullstack {
 
 }
 
-export default Mais;
+export default MoreDetails;
