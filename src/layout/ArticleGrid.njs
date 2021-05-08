@@ -5,8 +5,8 @@ function ArticleCard({ title, readingTime, imgHome, slug }) {
         <img class="w-full" src={imgHome} />
       </figure>
       <div class="p-4 flex flex-col justify-between">
-        <h3 class="text-gray-800 font-semibold text-3xl mb-8">
-          <a href={`/${slug}`} class="block w-full font-normal">
+        <h3 class="text-tips-gray-dark text-opacity-80 font-bold text-2xl traking-wide leading-relaxed mb-8">
+          <a href={`/${slug}`} class="block w-full font-medium">
             {title}
           </a>
         </h3>
@@ -20,7 +20,7 @@ function ArticleCard({ title, readingTime, imgHome, slug }) {
 
 export default function ArticleGrid({ articles }) {
   return (
-    <div class="grid sm:grid-cols-3 md:grid-cols-3 gap-4">
+    <div class="grid sm:grid-cols-3 md:grid-cols-3 gap-6">
       {articles?.map((article) => <ArticleCard {...article} />)}
     </div>
   );

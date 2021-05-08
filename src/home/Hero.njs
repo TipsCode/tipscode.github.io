@@ -6,21 +6,20 @@ class Header extends Nullstack {
     return (
       <section class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
         <div class="flex-col sm:justify-self-center grid gap-8">
-          <h1 class="text-5xl text-tips-dark text-opacity-80 font-bold text-center sm:text-left mb-0">
+          <h1 class="text-5xl text-tips-dark text-opacity-80 traking-wide font-bold text-center sm:text-left mb-0">
             Bem vindo à TipsCode
           </h1>
           <div>
-            <h2 class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl">
-              Essa é a sua nova escola de programação online.
-            </h2>
-            <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl">
+            
+            <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl tracking-wide leading-relaxed">
+              Essa é a sua nova escola de programação online<br />
               Garanta seu lugar em um mercado altamente competivo.
             </p>
           </div>
           <div class="block sm:inline-block">
             <a
               href="/curso-fullstack-turbo"
-              class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+              class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
             >
               Quero ser FullSatack
             </a>
