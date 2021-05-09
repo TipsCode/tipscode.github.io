@@ -39,7 +39,7 @@ class Footer extends Nullstack {
           <div>
             <a href="https://nullstack.app" target="_blank" rel="noopener noreferrer" class="flex justify-center flex-wrap" title="Desenvolvido com Nullstack">
               <span class="w-full block text-center"> Desenvolvido com </span>
-              <NullstackLogo height={20} />
+              <NullstackLogo height={20} themeColor="#ff" />
             </a>
           </div>
         </div>
