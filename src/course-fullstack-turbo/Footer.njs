@@ -1,16 +1,23 @@
 import Nullstack from 'nullstack';
 
 import NullstackLogo from 'nullstack/logo';
+import Facebook from '../icons/Facebook';
+import Github from '../icons/Github';
+import Instagram from '../icons/Instagram';
+import Twitter from '../icons/Twitter';
+import Youtube from '../icons/Youtube';
 
 class Footer extends Nullstack {
 
-  renderLink({ nameClass, url }) {
+  renderLink({ class: className, url, icon: Icon }) {
+    const paths = url.split('/');
+    const title = paths[paths.length - 1];
     return (
-      <li class="inline-block ml-4">
-        <a href={url} target="_blank" class="text-tips-blue hover:text-tips-green" rel="noreferrer">
-          <span class={nameClass} />
-        </a>
-      </li>
+    <li class="inline-block ml-4">
+      <a href={url} title={title} target="_blank" rel="noreferrer"  class="text-tips-blue hover:text-tips-green">
+        <Icon size={24} />
+      </a>
+  </li>
     );
   }
 
@@ -38,12 +45,11 @@ class Footer extends Nullstack {
         </div>
 
         <ul>
-          <Link nameClass="fab fa-facebook fa-2x" url="https://web.facebook.com/tipscodeoficial" />
-          <Link nameClass="fab fa-youtube fa-2x" url="https://www.youtube.com/tipscode" />
-          <Link nameClass="fab fa-instagram fa-2x" url="https://www.instagram.com/tipscodeoficial/" />
-          <Link nameClass="fab fa-github fa-2x" url="https://github.com/alissonsuassuna/" />
-          <Link nameClass="fab fa-linkedin fa-2x" url="https://www.linkedin.com/in/alisson-suassuna-5967a8b2/" />
-          <Link nameClass="fab fa-twitter fa-2x" url="https://twitter.com/home" />
+          <Link url="https://web.facebook.com/tipscodeoficial" title="Facebook" icon={Facebook} />
+          <Link url="https://github.com/alissonsuassuna" title="Github" icon={Github} />
+          <Link url="https://www.youtube.com/tipscode" title="Youtube" icon={Youtube} />
+          <Link url="https://www.instagram.com/tipscodeoficial" title="Instagram" icon={Instagram} />
+          <Link url="https://twitter.com/alissonsuassuna" title="Twitter" icon={Twitter} />
         </ul>
 
       </footer>
