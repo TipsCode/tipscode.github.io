@@ -1,12 +1,17 @@
 import NullstackLogo from 'nullstack/logo';
+import Facebook from '../icons/Facebook';
+import Github from '../icons/Github';
+import Instagram from '../icons/Instagram';
+import Twitter from '../icons/Twitter';
+import Youtube from '../icons/Youtube';
 
-function Link({ class: className, url }) {
+function Link({ class: className, url, icon: Icon }) {
   const paths = url.split('/');
   const title = paths[paths.length - 1];
   return (
     <li class="inline-block ml-4">
-      <a href={url} target="_blank" class="text-tips-blue hover:text-tips-green" rel="noreferrer" title={title}>
-        <span class={className} />
+      <a href={url} title={title} target="_blank" rel="noreferrer"  class="text-tips-blue hover:text-tips-green">
+        <Icon size={24} />
       </a>
     </li>
   );
@@ -36,12 +41,11 @@ export default function Footer() {
       </div>
 
       <ul>
-        <Link class="fab fa-facebook fa-2x" url="https://web.facebook.com/tipscodeoficial" />
-        <Link class="fab fa-youtube fa-2x" url="https://www.youtube.com/tipscode" />
-        <Link class="fab fa-instagram fa-2x" url="https://www.instagram.com/tipscodeoficial" />
-        <Link class="fab fa-github fa-2x" url="https://github.com/alissonsuassuna" />
-        <Link class="fab fa-linkedin fa-2x" url="https://www.linkedin.com/in/alisson-suassuna-5967a8b2" />
-        <Link class="fab fa-twitter fa-2x" url="https://twitter.com/tipscodeoficial" />
+        <Link url="https://web.facebook.com/tipscodeoficial" title="Facebook" icon={Facebook} />
+        <Link url="https://github.com/alissonsuassuna" title="Github" icon={Github} />
+        <Link url="https://www.youtube.com/tipscode" title="Youtube" icon={Youtube} />
+        <Link url="https://www.instagram.com/tipscodeoficial" title="Instagram" icon={Instagram} />
+        <Link url="https://twitter.com/alissonsuassuna" title="Twitter" icon={Twitter} />
       </ul>
 
     </footer>
