@@ -8,7 +8,7 @@ class Calltoaction extends Nullstack {
 
         <section class="container mx-auto text-center py-6">
 
-          <h1 class="w-full my-2 text-2xl md:text-4xl md:my-24 font-bold leading-tight text-center text-white">
+          <h1 class="w-full my-2 text-2xl md:text-4xl md:my-24 font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
             Você está a poucos passos de se tornar um profissional disputado no mercado
           </h1>
 

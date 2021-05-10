@@ -25,7 +25,7 @@ export default function Footer() {
         <a href="/">
           <img src="/tipscode-logo-1.svg" alt="TipsCode" width="155" height="44" />
         </a>
-        <p class="sm:text-center w-full">
+        <p class="sm:text-center w-full text-tips-dark text-opacity-80">
           Todos os direitos reservados - TipsCode
           <strong class="text-center sm:text-left w-full block">CNPJ:41.562.138/0001-61</strong>
         </p>
@@ -34,7 +34,7 @@ export default function Footer() {
       <div class="flex flex-wrap justify-center my-8 sm:my-0">
         <div>
           <a href="https://nullstack.app" target="_blank" rel="noopener noreferrer" class="flex justify-center flex-wrap" title="Desenvolvido com Nullstack">
-            <span class="w-full block text-center"> Desenvolvido com </span>
+            <span class="w-full block text-center text-tips-dark text-opacity-80"> Desenvolvido com </span>
             <NullstackLogo height={20} />
           </a>
         </div>

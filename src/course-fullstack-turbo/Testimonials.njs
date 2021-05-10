@@ -18,7 +18,7 @@ class Testmonials extends Nullstack {
             {this.modalVisible && <Modal onclose={this.toggleModal} />}
           </span>
           <div class="container mx-auto">
-            <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 text-center text-white">O que estão falando sobre o curso Fullstack Turbo da TipsCode</h2>
+            <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 text-center text-white md:w-5/6 mx-auto">O que estão falando sobre o curso Fullstack Turbo da TipsCode</h2>
 
             <div class="flex items-center justify-center">
 
