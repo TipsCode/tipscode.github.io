@@ -19,7 +19,7 @@ class Hero extends Nullstack {
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
 
-          <nav id="header" class="fixed z-50 w-full z-30 top-0 text-white">
+          <nav id="header" class="fixed z-40 w-full top-0 text-white">
             <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
               <div class="pl-4 flex items-center">
@@ -65,7 +65,7 @@ class Hero extends Nullstack {
                     </div>
 
                     <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
-                        <img class="w-full z-40 cursor-pointer" src="./Image-hero.svg" />
+                        <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" />
                     </div>
 
                     <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
