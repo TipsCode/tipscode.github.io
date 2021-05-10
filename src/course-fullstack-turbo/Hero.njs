@@ -69,8 +69,8 @@ class Hero extends Nullstack {
                     </div>
 
                     <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
-                        <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        SIM! QUERO SER UM DESENVOLVEDOR FULL STACK TURBO
+                        <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        QUERO SER FULL STACK
                         </a>
                     </div>
                 </div>
