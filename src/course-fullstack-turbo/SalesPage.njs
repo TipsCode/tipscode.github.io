@@ -8,6 +8,7 @@ import Bonus from './Bonus';
 import Testimonials from './Testimonials';
 import Projects from './Projects'
 import Calltoaction from './Calltoaction';
+import Teacher from './Teacher'
 import Faq from './Faq';
 import Footer from './Footer';
 
@@ -31,6 +32,7 @@ class SalesPage extends Nullstack {
         <Testimonials />
         <Projects />
         <Calltoaction />
+        <Teacher />
         <Faq />
         <Footer />
       </div>
