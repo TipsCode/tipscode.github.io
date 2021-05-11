@@ -46,6 +46,7 @@ class Articles extends Nullstack {
 
   render({ page }) {
     const nextPage = this.page() + 1;
+    const backPage = this.page() - 1;
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
     return (
       <>
@@ -68,15 +69,24 @@ class Articles extends Nullstack {
         </header>
         <section class="max-w-screen-xl mx-auto px-4 mt-12">
           <ArticleGrid articles={this.articles} />
+
           {numberOfPages >= nextPage && (
-            <div class="flex w-full mt-8 justify-end">
+            <div class="flex w-full mt-8 justify-between">
+                <a
+                href={`/artigos/${backPage}`}
+                class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+              >
+                Voltar
+              </a>
               <a
                 href={`/artigos/${nextPage}`}
                 class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
               >
                 Ver mais artigos
               </a>
+              
             </div>
+            
           )}
         </section>
         <Promotion />
