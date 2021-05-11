@@ -1,5 +1,15 @@
 import Nullstack from 'nullstack';
 
+import LeadForm from '../layout/LeadForm';
+
+const leadlover = {
+  id: '447468',
+  mid: '447468',
+  pid: '16073864',
+  list: '447468',
+};
+
+
 class Header extends Nullstack {
 
   render() {
@@ -32,8 +42,13 @@ class Header extends Nullstack {
             </ul>
 
             <form class="mt-4">
-              <input type="text" placeholder="Digite seu melhor e-mail" class="p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6" required />
-              <button type="submit" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full lg:w-5/6">Baixar e-book grátis</button>
+              <LeadForm
+                  config={leadlover}
+                  class={{
+                    input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6',
+                    button: 'py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full lg:w-5/6',
+                  }}
+                />
             </form>
           </div>
 
