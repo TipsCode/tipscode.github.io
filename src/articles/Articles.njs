@@ -4,6 +4,17 @@ import Menu from '../layout/Menu';
 import Promotion from '../layout/Promotion';
 import Footer from '../layout/Footer';
 
+
+import LeadForm from '../layout/LeadForm';
+
+const leadlover = {
+  id: '559236',
+  mid: '559236',
+  pid: '19083046',
+  list: '559236',
+};
+
+
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {
 
@@ -40,15 +51,17 @@ class Articles extends Nullstack {
       <>
         <Menu />
         <header class="flex flex-wrap text-center sm:justify-center shadow w-full bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 p-8">
-          <h1 class="text-center text-white text-2xl w-full">Receba agora mesmo nossos conteúdos<br /> premium no seu e-mail</h1>
+          <h1 class="mb-4 text-center text-white text-2xl w-full">Receba agora mesmo nossos conteúdos<br /> premium no seu e-mail</h1>
 
           <form class="sm:flex sm:justify-center w-full">
-            <div class="my-5 text-sm w-full sm:w-1/3">
-              <input type="text" id="username" class="ounded-sm py-3 focus:outline-none bg-gray-100 w-full" placeholder="exemplo@gmail.com" />
-            </div>
-
-            <div class="mt-5">
-              <a class="block sm:ml-4 text-white bg-tips-blue p-3 rounded-sm hover:bg-black w-full sm:w-44">Receber</a>
+            <div class="text-sm w-full sm:w-1/3">
+              <LeadForm
+                  config={leadlover}
+                  class={{
+                    input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full',
+                    button: 'bg-tips-blue py-2 px-6 mt-2 font-semibold focus:outline-none text-white rounded-md shadow-md w-full',
+                  }}
+                />
             </div>
           </form>
 
