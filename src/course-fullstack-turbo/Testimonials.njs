@@ -17,6 +17,7 @@ class Testmonials extends Nullstack {
           <span>
             {this.modalVisible && <Modal onclose={this.toggleModal} />}
           </span>
+
           <div class="container mx-auto">
             <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 text-center text-white md:w-5/6 mx-auto">O que estão falando sobre o curso Fullstack Turbo da TipsCode</h2>
 
@@ -24,41 +25,63 @@ class Testmonials extends Nullstack {
 
               <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
 
-                <StudentTestimonial
-                  nameSrc="./img-depoimento-guilherme.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Guilherme Nogueira"
-                  studentsName="Guilherme Nogueira"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="./img-depoimento-ari-silva.png"
+                    nameAlt="Ari Silva"
+                    studentsName="Ari Silva" 
+                  />
+                </div>
 
-                <StudentTestimonial
-                  nameSrc="/img-depoimento-mihai.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Mihai"
-                  studentsName="Mihai"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="./img-depoimento-guilherme.png"
+                    nameAlt="Guilherme Nogueira"
+                    studentsName="Guilherme Nogueira"
+                  />
+                </div>
 
-                <StudentTestimonial
-                  nameSrc="/img-depoimento-felipe.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Felipe Loures"
-                  studentsName="Felipe Loures"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="/img-depoimento-mihai.png"
+                    nameAlt="Mihai"
+                    studentsName="Mihai"
+                  />
+                </div>
 
-                <StudentTestimonial
-                  nameSrc="/img-depoimento-ricardo.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Ricardo"
-                  studentsName="Ricardo"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="/img-depoimento-felipe.png"
+                    nameAlt="Felipe Loures"
+                    studentsName="Felipe Loures"
+                  />
+                </div>
 
-                <StudentTestimonial
-                  nameSrc="/img-depoimento-claudio.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Claudio"
-                  studentsName="Claudio"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="/img-depoimento-ricardo.png"
+                    nameAlt="Ricardo"
+                    studentsName="Ricardo"
+                  />
+                </div>
 
-                <StudentTestimonial
-                  nameSrc="./img-depoimento-joneivison.png"
-                  nameAlt="Depoimento sobre o curso desenvolvedor full stack, aluno Joneivison"
-                  studentsName="Joneivison"
-                />
+                <div onclick={this.toggleModal}>
+                  <StudentTestimonial
+                    nameSrc="/img-depoimento-claudio.png"
+                    nameAlt="Claudio"
+                    studentsName="Claudio"
+                  />
+                </div>
+
+                <div onclick={this.toggleModal}>
+
+                  <StudentTestimonial
+                    nameSrc="./img-depoimento-joneivison.png"
+                    nameAlt="Joneivison"
+                    studentsName="Joneivison"
+                  />
+                </div>
+
               </div>
             </div>
           </div>

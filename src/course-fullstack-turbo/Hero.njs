@@ -14,7 +14,6 @@ class Hero extends Nullstack {
       <>
         <span>
           {this.modalVisible && <Modal onclose={this.toggleModal} />}
-
         </span>
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
@@ -24,7 +23,7 @@ class Hero extends Nullstack {
 
               <div class="pl-4 flex items-center">
                 <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                  <img src="./TipsCodelogo.png" />
+                  <img src="./TipsCodelogo.png" loading="lazy"/>
                 </a>
               </div>
               <div class="block lg:hidden pr-4">
@@ -65,7 +64,7 @@ class Hero extends Nullstack {
                     </div>
 
                     <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
-                        <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" />
+                        <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" loading="lazy" />
                     </div>
 
                     <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
@@ -77,7 +76,7 @@ class Hero extends Nullstack {
             </div>
 
             <div class="relative m-0 p-0 w-full">
-                <img class="w-full block absolute bottom-0" src="./Waves.svg" alt="waves" />
+                <img class="w-full block absolute bottom-0" src="./Waves.svg" alt="waves" loading="lazy" />
             </div>
         </div>
       </>

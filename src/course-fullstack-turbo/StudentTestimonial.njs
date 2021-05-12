@@ -6,9 +6,9 @@ export default function StudentTestimonial({ nameSrc, nameAlt, studentsName }) {
         class="w-full cursor-pointer"
         src={nameSrc}
         alt={nameAlt}
-      />
+      loading="lazy" />
 
-      <div class="px-6 py-6  bg-tips-blue">
+      <div class="px-6 py-6  bg-tips-blue" >
         <div class="font-bold text-2xl mb-3 text-white">
           { studentsName }
         </div>

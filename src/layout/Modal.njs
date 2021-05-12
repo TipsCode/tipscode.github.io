@@ -1,6 +1,6 @@
 export default function Modal({ onclose }) {
   return (
-    <div class="fixed bg-black bg-opacity-90 w-full h-full items-center z-50 p-6 md:p-20">
+    <div class="fixed top-0 bg-black bg-opacity-90 w-full h-full items-center z-50 p-6 md:p-20">
 
       <button class="text-white justify-self-end" onclick={onclose}> FECHAR </button>
 
