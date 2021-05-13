@@ -72,12 +72,9 @@ class Articles extends Nullstack {
 
           {numberOfPages >= nextPage && (
             <div class="flex w-full mt-8 justify-between">
-                <a
-                href={`/artigos/${backPage}`}
-                class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-              >
-                Voltar
-              </a>
+    
+              <a a href={`/artigos/${backPage}`} class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Voltar</a>
               <a
                 href={`/artigos/${nextPage}`}
                 class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"

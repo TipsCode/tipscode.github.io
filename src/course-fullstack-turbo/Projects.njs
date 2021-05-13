@@ -1,5 +1,7 @@
 import Nullstack from 'nullstack';
 
+import CardProject from './CardProject';
+
 
 class Projects extends Nullstack {
 
@@ -12,90 +14,21 @@ class Projects extends Nullstack {
           <div class="flex items-center justify-center">
 
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md my-2 bg-tips-gray-dark">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-flappybird.png"
-                  alt=""
-                />
 
-                <div class="px-6 py-6">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    Um dos jogos mais famosos do mundo - Flappy Bird.
-                  </p>
-                </div>
-              </div>
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md my-2 bg-tips-gray-dark">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-dukeza.png"
-                  alt=""
-                />
-
-                <div class="px-6 py-6">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    SPA de vendas de um APP chamado Dukeza.
-                  </p>
-                </div>
-              </div>
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md bg-tips-gray-dark my-2">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-netflix.png"
-                  alt=""
-                />
-
-                <div class="px-6 py-6  ">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    Vamos fazer um app clone da Netflix
-                  </p>
-                </div>
-              </div>
+                <CardProject src="./projeto-flappybird.png" alt="Jogo Flappy Bird" contentP="Um dos jogos mais famosos do mundo - Flappy Bird." />
+                <CardProject src="./projeto-dukeza.png" alt="App Dukeza" contentP="SPA de vendas de um APP chamado Dukeza." />
+                <CardProject src="./projeto-netflix.png" alt="Clone Netflix" contentP="Vamos fazer um app clone da Netflix" />
+              
             </div>
           </div>
 
           <div class="flex items-center justify-center">
-
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md my-2 bg-tips-gray-dark">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-whatsapp.png"
-                  alt=""
-                />
 
-                <div class="px-6 py-6">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    Um Clone do WhatsApp.
-                  </p>
-                </div>
-              </div>
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md my-2 bg-tips-gray-dark">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-gamebateria.png"
-                  alt=""
-                />
-
-                <div class="px-6 py-6">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    Aprenda a Bateria - um game muito divertido.
-                  </p>
-                </div>
-              </div>
-              <div class="max-w-xs rounded-md overflow-hidden shadow-md bg-tips-gray-dark my-2">
-                <img
-                  class="w-full cursor-pointer"
-                  src="./projeto-cartao.png"
-                  alt=""
-                />
-
-                <div class="px-6 py-6  ">
-                  <p class="text-grey-darker font-medium text-base text-indigo-100">
-                    Site de Cartão de Visitas (HTML e CSS)
-                  </p>
-                </div>
-              </div>
+                <CardProject src="./projeto-whatsapp.png" alt="Clone do WhatsApp" contentP="Um Clone do WhatsApp." />
+                <CardProject src="./projeto-gamebateria.png" alt="Game Bateria" contentP="Aprenda a Bateria - um game muito divertido." />
+                <CardProject src="./projeto-cartao.png" alt="Cartão de visita" contentP="Site de Cartão de Visitas (HTML e CSS)." />
+   
             </div>
           </div>
         </div>
