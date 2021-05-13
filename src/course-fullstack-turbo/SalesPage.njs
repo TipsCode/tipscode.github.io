@@ -6,9 +6,9 @@ import WhatLearn from './WhatLearn';
 import MoreDetails from './MoreDetails';
 import Bonus from './Bonus';
 import Testimonials from './Testimonials';
-import Projects from './Projects'
+import Projects from './Projects';
 import Calltoaction from './Calltoaction';
-import Teacher from './Teacher'
+import Teacher from './Teacher';
 import Faq from './Faq';
 import Footer from './Footer';
 

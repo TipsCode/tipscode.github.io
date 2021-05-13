@@ -9,15 +9,15 @@ import Youtube from '../icons/Youtube';
 
 class Footer extends Nullstack {
 
-  renderLink({ class: className, url, icon: Icon }) {
+  renderLink({ url, icon: Icon }) {
     const paths = url.split('/');
     const title = paths[paths.length - 1];
     return (
-    <li class="inline-block ml-4">
-      <a href={url} title={title} target="_blank" rel="noreferrer"  class="text-tips-blue hover:text-tips-green">
-        <Icon size={24} />
-      </a>
-  </li>
+      <li class="inline-block ml-4">
+        <a href={url} title={title} target="_blank" rel="noreferrer" class="text-tips-blue hover:text-tips-green">
+          <Icon size={24} />
+        </a>
+      </li>
     );
   }
 
@@ -27,7 +27,7 @@ class Footer extends Nullstack {
 
         <figure>
           <a href="/">
-            <img  src="./TipsCodelogo.png" alt="TipsCode"/>
+            <img src="./TipsCodelogo.png" alt="TipsCode" />
           </a>
           <p class="sm:text-center w-full">
             Todos os direitos reservados - TipsCode
@@ -39,7 +39,7 @@ class Footer extends Nullstack {
           <div>
             <a href="https://nullstack.app" target="_blank" rel="noopener noreferrer" class="flex justify-center flex-wrap" title="Desenvolvido com Nullstack">
               <span class="w-full block text-center"> Desenvolvido com </span>
-              <NullstackLogo height={20} themeColor="#ff" />
+              <NullstackLogo height={20} light />
             </a>
           </div>
         </div>

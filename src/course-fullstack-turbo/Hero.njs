@@ -13,7 +13,7 @@ class Hero extends Nullstack {
     return (
       <>
         <span>
-          {this.modalVisible && <Modal onclose={this.toggleModal} />}
+          {this.modalVisible && <Modal video="https://www.youtube.com/embed/yovzEEYOl-E" onclose={this.toggleModal} />}
         </span>
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
@@ -23,11 +23,11 @@ class Hero extends Nullstack {
 
               <div class="pl-4 flex items-center">
                 <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                  <img src="./TipsCodelogo.png" loading="lazy"/>
+                  <img src="./TipsCodelogo.png" loading="lazy" />
                 </a>
               </div>
               <div class="block lg:hidden pr-4">
-                <button id="nav-toggle"class="flex items-center p-1 text-white-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <button id="nav-toggle" class="flex items-center p-1 text-white-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   <svg
                     class="fill-current h-6 w-6"
                     viewBox="0 0 20 20"
@@ -52,32 +52,32 @@ class Hero extends Nullstack {
 
           </nav>
 
-            <div id="hero" class="pt-10 max-w-screen-xl justify-center mx-auto">
-                <div class="container px-3 mx-auto items-center">
+          <div id="hero" class="pt-10 max-w-screen-xl justify-center mx-auto">
+            <div class="container px-3 mx-auto items-center">
 
-                    <div class="text-center px-3 lg:px-0">
-                        <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
-                        <p class="leading-normal sm:text-lg md:text-2xl mb-8">
-                            Assista o vídeo abaixo e descubra como desenvolver qualquer sistema, precifiacar e vender para o seu cliente!
-                        </p>
+              <div class="text-center px-3 lg:px-0">
+                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">
+                  Assista o vídeo abaixo e descubra como desenvolver qualquer sistema, precifiacar e vender para o seu cliente!
+                </p>
 
-                    </div>
+              </div>
 
-                    <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
-                        <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" loading="lazy" />
-                    </div>
+              <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
+                <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" loading="lazy" />
+              </div>
 
-                    <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
-                        <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        QUERO SER FULL STACK
-                        </a>
-                    </div>
-                </div>
+              <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
+                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  QUERO SER FULL STACK
+                </a>
+              </div>
             </div>
+          </div>
 
-            <div class="relative m-0 p-0 w-full">
-                <img class="w-full block absolute bottom-0" src="./Waves.svg" alt="waves" loading="lazy" />
-            </div>
+          <div class="relative m-0 p-0 w-full">
+            <img class="w-full block absolute bottom-0" src="./Waves.svg" alt="waves" loading="lazy" />
+          </div>
         </div>
       </>
     );
