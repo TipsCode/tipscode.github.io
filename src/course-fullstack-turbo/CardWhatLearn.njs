@@ -15,7 +15,7 @@ export default function CardWhatLearn({ nameClass, nameSrc, nameAlt, contentH5, 
       </div>
 
       <div class={orderImg}>
-        <img src={nameSrc} alt={nameAlt} />
+        <img src={nameSrc} alt={nameAlt} loading="lazy" width="464" height="391" />
       </div>
     </div>
   );
