@@ -13,42 +13,42 @@ export default function Testmonials() {
               nameSrc="./img-depoimento-ari-silva.png"
               nameAlt="Ari Silva"
               studentsName="Ari Silva"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/rg966jwrfoY"
             />
 
             <StudentTestimonial
               nameSrc="./img-depoimento-guilherme.png"
               nameAlt="Guilherme Nogueira"
               studentsName="Guilherme Nogueira"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/3Fvkl1ksGqU"
             />
 
             <StudentTestimonial
               nameSrc="/img-depoimento-mihai.png"
               nameAlt="Mihai"
               studentsName="Mihai"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/hGo5d5f-Rqc"
             />
 
             <StudentTestimonial
               nameSrc="/img-depoimento-felipe.png"
               nameAlt="Felipe Loures"
               studentsName="Felipe Loures"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/dufgU3KqhO8"
             />
 
             <StudentTestimonial
               nameSrc="/img-depoimento-ricardo.png"
               nameAlt="Ricardo"
               studentsName="Ricardo"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/-xVtc_m35GU"
             />
 
             <StudentTestimonial
               nameSrc="/img-depoimento-claudio.png"
               nameAlt="Claudio"
               studentsName="Claudio"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/PkKn1xrjpvw"
             />
 
 
@@ -56,7 +56,7 @@ export default function Testmonials() {
               nameSrc="./img-depoimento-joneivison.png"
               nameAlt="Joneivison"
               studentsName="Joneivison"
-              video="https://www.youtube.com/embed/yovzEEYOl-E"
+              video="https://youtu.be/HYIb-Gj4yUs"
             />
 
           </div>
