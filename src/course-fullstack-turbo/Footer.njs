@@ -27,7 +27,7 @@ class Footer extends Nullstack {
 
         <figure>
           <a href="/">
-            <img src="./TipsCodelogo.png" alt="TipsCode" />
+            <img src="./TipsCodelogo.png" alt="TipsCode" loading="lazy" width="186" height="66" />
           </a>
           <p class="sm:text-center w-full">
             Todos os direitos reservados - TipsCode
