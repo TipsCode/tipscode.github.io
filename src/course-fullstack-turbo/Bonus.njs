@@ -1,5 +1,7 @@
 import Nullstack from 'nullstack';
 
+import CardBonus from './CardBonus';
+
 class Bonus extends Nullstack {
 
   render() {
@@ -7,128 +9,80 @@ class Bonus extends Nullstack {
       <div>
         <section class="bg-tips-dark md:py-8 traking-wide">
           <div class="container max-w-5xl mx-auto m-8">
-            <h1
-              class="w-full md:my-24 text-2xl lg:text-5xl font-bold leading-tight text-center text-white"
-            >
+            <h1 class="w-full md:my-24 text-2xl lg:text-5xl font-bold leading-tight text-center text-white">
               Mais 7 super bônus
             </h1>
 
             <div class="flex flex-wrap md:flex-nowrap text-center">
-              <div class="w-full sm:w-1/2 p-6 mx-3">
-                <span class="bg-tips-gray-dark bg-opacity-90 text-white p-2 px-4 rounded-full font-bold text-xl">1</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./Coding_Monochromatic-1.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl  text-gray-100 font-bold leading mb-8">
-                    Egenharia de software
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-lg tracking-wide">
-                    Não basta só programar, é preciso saber o que está fazendo.
 
-                  </p>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">2</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./Coach_Monochromatic-1.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    Acompanhamento
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Na TipsCode o suporte é personalizado.
+                <CardBonus class={
+                    {
+                        div: 'w-full sm:w-1/2 p-6 mx-3',
+                        span: 'bg-tips-gray-dark bg-opacity-90 text-white p-2 px-4 rounded-full font-bold text-xl'
+                    }
+                } contentSpan="1" src="./Coding_Monochromatic-1.svg" contentH3="Engenharia de software" 
+                 alt="Engenharia de software" contentP="Não basta só programar, é preciso saber o que está fazendo." />
 
-                  </p>
-                </div>
-              </div>
+                 <CardBonus class={
+                    {
+                        div: 'w-full sm:w-1/2 p-6 mx-3 bg-tips-gray-dark bg-opacity-90 text-white rounded-md',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="2" src="./Coach_Monochromatic-1.svg" alt="Engenharia de software" 
+                contentH3="Acompanhamento" contentP="Na TipsCode o suporte é personalizado." />
 
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
-              <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">3</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./Data_Arranging_Monochromatic-1.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    Estrutura de dados
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Aprenda estrutura de dados JacScript.
 
-                  </p>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">4</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./Money-motivation_Monochromatic.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    Vendas
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Saiba como precificar e vender seu software.
+                 <CardBonus class={
+                    {
+                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="3" src="./Data_Arranging_Monochromatic-1.svg" alt="Estrutura de dados" 
+                contentH3="Estrutura de dados" contentP=" Aprenda estrutura de dados JacScript." />
 
-                  </p>
-                </div>
-              </div>
+                <CardBonus class={
+                    {
+                        div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="4" src="./Money-motivation_Monochromatic.svg" alt="Estrutura de dados" 
+                contentH3="Vendas" contentP="Aprenda o passo a passo para conquistar seu primeiro cliente como programador profissional. Entenda como se destacar da multidão construindo uma marca pessoal de sucesso. " />
 
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
-              <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">5</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./coding-linux.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    Dominando Linux
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Domine o terminal Linux com esse super bônus.
 
-                  </p>
-                </div>
-              </div>
-              <div class="w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">4</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./webdesign-advanced.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    HTML e CSS Avançado
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Um curso de web design avançado para se diferenciar no mercado
-                  </p>
-                </div>
-              </div>
+                <CardBonus class={
+                    {
+                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="5" src="./coding-linux.svg" alt="Dominando Linux" 
+                contentH3="Dominando Linux" contentP=" Domine o terminal Linux com esse super bônus." />
 
+                <CardBonus class={
+                    {
+                        div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="6" src="./webdesign-advanced.svg" alt="HTML5 e CSS3 Avançado" 
+                contentH3="Dominando Linux" contentP="Um curso de web design avançado para se diferenciar no mercado" />
+            
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
-              <div class="w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3">
-                <span class="font-bold text-2xl">3</span>
-                <div class="lg:p-14">
-                  <div class="w-full p-6">
-                    <img class="mx-auto w-64" src="./dev-entrevistas.svg" alt="web design" />
-                  </div>
-                  <h3 class="text-xl lg:text-3xl text-center text-gray-100 font-bold leading-none mb-8">
-                    Entrevistas com Devs
-                  </h3>
-                  <p class="text-gray-200 mb-8 text-center text-lg tracking-wide">
-                    Entrevistas com Desenvolvedores experientes
-                  </p>
-                </div>
-              </div>
+
+                <CardBonus class={
+                    {
+                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                        span: 'font-bold text-2xl'
+                    }
+                } contentSpan="7" src="./dev-entrevistas.svg" alt="Entrevistas com Devs" 
+                contentH3="Entrevistas com Devs" contentP="Entrevistas com Desenvolvedores experientes" />
+
               <div class="w-full sm:w-1/2 py-8 px-4 text-center justify-center md:text-left md:justify-start">
 
                 <div class="lg:p-14">
@@ -139,11 +93,11 @@ class Bonus extends Nullstack {
                   <p class="text-gray-200 mb-6 text-xl tracking-wide">
                     Eleve seus estudos para outro nível.
                   </p>
-                  <button
+                  <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscrever-se já
-                  </button>
+                  </a>
                 </div>
               </div>
 
