@@ -1,7 +1,9 @@
 import Nullstack from 'nullstack';
 
 import Hero from './Hero';
-import Footer from './Footer';
+//import Footer from './Footer';
+
+import Footer from '../layout/Footer';
 
 class Ebook extends Nullstack {
 
@@ -16,7 +18,12 @@ class Ebook extends Nullstack {
     return (
       <div class="bg-tips-dark">
         <Hero />
-        <Footer />
+         <Footer class={
+           {
+             footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',
+             p: 'sm:text-center w-full'
+           }
+         } src="./TipsCodelogo.png" light />
       </div>
     );
   }

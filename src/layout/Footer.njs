@@ -17,15 +17,15 @@ function Link({ class: className, url, icon: Icon }) {
   );
 }
 
-export default function Footer() {
+export default function Footer({ class: classes, src}) {
   return (
-    <footer class="flex flex-col items-center py-16 sm:flex-row sm:justify-around">
+    <footer class={classes.footer}>
 
       <figure>
         <a href="/">
-          <img src="/tipscode-logo-1.svg" alt="TipsCode" width="155" height="44" />
+          <img src={src} alt="TipsCode" width="155" height="44" />
         </a>
-        <p class="sm:text-center w-full text-tips-dark text-opacity-80">
+        <p class={classes.p}>
           Todos os direitos reservados - TipsCode
           <strong class="text-center sm:text-left w-full block">CNPJ:41.562.138/0001-61</strong>
         </p>

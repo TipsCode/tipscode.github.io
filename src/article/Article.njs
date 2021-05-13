@@ -56,7 +56,11 @@ class Articles extends Nullstack {
 
         </div>
         <Promotion />
-        <Footer />
+          <Footer class={ {
+           footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around',
+             p: 'sm:text-center w-full text-tips-dark text-opacity-80'
+        } } src="./tipscode-logo-1.svg" />
+
       </>
     );
   }

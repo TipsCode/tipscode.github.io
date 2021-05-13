@@ -23,7 +23,7 @@ class MoreDetails extends Nullstack {
 
 
                 <div class="w-full absolute -bottom-35 self-center pt-20 ">
-                    <img class="w-full mx-auto" src="./Elipses-Background-mais.svg" loading="lazy" />
+                    <img class="w-full mx-auto" src="./Elipses-Background-mais.svg" alt="plano de fundo Elipses" loading="lazy" loading="lazy" width="752" height="393" />
                 </div>
 
             </div>

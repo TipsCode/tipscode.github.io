@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
 
-class CalltoAction extends Nullstack {
+class CallToAction extends Nullstack {
 
   render() {
     return (
@@ -15,13 +15,13 @@ class CalltoAction extends Nullstack {
                 <div class="mx-auto py-12 flex flex-wrap justify-center">
                     <div class="pr-8">
                         <p class="text-indigo-100 text-left">Apenas</p>
-                        <h3 class="my-4 md:text-3xl lg:text-5xl leading-tight text-tips-green font-bold">
+                        <h2 class="my-4 md:text-3xl lg:text-5xl leading-tight text-tips-green font-bold">
                         12x  R$41,41
-                        </h3>
+                        </h2>
                         <p class="text-indigo-100 text-right">Ou 490,90 à vista</p>
                     </div>
                 <div>
-                    <img src="./garantia-7-dias.png" loading="lazy" width="180" height="122" />
+                    <img src="./garantia-7-dias.png" alt="garantia de 7 dias" loading="lazy" width="180" height="122" />
                 </div>
                 </div>
 
@@ -42,4 +42,4 @@ class CalltoAction extends Nullstack {
 
 }
 
-export default CalltoAction;
+export default CallToAction;
