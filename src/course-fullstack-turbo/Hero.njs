@@ -64,7 +64,7 @@ class Hero extends Nullstack {
               </div>
 
               <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
-                <img class="w-full z-30 cursor-pointer" src="./Image-hero.svg" alt="Plano de fundo TipsCode" loading="lazy" width="1256" height="634" />
+                <img class="w-full z-30 cursor-pointer" src="./sales-page-img/hero/Image-hero.webp" alt="Plano de fundo TipsCode" loading="lazy" width="1256" height="634" />
               </div>
 
               <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">

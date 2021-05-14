@@ -29,7 +29,7 @@ class WhatLearn extends Nullstack {
               contentH5="FRON-END"
               contentH3="Aprenda a criar aplicações estáticas em poucos passos."
               contentP="Você aprenderá React, Botstrap, e SASS com Gulp na prática."
-              nameSrc="./sales-page-img/card-what-learn/Frontend-image.svg"
+              nameSrc="./sales-page-img/card-what-learn/Frontend-image.webp"
               nameAlt="Aprende tudo sobre front-end"
               orderImg="w-full sm:w-1/2 p-6 order-first"
             />
@@ -39,7 +39,7 @@ class WhatLearn extends Nullstack {
               contentH5="BACK-END"
               contentH3="Você vai criar APIs do zero com Node js e Express."
               contentP=" Você aprenderá Node js e Mongo DB na prática."
-              nameSrc="./sales-page-img/card-what-learn/Backend-image.svg"
+              nameSrc="./sales-page-img/card-what-learn/Backend-image.webp"
               nameAlt="Tudo sobre o back-end com Nodejs"
               orderImg="w-full sm:w-1/2 p-6"
             />

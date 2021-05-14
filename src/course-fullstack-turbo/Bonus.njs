@@ -15,73 +15,115 @@ class Bonus extends Nullstack {
 
             <div class="flex flex-wrap md:flex-nowrap text-center">
 
-                <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full sm:w-1/2 p-6 mx-3',
-                        span: 'bg-tips-gray-dark bg-opacity-90 text-white p-2 px-4 rounded-full font-bold text-xl'
+                      div: 'w-full sm:w-1/2 p-6 mx-3',
+                      span: 'bg-tips-gray-dark bg-opacity-90 text-white p-2 px-4 rounded-full font-bold text-xl',
                     }
-                } contentSpan="1" src="./Coding_Monochromatic-1.svg" contentH3="Engenharia de software" 
-                 alt="Engenharia de software" contentP="Não basta só programar, é preciso saber o que está fazendo." />
+                }
+                contentSpan="1"
+                src="./Coding_Monochromatic-1.svg"
+                contentH3="Engenharia de software"
+                alt="Engenharia de software"
+                contentP="Não basta só programar, é preciso saber o que está fazendo."
+              />
 
-                 <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full sm:w-1/2 p-6 mx-3 bg-tips-gray-dark bg-opacity-90 text-white rounded-md',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full sm:w-1/2 p-6 mx-3 bg-tips-gray-dark bg-opacity-90 text-white rounded-md',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="2" src="./Coach_Monochromatic-1.svg" alt="Engenharia de software" 
-                contentH3="Acompanhamento" contentP="Na TipsCode o suporte é personalizado." />
+                }
+                contentSpan="2"
+                src="./sales-page-img/bonus-img/Coach_Monochromatic.webp"
+                alt="Acompanhamento"
+                contentH3="Acompanhamento"
+                contentP="Na TipsCode o suporte é personalizado."
+              />
 
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
 
-                 <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="3" src="./Data_Arranging_Monochromatic-1.svg" alt="Estrutura de dados" 
-                contentH3="Estrutura de dados" contentP=" Aprenda estrutura de dados JacScript." />
+                }
+                contentSpan="3"
+                src="./Data_Arranging_Monochromatic-1.svg"
+                alt="Estrutura de dados"
+                contentH3="Estrutura de dados"
+                contentP=" Aprenda estrutura de dados JacScript."
+              />
 
-                <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="4" src="./Money-motivation_Monochromatic.svg" alt="Estrutura de dados" 
-                contentH3="Vendas" contentP="Aprenda o passo a passo para conquistar seu primeiro cliente como programador profissional. Entenda como se destacar da multidão construindo uma marca pessoal de sucesso. " />
+                }
+                contentSpan="4"
+                src="./sales-page-img/bonus-img/Money_motivation_Monochromatic.webp"
+                alt="Vendas"
+                contentH3="Vendas"
+                contentP="Aprenda o passo a passo para conquistar seu primeiro cliente como programador profissional. Entenda como se destacar da multidão construindo uma marca pessoal de sucesso. "
+              />
 
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
 
-                <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="5" src="./coding-linux.svg" alt="Dominando Linux" 
-                contentH3="Dominando Linux" contentP=" Domine o terminal Linux com esse super bônus." />
+                }
+                contentSpan="5"
+                src="./sales-page-img/bonus-img/linux.webp"
+                alt="Dominando Linux"
+                contentH3="Dominando Linux"
+                contentP=" Domine o terminal Linux com esse super bônus."
+              />
 
-                <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="6" src="./webdesign-advanced.svg" alt="HTML5 e CSS3 Avançado" 
-                contentH3="Dominando Linux" contentP="Um curso de web design avançado para se diferenciar no mercado" />
-            
+                }
+                contentSpan="6"
+                src="./webdesign-advanced.svg"
+                alt="HTML5 e CSS3 Avançado"
+                contentH3="Dominando Linux"
+                contentP="Um curso de web design avançado para se diferenciar no mercado"
+              />
+
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap pt-6">
 
-                <CardBonus class={
+              <CardBonus
+                class={
                     {
-                        div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
-                        span: 'font-bold text-2xl'
+                      div: 'w-full mb-6 md:mb-0 sm:w-1/2 p-6 bg-tips-gray-dark bg-opacity-90 text-white rounded-md mx-3',
+                      span: 'font-bold text-2xl',
                     }
-                } contentSpan="7" src="./dev-entrevistas.svg" alt="Entrevistas com Devs" 
-                contentH3="Entrevistas com Devs" contentP="Entrevistas com Desenvolvedores experientes" />
+                }
+                contentSpan="7"
+                src="./dev-entrevistas.svg"
+                alt="Entrevistas com Devs"
+                contentH3="Entrevistas com Devs"
+                contentP="Entrevistas com Desenvolvedores experientes"
+              />
 
               <div class="w-full sm:w-1/2 py-8 px-4 text-center justify-center md:text-left md:justify-start">
 
@@ -93,7 +135,8 @@ class Bonus extends Nullstack {
                   <p class="text-gray-200 mb-6 text-xl tracking-wide">
                     Eleve seus estudos para outro nível.
                   </p>
-                  <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
+                  <a
+                    href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscrever-se já
