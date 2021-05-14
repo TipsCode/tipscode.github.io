@@ -50,5 +50,4 @@ export default function Footer({ class: classes, src, light }) {
 
     </footer>
   );
-
 }

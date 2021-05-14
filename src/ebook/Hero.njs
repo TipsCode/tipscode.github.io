@@ -11,7 +11,7 @@ const leadlover = {
 
 
 class Header extends Nullstack {
-  
+
 
   render() {
     return (
@@ -42,15 +42,15 @@ class Header extends Nullstack {
               </li>
             </ul>
 
-            <form class="mt-4">
+            <div class="mt-4">
               <LeadForm
-                  config={leadlover}
-                  class={{
-                    input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6',
-                    button: 'py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full lg:w-5/6',
-                  }}
-                />
-            </form>
+                config={leadlover}
+                class={{
+                  input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full lg:w-5/6',
+                  button: 'py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full lg:w-5/6',
+                }}
+              />
+            </div>
           </div>
 
           <figure class="lg:w-6/12 flex-row mt-8 sm:flex justify-center p-16">
