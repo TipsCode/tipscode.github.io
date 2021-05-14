@@ -10,14 +10,14 @@ function Link({ class: className, url, icon: Icon }) {
   const title = paths[paths.length - 1];
   return (
     <li class="inline-block ml-4">
-      <a href={url} title={title} target="_blank" rel="noreferrer"  class="text-tips-blue hover:text-tips-green">
+      <a href={url} title={title} target="_blank" rel="noreferrer" class="text-tips-blue hover:text-tips-green">
         <Icon size={24} />
       </a>
     </li>
   );
 }
 
-export default function Footer({ class: classes, src}) {
+export default function Footer({ class: classes, src, light }) {
   return (
     <footer class={classes.footer}>
 
@@ -35,7 +35,7 @@ export default function Footer({ class: classes, src}) {
         <div>
           <a href="https://nullstack.app" target="_blank" rel="noopener noreferrer" class="flex justify-center flex-wrap" title="Desenvolvido com Nullstack">
             <span class="w-full block text-center text-tips-dark text-opacity-80"> Desenvolvido com </span>
-            <NullstackLogo height={20} />
+            <NullstackLogo height={20} light={light} />
           </a>
         </div>
       </div>

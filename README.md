@@ -29,11 +29,7 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 ### TODO
 
-- Adicionar prepare nas classes de Página com dados de SEO
-- Refatorar nomes de classes para deixar mais significativos e em inglês
-- Refatorar para usar componentes puros quando possivel
-- Testar lighthouse
-- Espaçamentos em tablet
-- Arrumar tempo de leitura
-- Converter SVG em componentes
-- Integração leadlovers
+Otimizar imagens fullstackturbo
+Ordernar blog por data
+Tamnho da imagem no banner
+Acessibilidade das Cores

@@ -39,10 +39,11 @@ class Application extends Nullstack {
       const markdown = readFileSync(`articles/${name}`, 'utf-8');
       const [slug] = name.split('.');
       const content = md.render(markdown);
-      const { date, ...meta } = md.meta;
+      const { date: dateString, ...meta } = md.meta;
+      const date = new Date(dateString);
       const readingTime = ~~(content.split(' ').length / 200);
       return { slug, content, date, readingTime, ...meta };
-    }).sort((a, b) => b.createdAt - a.createdAt);
+    }).sort((a, b) => b.date - a.date);
   }
 
   prepare({ page }) {

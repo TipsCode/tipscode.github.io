@@ -4,7 +4,7 @@ export default function Promotion() {
       <div class="flex flex-wrap shadow rounded-lg w-full bg-gradient-to-r from-tips-blue to-purple-500 focus:from-pink-500 focus:to-yellow-500 p-8">
         <div class="flex flex-wrap flex-col sm:flex-row items-center">
           <figure class="w-full sm:w-1/2">
-            <img src="/banner-img.png" alt="Estudante TipsCode" width="440" />
+            <img src="/banner-img.png" alt="Estudante TipsCode" width="440" height="454" />
           </figure>
           <div class="w-5/6 sm:w-1/2">
             <h2 class="text-tips-light text-3xl font-semibold mb-3 leading-relaxed traking-wide">
