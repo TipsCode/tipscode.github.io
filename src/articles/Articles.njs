@@ -44,54 +44,64 @@ class Articles extends Nullstack {
     Object.assign(this, data);
   }
 
-  render({ page }) {
-    const nextPage = this.page() + 1;
-    const backPage = this.page() - 1;
+  renderPaginator() {
+    const page = this.page();
+    const nextPage = page + 1;
+    const prevPage = page - 1;
+    console.log(this.page());
     const numberOfPages = Math.ceil(this.count / ARTICLES_PER_PAGE);
+    return (
+      <div class={`flex w-full mt-8 ${page === 1 ? 'justify-end' : 'justify-between'}`}>
+        {page > 1 && (
+        <a a href={`/artigos/${prevPage}`} class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Voltar
+        </a>
+        )}
+        {numberOfPages >= nextPage && (
+        <a
+          href={`/artigos/${nextPage}`}
+          class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+        >
+          Ver mais artigos
+        </a>
+        )}
+      </div>
+    );
+  }
+
+  render() {
+
     return (
       <>
         <Menu />
         <header class="flex flex-wrap text-center sm:justify-center shadow w-full bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 p-8">
           <h1 class="mb-4 text-center text-white text-2xl w-full">Receba agora mesmo nossos conteúdos<br /> premium no seu e-mail</h1>
 
-          <form class="sm:flex sm:justify-center w-full">
+          <div class="sm:flex sm:justify-center w-full">
             <div class="text-sm w-full sm:w-1/3">
               <LeadForm
-                  config={leadlover}
-                  class={{
-                    input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full',
-                    button: 'bg-tips-blue py-2 px-6 mt-2 font-semibold focus:outline-none text-white rounded-md shadow-md w-full',
-                  }}
-                />
+                config={leadlover}
+                class={{
+                  input: 'p-2 rounded-md focus:outline-none bg-white shadow-md border w-full',
+                  button: 'bg-tips-blue py-2 px-6 mt-2 font-semibold focus:outline-none text-white rounded-md shadow-md w-full',
+                }}
+              />
             </div>
-          </form>
+          </div>
 
         </header>
         <section class="max-w-screen-xl mx-auto px-4 mt-12">
           <ArticleGrid articles={this.articles} />
-
-          {numberOfPages >= nextPage && (
-            <div class="flex w-full mt-8 justify-between">
-    
-              <a a href={`/artigos/${backPage}`} class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Voltar</a>
-              <a
-              
-                href={`/artigos/${nextPage}`}
-                class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded lg:mt-0 py-3 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-              >
-                Ver mais artigos
-              </a>
-              
-            </div>
-            
-          )}
+          <Paginator />
         </section>
         <Promotion />
-         <Footer class={ {
-           footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around',
-             p: 'sm:text-center w-full text-tips-dark text-opacity-80'
-        } } src="./tipscode-logo-1.svg" />
+        <Footer
+          class={{
+            footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around',
+            p: 'sm:text-center w-full text-tips-dark text-opacity-80',
+          }}
+          src="./tipscode-logo-1.svg"
+        />
 
       </>
     );
