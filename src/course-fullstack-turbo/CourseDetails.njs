@@ -14,24 +14,24 @@ class CourseDetails extends Nullstack {
               Mais do que um curso, uma experiência de <br /> aprendizado
             </h2>
 
-            <CardDetail srcName="./sales-page-img/course-details/play-circle.svg" nameAlt="Você terá acesso a mais de 700 aulas" content="Mais de 700 <br /> aulas " />
+            <CardDetail srcName="./sales-page-img/course-details-2/Play.webp" nameAlt="Você terá acesso a mais de 700 aulas" content="Mais de 700 <br /> aulas " />
 
-            <CardDetail srcName="./sales-page-img/course-details/monitor.svg" nameAlt="Vamos criar mais de 30 projetos" content="Mais de 30 <br /> projetos " />
+            <CardDetail srcName="./sales-page-img/course-details-2/monitor.webp" nameAlt="Vamos criar mais de 30 projetos" content="Mais de 30 <br /> projetos " />
 
-            <CardDetail srcName="./sales-page-img/course-details/clock.svg" nameAlt="Hora aula" content="Mais de 120 <br /> horas" />
+            <CardDetail srcName="./sales-page-img/course-details-2/clock.webp" nameAlt="Hora aula" content="Mais de 120 <br /> horas" />
 
-            <CardDetail srcName="./sales-page-img/course-details/unlock.svg" nameAlt="Acesso vitalício" content="Acesso <br /> vitalício" />
+            <CardDetail srcName="./sales-page-img/course-details-2/unlock.webp" nameAlt="Acesso vitalício" content="Acesso <br /> vitalício" />
           </div>
 
           <div class="container mx-auto flex flex-wrap">
 
-            <CardDetail srcName="./sales-page-img/course-details/navigation.svg" nameAlt="Suporte personalizado" content="Suporte <br /> personalizado" />
+            <CardDetail srcName="./sales-page-img/course-details-2/navigation.webp" nameAlt="Suporte personalizado" content="Suporte <br /> personalizado" />
 
-            <CardDetail srcName="./sales-page-img/course-details/star.svg" nameAlt="Mais de 20 tecnologias" content="Mais de 20 <br /> tecnologias" />
+            <CardDetail srcName="./sales-page-img/course-details-2/star.webp" nameAlt="Mais de 20 tecnologias" content="Mais de 20 <br /> tecnologias" />
 
-            <CardDetail srcName="./sales-page-img/course-details/zap.svg" nameAlt="Aulas 100% atualizadas" content="Aulas 100% <br /> atualizadas" />
+            <CardDetail srcName="./sales-page-img/course-details-2/zap.webp" nameAlt="Aulas 100% atualizadas" content="Aulas 100% <br /> atualizadas" />
 
-            <CardDetail srcName="./sales-page-img/course-details/users.svg" nameAlt="Uma comunidade incrível" content="Uma incrível <br /> comunidade" />
+            <CardDetail srcName="./sales-page-img/course-details-2/users.webp" nameAlt="Uma comunidade incrível" content="Uma incrível <br /> comunidade" />
           </div>
         </section>
       </>

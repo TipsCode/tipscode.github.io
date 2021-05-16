@@ -23,7 +23,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="1"
-                src="./Coding_Monochromatic-1.svg"
+                src="./sales-page-img/bonus-img/Coding_Monochromatic.webp"
                 contentH3="Engenharia de software"
                 alt="Engenharia de software"
                 contentP="Não basta só programar, é preciso saber o que está fazendo."
@@ -55,7 +55,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="3"
-                src="./Data_Arranging_Monochromatic-1.svg"
+                src="./sales-page-img/bonus-img/data-arranging.webp"
                 alt="Estrutura de dados"
                 contentH3="Estrutura de dados"
                 contentP=" Aprenda estrutura de dados JacScript."
@@ -101,9 +101,9 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="6"
-                src="./webdesign-advanced.svg"
+                src="./sales-page-img/bonus-img/web-dev.webp"
                 alt="HTML5 e CSS3 Avançado"
-                contentH3="Dominando Linux"
+                contentH3="HTML5 e CSS3 Avançado"
                 contentP="Um curso de web design avançado para se diferenciar no mercado"
               />
 
@@ -119,7 +119,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="7"
-                src="./dev-entrevistas.svg"
+                src="./sales-page-img/bonus-img/conversation.webp"
                 alt="Entrevistas com Devs"
                 contentH3="Entrevistas com Devs"
                 contentP="Entrevistas com Desenvolvedores experientes"

@@ -21,7 +21,7 @@ class CallToAction extends Nullstack {
               <p class="text-indigo-100 text-right">Ou 490,90 à vista</p>
             </div>
             <div>
-              <img src="./garantia-7-dias.png" alt="garantia de 7 dias" loading="lazy" width="180" height="122" />
+              <img src="./garantia-7-dias.webp" alt="garantia de 7 dias" loading="lazy" width="180" height="122" />
             </div>
           </div>
 

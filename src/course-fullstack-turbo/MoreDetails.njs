@@ -15,11 +15,11 @@ class MoreDetails extends Nullstack {
 
             <div class="flex flex-col lg:flex-row justify-center pt-12 my-4 md:my-12 relative">
 
-              <CardMoreDetails src="./Webpack-bubble.svg" alt="Webpack" contentDiv="Webpack" contentP="Webpack é um empacotador de módulo JavaScript de código aberto. Ele é feito principalmente para JavaScript." />
+              <CardMoreDetails src="./sales-page-img/card-more-details/Webpack-bubble.webp" alt="Webpack" contentDiv="Webpack" contentP="Webpack é um empacotador de módulo JavaScript de código aberto. Ele é feito principalmente para JavaScript." />
 
-              <CardMoreDetails src="./Heroku-bubble.svg" alt="Heroku" contentDiv="Heroku" contentP="Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação." />
+              <CardMoreDetails src="./sales-page-img/card-more-details/Heroku-bubble.webp" alt="Heroku" contentDiv="Heroku" contentP="Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação." />
 
-              <CardMoreDetails src="./Security-bubble.svg" alt="Segurança e autenticação" contentDiv="Segurança e autenticação" contentP="A autenticação e segurança está diretamente relacionada com proteção de um conjunto de informações." />
+              <CardMoreDetails src="./sales-page-img/card-more-details/Security-bubble.webp" alt="Segurança e autenticação" contentDiv="Segurança e autenticação" contentP="A autenticação e segurança está diretamente relacionada com proteção de um conjunto de informações." />
 
 
               <div class="w-full absolute -bottom-35 self-center pt-20 ">
