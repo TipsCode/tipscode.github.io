@@ -11,7 +11,9 @@ export default function Modal({ video, onclose }) {
           <iframe src={video} class="w-5/6 md:w-3/6 sm:h-96 mx-auto" />
         </div>
 
-        <button class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Quero me inscreve agora</button>
+        <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Quero me inscreve agora
+        </a>
 
       </div>
     </div>

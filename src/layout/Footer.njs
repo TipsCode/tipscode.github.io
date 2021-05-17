@@ -23,7 +23,7 @@ export default function Footer({ class: classes, src, light }) {
 
       <figure>
         <a href="/">
-          <img src={src} alt="TipsCode" width="155" height="44" />
+          <img src={src} class="m-auto sm:m-0 md:m-0 lg:m-0" alt="TipsCode" width="155" height="44" />
         </a>
         <p class={classes.p}>
           Todos os direitos reservados - TipsCode

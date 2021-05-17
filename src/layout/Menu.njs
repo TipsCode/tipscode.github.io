@@ -38,7 +38,7 @@ class Navigation extends Nullstack {
               </span>
             </div>
             <nav
-              class={`flex items-center flex-wrap sm:px-0 mt-2 sm:mt-0 ${
+              class={`flex items-center flex-wrap sm:px-0 mt-2 sm:mt-0 z-50 bg-white ${
                 !this.expanded && 'hidden sm:flex'
               }`}
             >

@@ -35,17 +35,17 @@ function Link({ children }) {
 export default function Categories() {
   return (
     <section class="flex-col my-16 sm:my-28">
-      <div class="bg-categories bg-center bg-no-repeat bg-contain">
+      <div class="bg-categories bg-center bg-no-repeat bg-contain mx-3 overflow-hidden">
 
         <h3 class="text-center text-5xl text-tips-blue font-bold">Conteúdos gratuitos no <br /> nosso canal</h3>
 
         <div class="container mx-auto px-4 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 flex flex-wrap sm:flex-nowrap sm:items-center justify-center sm:justify-around">
           <div class="mt-10 sm:mt-none order-2 sm:order-1">
             <ul>
-              <Link href="/"> Vanila js </Link>
-              <Link href="/"> Lógica </Link>
-              <Link href="/"> React js </Link>
-              <Link href="/"> Vue js </Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz8hPNCSljrkhwSZnKUtqQxm"> Vanila js </Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz8fIwgYbwbIlwIMhoDic-GK"> Lógica </Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz_n7WJc0Q8YPzvA-hYPeXRU"> React js </Link>
+              <Link href="https://youtu.be/dtJPYIXf4Sc"> Vue js </Link>
             </ul>
           </div>
 
@@ -55,10 +55,10 @@ export default function Categories() {
 
           <div class="sm:mt-10 sm:mt-none order-3">
             <ul>
-              <Link href="/"> HTML 5</Link>
-              <Link href="/"> CSS 3 </Link>
-              <Link href="/"> Node js </Link>
-              <Link href="/"> Nullstack </Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz-a2X-dRL_Lqbcv5ZZrFfeP"> HTML 5</Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz-Fn6iaV3x4pcqVEwPb5v7q"> CSS 3 </Link>
+              <Link href="https://youtube.com/playlist?list=PLw608KLEKJz_oE8wMWnMLZAEwGvWmVl-8"> Node js </Link>
+              <Link href="https://youtu.be/jwEUGTy2RKs"> Nullstack </Link>
             </ul>
           </div>
         </div>

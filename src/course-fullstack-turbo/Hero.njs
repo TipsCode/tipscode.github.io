@@ -1,5 +1,6 @@
 import Nullstack from 'nullstack';
 import Modal from '../layout/Modal';
+import MenuSales from './MenuSales';
 
 class Hero extends Nullstack {
 
@@ -18,41 +19,9 @@ class Hero extends Nullstack {
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
 
-          <nav id="header" class="fixed z-40 w-full top-0 text-white">
-            <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+         <MenuSales />
 
-              <div class="pl-4 flex items-center">
-                <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                  <img src="./TipsCodelogo.png" alt="TipsCode" loading="lazy" width="186" height="66" />
-                </a>
-              </div>
-              <div class="block lg:hidden pr-4">
-                <button id="nav-toggle" class="flex items-center p-1 text-white-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  <svg
-                    class="fill-current h-6 w-6"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>Menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                  </svg>
-                </button>
-              </div>
-              <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-                <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                  <li class="mr-3">
-                    <p class="inline-block py-2 px-4 text-white font-bold no-underline" href="#">WhatsApp: (88)9.9762-3061</p>
-                  </li>
-                </ul>
-                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" id="navAction" class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Inscreva-se
-                </a>
-              </div>
-            </div>
-
-          </nav>
-
-          <div id="hero" class="pt-10 max-w-screen-xl justify-center mx-auto">
+          <div id="hero" class="pt-10 mt-20 sm:mt-12 max-w-screen-xl justify-center mx-auto">
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
