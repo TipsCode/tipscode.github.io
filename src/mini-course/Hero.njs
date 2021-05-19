@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section class="bg-white text-center md:text-left">
       <div class="w-full">
-        <img src="/tipscode-logo-1.svg" class="mx-auto md-w-40" />
+        <img src="/tipscode-logo-1.svg" class="mx-auto md-w-40" loading="lazy" alt="TipsCode" width="155" height="44" />
       </div>
 
       <div class="px-4 py-10 sm:py-20 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
 
         <figure class="lg:w-6/12 flex-row mt-8 sm:flex justify-center">
-          <img src="/laptop-flappu-2.gif" class="w-full" />
+          <img src="/laptop-flappu-2.gif" alt="flapbird" class="w-full" loading="lazy" width="624" height="624" />
         </figure>
       </div>
     </section>

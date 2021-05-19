@@ -5,11 +5,14 @@ self.context = {
     "development": false,
     "production": true,
     "static": true,
-    "key": "0bfbc6fa78ec38e3f3d4e1e0a928c55158edb433"
+    "key": "66afd58d4323e9441b693f85c057c596df789d02"
   },
   "project": {
     "cdn": "",
     "protocol": "https",
+    "domain": "localhost",
+    "name": "TipsCode",
+    "color": "#D22365",
     "type": "website",
     "display": "standalone",
     "orientation": "portrait",

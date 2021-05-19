@@ -3,7 +3,7 @@ export default function Content() {
     <section class="bg-white">
       <div class="px-5 sm:max-w-screen-xl sm:mx-auto flex flex-col lg:flex-row">
         <div class="self-center lg:w-1/6">
-          <img src="./message.png" />
+          <img src="./message.png" alt="mensagem" loading="lazy" width="184" height="267" />
         </div>
         <div class="lg:w-5/6 flex flex-col lg:flex-row pt-24">
           <div
@@ -12,7 +12,7 @@ export default function Content() {
             <div class="flex-1 text-tips-dark text-opacity-80 rounded-t rounded-b-none overflow-hidden px-5">
 
               <div class="w-full">
-                <img class="mx-auto" src="./redbird-midflap.png" />
+                <img class="mx-auto" src="./redbird-midflap.png" alt="midflap" loading="lazy" width="34" height="24" />
               </div>
               <div class="p-4 text-xl lg:text-xl font-bold text-center">
                 Manipulação do DOM
@@ -22,7 +22,7 @@ export default function Content() {
           </div>
 
           <div class="hidden lg:block">
-            <img src="./pipe-green.png" class="w-4" />
+            <img src="./pipe-green.png" class="w-4" alt="midflap" loading="lazy" width="15" height="95" />
           </div>
 
           <div
@@ -31,7 +31,7 @@ export default function Content() {
             <div class="flex-1 text-tips-dark text-opacity-80 rounded-t rounded-b-none overflow-hidden px-5">
 
               <div class="w-full">
-                <img class="mx-auto" src="./yellowbird-downflap.png" />
+                <img class="mx-auto" src="./yellowbird-downflap.png" alt="midflap" loading="lazy" width="34" height="24" />
               </div>
               <div class="p-4 text-xl lg:text-xl font-bold text-center">
                 Animações com JavaScript

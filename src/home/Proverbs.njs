@@ -6,7 +6,7 @@ export default function Proverbs() {
           <p class="mt-3 sm:text-left md:text-center text-xl text-tips-dark text-opacity-60 font-medium">
             "Feliz o homem que acha sabedoria, e o homem que
             <br />
-            adquire conhecimento: porque melhor é o luco que ela dá do que a da prata,
+            adquire conhecimento: porque melhor é o lucro que ela dá do que a da prata,
             <br />
             e melhor a sua renda do que o ouro mais fino."
             <br />

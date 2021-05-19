@@ -16,9 +16,9 @@ export default function Inspiration() {
           </p>
 
           <div class="block sm:inline-block mt-2">
-            <button class="button-color p-3 bg-tips-blue text-white font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <a href="https://youtu.be/Cobt55DMZX0" target="_black" class="button-color p-3 bg-tips-blue text-white font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               Veja minha história
-            </button>
+            </a>
           </div>
         </div>
       </div>
