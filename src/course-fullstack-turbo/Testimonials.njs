@@ -1,5 +1,7 @@
 import StudentTestimonial from './StudentTestimonial';
 
+
+
 export default function Testmonials() {
   return (
     <>
@@ -13,42 +15,42 @@ export default function Testmonials() {
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-ari-silva.webp"
               nameAlt="Ari Silva"
               studentsName="Ari Silva"
-              video="https://youtu.be/rg966jwrfoY"
+              video="https://www.youtube.com/embed/rg966jwrfoY"
             />
 
             <StudentTestimonial
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-guilherme.webp"
               nameAlt="Guilherme Nogueira"
               studentsName="Guilherme Nogueira"
-              video="https://youtu.be/3Fvkl1ksGqU"
+              video="https://www.youtube.com/embed/3Fvkl1ksGqU"
             />
 
             <StudentTestimonial
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-mihai.webp"
               nameAlt="Mihai"
               studentsName="Mihai"
-              video="https://youtu.be/hGo5d5f-Rqc"
+              video="https://www.youtube.com/embed/hGo5d5f-Rqc"
             />
 
             <StudentTestimonial
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-felipe.webp"
               nameAlt="Felipe Loures"
               studentsName="Felipe Loures"
-              video="https://youtu.be/dufgU3KqhO8"
+              video="https://www.youtube.com/embed/dufgU3KqhO8"
             />
 
             <StudentTestimonial
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-ricardo.webp"
               nameAlt="Ricardo"
               studentsName="Ricardo"
-              video="https://youtu.be/-xVtc_m35GU"
+              video="https://www.youtube.com/embed/-xVtc_m35GU"
             />
 
             <StudentTestimonial
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-claudio.webp"
               nameAlt="Claudio"
               studentsName="Claudio"
-              video="https://youtu.be/PkKn1xrjpvw"
+              video="https://www.youtube.com/embed/PkKn1xrjpvw"
             />
 
 
@@ -56,7 +58,7 @@ export default function Testmonials() {
               nameSrc="./sales-page-img/testmonials-img/img-depoimento-joneivison.webp"
               nameAlt="Joneivison"
               studentsName="Joneivison"
-              video="https://youtu.be/HYIb-Gj4yUs"
+              video="https://www.youtube.com/embed/HYIb-Gj4yUs"
             />
 
           </div>

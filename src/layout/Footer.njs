@@ -21,7 +21,7 @@ export default function Footer({ class: classes, src, light }) {
   return (
     <footer class={classes.footer}>
 
-      <figure>
+      <figure class="flex-col sm:flex sm:justify-start">
         <a href="/">
           <img src={src} class="m-auto sm:m-0 md:m-0 lg:m-0" alt="TipsCode" width="186" height="66" loading="lazy" />
         </a>

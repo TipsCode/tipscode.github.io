@@ -12,9 +12,9 @@ export default function Promotion() {
             </h2>
 
             <div class="block sm:inline-block mt-2">
-              <button class="button-color p-3 bg-tips-green text-white font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="button-color p-3 bg-tips-green text-white font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Conhecer Treinamento
-              </button>
+              </a>
             </div>
           </div>
         </div>

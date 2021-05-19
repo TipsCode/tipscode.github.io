@@ -2,7 +2,7 @@ export default function Modal({ video, onclose }) {
   return (
     <div class="fixed left-0 top-0 bg-black bg-opacity-90 w-full h-full items-center z-50 p-6 md:p-20">
 
-      <button class="text-white justify-self-end" onclick={onclose}> FECHAR </button>
+      <button class="mt-32 sm:mt-0 text-white justify-self-end" onclick={onclose}> FECHAR </button>
 
       <div class="flex-col text-white text-center">
 
@@ -11,9 +11,12 @@ export default function Modal({ video, onclose }) {
           <iframe src={video} class="w-5/6 md:w-3/6 sm:h-96 mx-auto" />
         </div>
 
-        <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          Quero me inscreve agora
-        </a>
+        <div class="mt-10">
+          <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Quero me inscreve agora
+          </a>
+
+        </div>
 
       </div>
     </div>

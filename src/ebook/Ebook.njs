@@ -19,7 +19,7 @@ class Ebook extends Nullstack {
           class={
            {
              footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',
-             p: 'sm:text-center w-full',
+             p: 'text-center sm:text-center w-full',
            }
          }
           src="./TipsCodelogo.png"

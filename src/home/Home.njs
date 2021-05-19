@@ -37,7 +37,7 @@ class Home extends Nullstack {
         <Promotion />
         <Footer class={ {
            footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around',
-             p: 'sm:text-center w-full text-tips-dark text-opacity-80'
+             p: 'text-center sm:text-center w-full text-tips-dark text-opacity-80'
         } } src="./tipscode-logo-1.svg" />
 
       </div>

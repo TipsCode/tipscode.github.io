@@ -28,7 +28,10 @@ class StudentTestimonial extends Nullstack {
           </p>
         </div>
 
-        {this.modalVisible && <Modal video={video} onclose={this.toggleModal} />}
+        <span>
+
+          {this.modalVisible && <Modal video={video} onclose={this.toggleModal} />}
+        </span>
       </div>
     );
   }
