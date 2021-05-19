@@ -35,9 +35,9 @@ function Link({ children }) {
 export default function Categories() {
   return (
     <section class="flex-col my-16 sm:my-28">
-      <div class="bg-categories bg-center bg-no-repeat bg-contain mx-3 overflow-hidden">
+      <div class="md:bg-categories bg-center bg-no-repeat bg-contain mx-3 overflow-hidden">
 
-        <h3 class="text-center text-5xl text-tips-blue font-bold">Conteúdos gratuitos no <br /> nosso canal</h3>
+        <h3 class="md:text-center text-2xl md:text-5xl text-tips-blue font-bold">Conteúdos gratuitos no <br /> nosso canal</h3>
 
         <div class="container mx-auto px-4 sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 flex flex-wrap sm:flex-nowrap sm:items-center justify-center sm:justify-around">
           <div class="mt-10 sm:mt-none order-2 sm:order-1">

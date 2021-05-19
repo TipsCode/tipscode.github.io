@@ -6,13 +6,13 @@ export default function Promotion() {
           <figure class="w-full sm:w-1/2">
             <img src="/banner-img.png" alt="Estudante TipsCode" width="440" height="454" />
           </figure>
-          <div class="w-5/6 sm:w-1/2">
-            <h2 class="text-tips-light text-3xl font-semibold mb-3 leading-relaxed traking-wide">
+          <div class="w-full md:w-1/2">
+            <h2 class="text-tips-light text-lg md:text-3xl font-semibold mb-3 leading-relaxed traking-wide">
               Vagas abertas para o melhor curso de programção <strong>Fullstack</strong> do Brasil. Clique no botão abaixo para conhecer.
             </h2>
 
-            <div class="block sm:inline-block mt-2">
-              <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="button-color p-3 bg-tips-green text-white font-bold border border-tips-blue rounded mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <div class="mt-2">
+              <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-green text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Conhecer Treinamento
               </a>
             </div>

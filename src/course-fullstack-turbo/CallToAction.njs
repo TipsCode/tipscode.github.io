@@ -25,11 +25,12 @@ class CallToAction extends Nullstack {
             </div>
           </div>
 
-          <h3 class="my-4 text-2xl leading-tight text-white">
+          <h3 class="my-12 text-xl md:text-2xl leading-tight text-white">
             Basta clicar no botão abaixo! Vai deixar essa oportunidade passar?
           </h3>
 
-          <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
+          <a
+            href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
             class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
             Quero ser um programador

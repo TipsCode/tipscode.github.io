@@ -2,7 +2,7 @@ export default function Teacher() {
   return (
     <section class="container mx-auto">
 
-      <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 w-5/6 mx-3 sm:m-auto text-center text-white">Conheça seu professor</h2>
+      <h2 class="font-bold text-2xl md:text-5xl my-12 md:my-24 md:mb-24 w-5/6 mx-auto text-center text-white">Conheça seu professor</h2>
 
 
       <div class="flex flex-wrap mx-3 flex-col sm:flex-row items-center md:w-4/6 sm:m-auto bg-tips-gray-dark rounded-lg">

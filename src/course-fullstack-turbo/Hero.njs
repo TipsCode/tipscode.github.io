@@ -19,7 +19,7 @@ class Hero extends Nullstack {
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
 
-         <MenuSales />
+          <MenuSales />
 
           <div id="hero" class="pt-10 mt-20 sm:mt-12 max-w-screen-xl justify-center mx-auto">
             <div class="container px-3 mx-auto items-center">
@@ -27,7 +27,7 @@ class Hero extends Nullstack {
               <div class="text-center px-3 lg:px-0">
                 <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
                 <p class="leading-normal sm:text-lg md:text-2xl mb-8">
-                  Assista o vídeo abaixo e descubra como desenvolver qualquer sistema, precifiacar e vender para o seu cliente!
+                  Assista o vídeo abaixo e descubra como desenvolver qualquer sistema, precificar e vender para o seu cliente!
                 </p>
 
               </div>

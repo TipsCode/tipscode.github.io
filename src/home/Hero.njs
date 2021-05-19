@@ -4,14 +4,14 @@ class Header extends Nullstack {
 
   render() {
     return (
-      <section class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between">
+      <section class="flex-row px-4 sm:py-36 sm:max-w-screen-xl sm:mx-auto sm:items-center sm:flex sm:justify-between mt-6 sm:mt-2">
         <div class="flex-col sm:justify-self-center grid gap-8">
-          <h1 class="text-5xl text-tips-dark text-opacity-80 traking-wide font-bold text-center sm:text-left mb-0">
+          <h1 class="text-4xl md:text-5xl text-tips-dark text-opacity-80 traking-wide font-bold mb-0">
             Bem vindo à TipsCode
           </h1>
           <div>
 
-            <p class="text-center sm:text-left text-tips-dark text-opacity-60 text-2xl tracking-wide leading-relaxed">
+            <p class="sm:text-left text-tips-dark text-opacity-60 text-lg sm:text-2xl tracking-wide leading-relaxed">
               Essa é a sua nova escola de programação online<br />
               Garanta seu lugar em um mercado altamente competivo.
             </p>
