@@ -45,7 +45,7 @@ class Hero extends Nullstack {
           </div>
 
           <div class="relative m-0 p-0 w-full">
-            <img class="w-full block absolute bottom-0" src="./sales-page-img/hero/Waves.webp" alt="waves" loading="lazy" />
+            <img class="w-full block absolute bottom-0" src="./sales-page-img/hero/Waves.webp" alt="waves" loading="lazy" width="1786" height="628" />
           </div>
         </div>
       </>
