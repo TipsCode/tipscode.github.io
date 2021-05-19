@@ -3,9 +3,9 @@ export default function Inspiration() {
     <section id="about" class="my-5 overflow-hidden sm:max-w-screen-xl sm:mx-auto sm:px-4 sm:py-10 sm:flex sm:items-center sm:justify-between md:my-36">
       <div class="flex flex-wrap flex-col sm:flex-row">
         <figure class="w-full sm:w-1/2 p-6 mt-6">
-          <img src="/about-alisson-suassuna.png" alt="Alisson Suassuna" height="520" width="541" />
+          <img src="./about-alisson-suassuna.webp" alt="Alisson Suassuna" height="520" width="468" />
         </figure>
-        <div class="w-5/6 sm:w-1/2 p-6">
+        <div class="w-5/6 sm:w-1/2 p-6 my-auto">
           <h2 class="text-tips-dark text-opacity-80 text-5xl font-bold mb-3 leading-relaxed traking-wide">
             Programação mudou minha vida
           </h2>
