@@ -14,7 +14,7 @@ class Hero extends Nullstack {
     return (
       <>
         <span>
-          {this.modalVisible && <Modal video="https://www.youtube.com/embed/yovzEEYOl-E" onclose={this.toggleModal} />}
+          {this.modalVisible && <Modal video="https://www.youtube.com/embed/hMr10rksntQ" onclose={this.toggleModal} />}
         </span>
 
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">

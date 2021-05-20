@@ -5,7 +5,8 @@ import Footer from '../layout/Footer';
 import ArticleImage from './ArticleImage';
 
 const routes = {
-  '/teste': 'https://nullstack.app',
+  '/desenvolvedor-full-stack-turbo': 'https://tipscode.com.br/curso-fullstack-turbo ',
+  '/profissional-fullstack': 'https://tipscode.com.br/curso-fullstack-turbo'
 };
 class Articles extends Nullstack {
 
