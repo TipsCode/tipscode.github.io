@@ -14,6 +14,7 @@ import ThanksEbook from './thanks-ebook/ThanksEbook';
 import ThanksMiniCourse from './thanks-mini-course/ThanksMiniCourse';
 
 import GoogleAnalytics from './layout/GoogleAnalytics';
+import FacebookPixel from './layout/FacebookPixel';
 
 class Application extends Nullstack {
 
@@ -69,6 +70,7 @@ class Application extends Nullstack {
       <main class="bg-tips-light">
         <div>
           <GoogleAnalytics id="UA-120538403-3" />
+          <FacebookPixel id="294337825339805" />
         </div>
 
         <Head />
