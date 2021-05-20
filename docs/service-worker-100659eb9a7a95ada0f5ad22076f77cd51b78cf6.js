@@ -5,12 +5,12 @@ self.context = {
     "development": false,
     "production": true,
     "static": true,
-    "key": "11d55839f65b1b74cea3d3ea68564c66aa108be8"
+    "key": "100659eb9a7a95ada0f5ad22076f77cd51b78cf6"
   },
   "project": {
     "cdn": "",
     "protocol": "https",
-    "domain": "tipsocde.com",
+    "domain": "tipscode.com.br",
     "name": "TipsCode",
     "color": "#D22365",
     "type": "website",
