@@ -1,7 +1,7 @@
 export default function MenuSales() {
 
   return (
-    <nav id="header" class="fixed z-50 w-full top-0 text-white bg-gradient-radial">
+    <nav id="header" class="z-50 w-full top-0 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-center sm:justify-between mt-0 py-2">
 
         <div class="flex items-center">

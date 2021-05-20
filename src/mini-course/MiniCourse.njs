@@ -7,8 +7,8 @@ import Footer from '../layout/Footer';
 class MiniCourse extends Nullstack {
 
    prepare({ project, page }) {
-    page.title = `${project.name} - TipsCode`;
-    page.description = `${project.name} Descomplicando a Tecnologia`;
+    page.title = `${project.name} - Criando um Jogo com JavaScript`;
+    page.description = `${project.name} Venha estudar JS criando um jogo irado`;
     page.locale = 'pt-BR';
   }
 

@@ -15,9 +15,10 @@ import Footer from '../layout/Footer';
 class SalesPage extends Nullstack {
 
   prepare({ project, page }) {
-    page.title = `${project.name} - TipsCode`;
-    page.description = `${project.name} Descomplicando a Tecnologia`;
+    page.title = `${project.name} - Curso Desenvolvedor FullStack Turbo`;
+    page.description = `${project.name} Você no próximo nível`;
     page.locale = 'pt-BR';
+    page.image = '/image-1200x630.png'
   }
 
 
