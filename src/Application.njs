@@ -73,7 +73,7 @@ class Application extends Nullstack {
         <Ebook route="/ebook-gratuito" />
         <ThanksEbook route="/ebook-obrigado" />
         <MiniCourse route="/mini-curso-gratuito" />
-        <ThanksMiniCourse route="/minicurso-obrigado" />
+        <ThanksMiniCourse route="/inscricao-realizada-com-sucesso" />
         <Article route="/:slug" />
       </main>
     );
