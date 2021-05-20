@@ -13,6 +13,8 @@ import MiniCourse from './mini-course/MiniCourse';
 import ThanksEbook from './thanks-ebook/ThanksEbook';
 import ThanksMiniCourse from './thanks-mini-course/ThanksMiniCourse';
 
+import GoogleAnalytics from './layout/GoogleAnalytics';
+
 class Application extends Nullstack {
 
   static async start(context) {
@@ -65,6 +67,10 @@ class Application extends Nullstack {
   render() {
     return (
       <main class="bg-tips-light">
+        <div>
+          <GoogleAnalytics id="UA-120538403-3" />
+        </div>
+
         <Head />
         <Home route="/" />
         <Articles route="/artigos" />
