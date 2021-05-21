@@ -58,7 +58,7 @@ class WhatLearn extends Nullstack {
             <CardWhatLearn
               nameClass="flex flex-wrap"
               contentH5="LINUX E GIT"
-              contentH3="Essa ferramanta é essencial para qualquer dev."
+              contentH3="Essa ferramenta é essencial para qualquer dev."
               contentP="Você aprenderá terminal Linux e Git, além das melhores práticas para montar um bom GitHub."
               nameSrc="./sales-page-img/card-what-learn/git-image.webp"
               nameAlt="Tudo sobre Linux e Git"

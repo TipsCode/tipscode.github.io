@@ -21,7 +21,7 @@ class Header extends Nullstack {
               href="/curso-fullstack-turbo"
               class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-blue text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
             >
-              Quero ser FullSatack
+              Quero ser FullStack
             </a>
           </div>
         </div>
