@@ -1,5 +1,5 @@
 
-export default function ThanksEbook() {
+export default function Thanks() {
 
   return (
     <div class="bg-tips-dark text-white text-center tracking-wide">

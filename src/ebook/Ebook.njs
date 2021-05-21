@@ -1,6 +1,7 @@
 import Nullstack from 'nullstack';
 import Hero from './Hero';
 import Footer from '../layout/Footer';
+import Thanks from './Thanks';
 
 class Ebook extends Nullstack {
 
@@ -11,7 +12,8 @@ class Ebook extends Nullstack {
   }
 
 
-  render() {
+  render({ params }) {
+    if (params.obrigado) return <Thanks />;
     return (
       <div class="bg-tips-dark">
         <Hero />

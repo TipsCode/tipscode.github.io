@@ -1,5 +1,5 @@
 
-export default function ThanksMiniCourse() {
+export default function Thanks() {
   return (
     <div class="bg-white text-tips-dark text-center tracking-wide">
       <div class="px-4 py-10 sm:py-20 sm:max-w-screen-xl m-auto items-center flex flex-col gap-12">

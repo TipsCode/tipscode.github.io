@@ -10,8 +10,6 @@ import Article from './article/Article';
 import SalesPage from './course-fullstack-turbo/SalesPage';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
-import ThanksEbook from './thanks-ebook/ThanksEbook';
-import ThanksMiniCourse from './thanks-mini-course/ThanksMiniCourse';
 
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
@@ -79,9 +77,7 @@ class Application extends Nullstack {
         <Articles route="/artigos/:page" />
         <SalesPage route="/curso-fullstack-turbo" />
         <Ebook route="/ebook-gratuito" />
-        <ThanksEbook route="/ebook-obrigado" />
         <MiniCourse route="/mini-curso-gratuito" />
-        <ThanksMiniCourse route="/inscricao-realizada-com-sucesso" />
         <Article route="/:slug" />
       </main>
     );
