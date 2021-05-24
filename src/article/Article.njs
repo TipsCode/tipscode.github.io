@@ -7,7 +7,8 @@ import ArticleImage from './ArticleImage';
 const routes = {
   '/desenvolvedor-full-stack-turbo': 'https://tipscode.com.br/curso-fullstack-turbo ',
   '/profissional-fullstack': 'https://tipscode.com.br/curso-fullstack-turbo',
-  '/ebook-gratuito-html': 'https://tipscode.com.br/ebook-gratuito'
+  '/ebook-gratuito-html': 'https://tipscode.com.br/ebook-gratuito',
+  '/mini-curso-construindo-seu-jogo-em-javascript': 'https://tipscode.com.br/mini-curso-gratuito'
 };
 class Articles extends Nullstack {
 

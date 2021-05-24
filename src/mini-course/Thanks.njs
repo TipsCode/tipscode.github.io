@@ -1,3 +1,4 @@
+import Footer from '../layout/Footer';
 
 export default function Thanks() {
   return (
@@ -12,11 +13,13 @@ export default function Thanks() {
           Agradeço pela confiança, em até 5 minutos você receberá um e-mail com os seus dados de acesso ao curso. Enquanto isso, que tal conhecer mais sobre o novo treinamento <strong>FULLSTACK TURBO</strong> da TipsCode?
         </p>
 
-        <button type="submit" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-green text-white rounded-md shadow-md w-full md:w-2/6">Conhecer Treinamento</button>
+        <a href="/curso-fullstack-turbo" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-green text-white rounded-md shadow-md w-full md:w-2/6">Conhecer Treinamento</a>
 
-        <div class="mt-2 md:mt-28">
-          <img src="/tipscode-logo-1.svg" class="w-28" />
-        </div>
+       <Footer class={ {
+           footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around',
+             p: 'text-center sm:text-center w-full text-tips-dark text-opacity-80'
+        } } src="./tipscode-logo-1.svg" />
+        
       </div>
     </div>
   );
