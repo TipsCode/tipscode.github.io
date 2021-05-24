@@ -13,8 +13,8 @@ class MiniCourse extends Nullstack {
     page.locale = 'pt-BR';
   }
 
-  render({ params }) {
-    if (params.obrigado) return <Thanks />;
+  render({ params, self }) {
+    if (params.obrigado && self.hydrated) return <Thanks />;
     return (
       <>
         <Hero />

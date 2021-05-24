@@ -11,19 +11,16 @@ class Ebook extends Nullstack {
     page.locale = 'pt-BR';
   }
 
-
-  render({ params }) {
-    if (params.obrigado) return <Thanks />;
+  render({ params, self }) {
+    if (params.obrigado && self.hydrated) return <Thanks />;
     return (
-      <div class="bg-tips-dark">
+      <div class="bg-tips-dark min-h-screen">
         <Hero />
         <Footer
-          class={
-           {
-             footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',
-             p: 'text-center sm:text-center w-full',
-           }
-         }
+          class={{
+            footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',
+            p: 'text-center sm:text-center w-full',
+          }}
           src="./TipsCodelogo.png"
           light
         />
