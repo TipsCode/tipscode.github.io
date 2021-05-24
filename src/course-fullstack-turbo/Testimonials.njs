@@ -1,7 +1,5 @@
 import StudentTestimonial from './StudentTestimonial';
 
-
-
 export default function Testmonials() {
   return (
     <>

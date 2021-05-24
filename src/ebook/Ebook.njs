@@ -7,7 +7,7 @@ class Ebook extends Nullstack {
 
   prepare({ project, page }) {
     page.title = `${project.name} - TipsCode`;
-    page.description = `${project.name} Descomplicando a Tecnologia`;
+    page.description = `${project.name} Ebook com mais de 100 páginas sobre HTML5`;
     page.locale = 'pt-BR';
   }
 

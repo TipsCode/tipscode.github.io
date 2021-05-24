@@ -6,7 +6,8 @@ import ArticleImage from './ArticleImage';
 
 const routes = {
   '/desenvolvedor-full-stack-turbo': 'https://tipscode.com.br/curso-fullstack-turbo ',
-  '/profissional-fullstack': 'https://tipscode.com.br/curso-fullstack-turbo'
+  '/profissional-fullstack': 'https://tipscode.com.br/curso-fullstack-turbo',
+  '/ebook-gratuito-html': 'https://tipscode.com.br/ebook-gratuito'
 };
 class Articles extends Nullstack {
 
@@ -16,7 +17,7 @@ class Articles extends Nullstack {
       router.url = target;
     } else {
       page.title = `${project.name} - TipsCode`;
-      page.description = `${project.name} Descomplicando a Tecnologia`;
+      page.description = `${project.name} Artigos sobre programação e tecnologias`;
       page.locale = 'pt-BR';
     }
   }
