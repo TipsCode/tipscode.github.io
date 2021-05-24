@@ -12,15 +12,18 @@ const routes = {
 };
 class Articles extends Nullstack {
 
-  prepare({ project, page, router }) {
+  async hydrate({router}) {
     const target = routes[router.path];
-    if (target) {
+
+    if(target) {
       router.url = target;
-    } else {
-      page.title = `${project.name} - TipsCode`;
-      page.description = `${project.name} Artigos sobre programação e tecnologias`;
-      page.locale = 'pt-BR';
     }
+  }
+
+  prepare({ project, page }) {  
+    page.title = `${project.name} - TipsCode`;
+    page.description = `${project.name} Artigos sobre programação e tecnologias`;
+    page.locale = 'pt-BR';
   }
 
   static async getArticleBySlug({ articles, slug }) {
