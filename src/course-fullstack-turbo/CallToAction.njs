@@ -18,7 +18,7 @@ class CallToAction extends Nullstack {
               <h2 class="my-4 md:text-3xl lg:text-5xl leading-tight text-tips-green font-bold">
                 12x  R$41,41
               </h2>
-              <p class="text-indigo-100 text-right">Ou 490,90 à vista</p>
+              <p class="text-indigo-100 text-right">Ou 497,00 à vista</p>
             </div>
             <div>
               <img src="./garantia-7-dias.webp" alt="garantia de 7 dias" loading="lazy" width="180" height="122" />
