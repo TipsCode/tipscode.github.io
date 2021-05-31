@@ -24,6 +24,7 @@ class Articles extends Nullstack {
     page.title = `${project.name} - TipsCode`;
     page.description = `${project.name} Artigos sobre programação e tecnologias`;
     page.locale = 'pt-BR';
+    page.img = page.imgArticle
   }
 
   static async getArticleBySlug({ articles, slug }) {

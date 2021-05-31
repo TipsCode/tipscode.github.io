@@ -1,6 +1,14 @@
 ---
 title: "NullStack: Conhecendo o framework Brasileiro"
 date: "2021-05-27"
+tags: 
+  - "nullstack"
+  - "framework"
+  - "desenvolvimento web"
+  - "fullstack"
+  - "tipscode"
+  - "Alisson Suassuna"
+  - "Javascript"
 description: Nullstack é um framework fullstack para a construção de aplicaçõess web progressivos. Ele conecta uma camada de IU (interface gráfica) com monitoração de estado a microsserviços especializados no mesmo componente usando o JavaScript puro (vanila).
 imgArticle: /thumbnail-article/framework-nullstack.png
 imgHome: /thumbnail-home/framework-nullstack.png
@@ -8,13 +16,13 @@ imgHome: /thumbnail-home/framework-nullstack.png
 
 # Introdução ao NullStack
 
-Nullstack é um framework fullstack para a construção de aplicaçõess web progressivos. Ele conecta uma camada de IU (interface gráfica) com monitoração de estado a microsserviços especializados no mesmo componente usando o JavaScript puro (vanila).
+Nullstack é um framework fullstack para a construção de aplicações web progressivos. Ele conecta uma camada de IU (interface gráfica) com monitoração de estado a microsserviços especializados no mesmo componente usando o JavaScript puro (vanilla).
 
-Os componentes Nullstack são classes JavaScript regulares, mas com front-end e back-end. O objetivo é que o desenvolvedor tenha uma aplicação full stack por padrão, sem lidar com todas as decisões.
+Os componentes Nullstack são classes JavaScript regulares com o front-end e back-end juntos. O objetivo é que o desenvolvedor tenha uma aplicação full stack por padrão, sem lidar com todas as decisões.
 
 O Nullstack permite que você faça sua aplicação funcionar o mais rápido possível, mas também é flexível o suficiente para que você possa refatorá-lo a hora que acha necessario.
 
-Considere o exemplo abaixo, onde um componente com estado usa uma função de servidor para ler de uma conexão de banco de dados salva no contexto do servidor:
+Considere o exemplo abaixo, onde um componente com estado usa uma função de servidor para ler de uma conexão de banco de dados e logo após salvar esse dado no servidor:
 
 ```
 import Nullstack from "nullstack";
@@ -55,15 +63,15 @@ class BookPage extends Nullstack {
 
 export default BookPage;
 ```
-No exemplo acims, o Nullstack do lado do servidor renderiza e retorna o HTML pronto, isso ajuda a questão do SEO (Search Engine Optimization) quando o usuário entra na aplicação por esta rota. Quando o usuário navega para esta página, uma chamada de API é feita para um microsserviço onde é gerado automaticamente retornando um JSON e atualizando o DOM.
+No exemplo acima, o Nullstack do lado do servidor renderiza e retorna o HTML pronto, isso ajuda a questão do SEO (Search Engine Optimization) quando o usuário entra na aplicação por esta rota. Quando o usuário navega para esta página, uma chamada de API é feita para um microsserviço onde é gerado automaticamente retornando um JSON e atualizando o DOM.
 
 ## Como funciona o Nullstack?
 
 O Nullstack gera dois pacotes: um para o servidor e outro para o cliente com o mínimo de dependências possíveis. O framework é responsável por decidir quando usar uma chamada de API ou usar uma função local; o programador só precisa pensar no comportamento de suas funções.
 
-Cada ambiente tem seu contexto, que é um proxy passado para cada função. O recurso torna o Nullstack uma framework horizontal em vez de uma árvore, o que é muito importante se você trabalha em um projeto dinamico, onde as alterações precisam ser feitas constatemente.
+Cada ambiente tem seu context, que é um proxy passado para cada função. O recurso torna o Nullstack uma framework horizontal em vez de uma árvore, o que é muito importante se você trabalha em um projeto dinamico, onde as alterações precisam ser feitas constatemente.
 
-No exemplo abaixo, estamos analisando o parâmetro "README" e quando aaplicação é iniciado e salvando no proxy context do servidor:
+No exemplo abaixo, estamos analisando o parâmetro "README" e quando a aplicação é iniciado, salvamos o context no nosso servidor:
 
 ```
 import Nullstack from "nullstack";
@@ -96,7 +104,7 @@ class About extends Nullstack {
 export default About;
 ```
 
-O cliente chama uma função de servidor e salva o conteúdo README no contexto do cliente que está disponível offline em outras visualizações. Ambos readFileSynce remarkablesão excluídos do pacote do cliente. Existem muitas otimizações neste código, mas o componente parece quase tão simples quanto básico.
+O cliente chama uma função de servidor e salva o conteúdo README no context do cliente que está disponível offline em outras visualizações. Ambos readFileSynce remarkablesão excluídos do pacote do cliente. Existem muitas otimizações neste código, mas o componente parece quase tão simples quanto básico.
 
 ## Diferenças do Nullstack para outros frameworks?
 
@@ -104,11 +112,11 @@ O framework nullstack, desde o início, foi pensado como uma solução completa 
 
 A stack tenta juntar todas as boas coisas de frameworks como React, Vue, Next entre outros em um único, porém não perdendo a essencia da linguagem JavaScript.
 
-Atualmente, o mercado está tentando usar uma única abordagem "tamanho único", onde React ou agora o mais novo queridinho NextJS é a solução para tudo. Se você pensa em frameworks como sapatos, o Nullstack é apenas um sapato que se ajusta ao tamanho do problema em questão e busca deixar o desenvolvedor em uma posição mais confortável.
+Atualmente, o mercado está tentando usar uma única abordagem "tamanho único", onde React ou agora o mais novo queridinho NextJS é a solução para tudo. Se você pensar em frameworks como sapatos, o Nullstack é apenas um sapato que se ajusta ao tamanho do problema em questão e busca deixar o desenvolvedor em uma posição mais confortável.
 
 ## Um convite especial
 
-Convido a todos que vem acompanhando o TipsCode a contribuir com esse projeto tal legal e criado por um Brasileiro, a TipsCode hoje é uma grande parceira do projeto nullstack, hoje o site da Tips é criado com nullstack e foi um desafio que me trouxe muito aprendizado e lhe convido a fazer o mesmo. 
+Convido a todos que vem acompanhando o TipsCode a contribuir com esse projeto tão legal e criado por um Brasileiro, a TipsCode hoje é uma grande parceira do projeto nullstack, hoje o site da Tips é criado com nullstack e foi um desafio que me trouxe muito aprendizado e lhe convido a fazer o mesmo. 
 
 Acesse [o github do framework](https://github.com/nullstack/nullstack)
 
