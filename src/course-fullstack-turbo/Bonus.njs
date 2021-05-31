@@ -26,7 +26,9 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/Coding_Monochromatic.webp"
                 contentH3="Engenharia de software"
                 alt="Engenharia de software"
-                contentP="Não basta só programar, é preciso saber o que está fazendo."
+                contentP="Engenharia de software é uma área da engenharia e da computação voltada à especificação, 
+                desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de 
+                gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade."
               />
 
               <CardBonus
@@ -40,7 +42,8 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/Coach_Monochromatic.webp"
                 alt="Acompanhamento"
                 contentH3="Acompanhamento"
-                contentP="Na TipsCode o suporte é personalizado."
+                contentP="Esse é sem dúvidas um dos bônus mais desafiador, pois eu me compromento de forma bem ativa
+                onde pessoalmente estarei acompanhando passo a passo e orientando você na sua jornada"
               />
 
             </div>
@@ -58,7 +61,10 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/data-arranging.webp"
                 alt="Estrutura de dados"
                 contentH3="Estrutura de dados"
-                contentP=" Aprenda estrutura de dados JacScript."
+                contentP="Nesse bônus vamos muito além na linguagem JavaScript, aqui estaremos nos tornando realmente
+                especialista em JaVaScript, onde iremos estudar estrutura de dados, que é uma ciência da computação, é 
+                uma coleção tanto de valores quanto de operações. É uma implementação concreta de um tipo abstrato 
+                de dado ou um tipo de dado básico ou primitivo"
               />
 
               <CardBonus
@@ -90,7 +96,9 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/linux.webp"
                 alt="Dominando Linux"
                 contentH3="Dominando Linux"
-                contentP=" Domine o terminal Linux com esse super bônus."
+                contentP="Você sabia que mais de 80% dos servidores que hoje estão na web rodam em maquinas Linux?
+                Por esse motivo resolvi lhe presentear com esse super bônus, onde vamos aprender um pouco mais sobre
+                esse sistema operacinal."
               />
 
               <CardBonus
@@ -104,7 +112,9 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/web-dev.webp"
                 alt="HTML5 e CSS3 Avançado"
                 contentH3="HTML5 e CSS3 Avançado"
-                contentP="Um curso de web design avançado para se diferenciar no mercado"
+                contentP="Você recebera mais um curso de web design, onde o objetivo e lhe tornar um desenvolvedor(a)
+                com grandes habilidades na hora de desenvolver suas páginas web usando apenas HTML5 e CSS3,
+                avançado para se diferenciar no mercado"
               />
 
             </div>
@@ -122,7 +132,10 @@ class Bonus extends Nullstack {
                 src="./sales-page-img/bonus-img/conversation.webp"
                 alt="Entrevistas com Devs"
                 contentH3="Entrevistas com Devs"
-                contentP="Entrevistas com Desenvolvedores experientes"
+                contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores e programadoras
+                de diversas áreas para que você veja grandes histórias e possa aprender muito com elas, e não vamos
+                se limitar a pessoas apenas da nossa área, iremos fazer com pessoas de diversas área pra gente
+                ter uma visão horizontal da tecnologia."
               />
 
               <div class="w-full sm:w-1/2 py-8 px-4 text-center justify-center md:text-left md:justify-start">

@@ -6,9 +6,9 @@ export default function CardWhatLearn({ nameClass, nameSrc, nameAlt, contentH5, 
         <h3 class="text-gray-400 font-bold leading-none mb-3">
           {contentH5}
         </h3>
-        <h5 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
+        <h4 class="text-xl md:text-3xl text-gray-100 font-bold leading-none mb-3">
           {contentH3}
-        </h5>
+        </h4>
         <p class="text-gray-200 mb-8">
           {contentP}
         </p>
