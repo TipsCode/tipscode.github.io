@@ -4,19 +4,9 @@ import MenuSales from './MenuSales';
 
 class Hero extends Nullstack {
 
-  modalVisible = false;
-
-  toggleModal() {
-    this.modalVisible = !this.modalVisible;
-  }
-
   render() {
     return (
       <>
-        <span>
-          {this.modalVisible && <Modal video="https://www.youtube.com/embed/hMr10rksntQ" onclose={this.toggleModal} />}
-        </span>
-
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
 
           <MenuSales />
@@ -32,8 +22,8 @@ class Hero extends Nullstack {
 
               </div>
 
-              <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto" onclick={this.toggleModal}>
-                <img class="w-full z-30 cursor-pointer" src="./sales-page-img/hero/Image-hero.png" alt="Plano de fundo TipsCode" loading="lazy" width="1256" height="634" />
+              <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
+                <iframe src="https://www.youtube.com/embed/hMr10rksntQ" class="w-5/6 md:w-4/6 sm:h-96 mx-auto z-50" />
               </div>
 
               <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
