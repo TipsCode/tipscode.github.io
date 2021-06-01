@@ -2,29 +2,21 @@ import Nullstack from 'nullstack';
 import Menu from '../layout/Menu';
 import Promotion from '../layout/Promotion';
 import Footer from '../layout/Footer';
-import ArticleImage from './ArticleImage';
 
 const routes = {
   '/desenvolvedor-full-stack-turbo': 'https://tipscode.com.br/curso-fullstack-turbo ',
   '/profissional-fullstack': 'https://tipscode.com.br/curso-fullstack-turbo',
   '/ebook-gratuito-html': 'https://tipscode.com.br/ebook-gratuito',
-  '/mini-curso-construindo-seu-jogo-em-javascript': 'https://tipscode.com.br/mini-curso-gratuito'
+  '/mini-curso-construindo-seu-jogo-em-javascript': 'https://tipscode.com.br/mini-curso-gratuito',
 };
 class Articles extends Nullstack {
 
-  async hydrate({router}) {
+  async hydrate({ router }) {
     const target = routes[router.path];
 
-    if(target) {
+    if (target) {
       router.url = target;
     }
-  }
-
-  prepare({ project, page }) {  
-    page.title = `${project.name} - TipsCode`;
-    page.description = `${project.name} Artigos sobre programação e tecnologias`;
-    page.locale = 'pt-BR';
-    page.img = page.imgArticle
   }
 
   static async getArticleBySlug({ articles, slug }) {
@@ -32,14 +24,18 @@ class Articles extends Nullstack {
     return article;
   }
 
-  async initiate({ page, params }) {
+  async initiate({ page, params, project }) {
     const article = await this.getArticleBySlug({ slug: params.slug });
     if (!article) {
       page.status = 404;
     } else {
-      page.title = article.title;
-      page.description = article.description;
       Object.assign(this, article);
+
+      page.title = `${article.title} - ${project.name}`;
+      page.description = article.description;
+      if (article.imgArticle) {
+        page.image = article.imgArticle;
+      }
     }
   }
 
@@ -51,11 +47,10 @@ class Articles extends Nullstack {
 
           <article>
             <h1 class="font-bold text-4xl text-left sm:text-left"> {this.title} </h1>
-            <ArticleImage
-              imgWidth="1242"
-              imgSrc={this.imgArticle}
-              articleDate={this.date}
-            />
+            <figure class="mt-10">
+              <img width="1242" src={this.imgArticle} />
+              <ficaption>{this.date}</ficaption>
+            </figure>
 
             <div html={this.content} class="mt-10 prose max-w-none" />
           </article>

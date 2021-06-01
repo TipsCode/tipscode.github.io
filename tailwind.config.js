@@ -2,9 +2,8 @@ module.exports = {
   purge: ['./src/**/*.njs'],
   darkMode: 'class',
   theme: {
-
     extend: {
-      backgroundImage: (theme) => ({
+      backgroundImage: () => ({
         categories: "url('/bubble-bacground-radial.svg')",
         'gradient-radial': 'radial-gradient(#6FD1C5, #798FFE)',
       }),
@@ -20,6 +19,17 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins'],
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            code: { color: '#ddbc72' },
+            'blockquote p:first-of-type::before': false,
+            'blockquote p:first-of-type::after': false,
+            'code::before': false,
+            'code::after': false,
+          },
+        },
+      }),
     },
   },
   variants: {
