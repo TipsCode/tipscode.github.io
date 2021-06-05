@@ -68,6 +68,7 @@ class Application extends Nullstack {
       <main class="bg-tips-light">
         <div>
           <GoogleAnalytics id="UA-120538403-3" />
+          <GoogleAnalytics id="AW-641358523" />
           <FacebookPixel id="294337825339805" />
         </div>
 
