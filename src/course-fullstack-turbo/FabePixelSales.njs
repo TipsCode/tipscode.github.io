@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
 
-class FacebookPixel extends Nullstack {
+class FabePixelSales extends Nullstack {
 
   async hydrate({page, id}) {
     ! function(f, b, e, v, n, t, s) {
@@ -22,12 +22,12 @@ class FacebookPixel extends Nullstack {
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', id);
-    fbq('track', 'PageView');
+    fbq('trackCustom', 'paginaDeVendas');
     window.addEventListener(page.event, () => {
       fbq('init', id);
-      fbq('track', 'PageView');
+      fbq('trackCustom', 'paginaDeVendas');
     })
   }
 }
 
-export default FacebookPixel;
+export default FabePixelSales;

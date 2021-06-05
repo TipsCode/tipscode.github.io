@@ -11,6 +11,7 @@ import CallToAction from './CallToAction';
 import Teacher from './Teacher';
 import Faq from './Faq';
 import Footer from '../layout/Footer';
+import FabePixelSales from './FabePixelSales'
 
 class SalesPage extends Nullstack {
 
@@ -25,6 +26,9 @@ class SalesPage extends Nullstack {
   render() {
     return (
       <div class="bg-tips-dark">
+        <div>
+           <FabePixelSales id="294337825339805" />
+        </div>
         <Hero />
         <CourseDetails />
         <WhatLearn />
