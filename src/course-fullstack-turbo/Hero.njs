@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
-import Modal from '../layout/Modal';
 import MenuSales from './MenuSales';
+import './Hero.scss'
 
 class Hero extends Nullstack {
 
@@ -11,23 +11,26 @@ class Hero extends Nullstack {
 
           <MenuSales />
 
-          <div id="hero" class="pt-10 mt-20 sm:mt-12 max-w-screen-xl justify-center mx-auto">
+          <div id="hero" class="sm:mt-12 max-w-screen-xl justify-center mx-auto">
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
                 <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
                 <p class="leading-normal sm:text-lg md:text-2xl mb-8">
-                  Assista o vídeo abaixo e descubra como desenvolver qualquer sistema, precificar e vender para o seu cliente!
+                  Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
+                  e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possível
                 </p>
 
               </div>
 
               <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
-                <iframe src="https://www.youtube.com/embed/hMr10rksntQ" class="w-5/6 md:w-4/6 sm:h-96 mx-auto z-50" />
+                <div class="embed">
+                  <iframe src="https://www.youtube.com/embed/hMr10rksntQ" />
+                </div>
               </div>
 
-              <div class="flex items-center w-full mx-auto justify-center md:mt-15 lg:mt-32 xl:mt-32">
-                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <div class="flex items-center w-full mx-auto justify-center">
+                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   QUERO SER FULL STACK
                 </a>
               </div>
