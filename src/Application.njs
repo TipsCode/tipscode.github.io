@@ -77,6 +77,7 @@ class Application extends Nullstack {
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
         <SalesPage route="/curso-fullstack-turbo" />
+        <SalesPage route="/curso-fullstack-turbo/promocao" />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
         <Article route="/:slug" />

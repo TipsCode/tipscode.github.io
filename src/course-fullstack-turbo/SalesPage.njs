@@ -23,20 +23,21 @@ class SalesPage extends Nullstack {
   }
 
 
-  render() {
+  render({ router }) {
     return (
       <div class="bg-tips-dark">
         <div>
            <FabePixelSales id="294337825339805" />
         </div>
         <Hero />
+        {router.url.endsWith('/promocao') && <CallToAction />}
         <CourseDetails />
         <WhatLearn />
         <MoreDetails />
         <Bonus />
         <Testimonials />
         <Projects />
-        <CallToAction />
+        {!router.url.endsWith('/promocao') && <CallToAction />}
         <Teacher />
         <Faq />
          <Footer
