@@ -5,7 +5,11 @@ import './Hero.scss'
 class Hero extends Nullstack {
 
   render({ router }) {
-    const hotmartLink = router.url.endsWith('/promocao') ? 'aaa' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
+    const hotmartParagraf = router.url.endsWith('/promocao') ? `Aproveite a nossa oferta única e exclusiva agora mesmo e 
+      saia na frente como desenvolvedor full stack profissional, requisitado e bem pago pelo mercado` : ` Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
+                  e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possível`
+    const hotmartTitle = router.url.endsWith('/promocao') ? 'Super Promoção Full Stack Turbo' : 'Full Stack Turbo'
+    const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
     return (
       <>
         <div class="leading-normal tracking-normal text-white bg-gradient-radial">
@@ -16,11 +20,8 @@ class Hero extends Nullstack {
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
-                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
-                <p class="leading-normal sm:text-lg md:text-2xl mb-8">
-                  Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
-                  e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possível
-                </p>
+                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">{hotmartTitle}</h1>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">{hotmartParagraf}</p>
 
               </div>
 
@@ -39,7 +40,7 @@ class Hero extends Nullstack {
           </div>
 
           <div class="relative m-0 p-0 w-full">
-            <img class="w-full block absolute bottom-0" src="./sales-page-img/hero/Waves.png" alt="waves" loading="lazy" width="1786" height="628" />
+            <img class="w-full block absolute bottom-0" src="/sales-page-img/hero/Waves.png" alt="waves" loading="lazy" width="1786" height="628" />
           </div>
         </div>
       </>

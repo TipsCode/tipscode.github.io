@@ -21,7 +21,7 @@ class WhatLearn extends Nullstack {
               contentP="Nos primeiros módulos você vai entender os conceitos por trás da construção de sites na web, 
               aprenderá a estruturar as páginas com HTML5, estilizações com CSS3 e Bootstrap 4.6 e as manipulações de DOM com 
               JavaScript e Jquery."
-              nameSrc="./sales-page-img/card-what-learn/Web-design-image.webp"
+              nameSrc="/sales-page-img/card-what-learn/Web-design-image.webp"
               nameAlt="Web Desing"
               orderImg="w-full sm:w-1/2 p-6"
             />
@@ -32,7 +32,7 @@ class WhatLearn extends Nullstack {
               contentH3="Aprenda a criar aplicações dinâmicas com as melhores tecnologias do mercardo"
               contentP="Você aprenderá os conceitos por trás de aplicações altamente dinâmicas usando a 
               biblioteca React em conjuntos de outras ferramentas como: Hooks, Webpack e Gulp. Entraremos de forma detalhada nos conceitos e boas práticas no desenvolvimento front-end com React."
-              nameSrc="./sales-page-img/card-what-learn/Frontend-image.webp"
+              nameSrc="/sales-page-img/card-what-learn/Frontend-image.webp"
               nameAlt="Aprende tudo sobre front-end"
               orderImg="w-full sm:w-1/2 p-6 order-first"
             />
@@ -47,7 +47,7 @@ class WhatLearn extends Nullstack {
               com o banco de dados NoSQL ou o famoso MongoDB usando o Mongosse, também 
               você vai estudar o framework ExpressJS um dos mais requisitados do 
               mercado back-end com JavaScript."
-              nameSrc="./sales-page-img/card-what-learn/Backend-image.webp"
+              nameSrc="/sales-page-img/card-what-learn/Backend-image.webp"
               nameAlt="Tudo sobre o back-end com Nodejs"
               orderImg="w-full sm:w-1/2 p-6"
             />
@@ -61,7 +61,7 @@ class WhatLearn extends Nullstack {
               dos bancos de dados tradicionais no caso o SQL, mas também as novas abordagens de banco
               como o NoSQL, então você terá uma visão bem detalhada e ampla das duas formas de se modelar
               banco de dados atualmente no mercado de desenvolvimento."
-              nameSrc="./sales-page-img/card-what-learn/sql-image.webp"
+              nameSrc="/sales-page-img/card-what-learn/sql-image.webp"
               nameAlt="Tudo sobre o back-end com Nodejs"
               orderImg="w-full sm:w-1/2 p-6 order-first"
             />
@@ -73,7 +73,7 @@ class WhatLearn extends Nullstack {
               contentP="Nessa parte do curso iremos estudar ferramentas para você se tornar full stack
               são de extrema importâncias, como o terminal, Git e GitHub entre outras, então realmente
               você sairár do curso extremamente preparado para o mercado de trabalho."
-              nameSrc="./sales-page-img/card-what-learn/git-image.webp"
+              nameSrc="/sales-page-img/card-what-learn/git-image.webp"
               nameAlt="Tudo sobre Linux e Git"
               orderImg="w-full sm:w-1/2 p-6"
             />

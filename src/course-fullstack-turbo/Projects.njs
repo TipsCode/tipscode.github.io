@@ -15,13 +15,13 @@ class Projects extends Nullstack {
 
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
 
-              <CardProject src="./sales-page-img/projects/projeto-flappybird.webp" alt="Jogo Flappy Bird" contentP="Um dos jogos mais famosos do mundo - Flappy Bird." />
-              <CardProject src="./sales-page-img/projects/projeto-dukeza.webp" alt="App Dukeza" contentP="SPA de vendas de um APP chamado Dukeza." />
-              <CardProject src="./sales-page-img/projects/projeto-netflix.webp" alt="Clone Netflix" contentP="Vamos fazer um app clone da Netflix" />
+              <CardProject src="/sales-page-img/projects/projeto-flappybird.webp" alt="Jogo Flappy Bird" contentP="Um dos jogos mais famosos do mundo - Flappy Bird." />
+              <CardProject src="/sales-page-img/projects/projeto-dukeza.webp" alt="App Dukeza" contentP="SPA de vendas de um APP chamado Dukeza." />
+              <CardProject src="/sales-page-img/projects/projeto-netflix.webp" alt="Clone Netflix" contentP="Vamos fazer um app clone da Netflix" />
 
-              <CardProject src="./sales-page-img/projects/projeto-whatsapp.webp" alt="Clone do WhatsApp" contentP="Um Clone do WhatsApp." />
-              <CardProject src="./sales-page-img/projects/projeto-gamebateria.webp" alt="Game Bateria" contentP="Aprenda a Bateria - um game muito divertido." />
-              <CardProject src="./sales-page-img/projects/projeto-cartao.webp" alt="Cartão de visita" contentP="Site de Cartão de Visitas (HTML e CSS)." />
+              <CardProject src="/sales-page-img/projects/projeto-whatsapp.webp" alt="Clone do WhatsApp" contentP="Um Clone do WhatsApp." />
+              <CardProject src="/sales-page-img/projects/projeto-gamebateria.webp" alt="Game Bateria" contentP="Aprenda a Bateria - um game muito divertido." />
+              <CardProject src="/sales-page-img/projects/projeto-cartao.webp" alt="Cartão de visita" contentP="Site de Cartão de Visitas (HTML e CSS)." />
             </div>
           </div>
         </div>

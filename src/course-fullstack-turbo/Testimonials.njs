@@ -10,42 +10,42 @@ export default function Testmonials() {
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-ari-silva.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-ari-silva.webp"
               nameAlt="Ari Silva"
               studentsName="Ari Silva"
               video="https://www.youtube.com/embed/rg966jwrfoY"
             />
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-guilherme.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-guilherme.webp"
               nameAlt="Guilherme Nogueira"
               studentsName="Guilherme Nogueira"
               video="https://www.youtube.com/embed/3Fvkl1ksGqU"
             />
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-mihai.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-mihai.webp"
               nameAlt="Mihai"
               studentsName="Mihai"
               video="https://www.youtube.com/embed/hGo5d5f-Rqc"
             />
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-felipe.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-felipe.webp"
               nameAlt="Felipe Loures"
               studentsName="Felipe Loures"
               video="https://www.youtube.com/embed/dufgU3KqhO8"
             />
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-ricardo.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-ricardo.webp"
               nameAlt="Ricardo"
               studentsName="Ricardo"
               video="https://www.youtube.com/embed/-xVtc_m35GU"
             />
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-claudio.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-claudio.webp"
               nameAlt="Claudio"
               studentsName="Claudio"
               video="https://www.youtube.com/embed/PkKn1xrjpvw"
@@ -53,7 +53,7 @@ export default function Testmonials() {
 
 
             <StudentTestimonial
-              nameSrc="./sales-page-img/testmonials-img/img-depoimento-joneivison.webp"
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-joneivison.webp"
               nameAlt="Joneivison"
               studentsName="Joneivison"
               video="https://www.youtube.com/embed/HYIb-Gj4yUs"

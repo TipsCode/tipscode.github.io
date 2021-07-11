@@ -4,7 +4,10 @@ import CardBonus from './CardBonus';
 
 class Bonus extends Nullstack {
 
-  render() {
+  render( {router} ) {
+
+    const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
+
     return (
       <div>
         <section class="bg-tips-dark md:py-8 traking-wide">
@@ -23,7 +26,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="1"
-                src="./sales-page-img/bonus-img/Coding_Monochromatic.webp"
+                src="/sales-page-img/bonus-img/Coding_Monochromatic.webp"
                 contentH3="Engenharia de software"
                 alt="Engenharia de software"
                 contentP="Engenharia de software é uma área da engenharia e da computação voltada à especificação, 
@@ -39,7 +42,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="2"
-                src="./sales-page-img/bonus-img/Coach_Monochromatic.webp"
+                src="/sales-page-img/bonus-img/Coach_Monochromatic.webp"
                 alt="Acompanhamento"
                 contentH3="Acompanhamento"
                 contentP="Esse é sem dúvidas um dos bônus mais desafiador, pois eu me compromento de forma bem ativa
@@ -58,7 +61,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="3"
-                src="./sales-page-img/bonus-img/data-arranging.webp"
+                src="/sales-page-img/bonus-img/data-arranging.webp"
                 alt="Estrutura de dados"
                 contentH3="Estrutura de dados"
                 contentP="Nesse bônus vamos muito além na linguagem JavaScript, aqui estaremos nos tornando realmente
@@ -75,7 +78,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="4"
-                src="./sales-page-img/bonus-img/Money_motivation_Monochromatic.webp"
+                src="/sales-page-img/bonus-img/Money_motivation_Monochromatic.webp"
                 alt="Vendas"
                 contentH3="Vendas"
                 contentP="Aprenda o passo a passo para conquistar seu primeiro cliente como programador profissional. Entenda como se destacar da multidão construindo uma marca pessoal de sucesso. "
@@ -93,7 +96,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="5"
-                src="./sales-page-img/bonus-img/linux.webp"
+                src="/sales-page-img/bonus-img/linux.webp"
                 alt="Dominando Linux"
                 contentH3="Dominando Linux"
                 contentP="Você sabia que mais de 80% dos servidores que hoje estão na web rodam em maquinas Linux?
@@ -109,7 +112,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="6"
-                src="./sales-page-img/bonus-img/web-dev.webp"
+                src="/sales-page-img/bonus-img/web-dev.webp"
                 alt="HTML5 e CSS3 Avançado"
                 contentH3="HTML5 e CSS3 Avançado"
                 contentP="Você recebera mais um curso de web design, onde o objetivo e lhe tornar um desenvolvedor(a)
@@ -129,7 +132,7 @@ class Bonus extends Nullstack {
                     }
                 }
                 contentSpan="7"
-                src="./sales-page-img/bonus-img/conversation.webp"
+                src="/sales-page-img/bonus-img/conversation.webp"
                 alt="Entrevistas com Devs"
                 contentH3="Entrevistas com Devs"
                 contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores e programadoras
@@ -149,7 +152,7 @@ class Bonus extends Nullstack {
                     Eleve seus estudos para outro nível.
                   </p>
                   <a
-                    href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
+                    href={hotmartLink}
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscreva-se já

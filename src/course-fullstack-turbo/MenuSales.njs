@@ -1,4 +1,6 @@
-export default function MenuSales() {
+export default function MenuSales({router}) {
+
+  const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
 
   return (
     <nav id="header" class="z-50 w-full top-0 text-white">
@@ -6,7 +8,7 @@ export default function MenuSales() {
 
         <div class="flex items-center">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-            <img src="./TipsCodelogo.png" alt="TipsCode" loading="lazy" width="186" height="66" />
+            <img src="/TipsCodelogo.png" alt="TipsCode" loading="lazy" width="186" height="66" />
           </a>
         </div>
         <div class="lg:hidden">
@@ -23,7 +25,7 @@ export default function MenuSales() {
               <p class="inline-block py-2 px-4 text-white font-bold no-underline" href="#">WhatsApp: (88)9.9762-3061</p>
             </li>
           </ul>
-          <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" id="navAction" class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href={hotmartLink} id="navAction" class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md mt-4 lg:mt-0 py-2 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Inscreva-se
           </a>
         </div>
