@@ -8,7 +8,7 @@ class Hero extends Nullstack {
     const hotmartParagraf = router.url.endsWith('/promocao') ? `Aproveite a nossa oferta única e exclusiva agora mesmo e 
       saia na frente como desenvolvedor full stack profissional, requisitado e bem pago pelo mercado` : ` Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
                   e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possível`
-    const hotmartTitle = router.url.endsWith('/promocao') ? 'Super Promoção Full Stack Turbo' : 'Full Stack Turbo'
+    const hotmartTitle = router.url.endsWith('/promocao') ? 'Oferta Imperdivel 17% OFF' : 'Full Stack Turbo'
     const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
     return (
       <>

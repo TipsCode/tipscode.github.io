@@ -47,7 +47,7 @@ class SalesPage extends Nullstack {
              p: 'text-center sm:text-center w-full',
            }
          }
-          src="./TipsCodelogo.png"
+          src="/TipsCodelogo.png"
           light
         />
       </div>
