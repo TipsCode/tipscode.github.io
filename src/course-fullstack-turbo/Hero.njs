@@ -5,6 +5,7 @@ import './Hero.scss'
 class Hero extends Nullstack {
 
   render({ router }) {
+    const hotmartBtn = router.url.endsWith('/promocao') ? 'Quero me tornar um programador(a) completo' : 'Quero ser um programador'
     const hotmartParagraf = router.url.endsWith('/promocao') ? `Aproveite a nossa oferta única e exclusiva agora mesmo e 
       saia na frente como desenvolvedor full stack profissional, requisitado e bem pago pelo mercado` : ` Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
                   e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possível`
@@ -33,7 +34,7 @@ class Hero extends Nullstack {
 
               <div class="flex items-center w-full mx-auto justify-center">
                 <a href={hotmartLink} class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  QUERO SER FULL STACK
+                  {hotmartBtn}
                 </a>
               </div>
             </div>

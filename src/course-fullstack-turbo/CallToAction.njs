@@ -3,6 +3,8 @@ import Nullstack from 'nullstack';
 class CallToAction extends Nullstack {
 
   render({ router }) {
+    const hotmartBtn = router.url.endsWith('/promocao') ? 'Quero ser um desenvolvedor(a) Full Stack Turbo' : 'Quero ser um programador'
+    const hotmartClass = router.url.endsWith('/promocao') ? 'prose text-white sm:prose mx-auto md:text-2xl md:text-3xl md:text-center md:text-white md:font-bold' : 'w-full my-2 text-2xl md:text-4xl md:my-24 font-bold leading-tight text-center text-white md:w-5/6 mx-auto'
     const hotmartTitle = router.url.endsWith('/promocao') ? 'Oferta Histórica da TipsCode todo o curso com as atualizações futuras garantidas e acesso vitálicio , tudo com DESCONTO DE 17% OFF até ás 23:59H DE HOJE' : ' Você está a poucos passos de se tornar um profissional disputado no mercado'
     const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
     const coursePrice = router.url.endsWith('/promocao') ? '412,51' : '497,00'
@@ -12,7 +14,7 @@ class CallToAction extends Nullstack {
 
         <section class="container mx-auto text-center py-6">
 
-          <h1 class="w-full my-2 text-2xl md:text-4xl md:my-24 font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
+          <h1 class={hotmartClass}>
             {hotmartTitle}
           </h1>
 
@@ -37,7 +39,7 @@ class CallToAction extends Nullstack {
             href={hotmartLink}
             class="mx-auto lg:mx-0 bg-tips-green text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
-            Quero ser um programador
+            {hotmartBtn}
           </a>
 
         </section>
