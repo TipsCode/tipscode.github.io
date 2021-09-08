@@ -4,9 +4,7 @@ import CardBonus from './CardBonus';
 
 class Bonus extends Nullstack {
 
-  render( {router} ) {
-
-    const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
+  render() {
 
     return (
       <div>
@@ -152,7 +150,7 @@ class Bonus extends Nullstack {
                     Eleve seus estudos para outro nível.
                   </p>
                   <a
-                    href={hotmartLink}
+                    href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscreva-se já

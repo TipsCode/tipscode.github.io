@@ -10,6 +10,20 @@ export default function Testmonials() {
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
 
             <StudentTestimonial
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-natany.png"
+              nameAlt="Natany dos Santos"
+              studentsName="Natany dos Santos"
+              video="https://www.youtube.com/embed/PisFUHMM8VM"
+            />
+
+            <StudentTestimonial
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-thiago.png"
+              nameAlt="Thiago Scheneider"
+              studentsName="Thiago Scheneider"
+              video="https://www.youtube.com/embed/JuGRSlHFukU"
+            />
+
+            <StudentTestimonial
               nameSrc="/sales-page-img/testmonials-img/img-depoimento-jefferson.webp"
               nameAlt="Jefferson Ferreira"
               studentsName="Jefferson Ferreira"

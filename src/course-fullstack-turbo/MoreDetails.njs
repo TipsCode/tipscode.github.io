@@ -3,8 +3,7 @@ import CardMoreDetails from './CardMoreDetails';
 
 class MoreDetails extends Nullstack {
 
-  render({router}) {
-    const hotmartLink = router.url.endsWith('/promocao') ? 'https://payment.hotmart.com/A43229044U?checkoutMode=10&offDiscount=TIPS17' : 'https://payment.hotmart.com/A43229044U?checkoutMode=10'
+  render() {
     return (
       <div>
         <section class="bg-tips-dark md:py-8 tracking-wide">
@@ -32,7 +31,7 @@ class MoreDetails extends Nullstack {
             <div class="w-full justify-center items-center">
               <h4 class="w-full mt-12 md:mt-32 mb-12 text-xl lg:text-3xl font-bold leading-tight text-center text-white">Entre para o seleto hall de alunos do TipsCode e conquiste as melhores oportunidades do mercado</h4>
               <div class="flex w-full justify-center items-center my-0">
-                <a href={hotmartLink} class="mx-auto z-50 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md md:my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-50 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md md:my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Quero ser fullstack
                 </a>
               </div>

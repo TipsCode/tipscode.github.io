@@ -149,11 +149,11 @@ for (  meuLoop  em  nomeDoSeuObjeto  )  {
 }
 ```
 
-## Deseja de uma vez por toda aprender a Stack JS (JavaScript + Node + React?)
+## Venha aprender com quem realmente saber ensinar
 
-Clique neste vídeo incrível do Leonardo, ele desenvolveu um método que se você seguir tudo 100% você se tornará um profissional Full Stack em 8 SEMANAS.
+Clique neste vídeo incrível e conheça o método step by step, que Eu desenvolvi e que está evolucionando o mercado!!.
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver método clique aqui](https://bit.ly/2YivXeS)
 
 #### for/of loops
 
@@ -247,11 +247,11 @@ yourPromisedFunction (). then ((resolvedObj) => {
 
 Há mais tipos de promises, mas essa é a parte principal de forma resumida, caso queira se aprofunda no assunto veja mais em:
 
-## Deseja de uma vez por toda aprender a Stack JS (JavaScript + Node + React?)
+## Venha aprender com quem realmente saber ensinar
 
-Clique neste vídeo incrível do Leonardo, ele desenvolveu um método que se você seguir tudo 100% você se tornará um profissional Full Stack em 8 SEMANAS.
+Clique neste vídeo incrível e conheça o método step by step, que Eu desenvolvi e que está evolucionando o mercado!!.
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver método clique aqui](https://bit.ly/2YivXeS)
 
 ### Conclusão
 
@@ -271,4 +271,4 @@ Veja também [6 Linguagens e Frameworks para aprender em 2020](/6-linguagens-e-f
 
 3 Atualizações JavaScript
 
-https://www.youtube.com/watch?v=dKh8Jc\_XgSU&t=5s
+[Ver Vídeo](https://www.youtube.com/watch?v=dKh8Jc\_XgSU&t)
