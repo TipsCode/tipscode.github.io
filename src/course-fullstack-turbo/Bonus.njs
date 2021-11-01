@@ -11,7 +11,7 @@ class Bonus extends Nullstack {
         <section class="bg-tips-dark md:py-8 traking-wide">
           <div class="container max-w-5xl mx-auto m-8">
             <h1 class="w-full md:my-24 text-2xl lg:text-5xl font-bold leading-tight text-center text-white">
-              Mais 7 super bônus
+              Mais 8 super bônus
             </h1>
 
             <div class="flex flex-wrap md:flex-nowrap text-center">
@@ -150,7 +150,7 @@ class Bonus extends Nullstack {
                     Eleve seus estudos para outro nível.
                   </p>
                   <a
-                    href="https://payment.hotmart.com/A43229044U?checkoutMode=10"
+                    href="https://pay.hotmart.com/A43229044U?checkoutMode=10&offDiscount=BLACKTURBO30"
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscreva-se já

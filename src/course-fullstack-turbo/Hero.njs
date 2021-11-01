@@ -16,9 +16,9 @@ class Hero extends Nullstack {
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
-                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo</h1>
-                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Já imaginou desenvolver aplicações para empresas nacionais e internacionais de sua casa
-                  e ter sua liberdade financeira? Veja apresentação abaixo, vou te mostrar como isso é possíve</p>
+                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo - Promoção 30Off</h1>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Promoção Black Friday Curso Full Stack Turbo de R$497,00 por <strong>R$347,00</strong> em até 12 vezes de 28,90 sem juros
+                  vem ser um aluno(a) diferenciado no mercado de desenvolvimento web full stack na TipsCode.</p>
 
               </div>
 
@@ -29,7 +29,7 @@ class Hero extends Nullstack {
               </div>
 
               <div class="flex items-center w-full mx-auto justify-center">
-                <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <a href="https://pay.hotmart.com/A43229044U?checkoutMode=10&offDiscount=BLACKTURBO30" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Quero me tornar um programador(a) completo
                 </a>
               </div>

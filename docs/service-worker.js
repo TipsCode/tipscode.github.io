@@ -5,7 +5,7 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "5c78d72d18d944aa4c87cdeccec71627595088c8"
+    "key": "8f0e4c8a5095b962cf0667a825d8ec1593e98446"
   },
   "project": {
     "domain": "tipscode.com.br",
@@ -130,10 +130,10 @@ async function networkDataFirst(event) {
     const dataResponse = await extractData(response);
     await cache.put(api, dataResponse);
     return response;
-  } catch(error) {
-    const fallbackResponse = await cache.match(`/offline-${self.context.environment.key}/index.html`);  
+  } catch (error) {
+    const fallbackResponse = await cache.match(`/nullstack/${self.context.environment.key}/offline/index.html`);
     const cachedDataResponse = await cache.match(api);
-    if(cachedDataResponse) {
+    if (cachedDataResponse) {
       return await injectData(fallbackResponse, cachedDataResponse);
     } else {
       return fallbackResponse;
@@ -145,12 +145,12 @@ function install(event) {
   const urls = [
     '/',
     ...self.context.worker.preload.map(toAPI),
-    '/offline-' + self.context.environment.key + '/index.html',
-    '/client-' + self.context.environment.key + '.css',
-    '/client-' + self.context.environment.key + '.js',
-    '/manifest-' + self.context.environment.key + '.json'
+    '/nullstack/' + self.context.environment.key + '/offline/index.html',
+    '/nullstack/' + self.context.environment.key + '/client.css',
+    '/nullstack/' + self.context.environment.key + '/client.js',
+    '/manifest.json'
   ];
-  event.waitUntil(async function() {
+  event.waitUntil(async function () {
     const cache = await caches.open(self.context.environment.key);
     await cache.addAll([...new Set(urls)]);
     const homeResponse = await cache.match('/');
