@@ -16,9 +16,9 @@ class Hero extends Nullstack {
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
-                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo - Desconto de R$149,00</h1>
-                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Valor Promocional Curso Full Stack Turbo de R$497,00 por <strong>R$347,00</strong> em até 12 vezes de 28,90 sem juros
-                  vem ser um aluno(a) diferenciado no mercado de desenvolvimento web full stack na TipsCode.</p>
+                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo - Desconto de R$149,00 válido até 01/03/22</h1>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Aviso o valor do curso será de R$509,00 a Partir de 01/03/22
+                  Aproveite a oferta, antes que o valor do curso sofra esse aumento.</p>
 
               </div>
 

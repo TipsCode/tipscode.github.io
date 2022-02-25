@@ -9,6 +9,14 @@ export default function Testmonials() {
 
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
 
+          <StudentTestimonial
+              nameSrc="/sales-page-img/testmonials-img/img-depoimento-neto.png"
+              nameAlt="COO da Tax Contabilidade Clodomiro Neto"
+              studentsName="Clodomiro Neto"
+              video="https://www.youtube.com/embed/HHy3c8PyL94"
+            />
+
+
             <StudentTestimonial
               nameSrc="/sales-page-img/testmonials-img/img-depoimento-natany.png"
               nameAlt="Natany dos Santos"
