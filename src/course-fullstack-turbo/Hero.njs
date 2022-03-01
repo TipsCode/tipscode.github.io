@@ -16,10 +16,9 @@ class Hero extends Nullstack {
             <div class="container px-3 mx-auto items-center">
 
               <div class="text-center px-3 lg:px-0">
-                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Full Stack Turbo - Desconto de R$149,00 válido até 01/03/22</h1>
-                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Aviso o valor do curso será de R$509,00 a Partir de 01/03/22
-                  Aproveite a oferta, antes que o valor do curso sofra esse aumento.</p>
-
+                <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Curso Full Stack Turbo</h1>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Aprenda a programar do ZERO e trabalhe de casa, ganhando de 3 mil a 25 mil reais,
+                  usando as 20 tecnologias mais requisitadas no mercado em 2022</p>
               </div>
 
               <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
@@ -29,7 +28,7 @@ class Hero extends Nullstack {
               </div>
 
               <div class="flex items-center w-full mx-auto justify-center">
-                <a href="https://pay.hotmart.com/A43229044U?checkoutMode=10&offDiscount=30-off" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <a href="https://pay.hotmart.com/A43229044U?off=ldr88c8g&checkoutMode=10" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Quero me tornar um programador(a) completo
                 </a>
               </div>
