@@ -85,6 +85,7 @@ class Application extends Nullstack {
         <Article route="/:slug" />
 
         <span href="/curso-fullstack-turbo/promocao"></span>
+        <span href="/curso-react-pro"></span>
       </main>
     );
   }
