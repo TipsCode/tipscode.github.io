@@ -29,7 +29,7 @@ class HeroReact extends Nullstack {
               </div>
 
               <div class="flex items-center w-full mx-auto justify-center">
-                <a href="https://bit.ly/reactjs-pro-checkout-99" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <a href="https://bit.ly/react-checkout-mode" class="mx-auto z-30 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Quero me tornar um programador(a) completo
                 </a>
               </div>
