@@ -3,9 +3,9 @@ import './Faq.scss';
 
 class Faq extends Nullstack {
 
-  render() {
+  render({classe}) {
     return (
-      <div class="bg-tips-dark">
+      <div class={classe}>
         <div class="container mx-auto">
           <div class="w-full md:w-3/5 mx-auto p-8">
             <h1 class="text-center text-2xl md:text-5xl font-bold text-white my-16">Perguntas frequentes</h1>

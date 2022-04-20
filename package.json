@@ -22,7 +22,11 @@
     "poisonicon": "^0.1.2",
     "prismjs": "^1.23.0",
     "remarkable": "^2.0.1",
-    "remarkable-meta": "^1.0.1",
-    "tailwindcss": "^2.1.1"
+    "remarkable-meta": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
   }
 }

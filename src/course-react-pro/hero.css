@@ -1,0 +1,35 @@
+.bg-zing {
+    background-color: rgb(24, 24, 27);
+}
+
+.bg-box-iphone {
+    background-color: rgba(14, 165, 233, 1)
+    
+}
+
+.text-cor-iphone {
+    color: rgba(14, 165, 233, 1);
+}
+
+.borda-box {
+    border: 2px solid rgb(139 92 246);;
+}
+
+.jouney-img {
+    margin-left: -21px;
+}
+
+.jouney-heading {
+    margin-top: -70px;
+}
+.bg-card-bonus {
+    background: #383337;
+}
+
+.bg-card-borda {
+    border: 2px solid #FE7E64;
+}
+
+.bg-card-bonus-heanding {
+    color: #FE7E64;
+}
