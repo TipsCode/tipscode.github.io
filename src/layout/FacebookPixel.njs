@@ -22,10 +22,12 @@ class FacebookPixel extends Nullstack {
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', id);
-    fbq('track', 'PageView', 'PaginaDeVendas');
+    fbq('track', 'PageView');
+    fbq('trackCustom', 'paginaDeVendas' );
     window.addEventListener(page.event, () => {
       fbq('init', id);
-      fbq('track', 'PageView', 'PaginaDeVendas');
+      fbq('track', 'PageView');
+      fbq('trackCustom', 'paginaDeVendas' );
     })
   }
 }
