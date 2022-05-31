@@ -25,7 +25,7 @@ class FacebookPixel extends Nullstack {
     fbq('track', 'PageView');
     window.addEventListener(page.event, () => {
       fbq('init', id);
-      fbq('track', 'PageView');
+      fbq('track', 'PageView', 'paginaDeVendas');
     })
   }
 }
