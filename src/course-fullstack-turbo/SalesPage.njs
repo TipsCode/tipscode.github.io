@@ -11,7 +11,7 @@ import CallToAction from './CallToAction';
 import Teacher from './Teacher';
 import Faq from './Faq';
 import Footer from '../layout/Footer';
-import FacebookPixel from '../layout/FacebookPixel';
+import FacePixelFullStack from './FacePixelFullStack';
 
 class SalesPage extends Nullstack {
 
@@ -27,7 +27,7 @@ class SalesPage extends Nullstack {
     return (
       <div class="bg-tips-dark">
         <div>
-           <FacebookPixel id="294337825339805" />
+           <FacePixelFullStack id="294337825339805" />
         </div>
         <Hero />
         <CourseDetails />
