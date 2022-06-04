@@ -7,7 +7,10 @@ import Bonus from './Bonus';
 import CallToActtion from './CallToActtion';
 import Faq from '../course-fullstack-turbo/Faq';
 import Footer from '../layout/Footer';
-import FacebookPixel from '../layout/FacebookPixel';
+import Contact from '../layout/Contact';
+import FacePixelReact from './FacePixelReact';
+import Testimonials from './Testimonials';
+import CourseDetails from './CourseDetails';
 import './hero.css';
 
 class SalesPageReactPro extends Nullstack {
@@ -24,15 +27,18 @@ class SalesPageReactPro extends Nullstack {
     return (
       <div class="bg-zing">
        <div>
-           <FacebookPixel id="294337825339805" />
+           <FacePixelReact id="729313284878557" />
         </div>
         <Hero />
         <Categories />
         <Journey />
         <Practicing />
         <Bonus />
+        <Testimonials />
         <CallToActtion />
         <Faq classe="big-zing" />
+        <CourseDetails />
+        <Contact />
         <Footer
           class={
            {
