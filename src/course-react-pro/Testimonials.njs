@@ -12,6 +12,66 @@ class Testimonials extends Nullstack {
             </div>
 
             <div class="lg:grid lg:grid-cols-3 lg:gap-x-2">
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/8-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/9-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/10-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/11-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/1-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/2-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/3-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/4-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/5-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/6-testmonial.jpg" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/7-testmonial.jpg" alt="" />
+                </figure>
+              
+                
+            </div>
+        </div>
+    );
+  }
+
+}
+
+export default Testimonials;
+
+/**
+ * 
+ * import Nullstack from 'nullstack';
+import StudentTestimonial from './StudentTestimonial';
+
+
+class Testimonials extends Nullstack {
+
+  render() {
+    return (
+        <div class="container mx-auto">
+            <div class="mb-8 text-center">
+                <h2 class="text-4xl font-bold text-white">Veja o que <br />estão falando 💛</h2>
+            </div>
+
+            <div class="lg:grid lg:grid-cols-3 lg:gap-x-2">
                 
                 <StudentTestimonial
                 testimonal="Excelente a aula, bem clara e com uma didática que qualquer pessoa entenderia. Parabéns"
@@ -66,3 +126,4 @@ class Testimonials extends Nullstack {
 }
 
 export default Testimonials;
+ */

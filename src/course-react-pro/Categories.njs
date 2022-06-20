@@ -19,7 +19,7 @@ function DivBox({ children, nameTitle }) {
       <section class="md:flex-col my-16 sm:my-28">
         <div class="bg-center bg-no-repeat bg-contain mx-3 overflow-hidden">
   
-          <h3 class="text-center text-3xl md:text-5xl text-white font-bold">Ainda não conhece o método <br /> 
+          <h3 class="text-center text-3xl md:text-5xl text-white font-bold">Ainda não conhece o método? <br /> 
             <span class="text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-indigo-600'">STEP-BY-STEP</span></h3>
 
             <p class="text-white text-center">Não importa se nunca estudou React, aqui você vai aprender todos <br />os conceitos e fundamentos por tras dessa biblioteca que conquistou o mercado <br/>e ainda vai dominar o principal framework front-end da atualidade, o Next.js.</p>
@@ -39,7 +39,7 @@ function DivBox({ children, nameTitle }) {
             <div class="sm:mt-10 sm:mt-none order-3 md:w-1/5">
               <ul>
                 <DivBox nameTitle="Next.JS"> Todos os conceitos importantes de JavaScript que você precisa saber.</DivBox>
-                <DivBox nameTitle="TypeScript"> A tecnologia criada pelo time do Facebook e utilizada em varias grandes empresas </DivBox> 
+                <DivBox nameTitle="TypeScript"> A tecnologia criada pelo time da Microsoft e utilizada em varias grandes empresas </DivBox> 
               </ul>
             </div>
           </div>
