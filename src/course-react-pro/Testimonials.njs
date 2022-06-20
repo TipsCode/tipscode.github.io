@@ -13,37 +13,37 @@ class Testimonials extends Nullstack {
 
             <div class="lg:grid lg:grid-cols-3 lg:gap-x-2">
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/8-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/8-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/9-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/9-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/10-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/10-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/11-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/11-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/1-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/1-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/2-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/2-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/3-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/3-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/4-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/4-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/5-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/5-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/6-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/6-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/7-testmonial.jpg" alt="" />
+                  <img src="/sales-page-img/testmonials-print/7-testmonial.png" alt="" />
                 </figure>
               
                 
