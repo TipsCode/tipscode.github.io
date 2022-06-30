@@ -70,6 +70,7 @@ class Application extends Nullstack {
         <div>
           <GoogleAnalytics id="UA-120538403-3" />
           <GoogleAnalytics id="AW-641358523" />
+          <GoogleAnalytics id="GTM-T52VSHP" /> 
           <FacebookPixel id="294337825339805" />
         </div>
 
