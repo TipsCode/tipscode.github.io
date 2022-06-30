@@ -9,6 +9,7 @@ import Faq from '../course-fullstack-turbo/Faq';
 import Footer from '../layout/Footer';
 import Contact from '../layout/Contact';
 import FacePixelReact from './FacePixelReact';
+import GoogleAnalytics from '../layout/GoogleAnalytics';
 import Testimonials from './Testimonials';
 import CourseDetails from './CourseDetails';
 import './hero.css';
@@ -28,6 +29,7 @@ class SalesPageReactPro extends Nullstack {
       <div class="bg-zing">
        <div>
            <FacePixelReact id="729313284878557" />
+           <GoogleAnalytics id="GTM-T52VSHP" /> 
         </div>
         <Hero />
         <Categories />
