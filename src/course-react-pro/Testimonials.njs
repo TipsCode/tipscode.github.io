@@ -13,6 +13,9 @@ class Testimonials extends Nullstack {
 
             <div class="lg:grid lg:grid-cols-3 lg:gap-x-2">
                 <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/12-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/8-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">

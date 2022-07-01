@@ -38,7 +38,7 @@ class SalesPageReactPro extends Nullstack {
         <CallToActtion />
         <Faq classe="big-zing" />
         <CourseDetails />
-        <Contact />
+        <Contact numWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20reactJS%20pro" />
         <Footer
           class={
            {

@@ -12,6 +12,7 @@ import Teacher from './Teacher';
 import Faq from './Faq';
 import Footer from '../layout/Footer';
 import FacePixelFullStack from './FacePixelFullStack';
+import Contact from '../layout/Contact';
 
 class SalesPage extends Nullstack {
 
@@ -39,6 +40,7 @@ class SalesPage extends Nullstack {
         <CallToAction />
         <Teacher />
         <Faq classe="bg-tips-dark" />
+        <Contact numWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
          <Footer
           class={
            {
