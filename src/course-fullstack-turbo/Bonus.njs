@@ -150,7 +150,7 @@ class Bonus extends Nullstack {
                     Eleve seus estudos para outro nível.
                   </p>
                   <a
-                    href="https://pay.hotmart.com/A43229044U?off=ldr88c8g&checkoutMode=10"
+                    href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10"
                     class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                   >
                     Inscreva-se já

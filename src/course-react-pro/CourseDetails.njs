@@ -91,9 +91,9 @@ class CourseDetails extends Nullstack {
                         <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto">
                             <div class="relative flex flex-col h-full p-8">
                                 <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
-                                    <span>12x de R$14,87 </span>
+                                    <span>12x de R$10,88 </span>
                                 </h1>
-                                <a href="https://pay.hotmart.com/F68520890I?off=vdwp9hvt&checkoutMode=10"
+                                <a href="https://pay.hotmart.com/F68520890I?off=sghzc2e9&checkoutMode=10"
                                     class="text-center w-full px-4 py-2 mx-auto mt-3 text-blue-100 transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">
                                     Fazer Inscrição agora
                                 </a>
