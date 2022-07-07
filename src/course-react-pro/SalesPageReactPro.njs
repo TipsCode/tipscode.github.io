@@ -11,6 +11,7 @@ import Contact from '../layout/Contact';
 import FacePixelReact from './FacePixelReact';
 import Testimonials from './Testimonials';
 import CourseDetails from './CourseDetails';
+import Whatsapp from '../layout/Whatsapp';
 import './hero.css';
 
 class SalesPageReactPro extends Nullstack {
@@ -30,6 +31,7 @@ class SalesPageReactPro extends Nullstack {
            <FacePixelReact id="729313284878557" />
         </div>
         <Hero />
+        <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20reactJS%20pro" />
         <Categories />
         <Journey />
         <Practicing />
