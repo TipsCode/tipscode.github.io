@@ -31,11 +31,11 @@ return (
         </div>
         <div>
             <BoxJourney nameTitle="Revisão JavaScript">Nesse módulo vamos revisar todos os conceitos importantes de Javascript
-            <br /> que você precisa saber antes de comçar no React</BoxJourney>
+            <br /> que você precisa saber antes de comçar no React.</BoxJourney>
             <BoxJourney nameTitle="React JS">Agora sim, depois de dominar o  conceito em JS puro vamos partir pro
-            <br /> React. Básico >> Intermediário >> Avanado</BoxJourney>
+            <br /> React. Básico >> Intermediário >> Avançado.</BoxJourney>
             <BoxJourney nameTitle="Next JS">Já que o Hype se tornou realidade e grandes empresas adotaram,
-            <br /> nesse módulo você vai aprender Next.js para não ficar para trás. <br />Domine Front-end e Back-end com esse Framework</BoxJourney>
+            <br /> nesse módulo você vai aprender Next.js para não ficar para trás. <br />Domine Front-end e Back-end com esse Framework.</BoxJourney>
         </div>
 
     </div>

@@ -13,8 +13,8 @@ class Hero extends Nullstack {
           <div class="container px-3 mx-auto items-center">
 
             <div class="text-center px-3 lg:px-0">
-              <h1 class="py-10 text-3xl md:text-5xl text-white font-bold">A tecnologia mais <br/>utilizada do mercado, <br />no 
-              <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-indigo-600"> curso react.js PRO</span>
+              <h1 class="py-10 text-3xl md:text-5xl text-white font-bold">Aprenda React e Crie sites<br /> 
+              <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-indigo-600">dinâmicos e poderosos</span>
               </h1>
           
             </div>
