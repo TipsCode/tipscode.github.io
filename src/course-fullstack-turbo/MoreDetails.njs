@@ -17,9 +17,11 @@ class MoreDetails extends Nullstack {
 
               <CardMoreDetails src="/sales-page-img/card-more-details/Webpack-bubble.webp" alt="Webpack" contentDiv="Webpack" contentP="Webpack é um empacotador de módulo JavaScript de código aberto. Ele é feito principalmente para JavaScript." />
 
-              <CardMoreDetails src="/sales-page-img/card-more-details/Heroku-bubble.webp" alt="Heroku" contentDiv="Heroku" contentP="Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação." />
+              <CardMoreDetails src="/sales-page-img/card-more-details/Heroku-bubble.webp" alt="Heroku" contentDiv="Heroku" contentP="Com o Heroku você será capaz com apenas 3 cliques colocar uma
+aplicação / site no ar, para todos verem o seu projeto." />
 
-              <CardMoreDetails src="/sales-page-img/card-more-details/Security-bubble.webp" alt="Segurança e autenticação" contentDiv="Segurança e autenticação" contentP="A autenticação e segurança está diretamente relacionada com proteção de um conjunto de informações." />
+              <CardMoreDetails src="/sales-page-img/card-more-details/Security-bubble.webp" alt="Segurança e autenticação" contentDiv="Segurança e autenticação" contentP="Você aprenderá técnicas de segurança e proteção dos dados da 
+aplicação para tornar seu site mais seguro." />
 
 
               <div class="w-full absolute -bottom-35 self-center pt-20 ">

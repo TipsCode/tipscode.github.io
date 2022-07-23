@@ -17,8 +17,9 @@ class Hero extends Nullstack {
 
               <div class="text-center px-3 lg:px-0">
                 <h1 class="my-3 text-3xl lg:text-6xl font-bold leading-tight">Curso Full Stack Turbo</h1>
-                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Aprenda a programar do ZERO e trabalhe de casa, ganhando de 3 mil até 10 mil reais,
-                  usando as 20 tecnologias mais requisitadas no mercado em 2022</p>
+                <p class="leading-normal sm:text-lg md:text-2xl mb-8">Assista o vídeo abaixo, e saiba como um cadeirante
+                    vivendo de programação web saiu de 0 a 10 mil reais
+                    por mês. 👇​👇​ </p>
               </div>
 
               <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">

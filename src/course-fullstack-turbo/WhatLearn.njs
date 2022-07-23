@@ -45,8 +45,7 @@ class WhatLearn extends Nullstack {
               trás do desenvolvimento web usando a plataforma NodeJS que nos posibilita 
               escrever códigos JS no lado do servidor, assim como também trabalharemos 
               com o banco de dados NoSQL ou o famoso MongoDB usando o Mongosse, também 
-              você vai estudar o framework ExpressJS um dos mais requisitados do 
-              mercado back-end com JavaScript."
+              você vai estudar o framework ExpressJS um dos mais requisitados para se trabalhar com back-end no JavaScript."
               nameSrc="/sales-page-img/card-what-learn/Backend-image.webp"
               nameAlt="Tudo sobre o back-end com Nodejs"
               orderImg="w-full sm:w-1/2 p-6"
@@ -70,8 +69,8 @@ class WhatLearn extends Nullstack {
               nameClass="flex flex-wrap"
               contentH5="TERMINAL LINUX, GIT E GITBUB"
               contentH3="Ferramentas essenciais para qualquer dev"
-              contentP="Nessa parte do curso iremos estudar ferramentas para você se tornar full stack
-              são de extrema importâncias, como o terminal, Git e GitHub entre outras, então realmente
+              contentP="Nessa parte do curso iremos estudar ferramentas para você se tornar um full stack
+              que são de extrema importância, como o terminal, Git e GitHub entre outras, então realmente
               você sairár do curso extremamente preparado para o mercado de trabalho."
               nameSrc="/sales-page-img/card-what-learn/git-image.webp"
               nameAlt="Tudo sobre Linux e Git"

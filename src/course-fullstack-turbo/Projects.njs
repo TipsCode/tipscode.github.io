@@ -9,7 +9,7 @@ class Projects extends Nullstack {
     return (
       <>
         <div class="container mx-auto">
-          <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 w-5/6 mx-auto text-center text-white">Veja alguns dos mais de 30 projetos que você aprenderá no curso</h2>
+          <h2 class="font-bold text-2xl md:text-5xl md:my-24 md:mb-24 w-5/6 mx-auto text-center text-white">Veja alguns dos projetos que você aprenderá no curso</h2>
 
           <div class="flex items-center justify-center mx-3">
 

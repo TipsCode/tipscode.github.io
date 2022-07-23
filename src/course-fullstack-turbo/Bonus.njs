@@ -44,7 +44,7 @@ class Bonus extends Nullstack {
                 alt="Acompanhamento"
                 contentH3="Acompanhamento"
                 contentP="Esse é sem dúvidas um dos bônus mais desafiador, pois eu me compromento de forma bem ativa
-                onde pessoalmente estarei acompanhando passo a passo e orientando você na sua jornada"
+                onde pessoalmente estarei acompanhando passo a passo e orientando você na sua jornada."
               />
 
             </div>
@@ -65,7 +65,7 @@ class Bonus extends Nullstack {
                 contentP="Nesse bônus vamos muito além na linguagem JavaScript, aqui estaremos nos tornando realmente
                 especialista em JaVaScript, onde iremos estudar estrutura de dados, que é uma ciência da computação, é 
                 uma coleção tanto de valores quanto de operações. É uma implementação concreta de um tipo abstrato 
-                de dado ou um tipo de dado básico ou primitivo"
+                de dado ou um tipo de dado básico ou primitivo."
               />
 
               <CardBonus
@@ -115,7 +115,7 @@ class Bonus extends Nullstack {
                 contentH3="HTML5 e CSS3 Avançado"
                 contentP="Você recebera mais um curso de web design, onde o objetivo e lhe tornar um desenvolvedor(a)
                 com grandes habilidades na hora de desenvolver suas páginas web usando apenas HTML5 e CSS3,
-                avançado para se diferenciar no mercado"
+                avançado para se diferenciar no mercado."
               />
 
             </div>

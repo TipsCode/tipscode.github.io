@@ -13,7 +13,7 @@ export default function Workshop() {
             </h1>
 
             <p class="w-full text-center text-white text-2xl">
-                Você tera acesso a workshops com profissionais das gigantes da tecnologia
+            Você terá acesso a workshops exclusivos. São Workshops com profissionais das <br /> gigantes da tecnologia e você só encontrará em nosso treinamento.
             </p>
 
             <div class="container mx-auto pt-36 pb-28 flex flex-wrap justify-center md:flex-row items-center pt-6 gap-x-12 gap-y-36 sm:flex-col">
