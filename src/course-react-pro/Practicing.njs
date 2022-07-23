@@ -39,23 +39,23 @@ class Practicing extends Nullstack {
 
             <div class="flex flex-col lg:flex-row justify-center pt-12 my-4 relative">
 
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Projeto Clone do App Google Keep" contentDiv="Clone Google Keep" contentP="Vamos colocar a mão na massa criando um projeto 100% do zero baseado no Google Keep do Google" />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Projeto Clone do App Google Keep" contentDiv="Clone Google Keep" contentP="Vamos colocar a mão na massa criando um projeto 100% do zero baseado no Google Keep do Google." />
 
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Projeto Todo-List" contentDiv="Todo-List" contentP="Vamos criar um sistema de lista, conhecido como Todo-List, onde vamos poder adicionar nossas tarefas do dia-a-dia" />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Projeto Todo-List" contentDiv="Todo-List" contentP="Vamos criar um sistema de lista, conhecido como Todo-List, onde vamos poder adicionar nossas tarefas do dia-a-dia." />
 
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Sistema que mostra o significado de cada emoji" contentDiv="Emogipedia" contentP="Sabemos que hoje é muito comum enviarmos emoji em meio ás nossas conversas, porém você sabe o significado de cada um? Esse projeto resolve esse problema" />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Sistema que mostra o significado de cada emoji" contentDiv="Emogipedia" contentP="Sabemos que hoje é muito comum enviarmos emoji em meio ás nossas conversas, porém você sabe o significado de cada um? Esse projeto resolve esse problema." />
 
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Trabalhando com formulario" contentDiv="Formulário" contentP="Nesse projeto vamos criar uma tela de login, onde vamos mostrar diferentes telas com base no input do usuário" />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Trabalhando com formulario" contentDiv="Formulário" contentP="Nesse projeto vamos criar uma tela de login, onde vamos mostrar diferentes telas com base no input do usuário." />
               
 
             </div>
 
             <div class="flex flex-col lg:flex-row justify-center pt-12 my-4 relative">
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Facebook" contentDiv="Clone do Facebook" contentP="Neste projetos vamos replicar toda a parte visual e funcional da maior rede social do mundo o Facebook." />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Facebook" contentDiv="Clone do Facebook" contentP="Neste projeto vamos replicar toda a parte visual e funcional da maior rede social do mundo, o Facebook." />
 
               <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Netflix" contentDiv="Clone do Netflix" contentP="Vamos criar uma aplicação com base no layout da Netflix, você vai aprender muita coisa interessante, como por exemplo consumir dados de uma API externa." />
 
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Netflix" contentDiv="Portfolio" contentP="Criar um portfolío é de extrema importância, por isso iremos desenvolver um passo a passo para você ter o seu cartão de visita." />
+              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Netflix" contentDiv="Portfolio" contentP="Criar um portfólio é de extrema importância, por isso iremos desenvolver um passo a passo para você ter o seu cartão de visita." />
 
             </div>
 

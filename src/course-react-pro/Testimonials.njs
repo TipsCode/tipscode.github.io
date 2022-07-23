@@ -48,8 +48,15 @@ class Testimonials extends Nullstack {
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/7-testmonial.png" alt="" />
                 </figure>
-              
-                
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/13-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/14-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/15-testmonial.png" alt="" />
+                </figure>
             </div>
         </div>
     );
