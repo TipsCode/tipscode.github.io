@@ -44,7 +44,7 @@ class Bonus extends Nullstack {
                 alt="Acompanhamento"
                 contentH3="Acompanhamento"
                 contentP="Esse é sem dúvidas um dos bônus mais desafiador, pois eu me compromento de forma bem ativa
-                onde pessoalmente estarei acompanhando passo a passo e orientando você na sua jornada."
+                lhe acompanhar em todo o seu aprendizado, orientando você na sua jornada como programador."
               />
 
             </div>
@@ -79,7 +79,7 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/Money_motivation_Monochromatic.webp"
                 alt="Vendas"
                 contentH3="Vendas"
-                contentP="Aprenda o passo a passo para conquistar seu primeiro cliente como programador profissional. Entenda como se destacar da multidão construindo uma marca pessoal de sucesso. "
+                contentP="Você vai aprender como vender o seu projeto. Além de criar sistemas você precisa oferecer bem o seu produto. para isso, vou te ensinar como conquistar seu primeiro cliente como programador profissional e se destacar da multidão construindo uma marca pessoal de sucesso."
               />
 
             </div>
@@ -113,9 +113,9 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/web-dev.webp"
                 alt="HTML5 e CSS3 Avançado"
                 contentH3="HTML5 e CSS3 Avançado"
-                contentP="Você recebera mais um curso de web design, onde o objetivo e lhe tornar um desenvolvedor(a)
-                com grandes habilidades na hora de desenvolver suas páginas web usando apenas HTML5 e CSS3,
-                avançado para se diferenciar no mercado."
+                contentP="Eu poderia separar este módulo em um novo curso e vender facilmente por mais de R$ 356,00 reais, 
+                mas eu decidi entregar tudo aqui. Você vai aprender construir layouts bonitos, responsivos e que chamam a 
+                atenção com HTML5 e CSS3."
               />
 
             </div>
@@ -133,10 +133,9 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/conversation.webp"
                 alt="Entrevistas com Devs"
                 contentH3="Entrevistas com Devs"
-                contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores e programadoras
-                de diversas áreas para que você veja grandes histórias e possa aprender muito com elas, e não vamos
-                se limitar a pessoas apenas da nossa área, iremos fazer com pessoas de diversas área pra gente
-                ter uma visão horizontal da tecnologia."
+                contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores de diversas áreas, 
+                para que você veja grandes histórias e possa aprender muito com elas, e não vamos se limitar a pessoas 
+                apenas da nossa área, faremos entrevistas também com pessoas de outras áreas pra gente ter uma visão horizontal da tecnologia."
               />
 
               <div class="w-full sm:w-1/2 py-8 px-4 text-center justify-center md:text-left md:justify-start">

@@ -42,7 +42,7 @@ class Hero extends Nullstack {
 
               <div class="z-10 ml-4">
                 <div class="text-end px-3 lg:px-0 pb-10">
-                      <h2 class="leading-normal sm:text-lg md:text-3xl mb-8">
+                      <h2 class="uppercase leading-normal sm:text-lg md:text-3xl mb-8">
                       Aprenda como sair do ZERO e Se tornar um <span class="bg-red-900"> Programador profissional</span>, de forma 
                       prática e sem enrolação! </h2>
                   

@@ -11,11 +11,12 @@ class CallToAction extends Nullstack {
           <h1 class="w-full my-2 text-2xl md:text-4xl font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
            Aprenda tudo do ZERO e passo a passo</h1>
           
-          <h2 class="w-full my-2 text-2xl md:text-4xl font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
-            Você está a poucos passos de se tornar um profissional disputado no mercado
+          <h2 class="w-full my-2 text-2xl md:text-3xl font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
+          Aprenda tudo do ZERO e passo a passo
+              Você está a uma distância de um clique para se tornar um profissional reconhecido e disputado no mercado web.
           </h2>
 
-          <div class="mx-auto py-12 flex flex-wrap justify-center">
+          <div class="mx-auto flex flex-wrap justify-center">
             <div class="pr-8">
               <h3 class="my-4 text-left md:text-3xl lg:text-3xl leading-tight text-white bg-red-900  font-bold">
                 42% OFF valor temporário
