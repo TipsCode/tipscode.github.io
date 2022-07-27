@@ -7,7 +7,7 @@ class MoreDetails extends Nullstack {
     return (
       <div>
         <section class="bg-tips-dark md:py-8 tracking-wide">
-          <div class="container mx-auto px-2 md:pt-4 pb-12 text-gray-800">
+          <div class="container mx-auto px-2  text-gray-800">
             <h1 class="w-full mt-2 md:mb-20 text-2xl lg:text-5xl font-bold leading-tight text-center text-white">
               E não so isso, veja mais o que você vai aprender.
             </h1>

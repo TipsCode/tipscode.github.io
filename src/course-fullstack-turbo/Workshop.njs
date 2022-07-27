@@ -6,17 +6,20 @@ import Clock from '../icons/Clock';
 export default function Workshop() {
 
     return (
-        <section class="w-full h-auto bg-tips-dark md:py-8 pb-9 traking-wide">
+        <section class="w-full bg-tips-dark traking-wide">
 
-            <h1 class="w-full text-5xl font-bold leading-tight text-center text-white mb-5">
-                Workshops
-            </h1>
+            <div class="pb-24">
+                <h1 class="w-full text-5xl font-bold leading-tight text-center text-white mb-5">
+                    Workshops
+                </h1>
 
-            <p class="w-full text-center text-white text-2xl">
-            Você terá acesso a workshops exclusivos. São Workshops com profissionais das <br /> gigantes da tecnologia e você só encontrará em nosso treinamento.
-            </p>
+                <p class="w-full text-center text-white text-2xl">
+                Você terá acesso a workshops exclusivos. São Workshops com profissionais das <br /> gigantes da tecnologia e você só encontrará em nosso treinamento.
+                </p>
 
-            <div class="container mx-auto pt-36 pb-28 flex flex-wrap justify-center md:flex-row items-center pt-6 gap-x-12 gap-y-36 sm:flex-col">
+            </div>
+
+            <div class="container mx-auto pt-10 flex flex-wrap justify-center md:flex-row items-center pt-6 gap-x-12 gap-y-36 sm:flex-col">
 
                 <div class="w-80 bg-green-500 opacity-100 rounded-r-2xl relative">
                     <div class="bg-tips-dark opacity-95 flex flex-col text-white pt-12 pl-4 pr-8 border-t-4 border-r-4 border-b-4 border-green-300 rounded-r-2xl">
