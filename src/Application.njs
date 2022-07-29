@@ -71,15 +71,14 @@ class Application extends Nullstack {
     return (
       <main class="bg-tips-light">
         <div>
-          <GoogleAnalytics id="AW-641358523" />
-          <FacebookPixel id="294337825339805" />
           {
-            router.url.endsWith('/curso-fullstack-turbo') ? <FacePixelFullStack id="294337825339805" /> : null
+            router.url.endsWith('/curso-fullstack-turbo') ? <FacePixelFullStack id="294337825339805" /> : <FacebookPixel id="294337825339805" />
           }
 
           {
-            router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : null
+            router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : <FacebookPixel id="294337825339805" />
           }
+          <GoogleAnalytics id="AW-641358523" />
         </div>
 
         <Head />
