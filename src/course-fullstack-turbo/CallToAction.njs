@@ -12,7 +12,7 @@ class CallToAction extends Nullstack {
            Aprenda tudo do ZERO e passo a passo</h1>
           
           <h2 class="w-full my-2 text-2xl md:text-3xl font-bold leading-tight text-center text-white md:w-5/6 mx-auto">
-          Você está a uma distância de um clique para se tornar um profissional reconhecido e disputado no mercado web.
+          Você está a distância de um clique para se tornar um profissional reconhecido e disputado no mercado web.
           </h2>
 
           <div class="mx-auto flex flex-wrap justify-center">
