@@ -11,7 +11,6 @@ import CallToAction from './CallToAction';
 import Teacher from './Teacher';
 import Faq from './Faq';
 import Footer from '../layout/Footer';
-import FacePixelFullStack from './FacePixelFullStack';
 import Contact from '../layout/Contact';
 import Whatsapp from '../layout/Whatsapp';
 import Workshop from './Workshop';
@@ -28,13 +27,7 @@ class SalesPage extends Nullstack {
 
   render({ router }) {
     return (
-      <div class="bg-tips-dark">
-       <div>
-        {
-          router.url.endsWith('/curso-fullstack-turbo') ? <FacePixelFullStack id="294337825339805" /> : null
-        }
-        </div>
-     
+      <div class="bg-tips-dark"> 
         <Hero />
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
         <CourseDetails />

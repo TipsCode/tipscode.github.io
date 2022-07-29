@@ -8,7 +8,6 @@ import CallToActtion from './CallToActtion';
 import Faq from '../course-fullstack-turbo/Faq';
 import Footer from '../layout/Footer';
 import Contact from '../layout/Contact';
-import FacePixelReact from './FacePixelReact';
 import Testimonials from './Testimonials';
 import CourseDetails from './CourseDetails';
 import Whatsapp from '../layout/Whatsapp';
@@ -27,12 +26,6 @@ class SalesPageReactPro extends Nullstack {
   render({ router }) {
     return (
       <div class="bg-zing">
-       <div>
-        {
-          router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : null
-        }
-        </div>
-    
         <Hero />
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20reactJS%20pro" />
         <Categories />

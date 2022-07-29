@@ -15,6 +15,9 @@ import MiniCourse from './mini-course/MiniCourse';
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
 
+import FacePixelFullStack from './course-fullstack-turbo/FacePixelFullStack';
+import FacePixelReact from './course-react-pro/FacePixelReact';
+
 class Application extends Nullstack {
 
   static async start(context) {
@@ -64,12 +67,19 @@ class Application extends Nullstack {
     );
   }
 
-  render() {
+  render({router}) {
     return (
       <main class="bg-tips-light">
         <div>
           <GoogleAnalytics id="AW-641358523" />
-          <FacebookPixel id="294337825339805" />
+      
+          {
+            router.url.endsWith('/curso-fullstack-turbo') ? <FacePixelFullStack id="294337825339805" /> : <FacebookPixel id="294337825339805" />
+          }
+
+          {
+            router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : <FacebookPixel id="294337825339805" />
+          }
         </div>
 
         <Head />
