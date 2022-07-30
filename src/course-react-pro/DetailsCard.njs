@@ -29,7 +29,7 @@ class DetailsCard extends Nullstack {
 
             <CardDetail srcName="/sales-page-img/course-details/Play.webp" nameAlt="Método step by step." content="Método step by step." />
 
-            <CardDetail srcName="/sales-page-img/course-details/clocks.webp" nameAlt="Projetos para o seu portfólio." content="Projetos para o seu portfólio." />
+            <CardDetail srcName="/sales-page-img/course-details/clock.webp" nameAlt="Projetos para o seu portfólio." content="Projetos para o seu portfólio." />
 
             </div>
 
