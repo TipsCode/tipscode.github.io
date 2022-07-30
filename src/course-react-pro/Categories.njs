@@ -16,7 +16,7 @@ function DivBox({ children, nameTitle }) {
   
   export default function Categories() {
     return (
-      <section class="md:flex-col my-16 sm:my-28">
+      <section class="md:flex-col my-16 sm:my-28" style="margin-bottom: 0px">
         <div class="bg-center bg-no-repeat bg-contain mx-3 overflow-hidden">
   
           <h3 class="text-center text-3xl md:text-5xl text-white font-bold">Ainda não conhece o método? <br /> 
