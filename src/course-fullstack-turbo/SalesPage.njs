@@ -31,12 +31,12 @@ class SalesPage extends Nullstack {
         <Hero />
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
         <CourseDetails />
+        <Projects />
         <WhatLearn />
         <MoreDetails />
         <Workshop />
         <Bonus />
         <Testimonials />
-        <Projects />
         <CallToAction />
         <Teacher />
         <Faq classe="bg-tips-dark" />
