@@ -5,7 +5,7 @@ class CallToActtion extends Nullstack {
 
   render() {
     return (
-      <div class="mt-32">
+      <div id="cta-react" class="mt-32">
         <p class="text-1xl lg:text-1xl font-bold text-gray-400 text-center">NÃO PERCA</p>
         <h3 class="w-full mt-2 md:mb-6 text-2xl lg:text-5xl font-bold leading-tight text-center text-white">
               O preço mais 👉<span class="text-5xl bg-card-bonus-heanding"> ACESSÍVEL</span> do <br /> mercado
