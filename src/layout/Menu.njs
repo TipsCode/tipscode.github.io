@@ -6,11 +6,11 @@ class Navigation extends Nullstack {
 
   expanded = false;
 
-  renderLink({ children, href }) {
+  renderLink({ children, href, classCustome }) {
     return (
       <a
         href={href}
-        class="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"
+        class={classCustome}
       >
         {children}
       </a>
@@ -42,24 +42,20 @@ class Navigation extends Nullstack {
                 !this.expanded && 'hidden sm:flex'
               }`}
             >
-              <Link href="/"> Home </Link>
-              <Link href="/artigos"> Blog </Link>
-              <Link href="/ebook-gratuito"> E-book Gratuito </Link>
-              <Link href="/mini-curso-gratuito"> Mini-Curso Gratuito </Link>
-              <Link href="/curso-react-pro"> Curso ReactJS PRO </Link>
+              <Link href="/" classCustome="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"> Home </Link>
+              <Link href="/artigos" classCustome="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"> Blog </Link>
+              <Link href="/ebook-gratuito" classCustome="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"> E-book Gratuito </Link>
+              <Link href="/mini-curso-gratuito" classCustome="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"> Mini-Curso Gratuito </Link>
+              <Link href="https://go.hotmart.com/F68520890I?src=blog" classCustome="w-full sm:w-auto text-tips-gray-dark border-b sm:border-0 border-gray-100 p-2 font-lg hover:text-tips-blue items-center flex"> Curso ReactJS PRO </Link>
             </nav>
             <div
               class={`flex w-full sm:w-auto mt-4 sm:mt-0 ${
                 !this.expanded && 'hidden sm:flex'
               }`}
             >
-              <a
-                href="/curso-fullstack-turbo"
-                onclick={{ expanded: false }}
-                class="bg-tips-blue text-white px-3 py-2 border border-tips-blue rounded hover:bg-white hover:text-tips-blue w-full sm:w-auto"
-              >
+              <Link onclick={{ expanded: false }} href="https://go.hotmart.com/A43229044U?src=blog" classCustome="bg-tips-blue text-white px-3 py-2 border border-tips-blue rounded hover:bg-white hover:text-tips-blue w-full sm:w-auto">
                 Full-Stack Turbo
-              </a>
+              </Link>
             </div>
           </div>
         </header>
