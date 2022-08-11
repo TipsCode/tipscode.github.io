@@ -229,10 +229,10 @@ function getQueryParameter( name, url ) {
             </div>
 
           </div>
+          <div id="box_hotmart"></div>
         </div>
      
         
-          <div id="box_hotmart"></div>
        
        
           
