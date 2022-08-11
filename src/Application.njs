@@ -11,6 +11,8 @@ import SalesPage from './course-fullstack-turbo/SalesPage';
 import SalesPageReactPro from './course-react-pro/SalesPageReactPro';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
+import UpsellFullStack from './upsell-to-fullstack/UpsellFullStack';
+import ThanksUpsell from './upsell-to-fullstack/ThanksUpsell';
 
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
@@ -90,10 +92,14 @@ class Application extends Nullstack {
         <SalesPageReactPro route="/curso-react-pro" />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
+        <UpsellFullStack route="/oferta-unica-full" />
+        <ThanksUpsell route="/obrigado-por-compra-os-cursos" />
         <Article route="/:slug" />
 
   
         <span href="/curso-react-pro"></span>
+        <span href="/oferta-unica-full"> </span>
+        <span href="/obrigado-por-compra-os-cursos"> </span>
 
       </main>
     );
