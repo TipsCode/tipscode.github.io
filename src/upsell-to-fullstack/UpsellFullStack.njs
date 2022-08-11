@@ -228,8 +228,11 @@ function getQueryParameter( name, url ) {
                 CSS3, MONDODB, NODEJS</span> ...</p>
             </div>
 
+            <div>
+              <div id="box_hotmart"></div>
+            </div>
+            
           </div>
-          <div id="box_hotmart"></div>
         </div>
      
         
