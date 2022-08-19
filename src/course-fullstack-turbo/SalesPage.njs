@@ -14,6 +14,7 @@ import Footer from '../layout/Footer';
 import Contact from '../layout/Contact';
 import Whatsapp from '../layout/Whatsapp';
 import Workshop from './Workshop';
+import Warranty from './Warranty';
 
 class SalesPage extends Nullstack {
 
@@ -32,6 +33,7 @@ class SalesPage extends Nullstack {
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
         <CourseDetails />
         <Projects />
+        <Warranty />
         <WhatLearn />
         <MoreDetails />
         <Workshop />

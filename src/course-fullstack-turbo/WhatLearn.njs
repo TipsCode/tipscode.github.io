@@ -30,8 +30,9 @@ class WhatLearn extends Nullstack {
               nameClass="flex flex-wrap flex-col-reverse sm:flex-row"
               contentH5="FRON-END"
               contentH3="Aprenda a criar aplicações dinâmicas com as melhores tecnologias do mercardo"
-              contentP="Você aprenderá os conceitos por trás de aplicações altamente dinâmicas usando a 
-              biblioteca React em conjuntos de outras ferramentas como: Hooks, Webpack e Gulp. Entraremos de forma detalhada nos conceitos e boas práticas no desenvolvimento front-end com React."
+              contentP="Você aprenderá na prática a construir aplicações altamente dinâmicas usando a biblioteca React em 
+              conjunto com outras ferramentas como: Hooks, Webpack e Gulp. Evite repetição de código e melhore a manutenção,
+               possibilitando um código limpo e autossustentável, com boas práticas do mercado."
               nameSrc="/sales-page-img/card-what-learn/Frontend-image.webp"
               nameAlt="Aprende tudo sobre front-end"
               orderImg="w-full sm:w-1/2 p-6 order-first"

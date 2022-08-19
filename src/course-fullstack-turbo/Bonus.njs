@@ -146,7 +146,8 @@ class Bonus extends Nullstack {
                     Não perca  mais tempo
                   </h3>
                   <p class="text-gray-200 mb-6 text-xl tracking-wide">
-                    Eleve seus estudos para outro nível.
+                  Seja desejado pelas grandes empresas, chegou o momento de subir para o próximo nível.
+
                   </p>
                   <a
                     href="#section-cta"

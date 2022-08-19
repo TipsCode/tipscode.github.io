@@ -9,7 +9,7 @@ class Hero extends Nullstack {
     
     return (
       <>
-        <div class="leading-normal tracking-normal text-white bg-gradient-radial">
+        <div class="leading-normal tracking-normal text-white">
 
           <div class="text-center inline-block w-full fixed p-5 bg-black z-50">
             <div class="sm:flex md:flex md:justify-around">
@@ -31,43 +31,42 @@ class Hero extends Nullstack {
 
             <div class="sm:flex md:flex md:justify-around">
 
-              <div class="sm:w-full sm:mx-auto">
+              <div class="sm:w-full sm:w-full">
 
-                <div class="sm:w-full sm:mx-auto">
-                      <div class="embed">
+                <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
+                      <div class="embed-full">
                         <iframe src="https://www.youtube.com/embed/hMr10rksntQ" />
                       </div>
                 </div>
+
               </div>
 
               <div class="z-10 ml-4">
-                <div class="text-end px-3 lg:px-0 pb-10">
+                <div class="text-certer px-3 lg:px-0 pb-10">
+                  <div>
+
                       <h2 class="uppercase leading-normal sm:text-lg md:text-3xl mb-8">
-                      Aprenda como sair do ZERO e Se tornar um <span class="bg-red-900"> Programador profissional</span>, de forma 
-                      prática e sem enrolação! </h2>
+
+                        De acordo com a Brasscom, de 2021 até 2025 as empresas 
+                        vão demandar <span class="bg-red-900">mais de 797 mil talentos</span>. Chegou a 
+                        hora de você se tornar esse profissional requisitado pelo mercado <span class="bg-red-900">mesmo que você não saiba nada.</span>
+
+                      </h2>
                   
-        
-                        <p class="md:text-1xl">Faça como milhares de pessoas no mundo que estão conseguindo sua <span class="bg-red-900">independência financeira e geográfica</span>, 
-                      ao entrar para ramo que paga os maiores salários e que tem as maiores oportunidades, o da programação!<br /><br />
 
-                      Aprenda com projetos reais que vão além da teoria e te colocam frente a frente com os códigos já nas primeiras aulas!
+                        <p class="md:text-1xl">Faça como milhares de pessoas no mundo que estão conseguindo sua 
+                          <span class="bg-red-900">independênciafinanceira e geográfica</span>, 
+                            ao entrar para ramo que paga os maiores salários e que tem as maiores oportunidades, o da programação!<br /><br />
+                            Aprenda com projetos reais que vão além da teoria e te colocam frente a frente com os códigos já nas primeiras aulas!
 
-                          </p>
+                        </p>
+                  </div>
                   </div>
               </div>
             </div>
 
 
           </div>
-
-
-       
-
-         
-          <div class="relative m-0 p-0 w-full">
-            <img class="w-full block absolute bottom-0" src="/sales-page-img/hero/Waves.png" alt="waves" loading="lazy" width="1786" height="628" />
-          </div>
-         
         </div>
       </>
     );

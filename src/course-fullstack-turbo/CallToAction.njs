@@ -39,12 +39,12 @@ class CallToAction extends Nullstack {
             Basta clicar no botão abaixo! Vai deixar essa oportunidade passar?
           </h3>
 
-          <a
-            href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10"
-            class="mx-auto lg:mx-0 bg-green-500  text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            QUERO ME TORNAR UM PROGRAMDOR COMPLETO
-          </a>
+
+          <div class="mx-auto w-80 text-center mt-3 lg:w-96 bg-red-900 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    <a href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10">
+                    QUERO ME TORNAR UM PROGRAMADOR REQUISITADO
+                    </a>
+                  </div> 
 
         </section>
       </div>

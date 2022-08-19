@@ -4,10 +4,35 @@
     padding-bottom: 56.25%;
 }
 
+.embed-full {
+
+    position: relative;
+    width: 600px;
+    padding-bottom: 64.25%;
+}
+
 .embed iframe {
     position: absolute;
     width: 100%;
     height: 100%;
     border: none;
     z-index: 49;
+}
+
+.embed-full iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 49;
+}
+
+
+@media (max-width: 600px){
+  .embed-full {
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    margin: auto;
+  }
 }

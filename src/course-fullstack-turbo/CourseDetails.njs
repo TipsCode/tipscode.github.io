@@ -9,9 +9,9 @@ class CourseDetails extends Nullstack {
       <>
         <section class="bg-tips-dark">
 
-        <div class="mx-auto w-80 text-center mt-3 lg:w-96 bg-green-500 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        <div class="mx-auto w-80 text-center mt-3 lg:w-96 bg-red-900 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                     <a href="#section-cta">
-                    QUERO ME TORNAR UM PROGRAMDOR COMPLETO
+                    QUERO ME TORNAR UM PROGRAMADOR REQUISITADO
                     </a>
                   </div> 
 

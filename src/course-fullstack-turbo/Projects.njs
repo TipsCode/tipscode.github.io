@@ -10,15 +10,22 @@ class Projects extends Nullstack {
       <>
         <div class="container mx-auto">
 
-        <div class="mx-auto w-80 text-center mb-8 mt-3 lg:w-96 bg-green-500 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        <div class="mx-auto w-80 text-center mb-8 mt-3 lg:w-96 bg-red-900 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                     <a href="#section-cta">
-                    QUERO ME TORNAR UM PROGRAMDOR COMPLETO
+                    QUERO ME TORNAR UM PROGRAMADOR REQUISITADO
                     </a>
                   </div> 
 
          
 
-          <h2 class="font-bold text-2xl md:text-4xl md:my-24 md:mb-24 w-5/6 mx-auto text-center text-white">Veja alguns dos projetos que você vai <br /> criar do zero neste curso</h2>
+          <h2 class="font-bold text-2xl md:text-4xl w-5/6 mx-auto text-center text-white">Veja alguns dos projetos que você vai
+           <br /> criar do zero neste curso</h2>
+           <p class="text-1xl md:text-1xl md:my-5 md:mb-5 w-5/6 mx-auto text-center text-white">
+           Ao concluir apenas esses projetos, (são mais de 30!). Você já será perfeitamente capaz de se 
+           candidatar a uma vaga de emprego ou prestar serviços freelancers para qualquer empresa do mercado 
+           e ganhar muito bem pelos sistemas desenvolvidos por você. 
+
+           </p>
 
           <div class="flex items-center justify-center mx-3">
 
