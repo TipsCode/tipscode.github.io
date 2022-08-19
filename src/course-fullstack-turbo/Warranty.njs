@@ -7,7 +7,7 @@ export default function Warranty() {
             <figure >
                 <img class="mx-auto" src="/garantia-7-dias-novo.png" alt="curso com garantia de 7 dias"  />
                 <p class="sm:text-lg md:text-1xl text-center text-white">
-                Teste por 7 dias, se não gosta devolvemos
+                Teste por 7 dias, se não gostar devolvemos
                 seu dinheiro, sem nenhuma pergunta
                 </p>
             </figure>
@@ -20,7 +20,7 @@ export default function Warranty() {
             <figure >
                 <img class="mx-auto" src="certificado-tipscode.png" alt="curso com garantia de 7 dias" />
                 <p class="sm:text-lg md:text-1xl text-center text-white">
-                    Certificado 100% valido, você podera prova realmente suas habilidades aprendidas
+                    Certificado 100% valido, você poderá provar realmente suas habilidades aprendidas
                 </p>
             </figure>
         </div>

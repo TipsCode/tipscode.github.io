@@ -49,13 +49,13 @@ class Hero extends Nullstack {
 
                         De acordo com a Brasscom, de 2021 até 2025 as empresas 
                         vão demandar <span class="bg-red-900">mais de 797 mil talentos</span>. Chegou a 
-                        hora de você se tornar esse profissional requisitado pelo mercado <span class="bg-red-900">mesmo que você não saiba nada.</span>
+                        hora de você se tornar esse profissional requisitado pelo mercado <span class="bg-red-900">mesmo que você não saiba nada de programação web.</span>
 
                       </h2>
                   
 
                         <p class="md:text-1xl">Faça como milhares de pessoas no mundo que estão conseguindo sua 
-                          <span class="bg-red-900">independênciafinanceira e geográfica</span>, 
+                          <span class="bg-red-900">independência financeira e geográfica</span>, 
                             ao entrar para ramo que paga os maiores salários e que tem as maiores oportunidades, o da programação!<br /><br />
                             Aprenda com projetos reais que vão além da teoria e te colocam frente a frente com os códigos já nas primeiras aulas!
 
