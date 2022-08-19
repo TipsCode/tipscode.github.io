@@ -55,7 +55,7 @@ class Hero extends Nullstack {
                   
 
                         <p class="md:text-1xl">Faça como milhares de pessoas no mundo que estão conseguindo sua 
-                          <span class="bg-red-900">independência financeira e geográfica</span>, 
+                          <span class="bg-red-900"> independência financeira e geográfica</span>, 
                             ao entrar para ramo que paga os maiores salários e que tem as maiores oportunidades, o da programação!<br /><br />
                             Aprenda com projetos reais que vão além da teoria e te colocam frente a frente com os códigos já nas primeiras aulas!
 
