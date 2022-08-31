@@ -34,14 +34,15 @@ class Hero extends Nullstack {
                 <div class="text-certer px-3 lg:px-0 pb-10">
                   <div class=" text-center">
 
-                      <h2 class="leading-normal sm:text-lg md:text-3xl mb-8">
-
+                      <h2 class="leading-normal sm:text-lg text-2xl md:text-3xl mb-8">
                         De acordo com a Brasscom, de 2021 até 2025 as empresas 
-                        vão demandar <span class="bg-red-900">mais de 797 mil talentos</span>. <br /><br />  Chegou a 
-                        hora de você se tornar esse profissional requisitado pelo mercado 
-                        <span class="bg-red-900"> mesmo que você não saiba nada de programação web.</span>
+                        vão demandar <span class="bg-red-900">mais de 797 mil talentos</span>.
+                        
 
                       </h2>
+                        <h3 class="leading-normal sm:text-lg text-2xl md:text-3xl mb-8">Chegou a 
+                        hora de você se tornar esse profissional requisitado pelo mercado 
+                        <span class="bg-red-900"> mesmo que você não saiba nada de programação web.</span></h3> 
                 
                         <p class="md:text-2xl">Faça como milhares de pessoas no mundo que estão conseguindo sua 
                           <span class="bg-red-900"> independência financeira e geográfica</span>, 
@@ -75,19 +76,20 @@ class Hero extends Nullstack {
 
           </div>
 
-          <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto m-auto">
-            <div class="relative flex flex-col h-full p-8">
-                <h2 class="flex items-end mx-auto text-2xl font-black leading-none text-white mb-2">
-                    <span>R$295,00 á vista ou </span>
-                </h2>
-                <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
-                    <span>12x de R$29,44 </span>
-                </h1>
-               <figure>
-                <img class="m-auto" src="/formas-de-pagamentos.png" />
-               </figure>
-            </div>
-        </div>
+            <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto m-auto">
+              <div class="relative flex flex-col h-full p-8">
+                  <h2 class="flex items-end mx-auto text-2xl font-black leading-none text-white mb-2">
+                      <span>R$295,00 á vista ou </span>
+                  </h2>
+                  <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
+                      <span>12x de R$29,44 </span>
+                  </h1>
+                <figure>
+                  <img class="m-auto" src="/formas-de-pagamentos.png" />
+                </figure>
+              </div>
+          </div>
+          
         </div>
       </>
     );

@@ -1,27 +1,20 @@
 export default function Warranty() {
 
     return (
-      <section class="container mx-auto mt-20">
+      <section class="container mx-auto mb-10">
         <div class="flex flex-col lg:flex-row justify-center mx-auto">
 
             <figure >
-                <img class="mx-auto" src="/garantia-7-dias-novo.png" alt="curso com garantia de 7 dias"  />
-                <p class="sm:text-lg md:text-1xl text-center text-white">
-                Teste por 7 dias, se não gostar devolvemos
-                seu dinheiro, sem nenhuma pergunta
-                </p>
+                <img class="w-2/5 md:w-3/5 mx-auto" src="/garantia-curso.png" alt="curso com garantia de 7 dias"  />
+            
             </figure>
             <figure >
-                <img class="mx-auto" src="/acesso-vitalicio.png" alt="curso com garantia de 7 dias"   />
-                <p class="sm:text-lg md:text-1xl text-center text-white">
-                    Tenha acesso ao curso para sempre, você terá todo o tempo necessario para aprender
-                </p>
+                <img class="w-2/5 md:w-3/5 mx-auto" src="/acesso-curso.png" alt="curso com garantia de 7 dias"   />
+               
             </figure>
             <figure >
-                <img class="mx-auto" src="certificado-tipscode.png" alt="curso com garantia de 7 dias" />
-                <p class="sm:text-lg md:text-1xl text-center text-white">
-                    Certificado 100% valido, você poderá provar realmente suas habilidades aprendidas
-                </p>
+                <img class="w-2/5 md:w-3/5 mx-auto" src="/vitalicio-curso.png" alt="curso com garantia de 7 dias" />
+               
             </figure>
         </div>
       </section>
