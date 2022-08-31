@@ -1,6 +1,9 @@
+
+
 export default function Whatsapp({linkWhats}) {
+    
     return (
-        <div  class="fixed w-12 h-12 z-50 right-3 bottom-3 p-1 
+        <div id="display-whats" class="fixed w-12 h-12 z-50 right-3 bottom-3 p-1 
         rounded-t-full rounded-r-full shadow-lg shadow-indigo-500/40 
         bg-green-600
     " >
