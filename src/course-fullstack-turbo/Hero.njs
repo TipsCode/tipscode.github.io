@@ -36,16 +36,16 @@ class Hero extends Nullstack {
 
                       <h2 class="leading-normal sm:text-lg text-2xl md:text-3xl mb-8">
                         De acordo com a Brasscom, de 2021 até 2025 as empresas 
-                        vão demandar <span class="bg-red-900">mais de 797 mil talentos</span>.
+                        vão demandar <span class="span-text">mais de 797 mil talentos</span>.
                         
 
                       </h2>
                         <h3 class="leading-normal sm:text-lg text-2xl md:text-3xl mb-8">Chegou a 
                         hora de você se tornar esse profissional requisitado pelo mercado 
-                        <span class="bg-red-900"> mesmo que você não saiba nada de programação web.</span></h3> 
+                        <span class="span-text"> mesmo que você não saiba nada de programação web.</span></h3> 
                 
                         <p class="md:text-2xl">Faça como milhares de pessoas no mundo que estão conseguindo sua 
-                          <span class="bg-red-900"> independência financeira e geográfica</span>, 
+                          <span class="span-text"> independência financeira e geográfica</span>, 
                             ao entrar para ramo que paga os maiores salários e que tem as maiores oportunidades, o da programação!<br /><br />
                             Aprenda com projetos reais que vão além da teoria e te colocam frente a frente com os códigos já nas primeiras aulas!
                         </p>
@@ -67,9 +67,9 @@ class Hero extends Nullstack {
 
             </div>
 
-            <div class="mx-auto w-80 text-center mt-3 lg:w-9/12 bg-red-900 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <div class="mx-auto w-80 text-center mt-3 lg:w-9/12 cta-hero text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   <a class="md:text-2xl" href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10">
-                  QUERO ME TORNAR UM PROGRAMADOR REQUISITADO
+                  ENTRAR NO CURSO FULL STACK TURBO
                   </a>
             </div> 
 

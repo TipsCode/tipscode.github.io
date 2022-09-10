@@ -20,6 +20,9 @@ class Teste extends Nullstack {
                   <img src="/sales-page-img/testmonials-print/9-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/16-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/10-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
@@ -55,8 +58,12 @@ class Teste extends Nullstack {
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/15-testmonial.png" alt="" />
                 </figure>
+               
                 <figure class="m-3">
-                  <img src="/sales-page-img/testmonials-print/16-testmonial.png" alt="" />
+                  <img src="/sales-page-img/testmonials-print/19-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/20-testmonial.png" alt="" />
                 </figure>
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/17-testmonial.png" alt="" />

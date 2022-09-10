@@ -34,9 +34,9 @@ class CallToAction extends Nullstack {
           </h3>
 
 
-          <div class="mx-auto w-80 text-center mt-3 lg:w-9/12 bg-red-900 text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <div class="mx-auto w-80 text-center mt-3 lg:w-9/12 cta-hero  text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   <a class="md:text-2xl" href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10">
-                  QUERO ME TORNAR UM PROGRAMADOR REQUISITADO
+                  ENTRAR NO CURSO FULL STACK TURBO
                   </a>
             </div> 
 
