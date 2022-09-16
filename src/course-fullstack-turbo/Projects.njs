@@ -10,14 +10,6 @@ class Projects extends Nullstack {
       <>
         <div class="container mx-auto mt-10">
 
-        <div class="mx-auto w-80 text-center mt-3 lg:w-9/12 cta-hero text-white font-bold rounded-md md:my-6 py-2 md:py-4 px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  <a class="md:text-2xl" href="https://pay.hotmart.com/A43229044U?off=u0io32t2&checkoutMode=10">
-                  ENTRAR NO CURSO FULL STACK TURBO
-                  </a>
-            </div> 
-
-         
-
           <h2 class="font-bold text-2xl md:text-4xl w-5/6 mx-auto text-center text-white mt-5">Projetos que você vai
             criar do zero neste curso</h2>
            <p class="text-1xl md:text-1xl md:my-5 md:mb-5 w-5/6 mx-auto text-center text-white">
@@ -47,6 +39,7 @@ class Projects extends Nullstack {
               <CardProject src="/sales-page-img/projects/projeto-emojipedia.png" alt="App Emojipedia" contentP="App Emojipedia" />
               <CardProject src="/sales-page-img/projects/projeto-todo-list.png" alt="App Todo List" contentP="App Todo list" />
               <CardProject src="/sales-page-img/projects/projeto-cronometro.png" alt="App cronometro" contentP="App Cronometro" />
+              <CardProject src="/sales-page-img/projects/projeto-calc.png" alt="App calc" contentP="App calculadora" />
             </div>
           </div>
         </div>

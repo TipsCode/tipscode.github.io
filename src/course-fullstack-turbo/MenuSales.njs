@@ -5,7 +5,7 @@ export default function MenuSales() {
       <div class="w-full container mx-auto flex flex-wrap items-center justify-center mt-0 py-2">
 
         <div class="flex items-center ">
-          <a class="z-50 pt-20 lg:pt-16 toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <a class="z-50 toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
             <img src="/TipsCodelogo.png" alt="TipsCode" loading="lazy" width="186" height="66" />
           </a>
         

@@ -10,13 +10,6 @@ class CourseDetails extends Nullstack {
         <section class="bg-tips-dark">
 
           <div class="container mx-auto flex flex-wrap">
-
-
-            <h2 class="w-full my-2 text-2xl md:text-4xl font-bold leading-tight text-center text-white lg:mb-24">
-              Mais do que um curso, uma experiência de aprendizado incrível
-              que você levará para sua vida profissional
-            </h2>
-
             <CardDetail srcName="/sales-page-img/course-details/Play.webp" nameAlt="Você terá acesso a mais de 700 aulas" content="Mais de 700 <br /> aulas " />
 
             <CardDetail srcName="/sales-page-img/course-details/monitor.webp" nameAlt="Vamos criar mais de 30 projetos" content="Mais de 30 <br /> projetos " />

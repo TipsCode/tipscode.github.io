@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
 
-class Teste extends Nullstack {
+class Print extends Nullstack {
 
   render() {
     return (
@@ -78,4 +78,4 @@ class Teste extends Nullstack {
 
 }
 
-export default Teste;
+export default Print;
