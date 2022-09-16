@@ -10,7 +10,7 @@ class Hero extends Nullstack {
     
     return (
       <>
-        <div class="leading-normal tracking-normal text-white">
+        <section class="leading-normal tracking-normal text-white">
           <MenuSales />
 
           <div id="hero" class="sm:mt-12 max-w-screen-xl justify-center mx-auto">
@@ -47,12 +47,13 @@ class Hero extends Nullstack {
 
             </div>
 
-            <CtaButton />
             
           </div>
 
+          <CtaButton />
+
           
-        </div>
+        </section>
       </>
     );
   }

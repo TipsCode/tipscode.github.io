@@ -16,7 +16,7 @@ export default function Argumentation() {
             <h2 class="mt-6 font-bold w-5/6 mx-auto text-center text-white">
                 O fato é, que você pode está fazendo parte dessa categoria de
              profissionais tão essenciais que o mundo precisa, o que 
-              <span class="span-text"> está separando você de sair do zero a se tornar esse profissional é um simples SIM.</span>
+              <span class="span-text"> está separando você de sair do zero se tornar esse profissional é um simples SIM.</span>
             </h2>
 
         
