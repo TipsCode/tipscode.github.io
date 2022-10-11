@@ -8,11 +8,10 @@ import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
 import SalesPage from './course-fullstack-turbo/SalesPage';
-import SalesPageReactPro from './course-react-pro/SalesPageReactPro';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
-import UpsellFullStack from './upsell-to-fullstack/UpsellFullStack';
-import ThanksUpsell from './upsell-to-fullstack/ThanksUpsell';
+import MiniCourseThankPage from './delivery-mini-course/MiniCourseThankPage';
+import MiniCourseClasses from './delivery-mini-course/MiniCourseClasses';
 
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
@@ -88,18 +87,15 @@ class Application extends Nullstack {
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
         <SalesPage route="/curso-fullstack-turbo" />
-
-        <SalesPageReactPro route="/curso-react-pro" />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
-        <UpsellFullStack route="/oferta-unica-full" />
-        <ThanksUpsell route="/obrigado-por-compra-os-cursos" />
+        <MiniCourseThankPage route="/obrigado-por-entrar-no-mini-curso" />
+        <MiniCourseClasses route="/aulas-do-mini-curso" />
         <Article route="/:slug" />
 
-  
-        <span href="/curso-react-pro"></span>
-        <span href="/oferta-unica-full"> </span>
-        <span href="/obrigado-por-compra-os-cursos"> </span>
+        <span href="/obrigado-por-entrar-no-mini-curso"> </span>
+        <span href="/aulas-do-mini-curso"> </span>
+
 
       </main>
     );

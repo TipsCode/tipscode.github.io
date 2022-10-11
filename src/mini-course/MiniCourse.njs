@@ -3,7 +3,6 @@ import Content from './Content';
 import Hero from './Hero';
 import CallToAction from './CallToAction';
 import Footer from '../layout/Footer';
-import Thanks from './Thanks';
 
 class MiniCourse extends Nullstack {
 
@@ -13,8 +12,7 @@ class MiniCourse extends Nullstack {
     page.locale = 'pt-BR';
   }
 
-  render({ params, self }) {
-    if (params.obrigado && self.hydrated) return <Thanks />;
+  render() {
     return (
       <>
         <Hero />

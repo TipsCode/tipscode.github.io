@@ -30,6 +30,7 @@ class Testimonials extends Nullstack {
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/1-testmonial.png" alt="" />
                 </figure>
+                
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/2-testmonial.png" alt="" />
                 </figure>

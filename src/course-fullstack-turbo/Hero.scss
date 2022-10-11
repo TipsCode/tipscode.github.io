@@ -11,6 +11,13 @@
     padding-bottom: 39.25%;
 }
 
+.embed-minicurso {
+  position: relative;
+  width: 894px;
+  padding-bottom: 51.25%;
+
+}
+
 .embed iframe {
     position: absolute;
     width: 100%;
@@ -20,6 +27,14 @@
 }
 
 .embed-full iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 49;
+}
+
+.embed-minicurso iframe {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -38,6 +53,16 @@
 
 @media (max-width: 600px){
   .embed-full {
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 600px){
+  .embed-minicurso {
     position: relative;
     width: 90%;
     padding-bottom: 56.25%;

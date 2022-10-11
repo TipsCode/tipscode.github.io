@@ -28,6 +28,13 @@ class Print extends Nullstack {
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/16-testmonial.png" alt="" />
                 </figure>
+
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/25-testmonial.png" alt="" />
+                </figure>
+                <figure class="m-3">
+                  <img src="/sales-page-img/testmonials-print/26-testmonial.png" alt="" />
+                </figure>
                 <figure class="m-3">
                   <img src="/sales-page-img/testmonials-print/8-testmonial.png" alt="" />
                 </figure>
