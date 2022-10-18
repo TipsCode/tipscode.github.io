@@ -80,6 +80,7 @@ class Application extends Nullstack {
             router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : <FacebookPixel id="294337825339805" />
           }
           <GoogleAnalytics id="AW-641358523" />
+          <GoogleAnalytics id="UA-120538403-3" />
         </div>
 
         <Head />
