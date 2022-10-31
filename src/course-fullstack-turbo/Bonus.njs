@@ -8,7 +8,7 @@ class Bonus extends Nullstack {
 
     return (
       <div>
-        <section class="bg-tips-dark traking-wide">
+        <section class="traking-wide">
           <div class="container max-w-5xl mx-auto m-8">
             <h1 class="w-full md:my-24 text-2xl lg:text-5xl font-bold leading-tight text-center text-white">
               Mais 7 super bônus
@@ -150,8 +150,10 @@ class Bonus extends Nullstack {
 
                   </p>
                   <a
-                    href="#section-cta"
-                    class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    href="https://pay.hotmart.com/A43229044U?off=ti4be3ou&checkoutMode=10"
+                    class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 
+                    px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 
+                    ease-in-out"
                   >
                     Inscreva-se já
                   </a>

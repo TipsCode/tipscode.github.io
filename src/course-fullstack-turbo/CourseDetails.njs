@@ -7,7 +7,7 @@ class CourseDetails extends Nullstack {
   render() {
     return (
       <>
-        <section class="bg-tips-dark">
+        <section>
 
           <div class="container mx-auto flex flex-wrap">
             <CardDetail srcName="/sales-page-img/course-details/Play.webp" nameAlt="Você terá acesso a mais de 700 aulas" content="Mais de 700 <br /> aulas " />

@@ -11,6 +11,10 @@ class Hero extends Nullstack {
     return (
       <>
         <section class="leading-normal tracking-normal text-white">
+          
+          <div class="sm:flex-col leading-normal text-center text-2xl bg-red-700">
+            Black November chegou - 20% OFF + Bônus Clique no link abaixo
+          </div>
           <MenuSales />
 
           <div id="hero" class="sm:mt-12 max-w-screen-xl justify-center mx-auto">

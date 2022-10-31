@@ -5,7 +5,7 @@ class CallToAction extends Nullstack {
 
   render() {
     return (
-      <section class="bg-tips-dark">
+      <section >
 
         <div class="container mx-auto text-center md:py-6">
           <h3 class="leading-normal w-8/12 sm:text-lg text-white text-1xl md:text-2xl m-auto text-center">
