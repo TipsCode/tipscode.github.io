@@ -13,7 +13,7 @@ class Hero extends Nullstack {
         <section class="leading-normal tracking-normal text-white">
           
           <div class="sm:flex-col leading-normal text-center text-2xl bg-red-700">
-            Black November chegou - 20% OFF + Bônus Clique no link abaixo
+            Black November chegou - 20% OFF + Bônus Clique no <a href="#cta-black">Botão abaixo e garanta sua vaga no valor promocional</a>
           </div>
           <MenuSales />
 
@@ -39,7 +39,7 @@ class Hero extends Nullstack {
                   </div>
               </div>
 
-              <div class="sm:w-full sm:w-full">
+              <div id="cta-black" class="sm:w-full sm:w-full">
 
                 <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
                       <div class="embed-full">
@@ -58,9 +58,8 @@ class Hero extends Nullstack {
               clique no link abaixo e entre no curso full stack turbo agora.
               </h3>
           </div>
-
+          
           <CtaButton />
-
           
         </section>
       </>
