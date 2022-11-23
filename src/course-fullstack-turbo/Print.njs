@@ -28,24 +28,7 @@ class Print extends Nullstack {
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/16-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/25-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/26-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/8-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/9-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/10-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/11-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/1-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/2-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/3-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/4-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/5-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/6-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/7-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/13-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/14-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/15-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/19-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/20-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/17-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/18-testmonial.png" />
+                
               
             </div>
         </div>

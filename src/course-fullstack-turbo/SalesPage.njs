@@ -38,18 +38,15 @@ class SalesPage extends Nullstack {
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
         <Print />
         <Projects />
+        <WhatLearn />
         <Testimonials />
         <Argumentation />
-        <CourseDetails />
         <Workshop />
-        <WhatLearn />
         <MoreDetails />
-        <Bonus />
         <CallToAction />
         <Teacher />
-        <Faq classe="bg-tips-dark" />
-        <Contact numWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
-         <Footer
+        <Faq />
+        <Footer
           class={
            {
              footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',

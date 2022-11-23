@@ -17,7 +17,7 @@ export default function CtaButton() {
                         <span>De <span class="line-through text-red-600	">R$295,00</span> por R$237,60 á vista ou </span>
                     </h2>
                     <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
-                        <span>12x de R$29,44 </span>
+                        <span>12x de R$23,71 </span>
                     </h1>
                     <figure>
                         <img class="m-auto" src="/formas-de-pagamentos.png" />

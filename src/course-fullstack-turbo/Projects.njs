@@ -40,6 +40,7 @@ class Projects extends Nullstack {
               <CardProject src="/sales-page-img/projects/projeto-todo-list.png" alt="App Todo List" contentP="App Todo list" />
               <CardProject src="/sales-page-img/projects/projeto-cronometro.png" alt="App cronometro" contentP="App Cronometro" />
               <CardProject src="/sales-page-img/projects/projeto-calc.png" alt="App calc" contentP="App calculadora" />
+              <CardProject src="/sales-page-img/projects/projeto-blog.png" alt="Blog de Conteúdo" contentP="Blog de Conteúdo" />
             </div>
           </div>
         </div>
