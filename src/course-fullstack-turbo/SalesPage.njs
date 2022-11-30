@@ -17,6 +17,7 @@ import Workshop from './Workshop';
 import Print from './Print';
 import Warranty from './Warranty';
 import Argumentation from './Argumentation';
+import StepByStep from './StepByStep';
 
 class SalesPage extends Nullstack {
 
@@ -41,6 +42,7 @@ class SalesPage extends Nullstack {
         <WhatLearn />
         <Testimonials />
         <Argumentation />
+        <StepByStep />
         <Workshop />
         <MoreDetails />
         <CallToAction />

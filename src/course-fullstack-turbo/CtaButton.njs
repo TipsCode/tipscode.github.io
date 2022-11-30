@@ -1,9 +1,7 @@
 export default function CtaButton() {
 
     return (
-        <section class="mt-8 text-center">
-        
-        
+        <section class="mt-8 text-center">       
        
             <a class="md:px-60 md:text-2xl mx-auto w-80 text-center mt-3 lg:w-9/12 cta-hero  text-white font-bold rounded-md md:my-6 py-2 md:py-4 
             px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" 

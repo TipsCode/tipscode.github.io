@@ -10,7 +10,7 @@ export default function Workshop() {
 
             <div class="pb-24">
                 <h1 class="w-full text-3xl md:text-4xl font-bold leading-tight text-center text-white mb-5">
-                    Workshops
+                    Mais 2 Workshops de bônus
                 </h1>
 
                 <p class="w-full text-center text-white text-1xl md:text-3xl">

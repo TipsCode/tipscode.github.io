@@ -13,7 +13,7 @@ class Hero extends Nullstack {
         <section class="leading-normal tracking-normal text-white">
           
           <div class="sm:flex-col leading-normal text-center text-2xl bg-red-700">
-            APROVEITE ESTA OFERTA DE <a href="#cta-black"> BLACK NOVEMBER 🔥</a>
+            ÚLTIMOS DIAS COM O DESCONTO DE <a href="#cta-black"> 20% off 🔥</a>
           </div>
           <MenuSales />
 
