@@ -13,7 +13,7 @@ class Hero extends Nullstack {
         <section class="leading-normal tracking-normal text-white">
           
           <div class="sm:flex-col leading-normal text-center text-2xl bg-red-700">
-            ÚLTIMOS DIAS COM O DESCONTO DE <a href="#cta-black"> 20% off 🔥</a>
+            PROMOÇÃO ACABARÁ DIA 04/12/22 ÁS 23:59H <a href="#cta-black"> 20% off 🔥</a>
           </div>
           <MenuSales />
 
