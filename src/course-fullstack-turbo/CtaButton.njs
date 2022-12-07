@@ -11,11 +11,11 @@ export default function CtaButton() {
        
             <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto m-auto">
                 <div class="relative flex flex-col h-full p-8">
-                    <h2 class="flex items-end mx-auto text-2xl font-black leading-none text-white mb-2">
-                        <span>R$349,00 á vista ou </span>
+                    <h2 class="flex items-end mx-auto text-4xl font-black leading-none text-white mb-2">
+                        <span>12x de R$34,83</span>
                     </h2>
-                    <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
-                        <span>12x de R$34,83 </span>
+                    <h1 class="flex items-end mx-auto text-1xl font-black leading-none text-white ">
+                        <span>Ou à vista R$349,00</span>
                     </h1>
                     <figure>
                         <img class="m-auto" src="/formas-de-pagamentos.png" />
