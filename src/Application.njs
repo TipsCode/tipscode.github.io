@@ -12,6 +12,7 @@ import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
 import MiniCourseThankPage from './delivery-mini-course/MiniCourseThankPage';
 import MiniCourseClasses from './delivery-mini-course/MiniCourseClasses';
+import PageVideoDepo from './delivery-mini-course/PageVideoDepo';
 
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
@@ -92,10 +93,12 @@ class Application extends Nullstack {
         <MiniCourse route="/mini-curso-gratuito" />
         <MiniCourseThankPage route="/obrigado-por-entrar-no-mini-curso" />
         <MiniCourseClasses route="/aulas-do-mini-curso" />
+        <PageVideoDepo route="/entrevista-com-aluno" />
         <Article route="/:slug" />
 
         <span href="/obrigado-por-entrar-no-mini-curso"> </span>
         <span href="/aulas-do-mini-curso"> </span>
+        <span href="/entrevista-com-aluno"> </span>
 
 
       </main>
