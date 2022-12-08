@@ -22,12 +22,10 @@ class StepByStep extends Nullstack {
             </div>
 
             <div class="mx-auto mt-10 text-center">
-
-                <a class="md:px-60 md:text-2xl mx-auto w-80 text-center mt-3 lg:w-9/12 cta-hero  text-white font-bold rounded-md md:my-6 py-2 md:py-4 
-                    px-2 md:px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" 
-                    href="https://pay.hotmart.com/A43229044U?off=vcc2d8rx&checkoutMode=10">
-                    ENTRAR NO CURSO FULL STACK TURBO
-                </a>
+              <a href="https://pay.hotmart.com/A43229044U?off=vcc2d8rx&checkoutMode=10"
+                      class="text-center cta-hero md:text-2xl font-bold w-full px-4 py-2 mx-auto mt-3 text-green-100 transition duration-500 ease-in-out transform bg-green-600 border-green-600 rounded-md items-centerw-full text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-green-600">
+                      ENTRAR NO CURSO FULL STACK TURBO
+              </a>
             </div>
         </section>
       </>

@@ -49,6 +49,9 @@
 .cta-hero {
   background-color: #FAFF00;
   color: #0F0F0F;
+  padding: 1%;
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
 @media (max-width: 600px){
@@ -67,5 +70,12 @@
     width: 90%;
     padding-bottom: 56.25%;
     margin: auto;
+  }
+}
+
+@media (max-width: 390px){
+  .cta-hero {
+    padding: 1%;
+
   }
 }
