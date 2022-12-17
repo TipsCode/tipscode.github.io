@@ -14,7 +14,7 @@ class Hero extends Nullstack {
         
           <div class="md:flex md:justify-around text-center fixed z-50 w-full bg-text text-black span-text p-5">
             <div class="p-3 md:text-1xl">
-              COMECE UMA MUDANÇA PROFISSIONAL AGORA NA SUA VIDA  🚀
+              COMECE UMA MUDANÇA PROFISSIONAL NA SUA VIDA  🚀
             </div>
             <div class="flex cta-hero justify-center text-center cursor-pointer p-3 md:text-1xl font-bold text-green-100 transition duration-500 ease-in-out transform bg-green-600 border-green-600 rounded-md items-center text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-green-600">
               <a href="https://pay.hotmart.com/A43229044U?off=vcc2d8rx&checkoutMode=10">
@@ -39,8 +39,9 @@ class Hero extends Nullstack {
 
                       <h2 class="leading-normal sm:text-lg text-2xl md:text-3xl mb-8">
                      
-                      <span class="span-text">Descubra como aprender programação do zero</span> de forma consistente usando uma metodologia 
-                        de ensino voltada para o mercado de trabalho.
+                      <span class="span-text">Saiba como pessoas comuns estão </span> aprendendo programação do zero e 
+                        de forma consistente, usando uma metodologia de ensino totalmente validada e voltada para o mercado
+                        de trabalho.
                       </h2>
                         <h3 class="leading-normal sm:text-lg text-1xl md:text-2xl mb-8">
                         Assista o vídeo para descobrir os <span class="span-text">3 pilares da metodologia step by steb que vão</span> mudar a 
