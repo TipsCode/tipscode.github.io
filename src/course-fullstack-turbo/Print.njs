@@ -18,7 +18,7 @@ class Print extends Nullstack {
             </div>
 
             <div class="lg:grid lg:grid-cols-4 lg:gap-x-2">
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/01-testmonial.png" />
+                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/10-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/02-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/03-testmonial.png" />
 
@@ -29,6 +29,11 @@ class Print extends Nullstack {
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/07-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/08-testmonial.png" />
 
+                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/01-testmonial.png" />
+                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/11-testmonial.png" />
+
+                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/12-testmonial.png" />
+                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/13-testmonial.png" />
             </div>
         </div>
     );
