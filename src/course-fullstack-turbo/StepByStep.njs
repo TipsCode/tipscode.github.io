@@ -15,7 +15,7 @@ class StepByStep extends Nullstack {
                             O método step by step é composto por <span class="span-text">5 fases chamadas de STEP</span> e em cada
                             step você terá 45 dias de estudos dedicando de 30 a 60min por dia 
                             usando a <span class="span-text">técnica de pomodoro para melhorar</span> sua eficiencia no estudo.
-                            Todos os demais detalhes de como usar o método estão em uma aula bem detalhada no curso.
+                            Todos os demais detalhes de como usar o método estão em uma aula bem detalhada.
                         </p>
                     </figcaption>
                 </figure>
