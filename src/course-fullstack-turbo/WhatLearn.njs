@@ -17,9 +17,9 @@ class WhatLearn extends Nullstack {
             <CardWhatLearn
               nameClass="flex flex-wrap"
               contentH5="WEB DESIGN"
-              contentH3="Do início. Vamos do básico ao avançado"
+              contentH3="HTML5, CSS3 e JavaScript"
               contentP="Nos primeiros módulos você vai entender os conceitos por trás da construção de sites na web, 
-              aprenderá a estruturar as páginas com HTML5, estilizações com CSS3 e Bootstrap 4.6 e as manipulações de DOM com 
+              aprenderá a estruturar as páginas com HTML5, estilizações com CSS3 e Bootstrap e as manipulações de DOM com 
               JavaScript e Jquery."
               nameSrc="/sales-page-img/card-what-learn/Web-design-image.webp"
               nameAlt="Web Desing"
@@ -29,7 +29,7 @@ class WhatLearn extends Nullstack {
             <CardWhatLearn
               nameClass="flex flex-wrap flex-col-reverse sm:flex-row"
               contentH5="FRON-END"
-              contentH3="Aprenda a criar aplicações dinâmicas com as melhores tecnologias do mercardo"
+              contentH3="ReactJS, Bootstrap, Jquery"
               contentP="Você aprenderá na prática a construir aplicações altamente dinâmicas usando a biblioteca React em 
               conjunto com outras ferramentas como: Hooks, Webpack e Gulp. Evite repetição de código e melhore a manutenção,
                possibilitando um código limpo e autossustentável, com boas práticas do mercado."
@@ -41,7 +41,7 @@ class WhatLearn extends Nullstack {
             <CardWhatLearn
               nameClass="flex flex-wrap"
               contentH5="BACK-END"
-              contentH3="Você vai criar APIS, poderosas e integrar com qualquer aplicação seja ela front-end ou não"
+              contentH3="NodeJs, ExpressJS, EJS e API"
               contentP="Nesses módulos vamos aprender o que é, e os conceitos por 
               trás do desenvolvimento web usando a plataforma NodeJS que nos posibilita 
               escrever códigos JS no lado do servidor, assim como também trabalharemos 
@@ -56,7 +56,7 @@ class WhatLearn extends Nullstack {
             <CardWhatLearn
               nameClass="flex flex-wrap flex-col-reverse sm:flex-row"
               contentH5="Bancos de Dados"
-              contentH3="Tudo que você precisa saber sobre banco de dados SQL e NoSQL"
+              contentH3="SQL, MongoDb e Mongosse"
               contentP="Nesses módulos vamos estudar de forma bem detalhada os conceitos e práticas
               dos bancos de dados tradicionais no caso o SQL, mas também as novas abordagens de banco
               como o NoSQL, então você terá uma visão bem detalhada e ampla das duas formas de se modelar
@@ -68,8 +68,8 @@ class WhatLearn extends Nullstack {
 
             <CardWhatLearn
               nameClass="flex flex-wrap"
-              contentH5="TERMINAL LINUX, GIT E GITBUB"
-              contentH3="Ferramentas essenciais para qualquer dev"
+              contentH5="FERRAMENTAS DEVSFerramentas devs"
+              contentH3="Terminal Linux, Git, GitHub"
               contentP="Nessa parte do curso iremos estudar ferramentas para você se tornar um full stack
               que são de extrema importância, como o terminal, Git e GitHub entre outras, então realmente
               você sairár do curso extremamente preparado para o mercado de trabalho."

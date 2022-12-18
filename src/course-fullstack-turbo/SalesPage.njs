@@ -42,10 +42,10 @@ class SalesPage extends Nullstack {
         <WhatLearn />
         <Argumentation />
         <StepByStep />
-        <Testimonials />
-        <Workshop />
         <MoreDetails />
+        <Workshop />
         <CallToAction />
+        <Testimonials />
         <Teacher />
         <Faq />
         <Footer
