@@ -68,7 +68,7 @@ class WhatLearn extends Nullstack {
 
             <CardWhatLearn
               nameClass="flex flex-wrap"
-              contentH5="FERRAMENTAS DEVSFerramentas devs"
+              contentH5="FERRAMENTAS DEVS"
               contentH3="Terminal Linux, Git, GitHub"
               contentP="Nessa parte do curso iremos estudar ferramentas para você se tornar um full stack
               que são de extrema importância, como o terminal, Git e GitHub entre outras, então realmente
