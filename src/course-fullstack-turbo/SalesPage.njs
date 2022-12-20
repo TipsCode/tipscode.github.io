@@ -18,6 +18,7 @@ import Print from './Print';
 import Warranty from './Warranty';
 import Argumentation from './Argumentation';
 import StepByStep from './StepByStep';
+import CoursePlatform from './CoursePlatform';
 
 class SalesPage extends Nullstack {
 
@@ -33,7 +34,7 @@ class SalesPage extends Nullstack {
   render({ router }) {
     
     return (
-      <div class="bg-tips-dark"> 
+      <div class="bg-tips-dark overflow-hidden"> 
         <Hero />
         <Warranty />
         <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
@@ -42,6 +43,7 @@ class SalesPage extends Nullstack {
         <WhatLearn />
         <Argumentation />
         <StepByStep />
+        <CoursePlatform />
         <MoreDetails />
         <Workshop />
         <CallToAction />

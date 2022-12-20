@@ -4,7 +4,7 @@ export default function Testmonials() {
   return (
     <>
       <div class="container mx-auto">
-        <h2 class="font-bold my-16 text-2xl md:text-3xl text-center text-white md:w-5/6 mx-auto">Veja alguns resultados dos alunos</h2>
+        <h2 class="w-full text-3xl md:text-4xl font-bold leading-tight text-center text-white mb-5">Veja alguns resultados dos alunos</h2>
         <div class="flex items-center justify-center mx-3">
 
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-center">
