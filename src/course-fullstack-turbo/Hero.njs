@@ -17,7 +17,7 @@ class Hero extends Nullstack {
               COMECE UMA MUDANÇA PROFISSIONAL NA SUA VIDA  🚀
             </div>
             <div class="flex cta-hero justify-center text-center cursor-pointer p-3 md:text-1xl font-bold text-green-100 transition duration-500 ease-in-out transform bg-green-600 border-green-600 rounded-md items-center text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-green-600">
-              <a href="https://pay.hotmart.com/A43229044U?off=vcc2d8rx&checkoutMode=10">
+              <a href="https://pay.hotmart.com/A43229044U?off=y5gucwc5&checkoutMode=10">
 
               QUERO ESTÁ OFERTA AGORA 
               </a>
