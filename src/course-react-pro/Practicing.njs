@@ -50,15 +50,6 @@ class Practicing extends Nullstack {
 
             </div>
 
-            <div class="flex flex-col lg:flex-row justify-center pt-12 my-4 relative">
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Facebook" contentDiv="Clone do Facebook" contentP="Neste projeto vamos replicar toda a parte visual e funcional da maior rede social do mundo, o Facebook." />
-
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Netflix" contentDiv="Clone do Netflix" contentP="Vamos criar uma aplicação com base no layout da Netflix, você vai aprender muita coisa interessante, como por exemplo consumir dados de uma API externa." />
-
-              <CardMoreDetails src="/sales-page-img/sales-react/icon-cubo.svg" alt="Clone do Netflix" contentDiv="Portfolio" contentP="Criar um portfólio é de extrema importância, por isso iremos desenvolver um passo a passo para você ter o seu cartão de visita." />
-
-            </div>
-
           </div>
         </section>
       </div>

@@ -28,7 +28,7 @@ function DivBox({ children, nameTitle }) {
             <div class="mt-10 sm:mt-none order-2 sm:order-1 md:w-1/5">
               <ul>
                 <DivBox nameTitle="JavaScript">No módulo Javascript você vai aprender os fundamentos de funções, maps, paramentros, callback, argumentos e muito mais. Neste passo, estaremos lhe preparando para o mundo React.</DivBox>
-                <DivBox nameTitle="React.JS">Nos módulos de React aprofundaremos no funcionamento e avançaremos para o JSX, Bable, Template String, Componentes, Props, Hooks, States e muito mais.</DivBox> 
+                <DivBox nameTitle="React.JS 1">Nos módulos de React aprofundaremos no funcionamento e avançaremos para o JSX, Bable, Template String, Componentes, Props, Hooks, States e muito mais.</DivBox> 
               </ul>
             </div>
   
@@ -38,13 +38,16 @@ function DivBox({ children, nameTitle }) {
   
             <div class="sm:mt-10 sm:mt-none order-3 md:w-1/5">
               <ul>
-                <DivBox nameTitle="Next.JS">Você aprenderá todos os conceitos na prática do Nextjs que hoje
-                    é um dos maiores framework de desenvolvimento web, com Nextjs você vai
-                    acelerar a implantação da sua aplicação no servidor.
+                <DivBox nameTitle="ReactJS 2">Você vera Módulo 2 você vai aprender
+                o que é ReactJS, introdução ao JSX e Babel 
+                usando téoria e prática, expressões JSX, aplicar
+                folhas de estilos CSS com React, Atributos, CSS inline,
+                Components React.
                 </DivBox>
-                <DivBox nameTitle="TypeScript">Você vai aprender um novo jeito de escrever Javascript, tornando 
-                    a linguagem com tipagem forte, assim os dados da aplicação ficarão
-                    mais seguros.
+                <DivBox nameTitle="ReactJS 3, 4">Continuação do projeto Keep, Manipulações com formulários, <br />f
+            renderização com operador ternário AND, Status, Hooks, 
+            Destructuring com ReactJS, Manipulações de eventos, classes Vs Hooks
+            e muito mais..
                 </DivBox> 
               </ul>
             </div>

@@ -38,9 +38,9 @@ class CallToAction extends Nullstack {
                       <img class="m-auto" src="/formas-de-pagamentos.png" />
                   </figure>
               </div>
-              <h3 class="mx-auto text-1xl leading-none text-white">
+              <h3 class="mx-auto text-center text-1xl leading-none text-white">
                 Em caso de dúvidas entre em contato lá pelo instagram
-                <span class="span-text"> @tipscodeoficial</span> ou pelo e-mail: suporte@tipscode.com.br 
+                <span class="span-text"> <a href="https://www.instagram.com/tipscodeoficial/" target="_blank">@tipscodeoficial</a> </span> ou pelo e-mail: suporte@tipscode.com.br 
                 </h3>
           </div>
       </section>

@@ -28,7 +28,6 @@ class SalesPageReactPro extends Nullstack {
     return (
       <div class="bg-zing">
         <Hero />
-        <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20reactJS%20pro" />
         <Categories />
         <DetailsCard />
         <Journey />
@@ -38,7 +37,6 @@ class SalesPageReactPro extends Nullstack {
         <CallToActtion />
         <Faq classe="big-zing" />
         <CourseDetails />
-        <Contact numWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20reactJS%20pro" />
         <Footer
           class={
            {

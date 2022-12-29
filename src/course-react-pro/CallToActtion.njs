@@ -17,12 +17,12 @@ pra tu aprender a biblioteca mais usada do mercado web, papai!!</p>
         <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto m-auto">
             <div class="relative flex flex-col h-full p-8">
                 <h2 class="flex items-end mx-auto text-2xl font-black leading-none text-white mb-2">
-                    <span>R$109,00 á vista ou </span>
+                    <span>R$107,00 á vista ou </span>
                 </h2>
                 <h1 class="flex items-end mx-auto text-3xl font-black leading-none text-white ">
-                    <span>12x de R$10,88 </span>
+                    <span>12x de R$10,68</span>
                 </h1>
-                <a href="https://pay.hotmart.com/F68520890I?off=sghzc2e9&checkoutMode=10"
+                <a href="https://pay.hotmart.com/F68520890I?off=hazld3th&checkoutMode=10"
                     class="text-center w-full px-4 py-2 mx-auto mt-3 text-blue-100 transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800">
                     Fazer Inscrição agora
                 </a>

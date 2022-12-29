@@ -8,6 +8,7 @@ import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
 import SalesPage from './course-fullstack-turbo/SalesPage';
+import SalesPageReactPro from './course-react-pro/SalesPageReactPro';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
 import MiniCourseThankPage from './delivery-mini-course/MiniCourseThankPage';
@@ -89,6 +90,7 @@ class Application extends Nullstack {
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
         <SalesPage route="/curso-fullstack-turbo" />
+        <SalesPageReactPro route="/curso-reactjs-pro" />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
         <MiniCourseThankPage route="/obrigado-por-entrar-no-mini-curso" />
@@ -96,6 +98,7 @@ class Application extends Nullstack {
         <PageVideoDepo route="/entrevista-com-aluno" />
         <Article route="/:slug" />
 
+        <span href="/curso-reactjs-pro"> </span>
         <span href="/obrigado-por-entrar-no-mini-curso"> </span>
         <span href="/aulas-do-mini-curso"> </span>
         <span href="/entrevista-com-aluno"> </span>

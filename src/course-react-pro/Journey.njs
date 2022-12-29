@@ -32,10 +32,25 @@ return (
         <div>
             <BoxJourney nameTitle="Revisão JavaScript">Nesse módulo vamos revisar todos os conceitos importantes de Javascript
             <br /> que você precisa saber antes de comçar no React.</BoxJourney>
-            <BoxJourney nameTitle="React JS">Agora sim, depois de dominar o  conceito em JS puro vamos partir pro
-            <br /> React. Básico >> Intermediário >> Avançado.</BoxJourney>
-            <BoxJourney nameTitle="Next JS">Já que o Hype se tornou realidade e grandes empresas adotaram,
-            <br /> nesse módulo você vai aprender Next.js para não ficar para trás. <br />Domine Front-end e Back-end com esse Framework.</BoxJourney>
+            <BoxJourney nameTitle="Módulo 2 React JS">Agora sim, depois de dominar o  conceito em JS puro vamos partir pro
+                            <br /> Onde você vera Módulo 2 você vai aprender
+                o que é ReactJS, introdução  <br /> ao JSX e Babel 
+                usando téoria e prática, expressões JSX, aplicar
+                folhas <br />de estilos CSS com React, Atributos, CSS inline,
+                Components React.
+            </BoxJourney>
+
+            <BoxJourney nameTitle="Módulo 3 ReactJS">
+            Import e Exports JS, preparando ambiente React, Props, React DevTools,
+                <br /> mapeamento de components, projetos keep    
+            </BoxJourney>
+
+            <BoxJourney nameTitle="Módulo 4 ReactJS">
+            Continuação do projeto Keep, Manipulações com formulários, <br />f
+            renderização com operador ternário <br />AND, Status, Hooks, 
+            Destructuring com ReactJS, <br /> Manipulações de eventos, classes Vs Hooks
+            e muito mais..
+            </BoxJourney>
         </div>
 
     </div>
