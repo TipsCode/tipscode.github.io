@@ -5,8 +5,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "npx nullstack start",
-    "build": "npx nullstack build --mode=ssg --output=docs",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && npx nullstack start",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && npx nullstack build --mode=ssg --output=docs",
     "tailwind": "npx tailwindcss-cli build -o src/tailwind.css"
   },
   "dependencies": {

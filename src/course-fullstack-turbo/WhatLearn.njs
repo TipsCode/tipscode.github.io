@@ -1,6 +1,6 @@
 import Nullstack from 'nullstack';
-
 import CardWhatLearn from './CardWhatLearn';
+import CtaButton from './CtaButton';
 
 class WhatLearn extends Nullstack {
 
@@ -79,6 +79,7 @@ class WhatLearn extends Nullstack {
             />
 
           </div>
+          <CtaButton />
         </section>
       </>
     );

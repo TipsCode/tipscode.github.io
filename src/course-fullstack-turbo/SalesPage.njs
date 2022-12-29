@@ -34,10 +34,9 @@ class SalesPage extends Nullstack {
   render({ router }) {
     
     return (
-      <div class="bg-tips-dark overflow-hidden"> 
+      <div class="bg-tips-dark"> 
         <Hero />
         <Warranty />
-        <Whatsapp linkWhats="https://wa.me/5588997623061?text=Tenho%20duvida%20sobre%20o%20curso%20fullstack%20turbo" />
         <Print />
         <Projects />
         <WhatLearn />

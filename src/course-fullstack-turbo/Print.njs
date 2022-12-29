@@ -1,5 +1,5 @@
 import Nullstack from 'nullstack';
-
+import CtaButton from './CtaButton';
 class Print extends Nullstack {
 
   renderPrintTestmonial({srcPrint}) {
@@ -35,6 +35,7 @@ class Print extends Nullstack {
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/12-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/13-testmonial.png" />
             </div>
+            <CtaButton />
         </div>
     );
   }

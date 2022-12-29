@@ -1,7 +1,7 @@
 import Nullstack from 'nullstack';
 
 import CardProject from './CardProject';
-
+import CtaButton from './CtaButton';
 
 class Projects extends Nullstack {
 
@@ -43,6 +43,7 @@ class Projects extends Nullstack {
               <CardProject src="/sales-page-img/projects/projeto-blog.png" alt="Blog de Conteúdo" contentP="Blog de Conteúdo" />
             </div>
           </div>
+          <CtaButton />
         </div>
       </>
     );
