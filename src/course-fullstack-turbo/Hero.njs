@@ -41,7 +41,7 @@ class Hero extends Nullstack {
 
                 <div class="flex-col justify-center sm:flex sm:items-center sm:w-full sm:mx-auto">
                       <div class="embed-full">
-                        <iframe src="https://www.youtube.com/embed/GZkIty_se6s" />
+                        <iframe src="https://www.youtube.com/embed/UGcslxwqn4Y" />
                       </div>
                 </div>
 
