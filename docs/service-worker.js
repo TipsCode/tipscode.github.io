@@ -5,7 +5,7 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "fba03cce117ad7f80b2a75e8f509a8a12d291c4c"
+    "key": "2888fbeda7229ecb9c66d3b37f8671275e2844bf"
   },
   "project": {
     "domain": "tipscode.com.br",
