@@ -23,7 +23,20 @@ class Print extends Nullstack {
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/03-testmonial.png" />
 
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/04-testmonial.png" />
-                <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/05-testmonial.png" />
+    
+            </div>
+            <CtaButton />
+        </div>
+    );
+  }
+
+}
+
+export default Print;
+
+
+/**
+ *   <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/05-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/06-testmonial.png" />
 
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/07-testmonial.png" />
@@ -34,12 +47,4 @@ class Print extends Nullstack {
 
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/12-testmonial.png" />
                 <PrintTestmonial srcPrint="/sales-page-img/testmonials-print/13-testmonial.png" />
-            </div>
-            <CtaButton />
-        </div>
-    );
-  }
-
-}
-
-export default Print;
+ */

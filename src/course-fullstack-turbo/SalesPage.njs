@@ -34,7 +34,7 @@ class SalesPage extends Nullstack {
   render({ router }) {
     
     return (
-      <div class="bg-tips-dark"> 
+      <div class="bg-black" style="background-colo: '#040404';"> 
         <Hero />
         <Warranty />
         <Print />

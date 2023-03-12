@@ -29,8 +29,7 @@ class Hero extends Nullstack {
                       </h2>
                         <h3 class="leading-normal sm:text-lg text-1xl md:text-2xl mb-8">
                         Assista o vídeo para descobrir os <span class="span-text">3 pilares da metodologia step by steb que vão</span> mudar a 
-                        forma como você aprende a programar. Estudos comprovam que até 2025 o Brasil estará precisando 
-                        de mais de 789 mil profissionais da tecnologia e não faz sentido você perder essa oportunidade.
+                        forma como você aprende a programar.
                         </h3> 
                 
                   </div>
@@ -52,6 +51,10 @@ class Hero extends Nullstack {
           </div>
           
           <CtaButton />
+
+          <figure>
+                      <img class="m-auto" src="/formas-de-pagamentos.png" />
+          </figure>
           
         </section>
       </>

@@ -7,13 +7,12 @@ class StepByStep extends Nullstack {
       <>
         <section class="container md:w-2/4 md:m-auto md:mt-10 mb-10 md:mb-10">
             <div class="w-11/12 mx-auto">
-                <h2 class="text-2xl text-center mb-5 md:text-4xl font-bold text-white">Método Step By Step</h2>
                 <figure>
-                    <img src="/sales-page-img/method-step-by-step.png" alt="Imagem do método step by step" />
+                    <img src="/sales-page-img/metodo-step-by-step.png" alt="Imagem do método step by step" />
                     <figcaption>
                         <p class="text-1xl md:text-2xl text-center text-white">
-                            O método step by step é composto por <span class="span-text">5 fases chamadas de STEP</span> e em cada
-                            step você terá 45 dias de estudos dedicando de 30 a 60min por dia 
+                            O método step by step é composto por <span class="span-text">7 fases chamadas de STEP</span> e em cada
+                            step você terá 25 dias de estudos dedicando de 30 a 60min por dia 
                             usando a <span class="span-text">técnica de pomodoro para melhorar</span> sua eficiencia no estudo.
                             Todos os demais detalhes de como usar o método estão em uma aula bem detalhada.
                         </p>
