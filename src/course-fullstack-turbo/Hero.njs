@@ -53,7 +53,7 @@ class Hero extends Nullstack {
           <CtaButton />
 
           <figure>
-                      <img class="m-auto" src="/formas-de-pagamentos.png" />
+              <img class="m-auto" src="/formas-de-pagamentos.png" />
           </figure>
           
         </section>

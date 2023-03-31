@@ -45,7 +45,17 @@ class SalesPage extends Nullstack {
         <CoursePlatform />
         <MoreDetails />
         <Workshop />
-        <CallToAction />
+
+        {
+            router.url.endsWith('/curso-fullstack-turbo') ? <CallToAction urlCta="https://pay.hotmart.com/A43229044U?checkoutMode=10"/> : null 
+
+        }
+
+        {
+            router.url.endsWith('/curso-full-stack-turbo') ? <CallToAction urlCta="https://pay.kiwify.com.br/g9np8fQ"/> : null
+        }
+
+        
         <Testimonials />
         <Teacher />
         <Faq />

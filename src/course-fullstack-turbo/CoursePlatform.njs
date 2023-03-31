@@ -12,7 +12,7 @@ class CoursePlatform extends Nullstack {
           </h1>
 
         <figure>
-        <img src="/sales-page-img/plataforma-do-curso-full-stack-turbo.gif" alt="Imagem da platarforma do curso full stack turbo" />
+        <img src="/sales-page-img/plataforma-do-curso-full-stack-turbo.gif" class="m-auto" alt="Imagem da platarforma do curso full stack turbo" />
         </figure>
           
 
