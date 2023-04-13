@@ -90,7 +90,6 @@ class Application extends Nullstack {
         <Articles route="/artigos" />
         <Articles route="/artigos/:page" />
         <SalesPage route="/curso-fullstack-turbo" />
-        <SalesPage route="/curso-full-stack-turbo" />
         <SalesPageReactPro route="/curso-react-pro" />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
@@ -103,9 +102,7 @@ class Application extends Nullstack {
         <span href="/obrigado-por-entrar-no-mini-curso"> </span>
         <span href="/aulas-do-mini-curso"> </span>
         <span href="/entrevista-com-aluno"> </span>
-        <span href="/curso-full-stack-turbo"></span>
-
-
+  
       </main>
     );
   }
