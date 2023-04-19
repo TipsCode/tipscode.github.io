@@ -25,7 +25,7 @@ function VideoImage() {
 function Link({ children, href }) {
   return (
     <li class="mt-9 py-3 px-16 shadow-lg rounded-md bg-gray-50 font-semibold focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out text-center">
-      <a href={href} target="_blank" class="button-color text-tips-gray-dark text-opacity-80">
+      <a href={href} target="_blank" class="button-color text-tips-gray-dark text-opacity-80" rel="noreferrer">
         {children}
       </a>
     </li>

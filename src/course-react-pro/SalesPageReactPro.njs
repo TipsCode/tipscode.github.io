@@ -7,10 +7,8 @@ import Bonus from './Bonus';
 import CallToActtion from './CallToActtion';
 import Faq from '../course-fullstack-turbo/Faq';
 import Footer from '../layout/Footer';
-import Contact from '../layout/Contact';
 import Testimonials from './Testimonials';
 import CourseDetails from './CourseDetails';
-import Whatsapp from '../layout/Whatsapp';
 import DetailsCard from './DetailsCard';
 import './hero.css';
 
@@ -20,11 +18,10 @@ class SalesPageReactPro extends Nullstack {
     page.title = `${project.name} - Curso React.JS PRO`;
     page.description = `${project.name} Torne-se um profissional em ReactJS`;
     page.locale = 'pt-BR';
-    page.image = '/image-1200x630.png'
+    page.image = '/image-1200x630.png';
   }
 
-
-  render({ router }) {
+  render() {
     return (
       <div class="bg-zing">
         <Hero />

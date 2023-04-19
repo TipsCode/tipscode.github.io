@@ -3,8 +3,6 @@ import ArticleGrid from '../layout/ArticleGrid';
 import Menu from '../layout/Menu';
 import Promotion from '../layout/Promotion';
 import Footer from '../layout/Footer';
-
-
 import LeadForm from '../layout/LeadForm';
 
 const leadlover = {
@@ -13,7 +11,6 @@ const leadlover = {
   pid: '19083046',
   list: '559236',
 };
-
 
 const ARTICLES_PER_PAGE = 20;
 class Articles extends Nullstack {

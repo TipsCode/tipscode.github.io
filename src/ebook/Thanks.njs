@@ -1,4 +1,5 @@
 import Footer from '../layout/Footer';
+
 export default function Thanks() {
   return (
     <>
@@ -19,10 +20,13 @@ export default function Thanks() {
             <a href="/curso-fullstack-turbo" class="py-2 px-6 mt-2 font-semibold focus:outline-none bg-isca-red text-white rounded-md shadow-md w-full md:w-2/6">Conhecer Treinamento</a>
           </div>
 
-        <Footer class={ {
+          <Footer
+            class={{
               footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-dark',
               p: 'text-center sm:text-center w-full',
-          } } src="./TipsCodelogo.png" />
+            }}
+            src="./TipsCodelogo.png"
+          />
         </div>
       </div>
     </>
