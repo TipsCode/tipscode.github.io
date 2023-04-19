@@ -1,9 +1,6 @@
+import '../tailwind.css';
 import './Application.scss';
 import Nullstack from 'nullstack';
-import { readdirSync, readFileSync } from 'fs';
-import prismjs from 'prismjs';
-import { Remarkable } from 'remarkable';
-import meta from 'remarkable-meta';
 import Home from './home/Home';
 import Articles from './articles/Articles';
 import Article from './article/Article';
@@ -14,45 +11,10 @@ import MiniCourse from './mini-course/MiniCourse';
 import MiniCourseThankPage from './delivery-mini-course/MiniCourseThankPage';
 import MiniCourseClasses from './delivery-mini-course/MiniCourseClasses';
 import PageVideoDepo from './delivery-mini-course/PageVideoDepo';
-
 import GoogleAnalytics from './layout/GoogleAnalytics';
 import FacebookPixel from './layout/FacebookPixel';
 
-import FacePixelFullStack from './course-fullstack-turbo/FacePixelFullStack';
-import FacePixelReact from './course-react-pro/FacePixelReact';
-
 class Application extends Nullstack {
-
-  static async start(context) {
-    await import('prismjs/components/prism-jsx.min');
-    const articles = readdirSync('articles');
-    const md = new Remarkable({
-      // eslint-disable-next-line no-undef
-      highlight: (code) => Prism.highlight(code, prismjs.languages.jsx, 'javascript'),
-    });
-    md.use(meta);
-    md.use((md) => {
-      const originalRender = md.renderer.rules.link_open;
-      md.renderer.rules.link_open = (...args) => {
-        let result = originalRender(...args);
-        const regexp = /href="([^"]*)"/;
-        const href = regexp.exec(result)[1];
-        if (!href.startsWith('/')) {
-          result = result.replace('>', ' target="_blank" rel="noopener">');
-        }
-        return result;
-      };
-    });
-    context.articles = articles.map((name) => {
-      const markdown = readFileSync(`articles/${name}`, 'utf-8');
-      const [slug] = name.split('.');
-      const content = md.render(markdown);
-      const { date: dateString, ...meta } = md.meta;
-      const date = new Date(dateString);
-      const readingTime = ~~(content.split(' ').length / 200);
-      return { slug, content, date, readingTime, ...meta };
-    }).sort((a, b) => b.date - a.date);
-  }
 
   prepare({ page }) {
     page.locale = 'pt-BR';
@@ -70,21 +32,24 @@ class Application extends Nullstack {
     );
   }
 
-  render({router}) {
+  renderTrackers() {
+    return (
+      <>
+        <FacebookPixel id="294337825339805" />
+        <GoogleAnalytics id="UA-120538403-3" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7630588299359214"
+          crossorigin="anonymous"
+        />
+      </>
+    );
+  }
+
+  render() {
     return (
       <main class="bg-tips-light">
-        <div>
-          {
-            router.url.endsWith('/curso-fullstack-turbo') ? <FacePixelFullStack id="294337825339805" /> : <FacebookPixel id="294337825339805" />
-          }
-
-          {
-            router.url.endsWith('/curso-react-pro') ? <FacePixelReact id="729313284878557" /> : <FacebookPixel id="294337825339805" />
-          }
-          <GoogleAnalytics id="AW-641358523" />
-          <GoogleAnalytics id="UA-120538403-3" />
-        </div>
-
+        <Trackers />
         <Head />
         <Home route="/" />
         <Articles route="/artigos" />
@@ -97,12 +62,10 @@ class Application extends Nullstack {
         <MiniCourseClasses route="/aulas-do-mini-curso" />
         <PageVideoDepo route="/entrevista-com-aluno" />
         <Article route="/:slug" />
-
-        <span href="/curso-react-pro"> </span>
-        <span href="/obrigado-por-entrar-no-mini-curso"> </span>
-        <span href="/aulas-do-mini-curso"> </span>
-        <span href="/entrevista-com-aluno"> </span>
-  
+        <span href="/curso-react-pro" />
+        <span href="/obrigado-por-entrar-no-mini-curso" />
+        <span href="/aulas-do-mini-curso" />
+        <span href="/entrevista-com-aluno" />
       </main>
     );
   }

@@ -1,5 +1,10 @@
 module.exports = {
-  purge: ['./src/**/*.njs'],
+  content: [
+    './src/**/*.njs',
+    './src/**/*.jsx',
+    './src/**/*.nts',
+    './src/**/*.tsx',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
@@ -19,7 +24,7 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins'],
       },
-      typography: (theme) => ({
+      typography: () => ({
         DEFAULT: {
           css: {
             code: { color: '#ddbc72' },
