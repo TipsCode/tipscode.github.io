@@ -9,7 +9,6 @@ const leadlover = {
   list: '447468',
 };
 
-
 class Header extends Nullstack {
 
 

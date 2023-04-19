@@ -1,4 +1,4 @@
-export default function cardBonus({ class: classes, contentSpan, src, alt, contentH3, contentP }) {
+export default function CardBonus({ class: classes, contentSpan, src, alt, contentH3, contentP }) {
   return (
     <div class={classes.div}>
       <span class={classes.span}>{contentSpan}</span>

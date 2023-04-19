@@ -16,7 +16,9 @@ class StudentTestimonial extends Nullstack {
           class="w-full cursor-pointer"
           src={nameSrc}
           alt={nameAlt}
-          loading="lazy" width="320" height="222" 
+          loading="lazy"
+          width="320"
+          height="222"
         />
 
         <div class="px-6 py-6  bg-tips-blue">

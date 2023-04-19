@@ -27,8 +27,8 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/Coding_Monochromatic.webp"
                 contentH3="Engenharia de software"
                 alt="Engenharia de software"
-                contentP="Engenharia de software é uma área da engenharia e da computação voltada à especificação, 
-                desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de 
+                contentP="Engenharia de software é uma área da engenharia e da computação voltada à especificação,
+                desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de
                 gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade."
               />
 
@@ -63,8 +63,8 @@ class Bonus extends Nullstack {
                 alt="Estrutura de dados"
                 contentH3="Estrutura de dados"
                 contentP="Nesse bônus vamos muito além na linguagem JavaScript, aqui estaremos nos tornando realmente
-                especialista em JaVaScript, onde iremos estudar estrutura de dados, que é uma ciência da computação, é 
-                uma coleção tanto de valores quanto de operações. É uma implementação concreta de um tipo abstrato 
+                especialista em JaVaScript, onde iremos estudar estrutura de dados, que é uma ciência da computação, é
+                uma coleção tanto de valores quanto de operações. É uma implementação concreta de um tipo abstrato
                 de dado ou um tipo de dado básico ou primitivo."
               />
 
@@ -113,8 +113,8 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/web-dev.webp"
                 alt="HTML5 e CSS3 Avançado"
                 contentH3="HTML5 e CSS3 Avançado"
-                contentP="Eu poderia separar este módulo em um novo curso e vender facilmente por mais de R$ 356,00 reais, 
-                mas eu decidi entregar tudo aqui. Você vai aprender construir layouts bonitos, responsivos e que chamam a 
+                contentP="Eu poderia separar este módulo em um novo curso e vender facilmente por mais de R$ 356,00 reais,
+                mas eu decidi entregar tudo aqui. Você vai aprender construir layouts bonitos, responsivos e que chamam a
                 atenção com HTML5 e CSS3."
               />
 
@@ -133,8 +133,8 @@ class Bonus extends Nullstack {
                 src="/sales-page-img/bonus-img/conversation.webp"
                 alt="Entrevistas com Devs"
                 contentH3="Entrevistas com Devs"
-                contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores de diversas áreas, 
-                para que você veja grandes histórias e possa aprender muito com elas, e não vamos se limitar a pessoas 
+                contentP="Esse é sem dúvidas um bônus incrível, onde vou está entrevistando programadores de diversas áreas,
+                para que você veja grandes histórias e possa aprender muito com elas, e não vamos se limitar a pessoas
                 apenas da nossa área, faremos entrevistas também com pessoas de outras áreas pra gente ter uma visão horizontal da tecnologia."
               />
 
@@ -146,13 +146,13 @@ class Bonus extends Nullstack {
                     Não perca  mais tempo
                   </h3>
                   <p class="text-gray-200 mb-6 text-xl tracking-wide">
-                  Seja desejado pelas grandes empresas, chegou o momento de subir para o próximo nível.
+                    Seja desejado pelas grandes empresas, chegou o momento de subir para o próximo nível.
 
                   </p>
                   <a
                     href="https://pay.hotmart.com/A43229044U?off=ti4be3ou&checkoutMode=10"
-                    class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3 
-                    px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 
+                    class="mx-auto z-50 self-center lg:mx-0 bg-tips-blue text-white font-bold rounded-md my-2 py-3
+                    px-10 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300
                     ease-in-out"
                   >
                     Inscreva-se já
