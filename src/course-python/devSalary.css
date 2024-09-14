@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.bg-dev-salary-python {
+  position: relative;
+}
+
+.super-salary{
+  font-family: 'Space Mono';
+}
+
+.bg-dev-salary-python::before {
+  content: '';
+  background-image: url('/sales-page-python-img/background.png');
+  position: absolute;
+  inset: 0;
+  opacity: 0.2;
+}
+
+@media (min-width:768px){
+  .bg-dev-salary-python-tablet {
+    position: relative;
+  }
+
+  .bg-dev-salary-python-tablet::before{
+    content: '';
+    position: absolute;
+    background-image: url('/sales-page-python-img/background.png');
+    inset: 0;
+    opacity: 0.2;
+  }
+
+  .bg-dev-salary-python::before {
+    display: none;
+  }
+
+}
+
+
+/* FONTS */
+  .space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }

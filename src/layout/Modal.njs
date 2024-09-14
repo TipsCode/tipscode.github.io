@@ -12,7 +12,7 @@ export default function Modal({ video, onclose }) {
         </div>
 
         <div class="mt-10">
-          <a href="https://payment.hotmart.com/A43229044U?checkoutMode=10" class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="https://bit.ly/4d5uzwX" class="mt-14 mx-auto z-40 self-center lg:mx-0 bg-tips-green text-white font-bold rounded-md my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Quero me inscreve agora
           </a>
 

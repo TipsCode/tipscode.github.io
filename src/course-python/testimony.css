@@ -1,0 +1,188 @@
+.testimony-python {
+    color: #F6FBFF;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    padding: 20% 20% 10% 20%;
+
+}
+
+.testimony-text {
+    margin-top: 5%;
+}
+
+.testimony-box {
+    border-radius: 20px;
+    background-color: #212426;
+    margin: 5%;
+    padding: 5%;
+    color: #fff
+}
+
+.student-information {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* Adiciona espaço entre o parágrafo e a imagem */
+}
+
+.student-information img {
+    border-radius: 56px;
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    /* Adiciona espaço entre img.circulo e h3.aluno */
+}
+
+.student-python {
+
+    font-size: 16px;
+    /* Corrigido de "size" para "font-size" */
+
+}
+
+.student-python-titulo {
+    font-size: 18px;
+    color: #5FE2FF;
+    ;
+    /* Corrigido de "size" para "font-size" */
+}
+
+
+
+.testimony-img-video {
+    width: 380px;
+    height: 331px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8em;
+    margin: auto;
+}
+
+/* Media query para telas entre 768px e 1024px */
+
+@media (min-width: 768px) {
+
+    .testimony-python {
+        color: #F6FBFF;
+        font-weight: 600;
+        font-size: 36px;
+        padding: 0;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+
+    }
+
+    .scroll-container-1 {
+        display: flex;
+        overflow-x: auto;
+        overflow: hidden;
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+
+    .scroll-container-1:hover {
+        overflow: auto;
+    }
+
+    .cards-testimony-1 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .card-testimony {
+        display: flex;
+
+    }
+
+    /* Scroll container horizontal 2 */
+
+    .scroll-container-2 {
+        display: flex;
+        overflow-x: auto;
+        overflow: hidden;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    }
+
+    .scroll-container-2:hover {
+        overflow: auto;
+    }
+
+    .cards-testimony-2 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .card-testimony {
+        display: flex;
+
+    }
+
+
+
+    .testimony-box {
+
+        border-radius: 20px;
+        background-color: #212426;
+        margin: 5%;
+        padding: 5%;
+        color: #fff;
+        width: 600px;
+        height: 331px;
+    }
+
+    .testimony-text {
+        margin-top: 3%;
+        margin-bottom: 69px;
+        margin-right: 30px;
+    }
+
+    .testimony-img-video {
+        width: 565px;
+        height: 320px;
+        border-radius: 20px;
+        display: flex;
+        font-size: 8em;
+        margin: auto;
+    }
+
+    /* Adicionado overflow: hidden para ocultar as barras de rolagem 
+    .scroll-container-1,
+    .scroll-container-2,
+    .testimony-box {
+        overflow: hidden;
+    }
+
+*/
+
+
+}
+
+@media (min-width: 1100px) {
+    .testimony-python {
+        color: #F6FBFF;
+        font-weight: 600;
+        font-size: 3rem;
+        padding: 0;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+
+    }
+}
+
+.testimony-2 { 
+    border-radius: 0.5rem;
+    text-align: center;
+    animation: loseFade .7s forwards;
+}
+
+.testimony-grid {
+    grid-template-columns: repeat(4, 1fr);
+    scrollbar-width: none;
+}

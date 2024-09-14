@@ -1,0 +1,103 @@
+@media  (min-width: 1300px){
+
+            #bottom-container{
+               width: 100%;
+               margin-top: 80px;
+               
+            }
+
+            .body-container{
+               display: flex;
+               flex-direction: row;
+               align-items: center;
+               justify-content: center;
+               width: 1440px;
+               height: 340px;
+               margin: auto;
+               padding: 150px 64px 80px 64px;
+               gap: 80px;
+         
+            }
+           
+
+            .footer-1-list{
+
+               width: 1312px;                       
+
+            }
+
+
+            .big-list{
+                margin-left: auto;
+
+
+            }
+            
+            .header-logo{
+                margin-right: 18px;
+            }
+
+            .logo-img{
+                
+                margin: 10px auto;
+                width: 40px;
+                height: 40px;
+                   
+
+            }
+            
+            .tittle-img{
+                width: 100px;
+                visibility: visible;
+                float: left;
+                margin-top: 14px;
+                font-size: 23px;
+                font-weight: 600;
+                margin-right: 20px;
+                
+            }
+
+            .parag{
+
+                margin-left: 48px;
+                font-size: 16px;
+                       
+            } 
+
+            .border-box{
+                width: 1312px;
+                text-align: center;
+                justify-content: center;
+                margin: auto;
+                margin-top: 80px;
+                    
+            }  
+             
+            .terms-list{
+                gap: 24px;
+                margin: auto;
+                text-align: center;
+                width: 790px;
+                margin-top: 32px;
+                margin-bottom: 80px;     
+
+            }
+
+
+            .footer-list{
+                font-size: 16px;
+                margin-right: auto;               
+                   
+            }
+            
+            .line{
+                text-decoration: underline;
+            }
+             
+         }
+          
+         
+              
+
+
+
