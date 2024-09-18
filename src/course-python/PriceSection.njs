@@ -74,7 +74,7 @@ function CardMobile() {
                         {/* Price div */}
                         <div class="w-[289px] flex flex-col gap-[8px]">
                             <p class="text-[20px] text-[#F6FBFF] font-[600]">12x de</p>
-                            <p class="text-[38px] text-[#FFDA17] font-[600]">R$52/91</p>
+                            <p class="text-[38px] text-[#FFDA17] font-[600]">R$52,91</p>
                             <p class="text-[20px] text-[#F6FBFF] font-[600]">ou R$527,00 à vista</p>
                         </div>
 
@@ -124,7 +124,7 @@ function CardTablet() {
                             {/* Price div */}
                             <div class="w-[289px] flex flex-col gap-[8px]">
                                 <p class="text-[20px] text-[#F6FBFF] font-[600]">12x de</p>
-                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52/91</p>
+                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52,91</p>
                                 <p class="text-[24px] text-[#F6FBFF] font-[600]">ou R$527,60 à vista</p>
                                 {/* Garantia */}
                                 <p class="text-[16px] text-[#5FE2FF] font-[400]" style="white-space: nowrap;">7 dias de GARANTIA ou o seu dinheiro de volta</p>
@@ -173,7 +173,7 @@ function CardDesktop() {
                             {/* Price div */}
                             <div class="w-[289px] flex flex-col gap-[8px]">
                                 <p class="text-[20px] text-[#F6FBFF] font-[700]">12x de</p>
-                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52/91</p>
+                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52,91</p>
                                 <p class="text-[24px] text-[#F6FBFF] font-[500]">ou R$527,00 à vista</p>
                                 {/* Garantia */}
                                 <p class="text-[16px] text-[#5FE2FF] font-[400]" style="white-space: nowrap;">7 dias de GARANTIA ou o seu dinheiro de volta</p>
