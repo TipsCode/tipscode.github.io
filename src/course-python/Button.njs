@@ -58,7 +58,7 @@ function SecondaryButton(text) {
     )
 }
 
-function WhatsappButton(text) {
+function WhatsappButton(text, href) {
     const colorStyle = 'bg-[#2BFF59]'
     text = text.text
 
@@ -66,23 +66,23 @@ function WhatsappButton(text) {
         <>
             {/* Renderizar apenas em mobile */}
             <div class="lg:hidden">
-                <div class={`flex w-fit items-center ${colorStyle} h-[30px] px-[35px] py-[6px]  my-4 rounded-full hover:bg-[#66FF88] hover:shadow-[0px_0px_4px_rgba(43,255,89,0.15)] hover:cursor-pointer`}>
-                    <p class='text-[12px] font-[500] text-black '>{text}</p>
-                </div>
+                <a href={href} class={`flex w-fit items-center ${colorStyle} text-[12px] font-[500] text-black  h-[30px] px-[35px] py-[6px]  my-4 rounded-full hover:bg-[#66FF88] hover:shadow-[0px_0px_4px_rgba(43,255,89,0.15)] hover:cursor-pointer`}>
+                    {text}
+                </a>
             </div>
 
             {/* Renderizar apenas em telas tablet) */}
             <div class="hidden xl:hidden lg:block">
-                <div class={`flex w-fit items-center ${colorStyle} h-[44px] px-[26px] py-[12px] rounded-full hover:bg-[#66FF88] hover:shadow-[0px_0px_4px_rgba(43,255,89,0.15)] hover:cursor-pointer`}>
-                    <p class='text-[16px] font-[500] text-black'>{text}</p>
-                </div>
+                <a href={href} class={`flex w-fit items-center ${colorStyle} text-[16px] font-[500] text-black h-[44px] px-[26px] py-[12px] rounded-full hover:bg-[#66FF88] hover:shadow-[0px_0px_4px_rgba(43,255,89,0.15)] hover:cursor-pointer`}>
+                    {text}
+                </a>
             </div>
 
             {/* Renderizar apenas em telas desktop */}
             <div class="hidden xl:block">
-                <div class={`flex w-fit items-center ${colorStyle} h-[51px] px-[28px] py-[12px] rounded-full hover:bg-[#2AFF59] hover:shadow-[0px_0px_8px_rgba(43,255,89,0.30)] hover:cursor-pointer`}>
-                    <p class='text-[19px] font-[500] text-black'>{text}</p>
-                </div>
+                <a href={href} class={`flex w-fit items-center ${colorStyle} text-[19px] font-[500] text-black h-[51px] px-[28px] py-[12px] rounded-full hover:bg-[#2AFF59] hover:shadow-[0px_0px_8px_rgba(43,255,89,0.30)] hover:cursor-pointer`}>
+                   {text}
+                </a>
             </div>
         </>
     )

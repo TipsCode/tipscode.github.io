@@ -40,21 +40,21 @@ function Button(props) {
     if (buttonSize === 'mobile') {
         return (
             <div class="bg-[#5FE2FF] w-[289px] h-[43px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[16px] text-[#1A1C1E] font-[400] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[16px] text-[#1A1C1E] font-[400] font-poppins">{props.text}</a>
             </div>
         )
     }
     else if (buttonSize === 'tablet') {
         return (
             <div class="bg-[#5FE2FF] w-[592px] h-[76px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
             </div>
         )
     }
     else {
         return (
             <div class="bg-[#5FE2FF] w-[592px] h-[76px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
             </div>
         )
     }
@@ -74,8 +74,8 @@ function CardMobile() {
                         {/* Price div */}
                         <div class="w-[289px] flex flex-col gap-[8px]">
                             <p class="text-[20px] text-[#F6FBFF] font-[600]">12x de</p>
-                            <p class="text-[38px] text-[#FFDA17] font-[600]">R$42/33</p>
-                            <p class="text-[20px] text-[#F6FBFF] font-[600]">ou R$421,60 à vista</p>
+                            <p class="text-[38px] text-[#FFDA17] font-[600]">R$52/91</p>
+                            <p class="text-[20px] text-[#F6FBFF] font-[600]">ou R$527,00 à vista</p>
                         </div>
 
                         {/* Line */}
@@ -124,8 +124,8 @@ function CardTablet() {
                             {/* Price div */}
                             <div class="w-[289px] flex flex-col gap-[8px]">
                                 <p class="text-[20px] text-[#F6FBFF] font-[600]">12x de</p>
-                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$42/33</p>
-                                <p class="text-[24px] text-[#F6FBFF] font-[600]">ou R$421,60 à vista</p>
+                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52/91</p>
+                                <p class="text-[24px] text-[#F6FBFF] font-[600]">ou R$527,60 à vista</p>
                                 {/* Garantia */}
                                 <p class="text-[16px] text-[#5FE2FF] font-[400]" style="white-space: nowrap;">7 dias de GARANTIA ou o seu dinheiro de volta</p>
                             </div>
@@ -173,8 +173,8 @@ function CardDesktop() {
                             {/* Price div */}
                             <div class="w-[289px] flex flex-col gap-[8px]">
                                 <p class="text-[20px] text-[#F6FBFF] font-[700]">12x de</p>
-                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$42/33</p>
-                                <p class="text-[24px] text-[#F6FBFF] font-[500]">ou R$421,60 à vista</p>
+                                <p class="text-[64px] text-[#FFDA17] font-[600]">R$52/91</p>
+                                <p class="text-[24px] text-[#F6FBFF] font-[500]">ou R$527,00 à vista</p>
                                 {/* Garantia */}
                                 <p class="text-[16px] text-[#5FE2FF] font-[400]" style="white-space: nowrap;">7 dias de GARANTIA ou o seu dinheiro de volta</p>
                             </div>

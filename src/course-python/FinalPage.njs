@@ -10,7 +10,7 @@ export default function FinalPage() {
                 <div class="footer-1-list">
                     
                   <div class="logo-tispcode">
-                    <img class= "logo-img" src="/tipscode-icon-logo.png" alt="TipsCode" />
+                    {/* <img class= "logo-img" src="/tipscode-icon-logo.png" alt="TipsCode" /> */}
                     <p class="tittle-img">TipsCode</p>
                   </div> 
 

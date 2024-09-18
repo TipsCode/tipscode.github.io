@@ -50,6 +50,7 @@
         border: 2px solid #fff;
         height: 36px;
         border-radius: 10px;
+        margin-top: -12%;
     }
     
     .arrow-down::before {
@@ -123,13 +124,13 @@
     }
 
     .hello-ia-img {
-        top: 14px;
+        top: -74px;
         left: -85%;
         transform: rotate(-5deg);
     }
 
     .ai-bubble {
-        top: -33px;
+        top: -121px;
         left: -2%;
     }
     

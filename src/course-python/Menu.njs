@@ -11,8 +11,8 @@ export default function Menu() {
             </div>
             <nav>
               <div class="righside">
-                <a href="#checkout-python" class="menu-button">
-                  Conhecer
+                <a href="https://pay.kiwify.com.br/Nibdpb1" class="menu-button">
+                  Inscreve-se
                 </a>
               </div>
             </nav>
