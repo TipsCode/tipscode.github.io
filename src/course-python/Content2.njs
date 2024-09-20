@@ -50,7 +50,7 @@ class Content2 extends Nullstack {
                 <div class="mx-5 md:px-32 md:w-2/4">                
                     <div onclick={this.increment} class= "text-[#879098] mb-8">
                         <h4 class="text-[30px] text-white  md:font-semibold mb-2">Lógica de Programação com Python</h4>
-                        <p class="font-normal  text-white">Aprenda a aplicar os princípios de programação orientada a objetos para escrever códigos Python mais limpos, reutilizáveis e eficientes.</p>
+                        <p class="font-normal  text-white">Domine fundamentos de programação e lógica, essenciais para desenvolver suas habilidades em Python de forma sólida e estruturada.</p>
                     </div>
                     <div onclick={this.increment} class= "text-[#879098] mb-8">
                         <h4 class="text-[30px] text-white md:font-semibold mb-2">Python Orientado à Objetos</h4>

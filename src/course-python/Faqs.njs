@@ -53,7 +53,7 @@ export default function Faqs2() {
                         <p class='text-[28px] duvidas-texto-principal'>Ainda tem dúvidas ?</p>
                         <p class='text-[20px] duvidas-texto-secundario'>Nosso time te ajuda a</p>
                         {/* <Button type='whatsapp' href="https://wa.me/558897078144?text=Curso%20de%20Python" text='Chama no Whatsapp' class='button-whats'/> */}
-                        <a href='https://wa.me/558897078144?text=Curso%20de%20Python' class="flex w-fit items-center bg-[#2BFF59] text-[19px] font-[500] text-black h-[51px] px-[28px] py-[12px] rounded-full hover:bg-[#2AFF59] hover:shadow-[0px_0px_8px_rgba(43,255,89,0.30)] hover:cursor-pointer">Chama no Whatsapp</a>
+                        <a href='https://wa.me/558899073834?text=Curso%20de%20Python' class="flex w-fit items-center bg-[#2BFF59] text-[19px] font-[500] text-black h-[51px] px-[28px] py-[12px] rounded-full hover:bg-[#2AFF59] hover:shadow-[0px_0px_8px_rgba(43,255,89,0.30)] hover:cursor-pointer">Chama no Whatsapp</a>
                     </div>
                 </div>
             </div>

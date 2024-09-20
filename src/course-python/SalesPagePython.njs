@@ -14,6 +14,8 @@ import PriceSection from './PriceSection.njs';
 import FinalPage from './FinalPage';
 import Faqs from './Faqs.njs'
 
+import './SalesPagePython.css'
+
 
 // import Faqs from './Faqs.njs';
 
@@ -30,6 +32,11 @@ class SalesPagePython extends Nullstack {
   render() {
     return (
       <div class="bg-[#1e1e1e] overflow-hidden">
+        <figure class="icon-whats">
+          <a href="https://wa.me/558899073834?text=Curso%20de%20Python" target='_blank'>
+            <img src="/sales-page-python-img/img-whats-icon.png" alt="icone de imagem do whatsapp" />
+          </a>
+        </figure>
         <Menu />
        <Hero />
          <CardActing/>
@@ -43,6 +50,8 @@ class SalesPagePython extends Nullstack {
         <PriceSection />  
         <Faqs/>
        <FinalPage/> 
+
+    
       </div>
     );
   }
