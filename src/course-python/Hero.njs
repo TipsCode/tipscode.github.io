@@ -18,7 +18,7 @@ export default function Hero() {
               <img class="yellow-snake snake" src="./sales-page-python-img/hero-yellowSnake.png" alt="yellow snake python" />
             </figure>
           </div>
-          <a class="mb-8 bg-[#5FE2FF] min-[700px]:mb-60 py-2 min-[700px]:py-3 px-4 min-[700px]:px-6 min-[700px]:text-2xl min-[700px]:font-medium rounded-[30px] text-black" href="https://pay.kiwify.com.br/Nibdpb1">Fazer agora</a>
+          <a class="mb-8 bg-[#5FE2FF] min-[700px]:mb-60 py-2 min-[700px]:py-3 px-4 min-[700px]:px-6 min-[700px]:text-2xl min-[700px]:font-medium rounded-[30px] text-black" href="https://pay.kiwify.com.br/UMt0YIC">Fazer agora</a>
           <figure class="hello-ia-container absolute hidden min-[700px]:block">
             <img class="hello-ia-img relative" src="./sales-page-python-img/hero-carbon-Code-Hello-IA.png" alt="hello ia" />
             <img class="ai-bubble w-1/4 relative" src="./sales-page-python-img/ai-buble.png" alt="ai bubble" />

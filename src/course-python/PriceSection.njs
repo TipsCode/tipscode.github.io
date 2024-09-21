@@ -40,21 +40,21 @@ function Button(props) {
     if (buttonSize === 'mobile') {
         return (
             <div class="bg-[#5FE2FF] w-[289px] h-[43px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[16px] text-[#1A1C1E] font-[400] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[16px] text-[#1A1C1E] font-[400] font-poppins">{props.text}</a>
             </div>
         )
     }
     else if (buttonSize === 'tablet') {
         return (
             <div class="bg-[#5FE2FF] w-[592px] h-[76px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
             </div>
         )
     }
     else {
         return (
             <div class="bg-[#5FE2FF] w-[592px] h-[76px] flex flex-col justify-center items-center px-[22px] py-[12px] rounded-[100px]">
-                <a href="https://pay.kiwify.com.br/Nibdpb1" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
+                <a href="https://pay.kiwify.com.br/UMt0YIC" class="text-[24px] text-[#1A1C1E] font-[600] font-poppins">{props.text}</a>
             </div>
         )
     }

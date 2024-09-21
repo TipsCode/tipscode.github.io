@@ -11,7 +11,7 @@ export default function Menu() {
             </div>
             <nav>
               <div class="w-36">
-                <a href="https://pay.kiwify.com.br/Nibdpb1" class="menu-button">
+                <a href="https://pay.kiwify.com.br/UMt0YIC" class="menu-button">
                   Fazer agora
                 </a>
               </div>
