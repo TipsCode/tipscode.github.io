@@ -2,6 +2,7 @@ import '../tailwind.css';
 import './Application.scss';
 import Nullstack from 'nullstack';
 import Home from './home/Home';
+import Links from './home/Links';
 import Articles from './articles/Articles';
 import Article from './article/Article';
 import SalesPage from './course-fullstack-turbo/SalesPage';
@@ -62,8 +63,10 @@ class Application extends Nullstack {
         <MiniCourse route="/mini-curso-gratuito" />
         <MiniCourseThankPage route="/obrigado-por-entrar-no-mini-curso" />
         <MiniCourseClasses route="/aulas-do-mini-curso" />
+        <Links route='/links' />
         <PageVideoDepo route="/entrevista-com-aluno" />
         <Article route="/:slug" />
+        <span href="/links" />
         <span href="/curso-react-pro" />
         <span href="/curso-python-turbo" />
         <span href="/curso-fullstack-turbo" />
