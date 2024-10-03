@@ -9,7 +9,7 @@ class Links extends Nullstack {
      
         <section class="h-screen	">
           <Menu />
-          <div class="flex justify-center items-center mt-32">
+          <div class="flex justify-center items-center mt-10">
             <img src="./perfil-intagram.jpg" alt="Profile Picture" class="rounded-full h-32 w-32" />
           </div>
 
