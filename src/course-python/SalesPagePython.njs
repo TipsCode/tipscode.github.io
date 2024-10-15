@@ -1,5 +1,5 @@
 import Nullstack from 'nullstack';
-import FacebookPixel from '../layout/FacebookPixel';
+import FacebookPixel from 'nullstack-facebook-pixel';
 import Menu from './Menu'
 import Hero from './Hero';
 import StepByStepSection from './StepByStepSection.njs';
