@@ -1,18 +1,19 @@
 import Nullstack from 'nullstack';
 
+import FacebookPixel from '../layout/FacebookPixel'
 import Menu from './Menu'
 import Hero from './Hero';
-import StepByStepSection from './StepByStepSection.njs';
-//import Content from './Content.njs';
-import Content2 from './Content2.njs';
-import DevSalary from './DevSalary.njs';
-import CardActing from './CardActing.njs';
-import Statistics from './Statistics.njs';
-//import Testimony from './Testimony.njs';
-import AboutWorks from './AboutWorks.njs';
-import PriceSection from './PriceSection.njs';
+import StepByStepSection from './StepByStepSection';
+//import Content from './Content';
+import Content2 from './Content2';
+import DevSalary from './DevSalary';
+import CardActing from './CardActing';
+import Statistics from './Statistics';
+//import Testimony from './Testimony';
+import AboutWorks from './AboutWorks';
+import PriceSection from './PriceSection';
 import FinalPage from './FinalPage';
-import Faqs from './Faqs.njs'
+import Faqs from './Faqs'
 
 import './SalesPagePython.css'
 
@@ -37,7 +38,7 @@ class SalesPagePython extends Nullstack {
             <img src="/sales-page-python-img/img-whats-icon.png" alt="icone de imagem do whatsapp" />
           </a>
         </figure>
-        
+      <FacebookPixel id="1057566742678452" />
         <Menu />
        <Hero />
          <CardActing/>

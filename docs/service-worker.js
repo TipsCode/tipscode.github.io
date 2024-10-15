@@ -5,11 +5,11 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "ce8588bb4b84cdd617c7e94703ed8690f95000bb",
+    "key": "93333c482480579f1003763227e4950881160318",
     "name": ""
   },
   "project": {
-    "domain": "tipscode.com.br",
+    "domain": "localhost",
     "name": "TipsCode",
     "color": "#D22365",
     "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
