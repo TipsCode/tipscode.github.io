@@ -3,6 +3,7 @@ import Nullstack from 'nullstack';
 import FacebookPixel from '../layout/FacebookPixel'
 import Menu from './Menu'
 import Hero from './Hero';
+import VideoSales from './VideoSales'
 import StepByStepSection from './StepByStepSection';
 //import Content from './Content';
 import Content2 from './Content2';
@@ -10,7 +11,7 @@ import DevSalary from './DevSalary';
 import CardActing from './CardActing';
 import Statistics from './Statistics';
 //import Testimony from './Testimony';
-import AboutWorks from './AboutWorks';
+import Mentor from './Mentor';
 import PriceSection from './PriceSection';
 import FinalPage from './FinalPage';
 import Faqs from './Faqs'
@@ -41,14 +42,15 @@ class SalesPagePython extends Nullstack {
       <FacebookPixel id="1057566742678452" />
         <Menu />
        <Hero />
-         <CardActing/>
-         <Statistics/> 
-         <StepByStepSection />  
-         {/* <Content />  problema para build */}
+       <VideoSales />
          <Content2 />
+         <StepByStepSection />  
+         <Mentor /> 
         <DevSalary />
+         <Statistics/> 
+         {/* <CardActing/> */}
+         {/* <Content />  problema para build */}
         {/* <Testimony /> problema para build*/}
-         <AboutWorks /> 
         <PriceSection />  
         <Faqs/>
        <FinalPage/> 

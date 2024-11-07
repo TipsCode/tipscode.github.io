@@ -45,7 +45,7 @@ class Content2 extends Nullstack {
     render() {
         return(
             <>
-            <h3 class="text-center text-white text-[34px] leading-[28.8px] md:text-[38px] lg:text-5xl md:leading-[45.6px] font-semibold mb-10">O que você irá aprender</h3>
+            <h3 class="text-center mt-10 text-white text-[34px] leading-[28.8px] md:text-[38px] lg:text-5xl md:leading-[45.6px] font-semibold mb-10">O que você irá aprender</h3>
             <sections class="hidden w-full md:flex md:mb-16">
                 <div class="mx-5 md:px-32 md:w-2/4">                
                     <div onclick={this.increment} class= "text-[#879098] mb-8">

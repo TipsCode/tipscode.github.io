@@ -16,13 +16,13 @@
 }
 
 .blue-snake {
-    top: -147%;
-    left: -63%;
+    top: -26%;
+    left: -67%;
     transform: rotate(30deg);
 }
 
 .yellow-snake {
-    bottom: -425%;
+    bottom: -77%;
     right: -58%;
     transform: rotate(20deg);
 }
@@ -82,14 +82,14 @@
     }
 
     .blue-snake {
-        top: -202%;
-        left: -113%;
+        top: -61%;
+        left: -85%;
         transform: rotate(19deg);
     }
 
     .yellow-snake {
-        top: 170%;
-        right: -114%;
+        top: 40%;
+        right: -91%;
         transform: rotate(5deg);
     }
 }
@@ -107,8 +107,8 @@
     }
 
     .blue-snake {
-        top: -378%;
-        left: -91%;
+        top: -91%;
+        left: -84%;
         transform: rotate(19deg);
     }
 
@@ -177,7 +177,7 @@
     }
 
     .blue-snake {
-        top: -450%;
+        top: -225%;
         left: -132%;
     }
 

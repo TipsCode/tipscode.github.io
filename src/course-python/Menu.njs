@@ -9,13 +9,7 @@ export default function Menu() {
             <div class="menu-logo">
               <a href="/curso-de-python"><img src="/TipsCodelogo.png" alt="Logo TipsCode" /></a>
             </div>
-            <nav>
-              <div class="w-36">
-                <a href="https://pay.kiwify.com.br/UMt0YIC" class="menu-button">
-                  Fazer agora
-                </a>
-              </div>
-            </nav>
+           
           </div>
         </header>
     

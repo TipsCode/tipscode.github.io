@@ -86,10 +86,14 @@ function CardMobile() {
 
                         {/* Pros */}
                         <div class="w-[289px] flex flex-col gap-[16px] py-[8px]">
-                            <ProsItem text="Autonomia e liberdade para criar qualquer coisa. Que tal o próximo Spotify." textSize="text-[16px]"/>
-                            <ProsItem text="Alta Empregabilidade, muitas vagas e poucos profissionais de alto nível." textSize="text-[16px]"/>
-                            <ProsItem text="Altos Salários, muito acima da média do Brasil e até do mundo." textSize="text-[16px]"/>
-                            <ProsItem text="Trabalho Remoto. Sim você pode trabalhar para qualquer empresa, e de qualquer lugar do mundo, até da sua casa." textSize="text-[16px]"/>
+                                <ProsItem text="Acesso VITALÍCIO ao curso;" textSize="text-[16px]"/>
+                                <ProsItem text="Aulas 100% Online e interativas;" textSize="text-[16px]"/>
+                                <ProsItem text="Material de Apoio abrangente;" textSize="text-[16px]"/>
+                                <ProsItem text="Mais de 40 Projetos Reais;" textSize="text-[16px]"/>
+                                <ProsItem text="Certificação reconhecida de 120 Horas;" textSize="text-[16px]"/>
+                                <ProsItem text="Suporte Total ao aluno;" textSize="text-[16px]"/>
+                                <ProsItem text="Acesso pela Plataforma Kiwify;" textSize="text-[16px]"/>
+                                <ProsItem text="Comunidade Exclusiva no Discord." textSize="text-[16px]"/>
                         </div>
                         <Button text="Quero ser Programador" size="mobile"/>
                     </div>
@@ -132,11 +136,15 @@ function CardTablet() {
                             {/* Line */}
                             <hr class="w-[592px]"/>
 
-                            <div class="flex flex-col gap-[16px]">
-                                <ProsItem text="Autonomia e liberdade para criar qualquer coisa. Que tal o próximo Spotify." textSize="text-[18px]"/>
-                                <ProsItem text="Alta Empregabilidade, muitas vagas e poucos profissionais de alto nível." textSize="text-[18px]"/>
-                                <ProsItem text="Altos Salários, muito acima da média do Brasil e até do mundo." textSize="text-[18px]"/>
-                                <ProsItem text="Trabalho Remoto. Sim você pode trabalhar para qualquer empresa, e de qualquer lugar do mundo, até da sua casa." textSize="text-[18px]"/>
+                            <div class="flex flex-col gap-[16px]">                
+                                <ProsItem text="Acesso VITALÍCIO ao curso;" textSize="text-[18px]"/>
+                                <ProsItem text="Aulas 100% Online e interativas;" textSize="text-[18px]"/>
+                                <ProsItem text="Material de Apoio abrangente;" textSize="text-[18px]"/>
+                                <ProsItem text="Mais de 40 Projetos Reais;" textSize="text-[18px]"/>
+                                <ProsItem text="Certificação reconhecida de 120 Horas;" textSize="text-[18px]"/>
+                                <ProsItem text="Suporte Total ao aluno;" textSize="text-[18px]"/>
+                                <ProsItem text="Acesso pela Plataforma Kiwify;" textSize="text-[18px]"/>
+                                <ProsItem text="Comunidade Exclusiva no Discord." textSize="text-[18px]"/>
                             </div>
                             <div class="flex justify-center">
                                 <Button text="Quero ser Programador" size="tablet"/>
@@ -182,11 +190,15 @@ function CardDesktop() {
                             <hr class="w-[592px]"/>
 
                             <div class="flex flex-col gap-[16px]">
-                                <p class="text-[#F6FBFF] text-[16px]">Includes: </p>
-                                <ProsItem text="Autonomia e liberdade para criar qualquer coisa. Que tal o próximo Spotify." textSize="text-[16px]"/>
-                                <ProsItem text="Alta Empregabilidade, muitas vagas e poucos profissionais de alto nível." textSize="text-[16px]"/>
-                                <ProsItem text="Altos Salários, muito acima da média do Brasil e até do mundo." textSize="text-[16px]"/>
-                                <ProsItem text="Trabalho Remoto. Sim você pode trabalhar para qualquer empresa, e de qualquer lugar do mundo, até da sua casa." textSize="text-[16px]"/>
+                                <p class="text-[#F6FBFF] text-[16px]">BENEFÍCIOS:</p>
+                                <ProsItem text="Acesso VITALÍCIO ao curso;" textSize="text-[16px]"/>
+                                <ProsItem text="Aulas 100% Online e interativas;" textSize="text-[16px]"/>
+                                <ProsItem text="Material de Apoio abrangente;" textSize="text-[16px]"/>
+                                <ProsItem text="Mais de 40 Projetos Reais;" textSize="text-[16px]"/>
+                                <ProsItem text="Certificação reconhecida de 120 Horas;" textSize="text-[16px]"/>
+                                <ProsItem text="Suporte Total ao aluno;" textSize="text-[16px]"/>
+                                <ProsItem text="Acesso pela Plataforma Kiwify;" textSize="text-[16px]"/>
+                                <ProsItem text="Comunidade Exclusiva no Discord." textSize="text-[16px]"/>
                             </div>
                             <div class="flex justify-center">
                                 <Button text="Quero ser Programador" size="desktop"/>
