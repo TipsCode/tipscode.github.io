@@ -60,8 +60,7 @@ export default function Mentor() {
 
                     <div class="about">
                         <h4>4. EXPÊRIENCIA</h4>
-                        <p class="text-white">Com mais de [X] projetos concluídos, Alisson traz toda uma experiência prática para suas aulas. 
-                            Ele entende os desafios do mercado e está pronto para compartilhar suas estratégias e conhecimentos com você.
+                        <p class="text-white">Com diversos projetos concluídos, Alisson traz toda uma experiência prática para suas aulas. Ele entende os desafios do mercado e está pronto para compartilhar suas estratégias e conhecimentos com você.
                         </p>
                     </div>
                 </div>

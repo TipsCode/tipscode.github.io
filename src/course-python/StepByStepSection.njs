@@ -3,8 +3,8 @@ import Badge from "./Badge.njs";
 function Mobile() {
     return (
         <>
-            <div class="h-[552px] flex flex-col items-center justify-center gap-[40px] px-[32px] py-[40px]">
-                <div class='w-[411px] flex flex-col items-center gap-[40px]'>
+            <div class="h-[552px] flex flex-col items-center justify-center gap-[40px] mt-16 px-[32px] py-[40px]">
+                <div class='flex flex-col items-center gap-[40px]'>
                     <div class="flex flex-col items-center gap-[16px]">
                         <div>
                             <Badge type='primary' text="MÉTODO"/>
