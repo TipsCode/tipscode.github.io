@@ -8,6 +8,7 @@ import Article from './article/Article';
 import SalesPage from './course-fullstack-turbo/SalesPage';
 import SalesPageReactPro from './course-react-pro/SalesPageReactPro';
 import SalesPagePython from './course-python/SalesPagePython';
+import CheckoutPage from './before-checkout-python/CheckoutPage';
 import Ebook from './ebook/Ebook';
 import MiniCourse from './mini-course/MiniCourse';
 import MiniCourseThankPage from './delivery-mini-course/MiniCourseThankPage';
@@ -59,6 +60,7 @@ class Application extends Nullstack {
         <SalesPage route="/curso-fullstack-turbo" />
         <SalesPageReactPro route="/curso-react-pro" />
         <SalesPagePython route='/curso-python-turbo' />
+        <CheckoutPage route='/pre-cadastro-python' />
         <Ebook route="/ebook-gratuito" />
         <MiniCourse route="/mini-curso-gratuito" />
         <MiniCourseThankPage route="/obrigado-por-entrar-no-mini-curso" />
@@ -66,6 +68,7 @@ class Application extends Nullstack {
         <Links route='/links' />
         <PageVideoDepo route="/entrevista-com-aluno" />
         <Article route="/:slug" />
+        <span href="/pre-cadastro-python" />
         <span href="/links" />
         <span href="/curso-react-pro" />
         <span href="/curso-python-turbo" />

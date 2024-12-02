@@ -1,0 +1,58 @@
+.main-checkout-python {
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #38b6ff;
+  border-radius: 5px;
+  background-color: #282828;
+  color: #fff;
+  
+}
+
+.modal-content input::placeholder {
+  color: #bbb;
+}
+
+.modal-content input::placeholder {
+  color: #bbb;
+}
+
+.btn-modal {
+  
+  padding: 20px 30px;
+  color: #38b6ff;
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+
+  transition: .3s ease-in-out;
+  
+}
+
+@media screen  and (max-width: 480px) {
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+  }
+  
+}
