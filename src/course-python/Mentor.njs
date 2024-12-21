@@ -29,7 +29,7 @@ export default function Mentor() {
                     <div class="about">
                         <h4>1. FORMAÇÃO ACADÊMICA</h4>
                         <p class="text-white">Com mais de 10 anos de experiência como desenvolvedor full stack, Alisson Suassuna é um líder reconhecido 
-                            na área de tecnologia. Formado em Sistemas de Informação pela [Faculdade], Alisson combina conhecimento 
+                            na área de tecnologia. Formado em Sistemas de Informação pela UNIJUA - Universidade de Juazeiro do Norte, Alisson combina conhecimento 
                             acadêmico com uma vasta experiência prática no mercado.</p>
                     </div>
                 </div>
