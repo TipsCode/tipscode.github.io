@@ -5,12 +5,13 @@ import Menu from './Menu'
 import Hero from './Hero';
 import VideoSales from './VideoSales'
 import StepByStepSection from './StepByStepSection';
+import DetailsCard from '../course-react-pro/DetailsCard';
 //import Content from './Content';
 import Content2 from './Content2';
 import DevSalary from './DevSalary';
 import CardActing from './CardActing';
 import Statistics from './Statistics';
-//import Testimony from './Testimony';
+import Testimonials from './Testimonials';
 import Mentor from './Mentor';
 import PriceSection from './PriceSection';
 import FinalPage from './FinalPage';
@@ -43,6 +44,8 @@ class SalesPagePython extends Nullstack {
         <Menu />
        <Hero />
        <VideoSales />
+       <Testimonials />
+       <DetailsCard />
          <Content2 />
          <StepByStepSection />  
          <Mentor /> 
