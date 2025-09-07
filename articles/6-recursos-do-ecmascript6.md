@@ -82,7 +82,7 @@ Veja não temos a palavra reservado **_function_** ou **_return_**, às vezes ne
 
 Conteúdo 100% GRATUITO, basta você clicar no BOTÃO saiba mais e se inscrever no MiniCurso que vou lhe enviar no seu e-mail as 6 aulas e vou te ensinar do ZERO a criar um jogo com JavaScript, HTML5 e CSS3.
 
-[Saiba Mais!](https://bit.ly/programador-fullstack-do-zero)
+[Saiba Mais!](/mini-curso-gratuito)
 
 ### 3 - Find e FindIndex
 
@@ -149,7 +149,7 @@ Recursos do ECMAScript6
 
 Conteúdo 100% GRATUITO, basta você clicar no BOTÃO saiba mais e se inscrever no MiniCurso que vou lhe enviar no seu e-mail as 6 aulas e vou te ensinar do ZERO a criar um jogo com JavaScript, HTML5 e CSS3.
 
-[Saiba Mais!](https://bit.ly/programador-fullstack-do-zero)
+[Saiba Mais!](/mini-curso-gratuito)
 
 O fornecimento de valores de argumento padrão nas assinaturas de funções é uma capacidade fornecida por muitas linguagens do servidor, como python e PHP, e agora temos essa capacidade no JavaScript:
 

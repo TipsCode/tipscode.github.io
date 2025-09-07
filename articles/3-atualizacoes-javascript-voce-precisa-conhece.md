@@ -153,7 +153,7 @@ for (  meuLoop  em  nomeDoSeuObjeto  )  {
 
 Clique neste vídeo incrível e conheça o método step by step, que Eu desenvolvi e que está evolucionando o mercado!!.
 
-[Ver método clique aqui](https://bit.ly/2YivXeS)
+[Ver método clique aqui](https://tipscode.tech/)
 
 #### for/of loops
 
@@ -251,7 +251,7 @@ Há mais tipos de promises, mas essa é a parte principal de forma resumida, cas
 
 Clique neste vídeo incrível e conheça o método step by step, que Eu desenvolvi e que está evolucionando o mercado!!.
 
-[Ver método clique aqui](https://bit.ly/2YivXeS)
+[Ver método clique aqui](https://tipscode.tech/)
 
 ### Conclusão
 

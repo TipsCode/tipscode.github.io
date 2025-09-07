@@ -54,7 +54,7 @@ class Navigation extends Nullstack {
               }`}
             >
               <a
-                href="https://bit.ly/4d5uzwX"
+                href="https://tipscode.tech/"
                 onclick={{ expanded: false }}
                 class="bg-tips-blue text-white px-3 py-2 border border-tips-blue rounded hover:bg-white hover:text-tips-blue w-full sm:w-auto"
               >

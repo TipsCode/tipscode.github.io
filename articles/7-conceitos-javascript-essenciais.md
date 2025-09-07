@@ -113,7 +113,7 @@ Aos olhos do JavaScript, ele fez seu trabalho - ele executou o código com suces
 
 Mini-Curso Construindo seu Jogo em JavaScript 100% GRATUITO. Para você ter acesso ao curso basta clicar no botão INSCREVA-SE. A criação do jogo é realizada passo a passo, linha a linha onde QUALQUER pessoa é capaz de fazer o curso. Então te vejo nas aulas, abraços
 
-[INSCREVA-SE](/mini-curso-construindo-seu-jogo-em-javascript/)
+[INSCREVA-SE](/mini-curso-gratuito)
 
   
 No entanto, na realidade, você ainda está esperando por uma resposta. Às vezes, você força a execução do seu código, por meio de promise ou temporizador de atraso ([Em nosso canal do Youtube temos um vídeo que explica o que é promises e como usá-las](https://youtu.be/fRa33RSJpSo)). Depois de confirmado, você chama uma função callback().
@@ -253,7 +253,7 @@ Há muito mais do que o que está escrito aqui, mas no geral, então recomenda p
 
 Nesse super treinamento você vai aprender de forma totalmente prática através de aulas, exercícios e projetos a programação web Javascript focada no mercado de trabalho.
 
-[Sabe mais](/programador-fullstack-8-semanas)
+[Sabe mais](https://tipscode.tech/)
 
 [Arrow Functions: Uma sintaxe concisa em JavaScript](/arrow-functions-sintaxe-facil-em-javascript/)
 

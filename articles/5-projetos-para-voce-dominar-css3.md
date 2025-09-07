@@ -71,7 +71,7 @@ O CSS Grid permite erradicar a marcação desnecessária e criar layouts respons
 
 Você está iniciante agora? Você já tem experiência e deseja desbrava novas áreas? Então esse treinamento é para você, nele você vai do ZERO a desenvolver um app baseado no famoso Evernote. Você vai aprender também (Lógica de programação, JavaScript, HTML5, CSS3, Bulma, Nodejs com Express.js Git e Github, React e muito mais, clique no botão saiba mais e veja mais detalhes. )
 
-[Saiba Mais!](/programador-fullstack-8-semanas)
+[Saiba Mais!](https://tipscode.tech/)
 
 ### 4 - Otimize seu projeto, deixe o mais rápido
 

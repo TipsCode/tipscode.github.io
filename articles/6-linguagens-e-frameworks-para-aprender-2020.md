@@ -91,7 +91,7 @@ Atualmente, o JavaScript é usado em quase todos os lugares. Como o JavaScript t
 
 Clique neste vídeo incrível do Leonardo, ele desenvolveu um método que se você seguir tudo 100% você se tornará um profissional Full Stack em 8 SEMANAS..
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver Vídeo](https://tipscode.tech/)
 
 - Construir aplicações web em pequena escala, por exemplo portais, painéis, etc;
 - Construir aplicações desktop;
@@ -155,7 +155,7 @@ Na versão mais recente do Ionic, ele permite ao usuário escolher qualquer fram
 
 Clique neste vídeo incrível do Leonardo, ele desenvolveu um método que se você seguir tudo 100% você se tornará um profissional Full Stack em 8 SEMANAS..
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver Vídeo](https://tipscode.tech/)
 
 - Você deseja criar aplicativos móveis de pequenos / médios;
 - Desenvolvimento rápido e curva de aprendizado médio.

@@ -52,7 +52,7 @@ Depois de determinar isso, defina blocos de tempo para concluir as tarefas dentr
 
 Ao dedicar blocos de tempo às suas tarefas, você pode criar eficiências para si mesmo e chegar mais perto de seus objetivos com mais rapidez.
 
-Caso você esteja procurando um treinamento que tenha um plano de estudo bem definido [clique aqui](/programador-fullstack-8-semanas)
+Caso você esteja procurando um treinamento que tenha um plano de estudo bem definido [clique aqui](https://tipscode.tech/)
 
 ## 03 - Controle suas comunicações
 

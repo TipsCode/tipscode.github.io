@@ -22,7 +22,7 @@ O React é uma coleção de ferramentas e bibliotecas independentes entre si. As
 
 Neste treinamento você vai aprender tudo o que você precisa saber para se tornar um programador full stack javascript completo.
 
-[QUERO ME INSCREVER AGORA](/programador-fullstack-8-semanas)
+[QUERO ME INSCREVER AGORA](https://tipscode.tech/)
 
 Para cada ferramenta, fornecerei um breve resumo com informações básicas antes de mergulhar um pouco mais nas coisas legais que ela pode fazer. Lembre-se de que todas essas ferramentas estão sujeitas a alterações.
 
@@ -206,7 +206,7 @@ Ferramentas úteis para trabalhar com React
 
 Neste treinamento você vai aprender tudo o que você precisa saber para se tornar um programador full stack javascript completo.
 
-[QUERO ME INSCREVER AGORA](/programador-fullstack-8-semanas)
+[QUERO ME INSCREVER AGORA](https://tipscode.tech/)
 
 - Site: [https://www.sencha.com/products/extreact/#overview](https://www.sencha.com/products/extreact/#overview)
 - Repositório: [https://github.com/sencha/ext-react](https://github.com/sencha/ext-react)
@@ -410,7 +410,7 @@ Ferramentas úteis para trabalhar com React
 
 Neste treinamento você vai aprender tudo o que você precisa saber para se tornar um programador full stack javascript completo.
 
-[QUERO ME INSCREVER AGORA](/programador-fullstack-8-semanas)
+[QUERO ME INSCREVER AGORA](https://tipscode.tech/)
 
 Um logger de ações para Redux. Captura as ações do expedidor no console de log do navegador. Vem com muitas opções e permite uma visão de cada ação despachada. À medida que as ações percorrem à aplicação, isso captura e permite que você faça drill de cada ação. Cada entrada de log captura o estado anterior e o atual e a ação do expedidor. Pense em cada ação como uma mensagem de log. O criador de logs permite que você veja como essas mensagens se parecem quando mudam de estado da aplicação.
 

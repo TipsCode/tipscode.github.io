@@ -79,7 +79,7 @@ Nota: Essa ferramenta também está disponível para execução em servidores We
 
 Clique neste vídeo incrivel do Leonardo, ele desenvolveu u método que se você seguir 100% você se tornará um profissional Full Stack em 8 SEMANAS.
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver Vídeo](https://tipscode.tech/)
 
 ### 4 - Vim-plug and Melpa Stable
 
@@ -127,7 +127,7 @@ Por padrão, os resultados da saída da Ag também fornecem um número de linha.
 
 Clique neste vídeo incrivel do Leonardo, ele desenvolveu u método que se você seguir 100% você se tornará um profissional Full Stack em 8 SEMANAS.
 
-[Ver Vídeo](/programador-fullstack-8-semanas)
+[Ver Vídeo](https://tipscode.tech/)
 
 ### Conclusão
 

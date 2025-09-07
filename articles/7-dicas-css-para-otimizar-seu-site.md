@@ -46,7 +46,7 @@ Atualmente, a maioria das ferramentas de compilação permite executar automatic
 
 Se você ainda depende exclusivamente do modelo tradicional de Grid ao escrever CSS e alinhar itens na tela usando margens, preenchimentos e flutuadores, considere adotar módulos de layout mais modernos, como flexbox e [CSS Grid](/css-grid-tudo-que-voce-nao-aprendeu-parte-1/). Esses novos modelos permitem implementar layouts complexos com muito menos código.
 
-Com técnicas mais antigas, você precisa usar muitos truques e ajustes, mesmo para coisas mais simples, como centralizar itens verticalmente. No entanto, esse não é o caso do flexbox e da [CSS Grid](/css-grid-tudo-que-voce-nao-aprendeu-parte-1/). Embora possa levar algum tempo para você [aprender a usa-los](/programador-fullstack-8-semanas), vale a pena o investimento, pois seus arquivos CSS serão muito menores. Isso é especialmente verdade no caso do flexbox, que, atualmente, possui um suporte muito bom ao navegador (atualmente, 98,48% no mundo, na data deste artigo).
+Com técnicas mais antigas, você precisa usar muitos truques e ajustes, mesmo para coisas mais simples, como centralizar itens verticalmente. No entanto, esse não é o caso do flexbox e da [CSS Grid](/css-grid-tudo-que-voce-nao-aprendeu-parte-1/). Embora possa levar algum tempo para você [aprender a usa-los](https://tipscode.tech/), vale a pena o investimento, pois seus arquivos CSS serão muito menores. Isso é especialmente verdade no caso do flexbox, que, atualmente, possui um suporte muito bom ao navegador (atualmente, 98,48% no mundo, na data deste artigo).
 
 ![](/uploads/2020/06/uso-de-flexbox-1-1024x442.png)
 

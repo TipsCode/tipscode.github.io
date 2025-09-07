@@ -146,7 +146,7 @@ Por fim, ajuda se você conhece o básico do CSS Grid ao usar geradores online. 
 
 Neste treinamento você vai aprender tudo o que você precisa saber para se tornar um programador full stack javascript completo.
 
-[Saber Mais !](/programador-fullstack-8-semanas)
+[Saber Mais !](https://tipscode.tech/)
 
 #### Nosso canal no Youtube
 

@@ -57,7 +57,7 @@ Abaixo estão apenas alguns dos fatores críticos que você deve prestar atenç�
 
 ### CSS e JavaScript
 
-Cada caractere no seu código soma o peso final da página da web. Escrever códigos CSS e [JavaScript](/programador-fullstack-8-semanas) limpos e concisos, mantendo-os legíveis nem sempre é fácil. No entanto, deve ser algo a ser buscado em todos os projetos.
+Cada caractere no seu código soma o peso final da página da web. Escrever códigos CSS e [JavaScript](https://tipscode.tech/) limpos e concisos, mantendo-os legíveis nem sempre é fácil. No entanto, deve ser algo a ser buscado em todos os projetos.
 
 Boas práticas de CSS incluem livrar-se de seletores não utilizados, código duplicado e regras excessivamente aninhadas. É bom manter seu código bem organizado no início de um projeto. Por exemplo, o uso de guias de estilo pode realmente beneficiar seu processo de desenvolvimento e a qualidade do seu código.
 

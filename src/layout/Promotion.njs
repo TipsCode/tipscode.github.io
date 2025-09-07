@@ -12,7 +12,7 @@ export default function Promotion() {
             </h2>
 
             <div class="mt-2">
-              <a href="https://bit.ly/4d5uzwX" class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-green text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <a href="https://tipscode.tech/" class="inline-block text-center w-full sm:w-auto lg:mx-0 bg-tips-green text-white font-bold rounded mt-4 lg:mt-0 py-2 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Conhecer Treinamento
               </a>
             </div>

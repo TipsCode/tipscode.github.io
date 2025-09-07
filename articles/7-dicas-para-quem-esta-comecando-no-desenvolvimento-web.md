@@ -36,7 +36,7 @@ Eu iniciei meus estudos mais sério na faculdade e lá comecei com Java e vi alg
 
 Aprender profundamente uma linguagem que usei no trabalho foi uma das melhores decisões que tomei. No entanto, esse conhecimento tornou-se uma vantagem tanto no trabalho, como em outras oportunidades. Mais tarde em minha carreira, mergulhei intencionalmente mais profundo ainda em JavaScript.
 
-Caso você goste de desenvolvimento web assim como eu lhe recomendo [esse curso](/curso-programador-fullstack-javascript-em-8-semanas-vale-pena/)
+Caso você goste de desenvolvimento web assim como eu lhe recomendo [esse curso](https://tipscode.tech/)
 
 Lhe recomendo aprender pelo menos duas linguagem de programação porém uma delas você precisa ir mais fundo. Quanto mais linguagens você souber, mais poderá avaliar seus pontos fortes e fracos.
 

@@ -78,7 +78,7 @@ Os motivos para escolher o React para impulsionar seu próximo projeto incluem:
 - JSX, uma das características mais fantásticas do react, que é poder escrever HTML e css dentro de um arquivo javascript, e além disso todos os recursos da linguagem como loops, funções de formatação, validações e muito mais;
 - Permite usar javascript, ES6(javascript moderno com novas funcionalidades), TypeScript
 
-Caso queira aprende mais React [clique aqui.](/programador-fullstack-8-semanas)
+Caso queira aprende mais React [clique aqui.](https://tipscode.tech/)
 
 ## 03 - Angular
 
