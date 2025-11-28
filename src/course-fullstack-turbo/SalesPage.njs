@@ -1,5 +1,5 @@
 import Nullstack from 'nullstack';
-
+import "../course-python/SalesPagePython.css";
 import Hero from './Hero';
 import WhatLearn from './WhatLearn';
 import MoreDetails from './MoreDetails';
@@ -27,39 +27,13 @@ class SalesPage extends Nullstack {
 
   render() {
     return (
-      <div class="bg-black" style="background-colo: '#040404'; color: #fff; height: 100vh; text-align: center;">
-        {/* <Hero />
-        <Warranty />
-        <Print />
-        <Projects />
-        <WhatLearn />
-        <Argumentation />
-        <StepByStep />
-        <CoursePlatform />
-        <MoreDetails />
-        <Workshop />
-        <CallToAction />
-        <Testimonials />
-        <Teacher />
-        <Faq />
-        <Footer
-          class={
-           {
-             footer: 'flex flex-col items-center py-16 sm:flex-row sm:justify-around text-white bg-tips-gray-dark bg-opacity-10',
-             p: 'text-center sm:text-center w-full',
-           }
-         }
-          src="/TipsCodelogo.png"
-          light
-        /> */}
-        <h1 style="
-    font-size: 50pt;">O full full stack turbo está com um novo endereço</h1>
-        <h2>
-          <h3 style="
-    font-size: 35pt;">Clique aqui</h3>
-          <a style="
-    font-size: 30pt; border: solid 1px green;" href="https://www.tipscode.tech" target='_blank'>tipscode.tech</a>
-        </h2>
+     <div class="container-page-python">
+        <h1>Este conteúdo foi movido!</h1>
+        <p>
+        O site que você está tentando acessar agora está disponível em um novo link.
+        Clique no botão abaixo para ser redirecionado ao novo endereço.
+        </p>
+        <a href="https://www.tipscode.tech/" class="button">Acessar Novo Link</a>
       </div>
     );
   }

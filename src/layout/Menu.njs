@@ -46,7 +46,8 @@ class Navigation extends Nullstack {
               <Link href="/artigos"> Blog </Link>
               <Link href="/ebook-gratuito"> E-book Gratuito </Link>
               <Link href="/mini-curso-gratuito"> Mini-Curso Gratuito </Link>
-              <Link href="/curso-python-turbo"> Curso Python Turbo </Link>
+              <Link href="https://www.python.tipscode.tech/"> Curso Python Turbo </Link>
+              <Link href="https://www.n8n.tipscode.tech/"> Curso N8N </Link>
             </nav>
             <div
               class={`flex w-full sm:w-auto mt-4 sm:mt-0 ${

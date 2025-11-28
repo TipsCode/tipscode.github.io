@@ -1,21 +1,21 @@
 import Nullstack from 'nullstack';
 
-import FacebookPixel from '../layout/FacebookPixel'
-import Menu from './Menu'
-import Hero from './Hero';
-import VideoSales from './VideoSales'
-import StepByStepSection from './StepByStepSection';
-import DetailsCard from '../course-react-pro/DetailsCard';
+// import FacebookPixel from '../layout/FacebookPixel'
+// import Menu from './Menu'
+// import Hero from './Hero';
+// import VideoSales from './VideoSales'
+// import StepByStepSection from './StepByStepSection';
+// import DetailsCard from '../course-react-pro/DetailsCard';
 //import Content from './Content';
-import Content2 from './Content2';
-import DevSalary from './DevSalary';
-import CardActing from './CardActing';
-import Statistics from './Statistics';
-import Testimonials from './Testimonials';
-import Mentor from './Mentor';
-import PriceSection from './PriceSection';
-import FinalPage from './FinalPage';
-import Faqs from './Faqs'
+// import Content2 from './Content2';
+// import DevSalary from './DevSalary';
+// import CardActing from './CardActing';
+// import Statistics from './Statistics';
+// import Testimonials from './Testimonials';
+// import Mentor from './Mentor';
+// import PriceSection from './PriceSection';
+// import FinalPage from './FinalPage';
+// import Faqs from './Faqs'
 
 import './SalesPagePython.css'
 
@@ -34,32 +34,19 @@ class SalesPagePython extends Nullstack {
 
   render() {
     return (
-      <div class="bg-[#1e1e1e] overflow-hidden">
-        <figure class="icon-whats">
-          <a href="https://wa.me/558899073834?text=Curso%20de%20Python" target='_blank'>
-            <img src="/sales-page-python-img/img-whats-icon.png" alt="icone de imagem do whatsapp" />
-          </a>
-        </figure>
-      <FacebookPixel id="1057566742678452" />
-        <Menu />
-       <Hero />
-       <VideoSales />
-       <Testimonials />
-       <DetailsCard />
-         <Content2 />
-         <StepByStepSection />  
-         <Mentor /> 
-        <DevSalary />
-         <Statistics/> 
-         {/* <CardActing/> */}
-         {/* <Content />  problema para build */}
-        {/* <Testimony /> problema para build*/}
-        <PriceSection />  
-        <Faqs/>
-       <FinalPage/> 
+      
+      <div class="container-page-python">
+        <div>
+          <h1>Este conteúdo foi movido!</h1>
+          <p>
+          O site que você está tentando acessar agora está disponível em um novo link.
+          Clique no botão abaixo para ser redirecionado ao novo endereço.
+          </p>
+        <a href="https://python.tipscode.tech/" class="button">Acessar Novo Link</a>
+        </div>
 
-    
       </div>
+     
     );
   }
 

@@ -1,52 +1,41 @@
 import Nullstack from 'nullstack';
-import Menu from '../layout/Menu';
-
+import "./Links.css"
 
 class Links extends Nullstack {
 
   render() {
     return (
-     
-        <section class="h-screen	">
-          <Menu />
-          <div class="flex justify-center items-center mt-10">
-            <img src="./perfil-intagram.jpg" alt="Profile Picture" class="rounded-full h-32 w-32" />
-          </div>
-
-          <h1 class="font-mono font-bold text-2xl text-center mt-5 text-black	">TipsCode</h1>
-          <p class="font-mono font-medium text-lg text-center mt-2 text-black	">Já somos mais de 3 mil alunos</p>
-
-          <div class="flex justify-center items-center mt-5">
-            <a href="https://tipscode.tech/"  target="_blank" class="cursor-pointer font-medium w-56 text-center bg-tips-blue rounded-full  hover:bg-white hover:text-tips-blue  px-4 py-2 mb-2 sm:mb-0 text-white ">     
-              <span>Curso Full Stack Turbo</span>
-            </a>
-          </div>
-          <div class="flex justify-center items-center mt-5">
-            <a href="https://tipscode.com.br/curso-python-turbo"  target="_blank" class="cursor-pointer font-medium w-56 text-center bg-tips-blue rounded-full  hover:bg-white hover:text-tips-blue  px-4 py-2 mb-2 sm:mb-0 text-white ">     
-              <span>Curso Python</span>
-            </a>
-          </div>
-
-          <div class="flex justify-center items-center mt-5">
-            <a href="https://www.youtube.com/@tipscode"  target="_blank" class="cursor-pointer font-medium w-56 text-center bg-tips-blue rounded-full  hover:bg-white hover:text-tips-blue  px-4 py-2 mb-2 sm:mb-0 text-white ">     
-              <span>Youtube</span>
-            </a>
-          </div>
-          <div class="flex justify-center items-center mt-5">
-            <a href="https://www.instagram.com/tipscodeoficial/"  target="_blank" class="cursor-pointer font-medium w-56 text-center bg-tips-blue rounded-full  hover:bg-white hover:text-tips-blue  px-4 py-2 mb-2 sm:mb-0 text-white ">     
-              <span>Instagram</span>
-            </a>
-          </div>
-          <div class="flex justify-center items-center mt-5">
-            <a href="https://www.tiktok.com/@tipscodeoficial"  target="_blank" class="cursor-pointer font-medium w-56 text-center bg-tips-blue rounded-full  hover:bg-white hover:text-tips-blue  px-4 py-2 mb-2 sm:mb-0 text-white ">     
-              <span>TikTok</span>
-            </a>
-          </div>
-
-         
     
-        </section>
+
+      <section className='content-main'>
+        <div class="card">
+            <h1 class="title">Links da TipsCode</h1>
+            <p class="subtitle">Acesse nossas redes oficiais e nossos cursos completos</p>
+
+            <h2 class="section-title">Cursos</h2>
+            <div class="links">
+              <a href="https://www.tipscode.tech" class="btn">Curso Full Stack Turbo</a>
+              <a href="https://www.n8n.tipscode.tech" class="btn">Curso de N8N</a>
+              <a href="https://www.python.tipscode.tech" class="btn">Curso de Python</a>
+              <a href="https://www.start.tipscode.tech" class="btn">Curso Start Turbo</a>
+            </div>
+
+            <h2 class="section-title">Redes Sociais</h2>
+            <div class="links">
+              <a href="https://www.youtube.com/@TipsCode/videos" class="btn">YouTube</a>
+              <a href="https://www.tiktok.com/@tipscodeoficial" class="btn">TikTok</a>
+              <a href="https://www.instagram.com/tipscodeoficial/" class="btn">Instagram</a>
+              <a href="https://www.linkedin.com/company/tipscode/" class="btn">LinkedIn</a>
+            </div>
+
+
+            
+        </div>
    
+      </section>
+    
+     
+      
     
   
     );

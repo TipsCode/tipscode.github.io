@@ -1,4 +1,4 @@
-.icon-whats {
+/* .icon-whats {
     position: fixed;
     width: 9%;
     bottom: 30px;
@@ -29,4 +29,43 @@
         right: 30px;
         z-index: 100;
     }
+} */
+
+.container-page-python {
+    justify-items: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+background: rgba(0, 0, 0, 0.3);
+padding: 40px;
+border-radius: 20px;
+max-width: 450px;
+backdrop-filter: blur(10px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+background-color: #fff;
+margin: auto;
+}
+h1 {
+font-size: 2rem;
+margin-bottom: 20px;
+font-weight: bold;
+}
+p {
+font-size: 1.1rem;
+margin-bottom: 30px;
+line-height: 1.6;
+}
+a.button {
+display: inline-block;
+padding: 15px 25px;
+background: #6fcac9;
+color: #2c2a40;
+font-weight: bold;
+border-radius: 10px;
+text-decoration: none;
+transition: 0.3s ease;
+}
+a.button:hover {
+background: #5ab5b4;
+transform: translateY(-3px);
 }
